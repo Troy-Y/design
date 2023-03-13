@@ -1,0 +1,346 @@
+Project Name,Package Name,Type Name,Code Smell
+depends,depends.addons,MappingValue,Unutilized Abstraction
+depends,depends.addons,MappingItem,Unutilized Abstraction
+depends,depends.addons,DV8MappingFileBuilderTest,Unutilized Abstraction
+depends,depends,DependsCommand,Multifaceted Abstraction
+depends,depends,DependsCommand,Insufficient Modularization
+depends,depends,SupportedLangs,Unutilized Abstraction
+depends,depends,SupportedTypes,Unutilized Abstraction
+depends,depends,ParameterException,Unutilized Abstraction
+depends,depends.deptypes,DependencyType,Deficient Encapsulation
+depends,depends.entity,AliasEntity,Unexploited Encapsulation
+depends,depends.entity,AliasEntity,Missing Hierarchy
+depends,depends.entity,AliasEntity,Insufficient Modularization
+depends,depends.entity,AnonymousBlock,Unutilized Abstraction
+depends,depends.entity,AnonymousBlock,Broken Hierarchy
+depends,depends.entity,CandidateTypes,Unutilized Abstraction
+depends,depends.entity,CandidateTypes,Insufficient Modularization
+depends,depends.entity,ContainerEntity,Unexploited Encapsulation
+depends,depends.entity,ContainerEntity,Missing Hierarchy
+depends,depends.entity,ContainerEntity,Insufficient Modularization
+depends,depends.entity,EmptyTypeEntity,Unutilized Abstraction
+depends,depends.entity,EmptyTypeEntity,Broken Hierarchy
+depends,depends.entity,Entity,Cyclic-Dependent Modularization
+depends,depends.entity,Entity,Insufficient Modularization
+depends,depends.entity,Expression,Deficient Encapsulation
+depends,depends.entity,Expression,Cyclic-Dependent Modularization
+depends,depends.entity,Expression,Insufficient Modularization
+depends,depends.entity,FileEntity,Cyclic-Dependent Modularization
+depends,depends.entity,FunctionCall,Unutilized Abstraction
+depends,depends.entity,FunctionEntity,Cyclic-Dependent Modularization
+depends,depends.entity,FunctionEntityProto,Unutilized Abstraction
+depends,depends.entity,FunctionEntityProto,Broken Hierarchy
+depends,depends.entity,ImportedFileCollector,Cyclic-Dependent Modularization
+depends,depends.entity,MultiDeclareEntities,Unexploited Encapsulation
+depends,depends.entity,MultiDeclareEntities,Missing Hierarchy
+depends,depends.entity,MultiDeclareEntities,Cyclic-Dependent Modularization
+depends,depends.entity,TypeEntity,Deficient Encapsulation
+depends,depends.entity,TypeEntity,Unexploited Encapsulation
+depends,depends.entity,TypeEntity,Missing Hierarchy
+depends,depends.entity,TypeEntity,Cyclic-Dependent Modularization
+depends,depends.entity,VarEntity,Cyclic-Dependent Modularization
+depends,depends.entity.repo,EntityRepo,Deficient Encapsulation
+depends,depends.entity.repo,InMemoryEntityRepo,Unutilized Abstraction
+depends,depends.entity.repo,InMemoryEntityRepo,Broken Hierarchy
+depends,depends.entity.repo,EntityＭapIterator,Unutilized Abstraction
+depends,depends.entity.repo,SimpleIdGenerator,Unutilized Abstraction
+depends,depends.extractor,AbstractLangProcessor,Deficient Encapsulation
+depends,depends.extractor,HandlerContext,Insufficient Modularization
+depends,depends.extractor,LangProcessorRegistration,Deficient Encapsulation
+depends,depends.extractor,ParserTest,Unutilized Abstraction
+depends,depends.extractor.cpp.cdt,ANSICParserExtensionConfigurationExtension,Unutilized Abstraction
+depends,depends.extractor.cpp.cdt,CDTParser,Unutilized Abstraction
+depends,depends.extractor.cpp.cdt,CommentManager,Unutilized Abstraction
+depends,depends.extractor.cpp.cdt,GPPParserExtensionConfigurationExtension,Unutilized Abstraction
+depends,depends.extractor.cpp.cdt,AllFileVisitor,Unutilized Abstraction
+depends,depends.extractor.cpp.cdt,TemplateParameterASTVisitor,Unutilized Abstraction
+depends,depends.extractor.cpp,CppBuiltInType,Unutilized Abstraction
+depends,depends.extractor.cpp,CppImportLookupStrategy,Unutilized Abstraction
+depends,depends.extractor.cpp,CppProcessor,Unutilized Abstraction
+depends,depends.extractor.cpp,MacroEhcacheRepo,Unutilized Abstraction
+depends,depends.extractor.cpp,MacroFileRepo,Unutilized Abstraction
+depends,depends.extractor.cpp,MacroMemoryRepo,Unutilized Abstraction
+depends,depends.extractor.cpp,AliasTest,Unutilized Abstraction
+depends,depends.extractor.cpp,AliasTest,Broken Hierarchy
+depends,depends.extractor.cpp,ConstructFunctionReturnValueTest,Unutilized Abstraction
+depends,depends.extractor.cpp,ConstructFunctionReturnValueTest,Broken Hierarchy
+depends,depends.extractor.cpp,ContainRelationTest,Unutilized Abstraction
+depends,depends.extractor.cpp,ContainRelationTest,Broken Hierarchy
+depends,depends.extractor.cpp,CppExpressionTest,Unutilized Abstraction
+depends,depends.extractor.cpp,CppExpressionTest,Broken Hierarchy
+depends,depends.extractor.cpp,CppParameterParserTest,Unutilized Abstraction
+depends,depends.extractor.cpp,CppParameterParserTest,Broken Hierarchy
+depends,depends.extractor.cpp,CppParserTest,Unutilized Abstraction
+depends,depends.extractor.cpp,CppParserTest,Wide Hierarchy
+depends,depends.extractor.cpp,DuplicateDeclarationTest,Unutilized Abstraction
+depends,depends.extractor.cpp,DuplicateDeclarationTest,Broken Hierarchy
+depends,depends.extractor.cpp,extendsTest,Unutilized Abstraction
+depends,depends.extractor.cpp,extendsTest,Broken Hierarchy
+depends,depends.extractor.cpp,ForwardDeclareTest,Unutilized Abstraction
+depends,depends.extractor.cpp,ForwardDeclareTest,Broken Hierarchy
+depends,depends.extractor.cpp,GenericTypeTest,Unutilized Abstraction
+depends,depends.extractor.cpp,GenericTypeTest,Broken Hierarchy
+depends,depends.extractor.cpp,ImplementRelationTest,Unutilized Abstraction
+depends,depends.extractor.cpp,ImplementRelationTest,Broken Hierarchy
+depends,depends.extractor.cpp,IncludeRelationTest,Unutilized Abstraction
+depends,depends.extractor.cpp,IncludeRelationTest,Broken Hierarchy
+depends,depends.extractor.cpp,MacroRelationTest,Unutilized Abstraction
+depends,depends.extractor.cpp,MacroRelationTest,Broken Hierarchy
+depends,depends.extractor.cpp,MacroTest,Unutilized Abstraction
+depends,depends.extractor.cpp,MacroTest,Broken Hierarchy
+depends,depends.extractor.cpp,ParseErrorTest,Unutilized Abstraction
+depends,depends.extractor.cpp,ParseErrorTest,Broken Hierarchy
+depends,depends.extractor.cpp,RelationInSameFileTest,Unutilized Abstraction
+depends,depends.extractor.cpp,RelationInSameFileTest,Broken Hierarchy
+depends,depends.extractor.cpp,RelationToImplementationTest,Unutilized Abstraction
+depends,depends.extractor.cpp,RelationToImplementationTest,Broken Hierarchy
+depends,depends.extractor.cpp,TypeDefTest,Unutilized Abstraction
+depends,depends.extractor.cpp,TypeDefTest,Broken Hierarchy
+depends,depends.extractor.cpp,UsingTest,Unutilized Abstraction
+depends,depends.extractor.cpp,UsingTest,Broken Hierarchy
+depends,depends.extractor.empty,EmptyBuiltInType,Unnecessary Abstraction
+depends,depends.extractor.empty,EmptyBuiltInType,Unutilized Abstraction
+depends,depends.extractor.empty,EmptyImportLookupStategy,Unutilized Abstraction
+depends,depends.extractor.golang,GoBuiltInType,Unutilized Abstraction
+depends,depends.extractor.golang,GoImportLookupStrategy,Unutilized Abstraction
+depends,depends.extractor.golang,GoParserBase,Unutilized Abstraction
+depends,depends.extractor.golang,GoProcessor,Unutilized Abstraction
+depends,depends.extractor.golang,GoFunctionsTest,Unutilized Abstraction
+depends,depends.extractor.golang,GoFunctionsTest,Broken Hierarchy
+depends,depends.extractor.golang,GolangParserTest,Unutilized Abstraction
+depends,depends.extractor.java.context,AnnotationProcessor,Unutilized Abstraction
+depends,depends.extractor.java.context,ExpressionUsage,Unutilized Abstraction
+depends,depends.extractor.java.context,FormalParameterListContextHelper,Unutilized Abstraction
+depends,depends.extractor.java.context,IdentifierContextHelper,Unutilized Abstraction
+depends,depends.extractor.java.context,TypeParameterContextHelper,Unutilized Abstraction
+depends,depends.extractor.java.context,VariableDeclaratorsContextHelper,Unutilized Abstraction
+depends,depends.extractor.java,JavaBuiltInType,Unutilized Abstraction
+depends,depends.extractor.java,JavaImportLookupStrategy,Unutilized Abstraction
+depends,depends.extractor.java,JavaListener,Insufficient Modularization
+depends,depends.extractor.java,JavaProcessor,Unutilized Abstraction
+depends,depends.extractor.java,InheritTypeTest,Unutilized Abstraction
+depends,depends.extractor.java,InheritTypeTest,Broken Hierarchy
+depends,depends.extractor.java,JavaAnnotationParserTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaAnnotationParserTest,Broken Hierarchy
+depends,depends.extractor.java,JavaCallExpressionTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaCallExpressionTest,Broken Hierarchy
+depends,depends.extractor.java,JavaComplexExpressionTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaComplexExpressionTest,Broken Hierarchy
+depends,depends.extractor.java,JavaCylicInheritTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaCylicInheritTest,Broken Hierarchy
+depends,depends.extractor.java,JavaEmbededClassTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaEmbededClassTest,Broken Hierarchy
+depends,depends.extractor.java,JavaExpressionCreatorTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaExpressionCreatorTest,Broken Hierarchy
+depends,depends.extractor.java,JavaFileImportTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaFileImportTest,Broken Hierarchy
+depends,depends.extractor.java,JavaGenericTypeTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaGenericTypeTest,Broken Hierarchy
+depends,depends.extractor.java,JavaInternalClassTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaInternalClassTest,Broken Hierarchy
+depends,depends.extractor.java,JavaParameterParserTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaParameterParserTest,Broken Hierarchy
+depends,depends.extractor.java,JavaParseErrorFileTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaParseErrorFileTest,Broken Hierarchy
+depends,depends.extractor.java,JavaParserTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaParserTest,Wide Hierarchy
+depends,depends.extractor.java,JavaTypeInferUnderSamePackageTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaTypeInferUnderSamePackageTest,Broken Hierarchy
+depends,depends.extractor.java,JavaVarResolveTest,Unutilized Abstraction
+depends,depends.extractor.java,JavaVarResolveTest,Broken Hierarchy
+depends,depends.extractor.java,UnsolvedSymbolsTest,Unutilized Abstraction
+depends,depends.extractor.java,UnsolvedSymbolsTest,Broken Hierarchy
+depends,depends.extractor.kotlin.context,ExpressionUsage,Unutilized Abstraction
+depends,depends.extractor.kotlin,KotlinFileParser,Unutilized Abstraction
+depends,depends.extractor.kotlin,KotlinProcessor,Unutilized Abstraction
+depends,depends.extractor.pom,PomCoords,Deficient Encapsulation
+depends,depends.extractor.pom,PomCoords,Cyclic-Dependent Modularization
+depends,depends.extractor.pom,PomImportLookupStategy,Unutilized Abstraction
+depends,depends.extractor.pom,PomLocator,Unutilized Abstraction
+depends,depends.extractor.pom,PomParent,Deficient Encapsulation
+depends,depends.extractor.pom,PomParent,Cyclic-Dependent Modularization
+depends,depends.extractor.pom,DependencyTest,Unutilized Abstraction
+depends,depends.extractor.pom,DependencyTest,Broken Hierarchy
+depends,depends.extractor.pom,DependencyWithoutVersionTest,Unutilized Abstraction
+depends,depends.extractor.pom,DependencyWithoutVersionTest,Broken Hierarchy
+depends,depends.extractor.pom,DependencyWithPropertiesOfParentTest,Unutilized Abstraction
+depends,depends.extractor.pom,DependencyWithPropertiesOfParentTest,Broken Hierarchy
+depends,depends.extractor.pom,DependencyWithPropertiesTest,Unutilized Abstraction
+depends,depends.extractor.pom,DependencyWithPropertiesTest,Broken Hierarchy
+depends,depends.extractor.pom,EntityExtractTest,Unutilized Abstraction
+depends,depends.extractor.pom,EntityExtractTest,Broken Hierarchy
+depends,depends.extractor.pom,MavenParserTest,Unutilized Abstraction
+depends,depends.extractor.python,BasePythonProcessor,Unutilized Abstraction
+depends,depends.extractor.python,PythonBuiltInType,Deficient Encapsulation
+depends,depends.extractor.python,ImportWithSameNameTest,Unutilized Abstraction
+depends,depends.extractor.python,ImportWithSameNameTest,Broken Hierarchy
+depends,depends.extractor.python,PythonClassAssignmentTest,Unutilized Abstraction
+depends,depends.extractor.python,PythonClassAssignmentTest,Broken Hierarchy
+depends,depends.extractor.python,PythonClassTest,Unutilized Abstraction
+depends,depends.extractor.python,PythonClassTest,Broken Hierarchy
+depends,depends.extractor.python,PythonDecoratorTest,Unutilized Abstraction
+depends,depends.extractor.python,PythonDecoratorTest,Broken Hierarchy
+depends,depends.extractor.python,PythonFuncCallTest,Unutilized Abstraction
+depends,depends.extractor.python,PythonFuncCallTest,Broken Hierarchy
+depends,depends.extractor.python,PythonFunctionTest,Unutilized Abstraction
+depends,depends.extractor.python,PythonFunctionTest,Broken Hierarchy
+depends,depends.extractor.python,PythonGlobalVarTest,Unutilized Abstraction
+depends,depends.extractor.python,PythonGlobalVarTest,Broken Hierarchy
+depends,depends.extractor.python,PythonImportTest,Unutilized Abstraction
+depends,depends.extractor.python,PythonImportTest,Broken Hierarchy
+depends,depends.extractor.python,PythonObjectCreationTest,Unutilized Abstraction
+depends,depends.extractor.python,PythonObjectCreationTest,Broken Hierarchy
+depends,depends.extractor.python,PythonObjectThrowReturn,Unutilized Abstraction
+depends,depends.extractor.python,PythonObjectThrowReturn,Broken Hierarchy
+depends,depends.extractor.python,PythonParameterTypeDedudceTest,Unutilized Abstraction
+depends,depends.extractor.python,PythonParameterTypeDedudceTest,Broken Hierarchy
+depends,depends.extractor.python,PythonParserTest,Unutilized Abstraction
+depends,depends.extractor.python,PythonParserTest,Wide Hierarchy
+depends,depends.extractor.python,SelfShouldBeThisTypeTest,Unutilized Abstraction
+depends,depends.extractor.python,SelfShouldBeThisTypeTest,Broken Hierarchy
+depends,depends.extractor.python,ShouldGetRelationInSamePackageTest,Unutilized Abstraction
+depends,depends.extractor.python,ShouldGetRelationInSamePackageTest,Broken Hierarchy
+depends,depends.extractor.python.union,NameCollector,Unutilized Abstraction
+depends,depends.extractor.python.union,PythonCodeListener,Cyclic-Dependent Modularization
+depends,depends.extractor.python.union,PythonCodeListener,Insufficient Modularization
+depends,depends.extractor.python.union,PythonFileParser,Cyclic-Dependent Modularization
+depends,depends.extractor.python.union,PythonLexerBase,Unutilized Abstraction
+depends,depends.extractor.python.union,PythonLexerBase,Deficient Encapsulation
+depends,depends.extractor.python.union,PythonParserBase,Unutilized Abstraction
+depends,depends.extractor.python.union,PythonParserBase,Deficient Encapsulation
+depends,depends.extractor.ruby.jruby,JRubyFileParser,Unutilized Abstraction
+depends,depends.extractor.ruby.jruby,JRubyVisitor,Insufficient Modularization
+depends,depends.extractor.ruby,RubyImportLookupStrategy,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyProcessor,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyAssignedVariableTypeDedudceTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyAssignedVariableTypeDedudceTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyClassMethodcallTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyClassMethodcallTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyInheritTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyInheritTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyMixinTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyMixinTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyModuleLevelsTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyModuleLevelsTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyNameIBindingResolverTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyNameIBindingResolverTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyNameTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyNameTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyObjectCreationTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyObjectCreationTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyParameterTypeDedudceTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyParameterTypeDedudceTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyParserTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyParserTest,Wide Hierarchy
+depends,depends.extractor.ruby,RubyRaiseTypeDedudceTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyRaiseTypeDedudceTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyRequireTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyRequireTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyReturnTypeDedudceTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyReturnTypeDedudceTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubySingletonMethodTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubySingletonMethodTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyVariableCallTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyVariableCallTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyVarInvocationRecordTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyVarInvocationRecordTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyVarTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyVarTest,Broken Hierarchy
+depends,depends.extractor.ruby,RubyVCallTest,Unutilized Abstraction
+depends,depends.extractor.ruby,RubyVCallTest,Broken Hierarchy
+depends,depends.format.detail,DetailTextFormatDependencyDumper,Unutilized Abstraction
+depends,depends.format.dot,DotFormatDependencyDumper,Unutilized Abstraction
+depends,depends.format.dot,DotFullnameDependencyDumper,Unutilized Abstraction
+depends,depends.format.excel,ExcelXlsFormatDependencyDumper,Unutilized Abstraction
+depends,depends.format.json,DetailItem,Unutilized Abstraction
+depends,depends.format.json,JsonFormatDependencyDumperTest,Unutilized Abstraction
+depends,depends.format.json,JsonFormatDependencyDumperTest,Deficient Encapsulation
+depends,depends.format.plantuml,BriefPlantUmlFormatDependencyDumper,Unutilized Abstraction
+depends,depends.format.plantuml,PlantUmlFormatDependencyDumper,Unutilized Abstraction
+depends,depends.format.xml,XmlFormatDependencyDumper,Unutilized Abstraction
+depends,depends.generator,FileDependencyGenerator,Unutilized Abstraction
+depends,depends.generator,FunctionDependencyGenerator,Unutilized Abstraction
+depends,depends.generator,StructureDependencyGenerator,Unutilized Abstraction
+depends,depends.importtypes,ExactMatchImport,Unutilized Abstraction
+depends,depends.importtypes,ExactMatchImport,Broken Hierarchy
+depends,depends.importtypes,FileImport,Broken Hierarchy
+depends,depends.importtypes,PackageWildCardImport,Unutilized Abstraction
+depends,depends.importtypes,PackageWildCardImport,Broken Hierarchy
+depends,depends.matrix.transform,OrderedMatrixGenerator,Unutilized Abstraction
+depends,depends.relations,BindingResolver,Unutilized Abstraction
+depends,depends.relations,Relation,Cyclic-Dependent Modularization
+depends,depends.relations,RelationCounter,Unutilized Abstraction
+depends,depends.matrix,MatrixLevelReducerTest,Unutilized Abstraction
+depends,(default package),TheClass,Unutilized Abstraction
+depends,(default package),TheFunction,Unutilized Abstraction
+depends,(default package),TheInterface,Unutilized Abstraction
+depends,(default package),B,Unnecessary Abstraction
+depends,(default package),B,Unutilized Abstraction
+depends,(default package),ComplexExpressionTest,Unutilized Abstraction
+depends,(default package),A,Unutilized Abstraction
+depends,(default package),B,Unnecessary Abstraction
+depends,(default package),B,Unutilized Abstraction
+depends,(default package),C,Unnecessary Abstraction
+depends,(default package),C,Unutilized Abstraction
+depends,(default package),SchemaValidationStrategy,Unutilized Abstraction
+depends,(default package),GenericRequestor,Unutilized Abstraction
+depends,(default package),ValidateAll,Unutilized Abstraction
+depends,(default package),FieldVar,Unnecessary Abstraction
+depends,(default package),FieldVar,Unutilized Abstraction
+depends,(default package),FieldVar,Deficient Encapsulation
+depends,(default package),FunctionParameters,Unutilized Abstraction
+depends,(default package),MyHashMap,Unnecessary Abstraction
+depends,(default package),MyHashMap,Unutilized Abstraction
+depends,(default package),MyList,Unnecessary Abstraction
+depends,(default package),MyList,Unutilized Abstraction
+depends,(default package),MyArray,Unnecessary Abstraction
+depends,(default package),MyArray,Unutilized Abstraction
+depends,(default package),GenericTypeEmbededTest,Unnecessary Abstraction
+depends,(default package),GenericTypeEmbededTest,Unutilized Abstraction
+depends,(default package),A,Unutilized Abstraction
+depends,(default package),InheritTest,Unnecessary Abstraction
+depends,(default package),InheritTest,Unutilized Abstraction
+depends,(default package),A,Unutilized Abstraction
+depends,(default package),X,Unutilized Abstraction
+depends,(default package),LocalVar,Unutilized Abstraction
+depends,(default package),MyString,Unnecessary Abstraction
+depends,(default package),MyString,Unutilized Abstraction
+depends,(default package),MyInteger,Unnecessary Abstraction
+depends,(default package),MyInteger,Unutilized Abstraction
+depends,(default package),LocalVarInferExample,Unutilized Abstraction
+depends,(default package),SimpleExpressionCallTest,Unutilized Abstraction
+depends,(default package),JCellObject,Unnecessary Abstraction
+depends,(default package),JCellObject,Unutilized Abstraction
+depends,(default package),JDepObject,Unnecessary Abstraction
+depends,(default package),JDepObject,Unutilized Abstraction
+depends,(default package),MissingImport,Unnecessary Abstraction
+depends,(default package),MissingImport,Unutilized Abstraction
+depends,test,ClassX,Unnecessary Abstraction
+depends,test,ClassX,Unutilized Abstraction
+depends,test,ClassA,Unutilized Abstraction
+depends,test,ComplexExpressionExample,Unutilized Abstraction
+depends,x,Parent,Unnecessary Abstraction
+depends,x,Parent2,Unnecessary Abstraction
+depends,x,EmbededTest,Unnecessary Abstraction
+depends,x,EmbededTest,Unutilized Abstraction
+depends,x,EmbededTest2,Unnecessary Abstraction
+depends,x,EmbededTest2,Unutilized Abstraction
+depends,x,Parent2,Unnecessary Abstraction
+depends,x,Parent2,Unutilized Abstraction
+depends,x,GenericTypeTest,Unutilized Abstraction
+depends,x,LongExpressionWithAbsolutePath,Unutilized Abstraction
+depends,x,TypeInferUnderSamePackageA,Unnecessary Abstraction
+depends,x,TypeInferUnderSamePackageA,Unutilized Abstraction
+depends,x,TypeInferUnderSamePackageB,Unnecessary Abstraction
+depends,x,SubType,Unnecessary Abstraction
+depends,x,SubType,Unutilized Abstraction
+depends,a,InternalClass,Unnecessary Abstraction
+depends,a,InternalClass,Unutilized Abstraction
+depends,a,Internal,Unnecessary Abstraction
+depends,a,Internal,Unutilized Abstraction
+depends,a,Importing,Unnecessary Abstraction
+depends,a,Importing,Unutilized Abstraction
+depends,b,B,Unnecessary Abstraction
+depends,b,B,Unutilized Abstraction
+depends,b,B,Unnecessary Abstraction
+depends,b,B,Unutilized Abstraction
