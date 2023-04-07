@@ -1,7 +1,6 @@
 from pydriller import Repository
 import pandas as pd
 import numpy as np
-from git import *
 
 url = r'D:\desktop\myrepo\depends'
 cmts_list = []
