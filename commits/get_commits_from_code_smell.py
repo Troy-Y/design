@@ -10,8 +10,10 @@ col1 = designCodeSmells["Type Name"]
 code_smell_file = np.array(col1)
 col2 = designCodeSmells["Code Smell"]
 code_smell_type = np.array(col2)
+
 code_smell = []
 code_type = []
+
 for file in code_smell_file:
     code_smell.append(file)
 for t in code_smell_type:

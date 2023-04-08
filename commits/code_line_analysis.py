@@ -3,7 +3,6 @@ import re
 definition_key = ['abstract','assert','boolean','byte','char','class','double','final',
             'float','int','interface','long','new','private','protected','public',
             'short','static','void','String','Integer']
-none_key = ['}']
 
 # str = '+public class DependencyType {'
 # s1 = str.lstrip('+')
@@ -22,15 +21,27 @@ with open('../data/diff.txt') as diff_file:
         if '//' in line_copy :
             print(line_copy, file=code_line)
             continue
-        if(len(line)>1 and line[0] == '+'):
-            temp = line.lstrip('+')
-            line_splt = temp.split()
+        if(len(line)>2 and line[0] == '+'):
+            temp = line.lstrip('+')     # 去掉+号
+            line_splt = temp.split()    # 按空格分裂
             t = ''
             if line_splt != empty:
-                if any(substring in line_splt for substring in definition_key):
-                    t = t + line_copy + ' // this code line is the definition line'
-                elif line_splt == none_key:
-                    continue
+                if any(substring in line_splt for substring in definition_key) \
+                        and '{' not in line_copy:
+                    t = t + line_copy + ' // this code line is the definition line,'
+                    is_cls = 1
+                    for key in line_splt:
+                        if key in definition_key:
+                            continue
+                        if is_cls == 1:
+                            t = t + ' Class:' + key
+                            is_cls = 0
+                        elif is_cls == 0 and key != '=':
+                            t = t + ', Variables:' + key
+                            break
+
+                elif '{' in line_copy or '}' in line_copy or 'return' in line_copy:
+                    t = t + line_copy
                 else:
                     t = t + line_copy + ' // this code line is the reference line'
             else:
