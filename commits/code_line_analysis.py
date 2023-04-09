@@ -1,53 +1,44 @@
 import re
 
-definition_key = ['abstract','assert','boolean','byte','char','class','double','final',
-            'float','int','interface','long','new','private','protected','public',
-            'short','static','void','String','Integer']
+# 匹配Java类名
+class_name_pattern = r'\b[A-Z]\w*\b'
 
-# str = '+public class DependencyType {'
-# s1 = str.lstrip('+')
-# if any(substring in s1.split() for substring in java_key):
-#     print('true')
+# 匹配Java变量名
+variable_name_pattern = r'(?:^|\s)([A-Za-z]\w*)\s*(?:=|;)'
 
-empty = []
+# 匹配Java代码行
+class_pattern = r'\b[A-Z][a-zA-Z0-9_]*\b'
+variable_pattern = r'\b[a-z][a-zA-Z0-9_]*\b'
 
-code_line = open('../data/code_line_analysis.txt',mode='w')
+def get_classname_and_variable_name(line):
+    # 提取类名
+    class_name_match = re.findall(class_name_pattern, line)
+    if class_name_match:
+        class_name = class_name_match[0]
+        line = line + ' Class name: ' + class_name
+    # 提取变量名
+    variable_name_match = re.search(variable_name_pattern, line)
+    if variable_name_match:
+        variable_name = variable_name_match.group(1)
+        line = line + ', Variable name: ' + variable_name
+    return line
+
+code_file = open('../data/code_line_analysis.txt', mode='w')
 
 with open('../data/diff.txt') as diff_file:
     diff = diff_file.read().splitlines()
     for line in diff:
-        line_splt = ''
-        line_copy = line
-        if '//' in line_copy :
-            print(line_copy, file=code_line)
-            continue
-        if(len(line)>2 and line[0] == '+'):
-            temp = line.lstrip('+')     # 去掉+号
-            line_splt = temp.split()    # 按空格分裂
-            t = ''
-            if line_splt != empty:
-                if any(substring in line_splt for substring in definition_key) \
-                        and '{' not in line_copy:
-                    t = t + line_copy + ' // this code line is the definition line,'
-                    is_cls = 1
-                    for key in line_splt:
-                        if key in definition_key:
-                            continue
-                        if is_cls == 1:
-                            t = t + ' Class:' + key
-                            is_cls = 0
-                        elif is_cls == 0 and key != '=':
-                            t = t + ', Variables:' + key
-                            break
+        # 判断是否为define行
+        if re.search(r'\b' + class_pattern + r'\s+' + variable_pattern + r'\s*;', line):
+            line = line + ' // This is a define line.'
+            line = get_classname_and_variable_name(line)
+        # 判断是否为refer行
+        elif re.search(r'\b' + variable_pattern + r'\s*=\s*new\s+' + class_pattern + r'\s*\(\s*\)\s*;',
+                       line) or re.search(
+                r'\b' + class_pattern + r'\s+' + variable_pattern + r'\s*=\s*new\s+' + class_pattern + r'\s*\(\s*\)\s*;',
+                line):
+            line = line + ' // This is a refer line.'
+            line = get_classname_and_variable_name(line)
+        print(line, file=code_file)
 
-                elif '{' in line_copy or '}' in line_copy or 'return' in line_copy:
-                    t = t + line_copy
-                else:
-                    t = t + line_copy + ' // this code line is the reference line'
-            else:
-                t = t + line_copy + ' // this code line is the reference line'
-            print(t, file=code_line)
-            # print(t)
-        else:
-            print(line_copy,file=code_line)
-            # print(line_copy)
+code_file.close()
