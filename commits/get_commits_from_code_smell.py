@@ -34,6 +34,9 @@ for commit in Repository(url).traverse_commits():
 num=1
 output_commits_file = open("../data/commits.txt","w")
 output_diff_file = open("../data/diff.txt","w")
+fnames_of_diff = open("../data/fnames_of_diff","w")
+
+fnames = []
 
 print("该项目中带代码气味的commits：")
 for i in range(len(cmts_list)):
@@ -44,6 +47,9 @@ for i in range(len(cmts_list)):
                 print(cmts_list[i].hash)
                 num += 1
                 print("产生代码气味的文件：",file.filename)
+                if file.filename not in fnames:
+                    fnames.append(file.filename)
+                    print(file.filename,file=fnames_of_diff)
                 print("产生的代码气味类型：",code_type[code_smell.index(file.filename)])
                 print(cmts_list[i].hash,file=output_commits_file)
                 print(cmts_list[i].hash,file=output_diff_file)
