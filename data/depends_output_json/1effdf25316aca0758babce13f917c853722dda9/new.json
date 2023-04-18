@@ -1,0 +1,72 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\1effdf25316aca0758babce13f917c853722dda9\\old\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\1effdf25316aca0758babce13f917c853722dda9\\old\\src\\main\\java\\depends\\entityVarEntity.java", "D:\\desktop\\git-data\\depends\\1effdf25316aca0758babce13f917c853722dda9\\old\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\1effdf25316aca0758babce13f917c853722dda9\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\1effdf25316aca0758babce13f917c853722dda9\\old\\src\\main\\java\\depends\\extractor\\rubyRubyFileParser.java", "D:\\desktop\\git-data\\depends\\1effdf25316aca0758babce13f917c853722dda9\\old\\src\\main\\java\\depends\\extractor\\rubyRubyImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\1effdf25316aca0758babce13f917c853722dda9\\old\\src\\main\\java\\depends\\extractor\\rubyRubyListener.java", "D:\\desktop\\git-data\\depends\\1effdf25316aca0758babce13f917c853722dda9\\old\\src\\main\\java\\depends\\extractor\\rubyRubyWorker.java", "D:\\desktop\\git-data\\depends\\1effdf25316aca0758babce13f917c853722dda9\\old\\src\\main\\java\\depends\\utilFileUtil.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 4,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 4.0,
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Return" : 2.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 5,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 3.0,
+      "Return" : 2.0,
+      "Use" : 1.0,
+      "Parameter" : 2.0,
+      "Contain" : 4.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 6,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

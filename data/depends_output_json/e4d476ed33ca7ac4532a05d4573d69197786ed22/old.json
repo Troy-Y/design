@@ -1,0 +1,54 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\new\\src\\main\\java\\depends\\entityRelationCounter.java", "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\new\\src\\main\\java\\depends\\entity\\typesFunctionEntity.java", "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4CppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\new\\src\\main\\java\\depends\\extractor\\javaJavaEntitiesListener.java", "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\new\\src\\test\\java\\depends\\entityEntityRepoExpendsImportsOfPackageTest.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 1,
+    "values" : {
+      "Cast" : 3.0,
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Return" : 2.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 2,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Contain" : 3.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 2,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Cast" : 2.0,
+      "Call" : 4.0,
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  } ]
+}

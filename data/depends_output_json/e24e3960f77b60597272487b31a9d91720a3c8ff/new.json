@@ -1,0 +1,14 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\e24e3960f77b60597272487b31a9d91720a3c8ff\\old\\src\\main\\java\\depends\\entityFileEntity.java", "D:\\desktop\\git-data\\depends\\e24e3960f77b60597272487b31a9d91720a3c8ff\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\e24e3960f77b60597272487b31a9d91720a3c8ff\\old\\src\\main\\java\\depends\\matrixFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\e24e3960f77b60597272487b31a9d91720a3c8ff\\old\\src\\main\\java\\depends\\utilFolderCollector.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 1.0,
+      "Import" : 1.0,
+      "Use" : 1.0
+    }
+  } ]
+}

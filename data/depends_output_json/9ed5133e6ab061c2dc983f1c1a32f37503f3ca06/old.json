@@ -1,0 +1,46 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cppCppFileParser.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4Antlr4CppFileParser.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4CppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4\\helperDeclaratorIdVisitor.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4\\helperFunctiondefinitionContextHelper.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4\\helperSimpletypespecifierContextHelper.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdtCppParameterParserTest.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdtIncludeRelationTest.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\test\\java\\depends\\extractor\\cpp\\g4G4GrammarTest.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\test\\java\\depends\\extractor\\cpp\\g4PreprocessorHandlerTest.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 4,
+    "values" : {
+      "Call" : 5.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Contain" : 3.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

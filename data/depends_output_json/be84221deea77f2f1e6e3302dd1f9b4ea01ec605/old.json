@@ -1,0 +1,126 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\dependsLangRegister.java", "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\addonsDV8MappingFileBuilder.java", "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java", "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\javaJavaProcessor.java", "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\kotlinKotlinProcessor.java", "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\pomPomProcessor.java", "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\rubyRubyProcessor.java", "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\test\\java\\depends\\addonsDV8MappingFileBuilderTest.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 3,
+    "values" : {
+      "Call" : 4.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 2.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 8,
+    "dest" : 3,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 4.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 3,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 7,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 6,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 8,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 2,
+    "values" : {
+      "Call" : 2.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 3,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 5,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 4,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
+    }
+  } ]
+}

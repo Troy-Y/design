@@ -1,0 +1,15 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\b6482121d64539287ee517968758b6182048d7c5\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\b6482121d64539287ee517968758b6182048d7c5\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtExpressionUsage.java", "D:\\desktop\\git-data\\depends\\b6482121d64539287ee517968758b6182048d7c5\\old\\src\\main\\java\\depends\\extractor\\rubyRubyFileParser.java" ],
+  "cells" : [ {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 3.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

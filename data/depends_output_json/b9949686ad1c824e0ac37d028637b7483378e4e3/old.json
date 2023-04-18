@@ -1,0 +1,6 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtANSICParserExtensionConfigurationExtension.java", "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtGPPParserExtensionConfigurationExtension.java", "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\test\\java\\depends\\entityEntityRepoExpendsImportsOfPackageTest.java", "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\test\\java\\depends\\extractor\\cppContainRelationTest.java", "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdtForwardDeclareTest.java" ],
+  "cells" : [ ]
+}

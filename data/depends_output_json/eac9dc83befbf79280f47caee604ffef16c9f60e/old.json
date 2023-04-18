@@ -1,0 +1,154 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\dependsLangRegister.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\pythonBasePythonProcessor.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\pythonPythonBuiltInType.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\pythonPythonHandlerContext.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\pythonPythonImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3ExpressionUsage.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3NameAliasImport.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3Python3CodeListener.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3PythonParserHelper.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\unionPythonFileParser.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3Python3ParserTest.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3PythonClassTest.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3PythonDecoratorTest.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3PythonFuncCallTest.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3PythonFunctionTest.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3PythonGlobalVarTest.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3PythonImportTest.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3PythonObjectCreationTest.java", "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3PythonObjectThrowReturn.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 4,
+    "values" : {
+      "Call" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 11,
+    "dest" : 10,
+    "values" : {
+      "Call" : 8.0,
+      "Extend" : 1.0,
+      "Use" : 7.0
+    }
+  }, {
+    "src" : 18,
+    "dest" : 10,
+    "values" : {
+      "Call" : 7.0,
+      "Extend" : 1.0,
+      "Use" : 5.0
+    }
+  }, {
+    "src" : 14,
+    "dest" : 10,
+    "values" : {
+      "Call" : 5.0,
+      "Extend" : 1.0,
+      "Use" : 5.0
+    }
+  }, {
+    "src" : 8,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 15,
+    "dest" : 10,
+    "values" : {
+      "Call" : 3.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 17,
+    "dest" : 10,
+    "values" : {
+      "Call" : 4.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 8,
+    "values" : {
+      "Call" : 5.0,
+      "Use" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 8,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 12,
+    "dest" : 10,
+    "values" : {
+      "Call" : 4.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 5,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 13,
+    "dest" : 10,
+    "values" : {
+      "Call" : 4.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 6,
+    "values" : {
+      "Call" : 5.0,
+      "Create" : 5.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 6,
+    "values" : {
+      "Cast" : 4.0,
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 16,
+    "dest" : 10,
+    "values" : {
+      "Call" : 14.0,
+      "Extend" : 1.0,
+      "Use" : 18.0
+    }
+  } ]
+}

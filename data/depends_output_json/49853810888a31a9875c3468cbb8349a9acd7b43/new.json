@@ -1,0 +1,54 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\49853810888a31a9875c3468cbb8349a9acd7b43\\old\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\49853810888a31a9875c3468cbb8349a9acd7b43\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\49853810888a31a9875c3468cbb8349a9acd7b43\\old\\src\\main\\java\\depends\\extractor\\python\\unionExpressionUsage.java", "D:\\desktop\\git-data\\depends\\49853810888a31a9875c3468cbb8349a9acd7b43\\old\\src\\main\\java\\depends\\relationsInferer.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 1,
+    "values" : {
+      "Call" : 27.0,
+      "Import" : 1.0,
+      "Return" : 1.0,
+      "Use" : 11.0,
+      "Create" : 3.0,
+      "Parameter" : 6.0,
+      "Contain" : 5.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 14.0,
+      "Parameter" : 2.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 24.0,
+      "Use" : 5.0,
+      "Parameter" : 4.0,
+      "Contain" : 5.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 3.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 3,
+    "values" : {
+      "Call" : 5.0,
+      "Import" : 1.0,
+      "Use" : 4.0,
+      "Parameter" : 3.0
+    }
+  } ]
+}

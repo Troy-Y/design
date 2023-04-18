@@ -1,0 +1,34 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entityDecoratedEntity.java", "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entityGenericTypeArgument.java", "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\extractor\\java\\contextClassTypeContextHelper.java", "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\test\\java\\depends\\extractor\\javaJavaGenericTypeTest.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Parameter" : 2.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 2.0,
+      "Parameter" : 4.0
+    }
+  } ]
+}

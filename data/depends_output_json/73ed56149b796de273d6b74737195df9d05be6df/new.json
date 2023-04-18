@@ -1,0 +1,25 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\73ed56149b796de273d6b74737195df9d05be6df\\old\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\73ed56149b796de273d6b74737195df9d05be6df\\old\\src\\main\\java\\depends\\utilConfigure.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Return" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 13.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

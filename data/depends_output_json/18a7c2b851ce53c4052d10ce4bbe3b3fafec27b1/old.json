@@ -1,0 +1,206 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entityDecoratedEntity.java", "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entityTypeEntity.java", "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entityVarEntity.java", "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\repoBuiltInType.java", "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtASTStringUtilExt.java", "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtMacroExtractor.java", "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\cppMacroRelationTest.java", "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\cppUsingTest.java", "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\rubyRubyAssignedVariableTypeDedudceTest.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 3,
+    "values" : {
+      "Cast" : 1.0,
+      "Call" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 2.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Return" : 1.0,
+      "Use" : 9.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 2,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 4.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 2,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 8,
+    "values" : {
+      "Call" : 5.0,
+      "Import" : 1.0,
+      "Parameter" : 2.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 8,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 3,
+    "values" : {
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 11,
+    "dest" : 3,
+    "values" : {
+      "Call" : 11.0,
+      "Import" : 1.0,
+      "Use" : 2.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 11,
+    "dest" : 2,
+    "values" : {
+      "Cast" : 1.0,
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 16.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 3,
+    "values" : {
+      "Return" : 2.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 1,
+    "values" : {
+      "Call" : 32.0,
+      "Return" : 3.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Parameter" : 2.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 2,
+    "values" : {
+      "Use" : 8.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 8,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 11,
+    "dest" : 8,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 10,
+    "dest" : 2,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 4.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Return" : 1.0,
+      "Use" : 4.0,
+      "Parameter" : 2.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 8,
+    "dest" : 4,
+    "values" : {
+      "Call" : 5.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 8,
+    "dest" : 2,
+    "values" : {
+      "Cast" : 2.0,
+      "Call" : 1.0,
+      "Return" : 1.0,
+      "Use" : 7.0,
+      "Parameter" : 1.0,
+      "Contain" : 4.0
+    }
+  }, {
+    "src" : 8,
+    "dest" : 3,
+    "values" : {
+      "Parameter" : 2.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 8,
+    "values" : {
+      "Call" : 5.0,
+      "Import" : 1.0,
+      "Parameter" : 2.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 8,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Parameter" : 5.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 2,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 4.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 2,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 2,
+    "values" : {
+      "Use" : 2.0
+    }
+  } ]
+}

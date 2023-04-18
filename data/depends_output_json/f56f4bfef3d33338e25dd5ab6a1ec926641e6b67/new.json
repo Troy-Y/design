@@ -1,0 +1,79 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\old\\src\\main\\java\\depends\\extractor\\pythonPython3CodeListener.java", "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\old\\src\\main\\java\\depends\\extractor\\pythonPythonFileParser.java", "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\old\\src\\main\\java\\depends\\extractor\\pythonPythonImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\old\\src\\main\\java\\depends\\extractor\\pythonPythonProcessor.java", "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\old\\src\\main\\java\\depends\\extractor\\rubyIncludedFileLocator.java", "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\old\\src\\main\\java\\depends\\relationsImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\old\\src\\test\\java\\depends\\extractor\\pythonPythonParserTest.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 4,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 3,
+    "values" : {
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 3,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 1,
+    "values" : {
+      "Cast" : 1.0,
+      "Return" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 5,
+    "values" : {
+      "Import" : 1.0,
+      "Return" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 4,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 5,
+    "values" : {
+      "Import" : 1.0,
+      "Implement" : 1.0
+    }
+  } ]
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\new\\src\\main\\java\\depends\\entityPackageEntity.java", "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\new\\src\\main\\java\\depends\\extractor\\pythonPython3CodeListener.java", "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\new\\src\\main\\java\\depends\\extractor\\pythonPythonFileParser.java", "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\new\\src\\main\\java\\depends\\generatorFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\new\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 4,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Call" : 2.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 2.0,
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 2.0,
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 2,
+    "values" : {
+      "Call" : 6.0,
+      "Contain" : 6.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 4,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

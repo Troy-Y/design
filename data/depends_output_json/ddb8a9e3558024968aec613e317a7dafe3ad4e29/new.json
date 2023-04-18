@@ -1,0 +1,14 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\ddb8a9e3558024968aec613e317a7dafe3ad4e29\\old\\src\\main\\java\\depends\\format\\pathDotPathFilenameWritter.java", "D:\\desktop\\git-data\\depends\\ddb8a9e3558024968aec613e317a7dafe3ad4e29\\old\\src\\test\\java\\depends\\format\\pathDotPathFilenameWritterTest.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 4.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

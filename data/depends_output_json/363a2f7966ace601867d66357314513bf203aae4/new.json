@@ -1,0 +1,68 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\old\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\old\\src\\main\\java\\depends\\entity\\repoIdGenerator.java", "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\old\\src\\test\\java\\depends\\extractor\\cppCppParserTest.java", "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\old\\src\\test\\java\\depends\\extractor\\javaJavaParserTest.java", "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\old\\src\\test\\java\\depends\\extractor\\rubyRubyInheritTest.java", "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\old\\src\\test\\java\\depends\\extractor\\rubyRubyParserTest.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 0,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Return" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 0,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 0,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 0,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 0,
+    "values" : {
+      "Call" : 7.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 6,
+    "values" : {
+      "Call" : 7.0,
+      "Extend" : 1.0,
+      "Use" : 16.0
+    }
+  } ]
+}

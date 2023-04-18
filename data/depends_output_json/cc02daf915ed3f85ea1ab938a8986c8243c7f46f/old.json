@@ -1,0 +1,71 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\entityRelationCounter.java", "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java", "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\format\\matrixDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\format\\xmlXDepObject.java", "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\utilConfigure.java", "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\test\\java\\depends\\extractor\\javaProductionErrorReproducer.java", "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\test\\resources\\java-code-examplesMaze.java" ],
+  "cells" : [ {
+    "src" : 7,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Return" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 1,
+    "values" : {
+      "Use" : 12.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 26.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Use" : 21.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 0,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 6,
+    "values" : {
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 5,
+    "values" : {
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 7,
+    "values" : {
+      "Call" : 12.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

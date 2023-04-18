@@ -1,0 +1,89 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\f415479b5b75cd2a0932424e02ce9b1438a56695\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\f415479b5b75cd2a0932424e02ce9b1438a56695\\old\\src\\main\\java\\depends\\extractor\\pomPomArtifactEntity.java", "D:\\desktop\\git-data\\depends\\f415479b5b75cd2a0932424e02ce9b1438a56695\\old\\src\\main\\java\\depends\\extractor\\pomPomFileParser.java", "D:\\desktop\\git-data\\depends\\f415479b5b75cd2a0932424e02ce9b1438a56695\\old\\src\\main\\java\\depends\\extractor\\pomPomListener.java", "D:\\desktop\\git-data\\depends\\f415479b5b75cd2a0932424e02ce9b1438a56695\\old\\src\\main\\java\\depends\\extractor\\pomPomProcessor.java", "D:\\desktop\\git-data\\depends\\f415479b5b75cd2a0932424e02ce9b1438a56695\\old\\src\\test\\java\\depends\\extractor\\pomEntityExtractTest.java", "D:\\desktop\\git-data\\depends\\f415479b5b75cd2a0932424e02ce9b1438a56695\\old\\src\\test\\java\\depends\\extractor\\pomMavenParserTest.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Return" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 1,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 0,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 1,
+    "values" : {
+      "Cast" : 2.0,
+      "Call" : 3.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 2,
+    "values" : {
+      "Call" : 4.0,
+      "Import" : 1.0,
+      "Contain" : 4.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 4,
+    "values" : {
+      "Call" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 4,
+    "values" : {
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 6,
+    "values" : {
+      "Call" : 5.0,
+      "Extend" : 1.0,
+      "Use" : 9.0
+    }
+  } ]
+}

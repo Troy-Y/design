@@ -1,0 +1,50 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\ca8e0b048569fadcb8e4d3aed08b5922f1e1c7f2\\old\\src\\main\\java\\depends\\entityAliasEntity.java", "D:\\desktop\\git-data\\depends\\ca8e0b048569fadcb8e4d3aed08b5922f1e1c7f2\\old\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\ca8e0b048569fadcb8e4d3aed08b5922f1e1c7f2\\old\\src\\main\\java\\depends\\extractor\\pythonPythonHandlerContext.java", "D:\\desktop\\git-data\\depends\\ca8e0b048569fadcb8e4d3aed08b5922f1e1c7f2\\old\\src\\main\\java\\depends\\extractor\\python\\unionPythonCodeListener.java", "D:\\desktop\\git-data\\depends\\ca8e0b048569fadcb8e4d3aed08b5922f1e1c7f2\\old\\src\\main\\java\\depends\\relationsRelationCounter.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 1,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Create" : 2.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 1,
+    "values" : {
+      "Call" : 25.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 2.0,
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

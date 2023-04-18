@@ -1,0 +1,6 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\dbabb7e459681d357fa489658976420065cf5989\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\dbabb7e459681d357fa489658976420065cf5989\\old\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\dbabb7e459681d357fa489658976420065cf5989\\old\\src\\test\\java\\depends\\extractor\\pythonPythonParameterTypeDedudceTest.java" ],
+  "cells" : [ ]
+}

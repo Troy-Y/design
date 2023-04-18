@@ -1,0 +1,6 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\4d1742fa08b667932fac3972d52eafcafcb3d830\\old\\src\\test\\java\\depends\\extractor\\cppCppParameterParserTest.java", "D:\\desktop\\git-data\\depends\\4d1742fa08b667932fac3972d52eafcafcb3d830\\old\\src\\test\\java\\depends\\extractor\\cppDuplicateDeclarationTest.java", "D:\\desktop\\git-data\\depends\\4d1742fa08b667932fac3972d52eafcafcb3d830\\old\\src\\test\\java\\depends\\extractor\\cppMacroRelationTest.java", "D:\\desktop\\git-data\\depends\\4d1742fa08b667932fac3972d52eafcafcb3d830\\old\\src\\test\\java\\depends\\extractor\\cppUsingTest.java" ],
+  "cells" : [ ]
+}

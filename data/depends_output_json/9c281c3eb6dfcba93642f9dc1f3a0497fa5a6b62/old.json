@@ -1,0 +1,135 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\main\\java\\depends\\extractor\\cppCppWorker.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\main\\java\\depends\\extractor\\javaJavaWorker.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\main\\java\\depends\\extractor\\rubyRubyWorker.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\main\\java\\depends\\extractor\\ruby\\antlrExpressionUsage.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\main\\java\\depends\\extractor\\ruby\\antlrRubyFileAntlrParser.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\main\\java\\depends\\extractor\\ruby\\antlrRubyListener.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\main\\java\\depends\\extractor\\ruby\\antlrRubyParserHelper.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\test\\java\\depends\\extractor\\rubyRubyInheritTest.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\test\\java\\depends\\extractor\\rubyRubyMixinTest.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\test\\java\\depends\\extractor\\rubyRubyParserTest.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\test\\java\\depends\\extractor\\rubyRubyRequireTest.java", "D:\\desktop\\git-data\\depends\\b5cd9f5dee63b9c081582e37e75b1919933f1858\\new\\src\\test\\java\\depends\\extractor\\rubyRubyVarTest.java" ],
+  "cells" : [ {
+    "src" : 14,
+    "dest" : 13,
+    "values" : {
+      "Call" : 2.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 2,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 6.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 5.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 5,
+    "values" : {
+      "Call" : 4.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 7,
+    "values" : {
+      "Call" : 52.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 12,
+    "dest" : 13,
+    "values" : {
+      "Call" : 2.0,
+      "Extend" : 1.0,
+      "Use" : 4.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 10,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 15,
+    "dest" : 13,
+    "values" : {
+      "Call" : 2.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 1,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Return" : 3.0,
+      "Use" : 19.0,
+      "Create" : 1.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 10,
+    "values" : {
+      "Call" : 17.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 8,
+    "dest" : 9,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 4.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 7.0,
+      "Use" : 11.0,
+      "Parameter" : 2.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 8,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 11,
+    "dest" : 13,
+    "values" : {
+      "Call" : 7.0,
+      "Extend" : 1.0,
+      "Use" : 19.0
+    }
+  } ]
+}

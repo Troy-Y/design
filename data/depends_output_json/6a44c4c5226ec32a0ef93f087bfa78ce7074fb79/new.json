@@ -1,0 +1,14 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\6a44c4c5226ec32a0ef93f087bfa78ce7074fb79\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\6a44c4c5226ec32a0ef93f087bfa78ce7074fb79\\old\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\6a44c4c5226ec32a0ef93f087bfa78ce7074fb79\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java" ],
+  "cells" : [ {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

@@ -1,0 +1,232 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\c33ffa54d589507369795b9c2bb94db9238357c1\\new\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\c33ffa54d589507369795b9c2bb94db9238357c1\\new\\src\\main\\java\\depends\\entityFileEntity.java", "D:\\desktop\\git-data\\depends\\c33ffa54d589507369795b9c2bb94db9238357c1\\new\\src\\main\\java\\depends\\entityTypeEntity.java", "D:\\desktop\\git-data\\depends\\c33ffa54d589507369795b9c2bb94db9238357c1\\new\\src\\main\\java\\depends\\entityVarEntity.java", "D:\\desktop\\git-data\\depends\\c33ffa54d589507369795b9c2bb94db9238357c1\\new\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java", "D:\\desktop\\git-data\\depends\\c33ffa54d589507369795b9c2bb94db9238357c1\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyFileParser.java", "D:\\desktop\\git-data\\depends\\c33ffa54d589507369795b9c2bb94db9238357c1\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\c33ffa54d589507369795b9c2bb94db9238357c1\\new\\src\\main\\java\\depends\\matrixFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\c33ffa54d589507369795b9c2bb94db9238357c1\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\c33ffa54d589507369795b9c2bb94db9238357c1\\new\\src\\test\\java\\depends\\extractor\\rubyRubyParameterTypeDedudceTest.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Use" : 1.0,
+      "Parameter" : 2.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 4,
+    "values" : {
+      "Call" : 5.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 2.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 3,
+    "values" : {
+      "Cast" : 2.0,
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 4.0,
+      "Import" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 1,
+    "values" : {
+      "Cast" : 1.0,
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 8,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 6,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 8,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 0,
+    "values" : {
+      "Call" : 3.0,
+      "Extend" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 1,
+    "values" : {
+      "Cast" : 1.0,
+      "Import" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 2,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 8,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 2.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 8,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 8,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 2.0,
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 8,
+    "dest" : 1,
+    "values" : {
+      "Cast" : 4.0,
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 4.0,
+      "Parameter" : 3.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Return" : 1.0,
+      "Use" : 2.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 0,
+    "values" : {
+      "Call" : 2.0,
+      "Extend" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 8,
+    "dest" : 2,
+    "values" : {
+      "Cast" : 5.0,
+      "Call" : 8.0,
+      "Import" : 1.0,
+      "Return" : 1.0,
+      "Create" : 3.0,
+      "Use" : 3.0,
+      "Parameter" : 1.0,
+      "Contain" : 10.0
+    }
+  }, {
+    "src" : 8,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 8,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 2.0,
+      "Parameter" : 2.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 8,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Parameter" : 3.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 2,
+    "values" : {
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 3,
+    "values" : {
+      "Call" : 3.0,
+      "Return" : 3.0,
+      "Use" : 1.0,
+      "Parameter" : 2.0,
+      "Contain" : 5.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 2,
+    "values" : {
+      "Return" : 1.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 8,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  } ]
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCDTParser.java", "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppFileParser.java", "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandler.java", "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandlerTest.java" ],
+  "cells" : [ {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 1,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 1,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 1,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 4,
+    "values" : {
+      "Call" : 2.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 4,
+    "values" : {
+      "Call" : 4.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

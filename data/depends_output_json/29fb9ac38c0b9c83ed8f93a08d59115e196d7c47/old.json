@@ -1,0 +1,15 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\d75bb68166a3d2831a4cd3c2c2d1cb077a4d3c94\\new\\src\\main\\java\\dependsDependsCommand.java", "D:\\desktop\\git-data\\depends\\d75bb68166a3d2831a4cd3c2c2d1cb077a4d3c94\\new\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\d75bb68166a3d2831a4cd3c2c2d1cb077a4d3c94\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtANSICParserExtensionConfigurationExtension.java", "D:\\desktop\\git-data\\depends\\d75bb68166a3d2831a4cd3c2c2d1cb077a4d3c94\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\d75bb68166a3d2831a4cd3c2c2d1cb077a4d3c94\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtExpressionUsage.java", "D:\\desktop\\git-data\\depends\\d75bb68166a3d2831a4cd3c2c2d1cb077a4d3c94\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtGPPParserExtensionConfigurationExtension.java" ],
+  "cells" : [ {
+    "src" : 3,
+    "dest" : 4,
+    "values" : {
+      "Call" : 3.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

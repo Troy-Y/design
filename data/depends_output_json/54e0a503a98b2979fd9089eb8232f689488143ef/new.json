@@ -1,0 +1,6 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\54e0a503a98b2979fd9089eb8232f689488143ef\\old\\src\\main\\java\\depends\\extractor\\java\\contextCreatorContextHelper.java", "D:\\desktop\\git-data\\depends\\54e0a503a98b2979fd9089eb8232f689488143ef\\old\\src\\main\\java\\depends\\extractor\\java\\contextOpHelper.java", "D:\\desktop\\git-data\\depends\\54e0a503a98b2979fd9089eb8232f689488143ef\\old\\src\\main\\java\\depends\\format\\jsonJsonFormatter.java", "D:\\desktop\\git-data\\depends\\54e0a503a98b2979fd9089eb8232f689488143ef\\old\\src\\main\\java\\depends\\format\\xmlXmlFormatter.java" ],
+  "cells" : [ ]
+}

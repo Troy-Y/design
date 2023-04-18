@@ -1,0 +1,30 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\old\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\old\\src\\main\\java\\depends\\entityRelationCounter.java", "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\old\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 1,
+    "values" : {
+      "Use" : 12.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 26.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Use" : 21.0,
+      "Contain" : 2.0
+    }
+  } ]
+}

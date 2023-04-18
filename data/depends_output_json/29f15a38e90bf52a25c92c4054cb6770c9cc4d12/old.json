@@ -1,0 +1,15 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\db0f98dfe1b79d9f0aa6c976e4598cea2d9a4188\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4CppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\db0f98dfe1b79d9f0aa6c976e4598cea2d9a4188\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4elsa\\helperFunctionDefinitionContextHelper.java" ],
+  "cells" : [ {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

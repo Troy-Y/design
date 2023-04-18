@@ -1,0 +1,20 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\1f9e3949a4029c28578e7f390bdd0843ba0f1958\\old\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\1f9e3949a4029c28578e7f390bdd0843ba0f1958\\old\\src\\test\\java\\depends\\persistent\\neo4j\\executorGenericService.java", "D:\\desktop\\git-data\\depends\\1f9e3949a4029c28578e7f390bdd0843ba0f1958\\old\\src\\test\\java\\depends\\persistent\\neo4j\\executorNeo4jSessionFactory.java", "D:\\desktop\\git-data\\depends\\1f9e3949a4029c28578e7f390bdd0843ba0f1958\\old\\src\\test\\java\\depends\\persistent\\neo4j\\executorTestNeo4j.java" ],
+  "cells" : [ {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Use" : 1.0
+    }
+  } ]
+}

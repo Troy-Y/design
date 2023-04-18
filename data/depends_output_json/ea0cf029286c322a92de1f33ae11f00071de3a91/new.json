@@ -1,0 +1,29 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\ea0cf029286c322a92de1f33ae11f00071de3a91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtASTStringUtilExt.java", "D:\\desktop\\git-data\\depends\\ea0cf029286c322a92de1f33ae11f00071de3a91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCppVisitor.java", "D:\\desktop\\git-data\\depends\\ea0cf029286c322a92de1f33ae11f00071de3a91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtExpressionUsage.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 0,
+    "values" : {
+      "Call" : 3.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Call" : 3.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 5.0,
+      "Use" : 6.0
+    }
+  } ]
+}

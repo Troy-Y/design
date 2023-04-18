@@ -1,0 +1,32 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\0ce243ecffceef70d2d01cb1a213b64119595e07\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\0ce243ecffceef70d2d01cb1a213b64119595e07\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\0ce243ecffceef70d2d01cb1a213b64119595e07\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyRubyParserHelper.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Call" : 6.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 2,
+    "values" : {
+      "Call" : 4.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

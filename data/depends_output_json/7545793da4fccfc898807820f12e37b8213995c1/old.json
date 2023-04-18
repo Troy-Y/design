@@ -1,0 +1,6 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\c3e4b3a4fc2adb7d51b05cd5c325dbcf8fe87618\\new\\src\\main\\java\\depends\\format\\jsonJCellObject.java", "D:\\desktop\\git-data\\depends\\c3e4b3a4fc2adb7d51b05cd5c325dbcf8fe87618\\new\\src\\main\\java\\depends\\matrix\\coreDependencyMatrix.java" ],
+  "cells" : [ ]
+}

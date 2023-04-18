@@ -1,0 +1,30 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\d65d3aad028f14df38972cd9679af3ad059a996c\\new\\src\\main\\java\\depends\\extractor\\pythonPython3CodeListener.java", "D:\\desktop\\git-data\\depends\\d65d3aad028f14df38972cd9679af3ad059a996c\\new\\src\\main\\java\\depends\\extractor\\pythonPythonFileParser.java", "D:\\desktop\\git-data\\depends\\d65d3aad028f14df38972cd9679af3ad059a996c\\new\\src\\main\\java\\depends\\extractor\\pythonPythonParserHelper.java" ],
+  "cells" : [ {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 2.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 2,
+    "values" : {
+      "Call" : 5.0,
+      "Use" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\new\\src\\main\\java\\depends\\entity\\repoBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\new\\src\\main\\java\\depends\\extractor\\cppCppBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\new\\src\\main\\java\\depends\\extractor\\emptyEmptyBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\new\\src\\main\\java\\depends\\extractor\\golangGoBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\new\\src\\main\\java\\depends\\extractor\\javaJavaBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\new\\src\\main\\java\\depends\\extractor\\pythonPythonBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\new\\src\\main\\java\\depends\\extractor\\rubyRubyBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\new\\src\\main\\java\\depends\\relationsBindingResolver.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 0,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Extend" : 1.0
+    }
+  } ]
+}

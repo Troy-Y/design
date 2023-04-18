@@ -1,0 +1,13 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\9b475588a45e0b9b3047abd7c885c4a453bbe838\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtASTStringUtilExt.java", "D:\\desktop\\git-data\\depends\\9b475588a45e0b9b3047abd7c885c4a453bbe838\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCppVisitor.java", "D:\\desktop\\git-data\\depends\\9b475588a45e0b9b3047abd7c885c4a453bbe838\\new\\src\\test\\java\\depends\\extractor\\cppGenericTypeTest.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 18.0,
+      "Use" : 21.0
+    }
+  } ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "output-file-sdsm",
+  "variables" : [ "D:\\desktop\\git-data\\depends\\f1e8f852944e7d21e4d0469f47e9dcd3c9b1de57\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\f1e8f852944e7d21e4d0469f47e9dcd3c9b1de57\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Return" : 3.0,
+      "Use" : 29.0,
+      "Create" : 1.0,
+      "Contain" : 2.0
+    }
+  } ]
+}
