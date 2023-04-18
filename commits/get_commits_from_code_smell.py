@@ -42,6 +42,7 @@ print("该项目中带代码气味的commits：")
 for i in range(len(cmts_list)):
     try:
         for file in cmts_list[i].modified_files:
+            newdir = r'D:\desktop\myrepo\depends'
             if(file.filename in code_smell):
                 print(num,end='. ')
                 print(cmts_list[i].hash)
