@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f6364da09d70d8ef4c1c35e9b7017ef47a19b98c\\new\\src\\test\\java\\depends\\extractor\\cppAliasTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\818a9643005ff2b996f40eb6bf6c90c4a4a12c41\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\818a9643005ff2b996f40eb6bf6c90c4a4a12c41\\old\\src\\test\\java\\depends\\extractor\\cppAliasTest.java" ],
   "cells" : [ ]
 }

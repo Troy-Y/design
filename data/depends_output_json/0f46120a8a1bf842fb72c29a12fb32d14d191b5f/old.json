@@ -1,51 +1,31 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\new\\src\\main\\java\\depends\\matrixDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\new\\src\\main\\java\\depends\\matrixEmptyLeadingNameStripper.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\new\\src\\main\\java\\depends\\matrixFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\new\\src\\main\\java\\depends\\matrixILeadingNameStrippper.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\new\\src\\main\\java\\depends\\matrixLeadingNameStripper.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\0f46120a8a1bf842fb72c29a12fb32d14d191b5f\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\0f46120a8a1bf842fb72c29a12fb32d14d191b5f\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\0f46120a8a1bf842fb72c29a12fb32d14d191b5f\\old\\src\\main\\java\\depends\\matrixDependencyMatrix.java" ],
   "cells" : [ {
-    "src" : 3,
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Return" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 0,
     "dest" : 1,
     "values" : {
       "Call" : 4.0,
-      "Return" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Call" : 1.0,
       "Import" : 1.0,
       "Contain" : 1.0
     }
   }, {
-    "src" : 5,
-    "dest" : 4,
-    "values" : {
-      "Implement" : 1.0
-    }
-  }, {
     "src" : 0,
-    "dest" : 3,
+    "dest" : 2,
     "values" : {
-      "Call" : 1.0,
+      "Call" : 2.0,
       "Import" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 4,
-    "values" : {
-      "Implement" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 5,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0
+      "Contain" : 1.0
     }
   } ]
 }

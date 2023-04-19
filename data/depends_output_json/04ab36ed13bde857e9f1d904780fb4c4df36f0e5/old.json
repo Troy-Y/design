@@ -1,25 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java", "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\test\\java\\depends\\extractor\\cppRelationToImplementationTest.java" ],
-  "cells" : [ {
-    "src" : 2,
-    "dest" : 0,
-    "values" : {
-      "Import" : 1.0,
-      "Use" : 44.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 0,
-    "values" : {
-      "Import" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 0,
-    "values" : {
-      "Import" : 1.0
-    }
-  } ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\04ab36ed13bde857e9f1d904780fb4c4df36f0e5\\old\\src\\main\\java\\depends\\extractor\\javaJavaFileParser.java" ],
+  "cells" : [ ]
 }

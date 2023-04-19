@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\9188affd5288882270795e341e9ef9a4979f03f3\\old\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\9188affd5288882270795e341e9ef9a4979f03f3\\old\\src\\main\\java\\depends\\extractor\\javaJavaListener.java", "D:\\desktop\\git-data\\depends\\9188affd5288882270795e341e9ef9a4979f03f3\\old\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\9188affd5288882270795e341e9ef9a4979f03f3\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\9188affd5288882270795e341e9ef9a4979f03f3\\new\\src\\main\\java\\depends\\extractor\\javaJavaListener.java", "D:\\desktop\\git-data\\depends\\9188affd5288882270795e341e9ef9a4979f03f3\\new\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 0,
@@ -17,7 +17,6 @@
     "dest" : 2,
     "values" : {
       "Call" : 2.0,
-      "Import" : 1.0,
       "Use" : 1.0,
       "Create" : 1.0,
       "Contain" : 1.0

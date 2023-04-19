@@ -1,0 +1,15 @@
+['D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\old\\src\\main\\java\\depends\\entityContainerEntity.java', 'D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\old\\src\\main\\java\\depends\\entityEntity.java', 'D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\old\\src\\main\\java\\depends\\entityExpression.java', 'D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\old\\src\\main\\java\\depends\\extractor\\pomPomListener.java', 'D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\old\\src\\main\\java\\depends\\extractor\\python\\unionExpressionUsage.java', 'D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java', 'D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\old\\src\\main\\java\\depends\\relationsRelationCounter.java', 'D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\old\\src\\test\\java\\depends\\extractor\\cppCppExpressionTest.java', 'D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\old\\src\\test\\java\\depends\\extractor\\cppMacroRelationTest.java', 'D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\old\\src\\test\\java\\depends\\extractor\\cppRelationInSameFileTest.java', 'D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\old\\src\\test\\java\\depends\\extractor\\cppRelationToImplementationTest.java', 'D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java']
+  old: {'src': 6, 'dest': 2, 'values': {'Call': 14.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  new: {'src': 6, 'dest': 2, 'values': {'Call': 16.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  old: {'src': 6, 'dest': 0, 'values': {'Cast': 2.0, 'Call': 6.0, 'Parameter': 2.0, 'Contain': 1.0}}
+  new: {'src': 6, 'dest': 0, 'values': {'Cast': 2.0, 'Call': 20.0, 'Parameter': 2.0, 'Contain': 1.0}}
+  old: {'src': 6, 'dest': 1, 'values': {'Call': 10.0, 'Use': 3.0, 'Parameter': 9.0, 'Contain': 12.0}}
+  new: {'src': 6, 'dest': 1, 'values': {'Call': 13.0, 'Use': 3.0, 'Parameter': 9.0, 'Contain': 12.0}}
+  old: {'src': 4, 'dest': 1, 'values': {'Call': 6.0, 'Import': 1.0, 'Contain': 3.0}}
+  new: {'src': 7, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Contain': 2.0}}
+  old: {'src': 7, 'dest': 1, 'values': {'Import': 1.0, 'Contain': 1.0}}
+  new: {'src': 4, 'dest': 1, 'values': {'Call': 6.0, 'Contain': 3.0}}
+  old: {'src': 4, 'dest': 2, 'values': {'Call': 34.0, 'Import': 1.0, 'Return': 1.0, 'Use': 3.0, 'Create': 3.0, 'Parameter': 6.0, 'Contain': 5.0}}
+  new: {'src': 4, 'dest': 2, 'values': {'Call': 34.0, 'Return': 1.0, 'Use': 3.0, 'Create': 3.0, 'Parameter': 6.0, 'Contain': 5.0}}
+  old: {'src': 0, 'dest': 2, 'values': {'Call': 23.0, 'Use': 3.0, 'Parameter': 4.0, 'Contain': 3.0}}
+  new: {'src': 0, 'dest': 2, 'values': {'Call': 27.0, 'Use': 5.0, 'Parameter': 9.0, 'Contain': 5.0}}

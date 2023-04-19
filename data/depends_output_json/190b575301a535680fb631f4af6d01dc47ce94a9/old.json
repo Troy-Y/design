@@ -1,22 +1,12 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\9188affd5288882270795e341e9ef9a4979f03f3\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\9188affd5288882270795e341e9ef9a4979f03f3\\new\\src\\main\\java\\depends\\extractor\\javaJavaListener.java", "D:\\desktop\\git-data\\depends\\9188affd5288882270795e341e9ef9a4979f03f3\\new\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\190b575301a535680fb631f4af6d01dc47ce94a9\\old\\src\\main\\java\\depends\\extractor\\python\\unionExpressionUsage.java", "D:\\desktop\\git-data\\depends\\190b575301a535680fb631f4af6d01dc47ce94a9\\old\\src\\main\\java\\depends\\extractor\\python\\unionPythonCodeListener.java" ],
   "cells" : [ {
-    "src" : 2,
+    "src" : 1,
     "dest" : 0,
     "values" : {
-      "Call" : 4.0,
-      "Import" : 1.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 2.0,
+      "Call" : 14.0,
       "Use" : 1.0,
       "Create" : 1.0,
       "Contain" : 1.0

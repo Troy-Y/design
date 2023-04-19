@@ -1,0 +1,11 @@
+['D:\\desktop\\git-data\\depends\\19174af827fd0b890dd17d8fa55fe9052b3b9a99\\old\\src\\main\\java\\depends\\extractorHandlerContext.java', 'D:\\desktop\\git-data\\depends\\19174af827fd0b890dd17d8fa55fe9052b3b9a99\\old\\src\\main\\java\\depends\\extractor\\cppCppHandlerContext.java', 'D:\\desktop\\git-data\\depends\\19174af827fd0b890dd17d8fa55fe9052b3b9a99\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCppVisitor.java', 'D:\\desktop\\git-data\\depends\\19174af827fd0b890dd17d8fa55fe9052b3b9a99\\old\\src\\main\\java\\depends\\extractor\\javaJavaFileParser.java', 'D:\\desktop\\git-data\\depends\\19174af827fd0b890dd17d8fa55fe9052b3b9a99\\old\\src\\main\\java\\depends\\extractor\\javaJavaHandlerContext.java', 'D:\\desktop\\git-data\\depends\\19174af827fd0b890dd17d8fa55fe9052b3b9a99\\old\\src\\main\\java\\depends\\extractor\\javaJavaListener.java', 'D:\\desktop\\git-data\\depends\\19174af827fd0b890dd17d8fa55fe9052b3b9a99\\old\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java', 'D:\\desktop\\git-data\\depends\\19174af827fd0b890dd17d8fa55fe9052b3b9a99\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java']
+  old: {'src': 7, 'dest': 6, 'values': {'Call': 8.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 7, 'dest': 6, 'values': {'Call': 6.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 7, 'dest': 0, 'values': {'Call': 25.0}}
+  new: {'src': 7, 'dest': 0, 'values': {'Call': 27.0}}
+  old: {'src': 6, 'dest': 0, 'values': {'Call': 9.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 3.0}}
+  new: {'src': 6, 'dest': 0, 'values': {'Call': 7.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 3.0}}
+  old: {'src': 5, 'dest': 0, 'values': {'Call': 24.0}}
+  new: {'src': 4, 'dest': 0, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 5.0}}
+  old: {'src': 4, 'dest': 0, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 5.0}}
+  new: {'src': 5, 'dest': 0, 'values': {'Call': 24.0}}

@@ -1,8 +1,25 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\old\\src\\main\\java\\depends\\matrixDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\old\\src\\main\\java\\depends\\matrixEmptyLeadingNameStripper.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\old\\src\\main\\java\\depends\\matrixFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\old\\src\\main\\java\\depends\\matrixILeadingNameStrippper.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\old\\src\\main\\java\\depends\\matrixLeadingNameStripper.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\new\\src\\main\\java\\depends\\matrixDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\new\\src\\main\\java\\depends\\matrixEmptyLeadingNameStripper.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\new\\src\\main\\java\\depends\\matrixFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\new\\src\\main\\java\\depends\\matrixILeadingNameStrippper.java", "D:\\desktop\\git-data\\depends\\87d26cacfee504df31ec6a30d77e29f81008038a\\new\\src\\main\\java\\depends\\matrixLeadingNameStripper.java" ],
   "cells" : [ {
+    "src" : 3,
+    "dest" : 1,
+    "values" : {
+      "Call" : 4.0,
+      "Return" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
     "src" : 5,
     "dest" : 4,
     "values" : {
@@ -15,15 +32,6 @@
       "Call" : 1.0,
       "Import" : 1.0,
       "Create" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 1,
-    "values" : {
-      "Call" : 4.0,
-      "Return" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
     }
   }, {
     "src" : 2,

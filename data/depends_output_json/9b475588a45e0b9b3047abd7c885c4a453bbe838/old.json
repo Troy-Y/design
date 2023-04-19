@@ -1,40 +1,13 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\main\\java\\depends\\entityDecoratedEntity.java", "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\main\\java\\depends\\entityGenericTypeArgument.java", "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\main\\java\\depends\\extractor\\java\\contextClassTypeContextHelper.java", "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\test\\java\\depends\\extractor\\javaJavaGenericTypeTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\9b475588a45e0b9b3047abd7c885c4a453bbe838\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtASTStringUtilExt.java", "D:\\desktop\\git-data\\depends\\9b475588a45e0b9b3047abd7c885c4a453bbe838\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCppVisitor.java", "D:\\desktop\\git-data\\depends\\9b475588a45e0b9b3047abd7c885c4a453bbe838\\old\\src\\test\\java\\depends\\extractor\\cppGenericTypeTest.java" ],
   "cells" : [ {
-    "src" : 2,
-    "dest" : 1,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 2.0
-    }
-  }, {
     "src" : 1,
-    "dest" : 3,
+    "dest" : 0,
     "values" : {
-      "Import" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Call" : 3.0,
-      "Use" : 1.0,
-      "Parameter" : 3.0,
-      "Contain" : 3.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 3,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 5.0
+      "Call" : 18.0,
+      "Use" : 21.0
     }
   } ]
 }

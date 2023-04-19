@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\ae104912354ee27ca24cc838b0e3aed3d90091a5\\old\\src\\test\\java\\depends\\extractor\\cppIncludeRelationTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\ae104912354ee27ca24cc838b0e3aed3d90091a5\\new\\src\\test\\java\\depends\\extractor\\cppIncludeRelationTest.java" ],
   "cells" : [ ]
 }

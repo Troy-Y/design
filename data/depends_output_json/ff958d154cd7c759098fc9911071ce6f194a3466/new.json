@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\ff958d154cd7c759098fc9911071ce6f194a3466\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\ff958d154cd7c759098fc9911071ce6f194a3466\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\ff958d154cd7c759098fc9911071ce6f194a3466\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\ff958d154cd7c759098fc9911071ce6f194a3466\\old\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\ff958d154cd7c759098fc9911071ce6f194a3466\\old\\src\\main\\java\\depends\\relationsRelationCounter.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\ff958d154cd7c759098fc9911071ce6f194a3466\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\ff958d154cd7c759098fc9911071ce6f194a3466\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\ff958d154cd7c759098fc9911071ce6f194a3466\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\ff958d154cd7c759098fc9911071ce6f194a3466\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\ff958d154cd7c759098fc9911071ce6f194a3466\\new\\src\\main\\java\\depends\\relationsRelationCounter.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 1,
@@ -34,7 +34,7 @@
       "Call" : 3.0,
       "Import" : 1.0,
       "Return" : 3.0,
-      "Use" : 35.0,
+      "Use" : 38.0,
       "Create" : 1.0,
       "Parameter" : 2.0,
       "Contain" : 2.0
@@ -45,7 +45,7 @@
     "values" : {
       "Call" : 2.0,
       "Import" : 1.0,
-      "Use" : 8.0,
+      "Use" : 9.0,
       "Contain" : 1.0
     }
   }, {

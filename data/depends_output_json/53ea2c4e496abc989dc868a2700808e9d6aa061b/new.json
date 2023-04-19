@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\old\\src\\main\\java\\depends\\entityFileEntity.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\old\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\old\\src\\main\\java\\depends\\extractor\\pomPomArtifactEntity.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\old\\src\\main\\java\\depends\\extractor\\pythonPython3CodeListener.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\old\\src\\main\\java\\depends\\extractor\\pythonPythonImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\old\\src\\main\\java\\depends\\relationsImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\old\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\old\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\old\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entityFileEntity.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\pomPomArtifactEntity.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\pythonPython3CodeListener.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\pythonPythonImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relationsImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java" ],
   "cells" : [ {
     "src" : 6,
     "dest" : 7,
@@ -51,6 +51,7 @@
     "src" : 3,
     "dest" : 6,
     "values" : {
+      "Call" : 1.0,
       "Import" : 1.0,
       "Use" : 1.0,
       "Parameter" : 1.0,
@@ -109,8 +110,10 @@
     "src" : 4,
     "dest" : 0,
     "values" : {
+      "Cast" : 1.0,
       "Call" : 1.0,
       "Import" : 1.0,
+      "Use" : 1.0,
       "Parameter" : 1.0
     }
   }, {

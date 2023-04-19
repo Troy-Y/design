@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\javaJavaAdapterListener.java", "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\javaJavaFileParser.java", "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\javaJavaHandler.java", "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\new\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\new\\src\\main\\java\\depends\\extractor\\javaJavaEntitiesListener.java", "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\new\\src\\main\\java\\depends\\extractor\\javaJavaFileParser.java", "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\new\\src\\main\\java\\depends\\extractor\\javaJavaHandler.java", "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\new\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 0,
@@ -35,12 +35,6 @@
       "Use" : 1.0,
       "Parameter" : 1.0,
       "Contain" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 0,
-    "values" : {
-      "Import" : 1.0
     }
   }, {
     "src" : 4,

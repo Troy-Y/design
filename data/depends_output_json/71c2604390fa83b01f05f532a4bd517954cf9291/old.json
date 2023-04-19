@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f428f1b0d12cd8121dcbe98a558d7ddddd7e59cd\\new\\src\\main\\java\\dependsMain.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\71c2604390fa83b01f05f532a4bd517954cf9291\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\71c2604390fa83b01f05f532a4bd517954cf9291\\old\\src\\test\\java\\depends\\extractor\\cppCppExpressionTest.java", "D:\\desktop\\git-data\\depends\\71c2604390fa83b01f05f532a4bd517954cf9291\\old\\src\\test\\java\\depends\\extractor\\cppDuplicateDeclarationTest.java" ],
   "cells" : [ ]
 }

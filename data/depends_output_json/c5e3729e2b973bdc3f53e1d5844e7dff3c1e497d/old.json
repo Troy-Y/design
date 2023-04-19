@@ -1,19 +1,10 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\99b712c4bfd3d17fb8d037a1b32c613cd446f68d\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\99b712c4bfd3d17fb8d037a1b32c613cd446f68d\\new\\src\\main\\java\\depends\\extractor\\javaJavaAdapterListener.java", "D:\\desktop\\git-data\\depends\\99b712c4bfd3d17fb8d037a1b32c613cd446f68d\\new\\src\\main\\java\\depends\\extractor\\javaJavaHandler.java", "D:\\desktop\\git-data\\depends\\99b712c4bfd3d17fb8d037a1b32c613cd446f68d\\new\\src\\main\\java\\depends\\extractor\\java\\contextFormalParameterListContextHelper.java", "D:\\desktop\\git-data\\depends\\99b712c4bfd3d17fb8d037a1b32c613cd446f68d\\new\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\c5e3729e2b973bdc3f53e1d5844e7dff3c1e497d\\old\\src\\main\\java\\depends\\extractor\\javaJavaAdapterListener.java", "D:\\desktop\\git-data\\depends\\c5e3729e2b973bdc3f53e1d5844e7dff3c1e497d\\old\\src\\main\\java\\depends\\extractor\\javaJavaHandler.java", "D:\\desktop\\git-data\\depends\\c5e3729e2b973bdc3f53e1d5844e7dff3c1e497d\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\c5e3729e2b973bdc3f53e1d5844e7dff3c1e497d\\old\\src\\test\\resources\\java-code-examplesFieldAccessInferExample.java" ],
   "cells" : [ {
-    "src" : 1,
-    "dest" : 3,
-    "values" : {
-      "Call" : 3.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 2,
+    "src" : 0,
+    "dest" : 1,
     "values" : {
       "Call" : 27.0,
       "Use" : 1.0,

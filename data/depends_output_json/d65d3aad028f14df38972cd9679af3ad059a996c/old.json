@@ -1,43 +1,30 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\entityFileEntity.java", "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\extractor\\pomPomFileParser.java", "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\extractor\\pythonPythonFileParser.java", "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyFileParser.java", "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\relationsRelationCounter.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\d65d3aad028f14df38972cd9679af3ad059a996c\\old\\src\\main\\java\\depends\\extractor\\pythonPython3CodeListener.java", "D:\\desktop\\git-data\\depends\\d65d3aad028f14df38972cd9679af3ad059a996c\\old\\src\\main\\java\\depends\\extractor\\pythonPythonFileParser.java", "D:\\desktop\\git-data\\depends\\d65d3aad028f14df38972cd9679af3ad059a996c\\old\\src\\main\\java\\depends\\extractor\\pythonPythonParserHelper.java" ],
   "cells" : [ {
-    "src" : 2,
-    "dest" : 0,
+    "src" : 0,
+    "dest" : 1,
     "values" : {
-      "Cast" : 2.0,
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Use" : 1.0
+      "Call" : 2.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 1,
     "dest" : 0,
     "values" : {
-      "Cast" : 2.0,
       "Call" : 1.0,
-      "Import" : 1.0,
-      "Use" : 1.0
+      "Create" : 1.0,
+      "Contain" : 1.0
     }
   }, {
-    "src" : 3,
-    "dest" : 0,
+    "src" : 0,
+    "dest" : 2,
     "values" : {
-      "Cast" : 2.0,
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Use" : 1.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 0,
-    "values" : {
-      "Cast" : 4.0,
-      "Call" : 2.0,
-      "Import" : 1.0,
+      "Call" : 5.0,
       "Use" : 1.0,
-      "Parameter" : 1.0
+      "Contain" : 1.0
     }
   } ]
 }

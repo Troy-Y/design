@@ -1,0 +1,7 @@
+['D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java', 'D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java', 'D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyRubyParserHelper.java', 'D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\old\\src\\main\\java\\depends\\relationsInferer.java', 'D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\old\\src\\test\\java\\depends\\extractor\\rubyRubyNameInfererTest.java']
+  old: {'src': 1, 'dest': 2, 'values': {'Call': 13.0, 'Use': 1.0, 'Contain': 1.0}}
+  new: {'src': 1, 'dest': 2, 'values': {'Call': 14.0, 'Use': 1.0, 'Contain': 1.0}}
+  old: {'src': 0, 'dest': 3, 'values': {'Import': 1.0, 'Use': 9.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  new: {'src': 1, 'dest': 0, 'values': {'Call': 2.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 1, 'dest': 0, 'values': {'Call': 2.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 0, 'dest': 3, 'values': {'Import': 1.0, 'Use': 9.0, 'Parameter': 1.0, 'Contain': 1.0}}

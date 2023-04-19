@@ -1,12 +1,15 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\e6e78726ec09b36570b0d97c754f4e768ea684d4\\new\\src\\main\\java\\depends\\format\\detailDetailTextFormatDependencyDumper.java", "D:\\desktop\\git-data\\depends\\e6e78726ec09b36570b0d97c754f4e768ea684d4\\new\\src\\main\\java\\depends\\matrix\\coreDependencyDetail.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\07a803db91f6f468a0778546bbb4c80b878ce771\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\07a803db91f6f468a0778546bbb4c80b878ce771\\old\\src\\main\\java\\depends\\relationsInferer.java" ],
   "cells" : [ {
     "src" : 0,
     "dest" : 1,
     "values" : {
+      "Call" : 2.0,
       "Import" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
       "Contain" : 1.0
     }
   } ]

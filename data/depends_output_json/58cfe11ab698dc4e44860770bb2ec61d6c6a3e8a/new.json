@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\58cfe11ab698dc4e44860770bb2ec61d6c6a3e8a\\old\\src\\main\\java\\depends\\extractor\\pomPomListener.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\58cfe11ab698dc4e44860770bb2ec61d6c6a3e8a\\new\\src\\main\\java\\depends\\extractor\\pomPomListener.java" ],
   "cells" : [ ]
 }

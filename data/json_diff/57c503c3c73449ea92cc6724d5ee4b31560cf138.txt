@@ -1,0 +1,1 @@
+['D:\\desktop\\git-data\\depends\\57c503c3c73449ea92cc6724d5ee4b31560cf138\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java', 'D:\\desktop\\git-data\\depends\\57c503c3c73449ea92cc6724d5ee4b31560cf138\\old\\src\\main\\java\\depends\\utilFileTraversal.java']

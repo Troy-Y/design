@@ -1,0 +1,15 @@
+['D:\\desktop\\git-data\\depends\\87a6d02899f1384696c1d002491b1590209d4f1d\\old\\src\\main\\java\\depends\\deptypesDependencyType.java', 'D:\\desktop\\git-data\\depends\\87a6d02899f1384696c1d002491b1590209d4f1d\\old\\src\\main\\java\\depends\\entityContainerEntity.java', 'D:\\desktop\\git-data\\depends\\87a6d02899f1384696c1d002491b1590209d4f1d\\old\\src\\main\\java\\depends\\extractor\\rubyRubyFileParser.java', 'D:\\desktop\\git-data\\depends\\87a6d02899f1384696c1d002491b1590209d4f1d\\old\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java', 'D:\\desktop\\git-data\\depends\\87a6d02899f1384696c1d002491b1590209d4f1d\\old\\src\\main\\java\\depends\\extractor\\rubyRubyListener.java', 'D:\\desktop\\git-data\\depends\\87a6d02899f1384696c1d002491b1590209d4f1d\\old\\src\\main\\java\\depends\\extractor\\rubyRubyWorker.java', 'D:\\desktop\\git-data\\depends\\87a6d02899f1384696c1d002491b1590209d4f1d\\old\\src\\main\\java\\depends\\relationsRelationCounter.java', 'D:\\desktop\\git-data\\depends\\87a6d02899f1384696c1d002491b1590209d4f1d\\old\\src\\test\\java\\depends\\extractor\\rubyRubyParserTest.java', 'D:\\desktop\\git-data\\depends\\87a6d02899f1384696c1d002491b1590209d4f1d\\old\\src\\test\\java\\depends\\extractor\\rubyRubyRequireTest.java']
+  old: {'src': 8, 'dest': 2, 'values': {'Call': 1.0, 'Contain': 1.0}}
+  new: {'src': 3, 'dest': 2, 'values': {'Call': 2.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 6, 'dest': 0, 'values': {'Import': 1.0, 'Use': 32.0}}
+  new: {'src': 6, 'dest': 0, 'values': {'Import': 1.0, 'Use': 34.0}}
+  old: {'src': 6, 'dest': 1, 'values': {'Cast': 2.0, 'Call': 2.0, 'Import': 1.0, 'Parameter': 1.0}}
+  new: {'src': 8, 'dest': 2, 'values': {'Call': 1.0, 'Contain': 1.0}}
+  old: {'src': 4, 'dest': 3, 'values': {'Call': 4.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 6, 'dest': 1, 'values': {'Cast': 2.0, 'Call': 3.0, 'Import': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  old: {'src': 5, 'dest': 2, 'values': {'Call': 1.0, 'Create': 1.0}}
+  new: {'src': 4, 'dest': 3, 'values': {'Call': 4.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 8, 'dest': 7, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 3.0}}
+  new: {'src': 5, 'dest': 2, 'values': {'Call': 1.0, 'Create': 1.0}}
+  old: {'src': 2, 'dest': 4, 'values': {'Call': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 8, 'dest': 7, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 3.0}}

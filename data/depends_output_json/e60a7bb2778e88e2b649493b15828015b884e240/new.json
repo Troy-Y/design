@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\e60a7bb2778e88e2b649493b15828015b884e240\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\e60a7bb2778e88e2b649493b15828015b884e240\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\e60a7bb2778e88e2b649493b15828015b884e240\\old\\src\\main\\java\\depends\\matrixDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\e60a7bb2778e88e2b649493b15828015b884e240\\old\\src\\main\\java\\depends\\matrixDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\e60a7bb2778e88e2b649493b15828015b884e240\\old\\src\\main\\java\\depends\\matrixFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\e60a7bb2778e88e2b649493b15828015b884e240\\old\\src\\main\\java\\depends\\matrixFunctionDependencyGenerator.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\e60a7bb2778e88e2b649493b15828015b884e240\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\e60a7bb2778e88e2b649493b15828015b884e240\\new\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\e60a7bb2778e88e2b649493b15828015b884e240\\new\\src\\main\\java\\depends\\matrixDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\e60a7bb2778e88e2b649493b15828015b884e240\\new\\src\\main\\java\\depends\\matrixDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\e60a7bb2778e88e2b649493b15828015b884e240\\new\\src\\main\\java\\depends\\matrixFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\e60a7bb2778e88e2b649493b15828015b884e240\\new\\src\\main\\java\\depends\\matrixFunctionDependencyGenerator.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 3,
@@ -62,7 +62,7 @@
     "src" : 0,
     "dest" : 1,
     "values" : {
-      "Call" : 5.0,
+      "Call" : 4.0,
       "Import" : 1.0,
       "Contain" : 1.0
     }
@@ -70,12 +70,13 @@
     "src" : 0,
     "dest" : 3,
     "values" : {
-      "Call" : 2.0
+      "Call" : 1.0
     }
   }, {
     "src" : 0,
     "dest" : 2,
     "values" : {
+      "Call" : 1.0,
       "Import" : 1.0,
       "Contain" : 1.0
     }
@@ -94,7 +95,6 @@
     "values" : {
       "Call" : 1.0,
       "Import" : 1.0,
-      "Use" : 1.0,
       "Create" : 1.0
     }
   } ]

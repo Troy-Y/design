@@ -1,206 +1,170 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\addonsDV8MappingFileBuilder.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\entity\\typesAnonymousBlock.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\entity\\typesFileEntity.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractor\\cppCppFileParser.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractor\\cppCppWorker.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtASTStringUtil.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCDTParser.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtExpressionUsage.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractor\\javaJavaWorker.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractor\\java\\contextAnnotationProcessor.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractor\\java\\contextClassTypeContextHelper.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractor\\java\\contextFormalParameterListContextHelper.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\extractor\\java\\contextVariableDeclaratorsContextHelper.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\format\\jsonJDataBuilder.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\format\\matrixDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\format\\matrixFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\main\\java\\depends\\format\\xmlXDataBuilder.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\test\\java\\depends\\extractor\\cppCppExpressionTest.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\test\\java\\depends\\extractor\\cppCppParameterParserTest.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\test\\java\\depends\\extractor\\cppForwardDeclareTest.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\test\\java\\depends\\extractor\\cppIncludeRelationTest.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\test\\java\\depends\\extractor\\cppUsingTest.java", "D:\\desktop\\git-data\\depends\\ce24334dfe3996db900e2dac3024f0ada2221ad9\\new\\src\\test\\java\\depends\\extractor\\cppextendsTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\javaJavaEntitiesListener.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\javaJavaFileParser.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextAnnotationProcessor.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextClassTypeContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextCreatorContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextFormalParameterListContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextQualitiedNameContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextTypeParameterContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextVariableDeclaratorsContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\entityEntityRepoExpendsImportsOfPackageTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\entityJavaParserTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\cppCppExpressionTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\cppMacroRelationTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaAnnotationParserTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaComplexExpressionTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaEmbededClassTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaGenericTypeTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaInternalClassTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaParameterParserTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaTypeInferUnderSamePackageTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\format\\matrixFileDependencyGeneratorTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\resources\\java-code-examplesAnnotationTest.java" ],
   "cells" : [ {
-    "src" : 22,
-    "dest" : 20,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
-    "src" : 12,
-    "dest" : 2,
+    "src" : 17,
+    "dest" : 1,
     "values" : {
       "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Use" : 27.0,
-      "Parameter" : 1.0,
-      "Contain" : 2.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 20,
-    "values" : {
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Use" : 1.0,
       "Contain" : 1.0
     }
   }, {
-    "src" : 5,
-    "dest" : 21,
+    "src" : 6,
+    "dest" : 7,
     "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Use" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 22,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 25,
-    "dest" : 6,
-    "values" : {
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 21,
-    "dest" : 4,
-    "values" : {
-      "Cast" : 1.0,
-      "Import" : 1.0,
+      "Call" : 1.0,
       "Use" : 1.0
     }
   }, {
-    "src" : 25,
-    "dest" : 21,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 25,
-    "dest" : 20,
-    "values" : {
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 12,
-    "dest" : 9,
-    "values" : {
-      "Call" : 3.0,
-      "Use" : 3.0
-    }
-  }, {
-    "src" : 7,
-    "dest" : 4,
-    "values" : {
-      "Cast" : 4.0,
-      "Call" : 4.0,
-      "Import" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 19,
-    "dest" : 20,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
-    "src" : 16,
-    "dest" : 2,
+    "src" : 1,
+    "dest" : 0,
     "values" : {
       "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Use" : 30.0,
-      "Parameter" : 1.0,
-      "Contain" : 2.0
-    }
-  }, {
-    "src" : 21,
-    "dest" : 20,
-    "values" : {
-      "Call" : 4.0,
-      "Return" : 2.0,
-      "Create" : 1.0,
-      "Contain" : 2.0
-    }
-  }, {
-    "src" : 11,
-    "dest" : 9,
-    "values" : {
-      "Call" : 5.0,
-      "Use" : 5.0
-    }
-  }, {
-    "src" : 24,
-    "dest" : 6,
-    "values" : {
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 11,
-    "dest" : 12,
-    "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
       "Create" : 1.0,
       "Contain" : 1.0
     }
   }, {
-    "src" : 28,
-    "dest" : 6,
+    "src" : 6,
+    "dest" : 3,
     "values" : {
-      "Import" : 1.0,
-      "Contain" : 1.0
+      "Call" : 1.0,
+      "Use" : 1.0
     }
   }, {
-    "src" : 8,
-    "dest" : 5,
+    "src" : 18,
+    "dest" : 11,
     "values" : {
       "Call" : 2.0,
       "Import" : 1.0,
       "Extend" : 1.0,
-      "Use" : 5.0
+      "Use" : 2.0
     }
   }, {
-    "src" : 17,
-    "dest" : 15,
+    "src" : 5,
+    "dest" : 3,
     "values" : {
       "Call" : 1.0,
       "Use" : 1.0
     }
   }, {
-    "src" : 0,
-    "dest" : 13,
+    "src" : 5,
+    "dest" : 4,
     "values" : {
       "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0
+      "Use" : 1.0
     }
   }, {
-    "src" : 23,
-    "dest" : 6,
-    "values" : {
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 19,
+    "src" : 15,
+    "dest" : 11,
     "values" : {
       "Call" : 2.0,
       "Import" : 1.0,
-      "Create" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 21,
+    "dest" : 1,
+    "values" : {
+      "Call" : 5.0,
+      "Contain" : 5.0
+    }
+  }, {
+    "src" : 16,
+    "dest" : 1,
+    "values" : {
+      "Call" : 2.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 11,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Return" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
+    "src" : 20,
+    "dest" : 1,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
       "Contain" : 1.0
     }
   }, {
-    "src" : 27,
+    "src" : 2,
+    "dest" : 7,
+    "values" : {
+      "Call" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 17,
+    "dest" : 11,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 14,
+    "dest" : 11,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 15,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 19,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 20,
+    "dest" : 11,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 7,
+    "values" : {
+      "Call" : 4.0,
+      "Import" : 1.0,
+      "Use" : 4.0
+    }
+  }, {
+    "src" : 0,
     "dest" : 6,
     "values" : {
+      "Call" : 3.0,
       "Import" : 1.0,
-      "Contain" : 2.0
+      "Create" : 3.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 9,
+    "values" : {
+      "Call" : 4.0,
+      "Import" : 1.0,
+      "Use" : 5.0
     }
   }, {
     "src" : 0,
@@ -208,45 +172,84 @@
     "values" : {
       "Call" : 1.0,
       "Import" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 13,
-    "dest" : 5,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 4.0
-    }
-  }, {
-    "src" : 8,
-    "dest" : 7,
-    "values" : {
-      "Call" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 16,
-    "dest" : 15,
-    "values" : {
-      "Call" : 1.0,
       "Use" : 1.0
     }
   }, {
-    "src" : 26,
-    "dest" : 6,
+    "src" : 19,
+    "dest" : 11,
     "values" : {
+      "Call" : 2.0,
       "Import" : 1.0,
-      "Contain" : 4.0
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 10,
+    "dest" : 11,
+    "values" : {
+      "Call" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 7.0
+    }
+  }, {
+    "src" : 14,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 21,
+    "dest" : 11,
+    "values" : {
+      "Call" : 6.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 14.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 3,
+    "values" : {
+      "Call" : 11.0,
+      "Import" : 1.0,
+      "Use" : 11.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 2,
+    "values" : {
+      "Call" : 10.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 18,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 0,
     "dest" : 5,
     "values" : {
-      "Call" : 4.0,
+      "Call" : 2.0,
       "Import" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
       "Contain" : 1.0
+    }
+  }, {
+    "src" : 16,
+    "dest" : 11,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 5.0
     }
   } ]
 }

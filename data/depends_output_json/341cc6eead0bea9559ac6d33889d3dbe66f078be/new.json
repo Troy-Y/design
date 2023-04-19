@@ -1,14 +1,16 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\341cc6eead0bea9559ac6d33889d3dbe66f078be\\old\\src\\main\\java\\depends\\extractor\\cppCppWorker.java", "D:\\desktop\\git-data\\depends\\341cc6eead0bea9559ac6d33889d3dbe66f078be\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\341cc6eead0bea9559ac6d33889d3dbe66f078be\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppFileParser.java", "D:\\desktop\\git-data\\depends\\341cc6eead0bea9559ac6d33889d3dbe66f078be\\old\\src\\main\\java\\depends\\utilTuple.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\341cc6eead0bea9559ac6d33889d3dbe66f078be\\new\\src\\main\\java\\depends\\extractor\\cppCppWorker.java", "D:\\desktop\\git-data\\depends\\341cc6eead0bea9559ac6d33889d3dbe66f078be\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\341cc6eead0bea9559ac6d33889d3dbe66f078be\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppFileParser.java", "D:\\desktop\\git-data\\depends\\341cc6eead0bea9559ac6d33889d3dbe66f078be\\new\\src\\main\\java\\depends\\utilTuple.java" ],
   "cells" : [ {
-    "src" : 2,
-    "dest" : 1,
+    "src" : 1,
+    "dest" : 3,
     "values" : {
-      "Call" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Create" : 2.0,
+      "Use" : 4.0,
+      "Contain" : 2.0
     }
   }, {
     "src" : 0,

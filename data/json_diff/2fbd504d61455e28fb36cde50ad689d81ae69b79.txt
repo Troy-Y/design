@@ -1,0 +1,11 @@
+['D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\dependsMain.java', 'D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\entity\\repoEntityRepo.java', 'D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\entity\\repoInMemoryEntityRepo.java', 'D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java', 'D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\generatorDependencyGenerator.java']
+  old: {'src': 3, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Return': 1.0, 'Contain': 1.0}}
+  new: {'src': 3, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Return': 2.0, 'Contain': 1.0}}
+  old: {'src': 4, 'dest': 1, 'values': {'Import': 1.0, 'Parameter': 1.0}}
+  new: {'src': 4, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Parameter': 2.0}}
+  old: {'src': 3, 'dest': 4, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  new: {'src': 0, 'dest': 1, 'values': {'Import': 1.0, 'Contain': 1.0}}
+  old: {'src': 0, 'dest': 3, 'values': {'Call': 5.0, 'Import': 1.0, 'Contain': 1.0}}
+  new: {'src': 0, 'dest': 3, 'values': {'Call': 3.0, 'Import': 1.0, 'Contain': 1.0}}
+  old: {'src': 0, 'dest': 4, 'values': {'Call': 3.0, 'Import': 1.0, 'Contain': 1.0}}
+  new: {'src': 0, 'dest': 4, 'values': {'Call': 4.0, 'Import': 1.0, 'Contain': 1.0}}

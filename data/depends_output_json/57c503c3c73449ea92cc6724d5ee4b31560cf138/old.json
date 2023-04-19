@@ -1,24 +1,15 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\b8f9df99bc80f96b919ac4155b65a005fa055b35\\new\\src\\main\\java\\dependsDependsCommand.java", "D:\\desktop\\git-data\\depends\\b8f9df99bc80f96b919ac4155b65a005fa055b35\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\b8f9df99bc80f96b919ac4155b65a005fa055b35\\new\\src\\main\\java\\depends\\matrix\\transform\\stripLeadingNameStripper.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\57c503c3c73449ea92cc6724d5ee4b31560cf138\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\57c503c3c73449ea92cc6724d5ee4b31560cf138\\old\\src\\main\\java\\depends\\utilFileTraversal.java" ],
   "cells" : [ {
-    "src" : 1,
-    "dest" : 0,
+    "src" : 0,
+    "dest" : 1,
     "values" : {
-      "Call" : 29.0,
-      "Create" : 3.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 1.0,
+      "Call" : 4.0,
       "Import" : 1.0,
-      "Create" : 1.0
+      "Create" : 2.0,
+      "Contain" : 1.0
     }
   } ]
 }

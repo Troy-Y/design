@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\afc64d54694e15059c6e391c8b46b03f16fe447b\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\afc64d54694e15059c6e391c8b46b03f16fe447b\\old\\src\\main\\java\\depends\\extractor\\cppCppFileParser.java", "D:\\desktop\\git-data\\depends\\afc64d54694e15059c6e391c8b46b03f16fe447b\\old\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java", "D:\\desktop\\git-data\\depends\\afc64d54694e15059c6e391c8b46b03f16fe447b\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppFileParser.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\afc64d54694e15059c6e391c8b46b03f16fe447b\\new\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\afc64d54694e15059c6e391c8b46b03f16fe447b\\new\\src\\main\\java\\depends\\extractor\\cppCppFileParser.java", "D:\\desktop\\git-data\\depends\\afc64d54694e15059c6e391c8b46b03f16fe447b\\new\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java", "D:\\desktop\\git-data\\depends\\afc64d54694e15059c6e391c8b46b03f16fe447b\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppFileParser.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 0,
@@ -26,7 +26,7 @@
       "Call" : 1.0,
       "Import" : 1.0,
       "Extend" : 1.0,
-      "Use" : 12.0
+      "Use" : 11.0
     }
   } ]
 }

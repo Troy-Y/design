@@ -1,0 +1,1 @@
+['D:\\desktop\\git-data\\depends\\f288d8263e49e1f1b2953acdeb1e15f68924bb82\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java']

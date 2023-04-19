@@ -1,13 +1,13 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\old\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\old\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java", "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\old\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\old\\src\\test\\java\\depends\\extractor\\cppRelationToImplementationTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java", "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\test\\java\\depends\\extractor\\cppRelationToImplementationTest.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 0,
     "values" : {
       "Import" : 1.0,
-      "Use" : 42.0
+      "Use" : 44.0
     }
   }, {
     "src" : 1,

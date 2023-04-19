@@ -1,0 +1,13 @@
+['D:\\desktop\\git-data\\depends\\37e47836910002a4e254fb5f7a5a9e85d3d202ad\\old\\src\\main\\java\\depends\\deptypesDependencyType.java', 'D:\\desktop\\git-data\\depends\\37e47836910002a4e254fb5f7a5a9e85d3d202ad\\old\\src\\main\\java\\depends\\generatorDependencyGenerator.java', 'D:\\desktop\\git-data\\depends\\37e47836910002a4e254fb5f7a5a9e85d3d202ad\\old\\src\\main\\java\\depends\\generatorFileDependencyGenerator.java', 'D:\\desktop\\git-data\\depends\\37e47836910002a4e254fb5f7a5a9e85d3d202ad\\old\\src\\main\\java\\depends\\generatorFunctionDependencyGenerator.java', 'D:\\desktop\\git-data\\depends\\37e47836910002a4e254fb5f7a5a9e85d3d202ad\\old\\src\\main\\java\\depends\\generatorStructureDependencyGenerator.java', 'D:\\desktop\\git-data\\depends\\37e47836910002a4e254fb5f7a5a9e85d3d202ad\\old\\src\\main\\java\\depends\\matrix\\coreDependencyMatrix.java']
+  old: {'src': 2, 'dest': 1, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 6.0}}
+  new: {'src': 2, 'dest': 1, 'values': {'Extend': 1.0, 'Use': 2.0}}
+  old: {'src': 3, 'dest': 1, 'values': {'Call': 1.0, 'Extend': 1.0, 'Use': 3.0}}
+  new: {'src': 1, 'dest': 0, 'values': {'Import': 1.0, 'Use': 1.0}}
+  old: {'src': 4, 'dest': 1, 'values': {'Call': 2.0, 'Extend': 1.0}}
+  new: {'src': 3, 'dest': 1, 'values': {'Extend': 1.0, 'Use': 3.0}}
+  old: {'src': 3, 'dest': 5, 'values': {'Call': 3.0, 'Import': 1.0, 'Return': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 4, 'dest': 1, 'values': {'Extend': 1.0}}
+  old: {'src': 4, 'dest': 5, 'values': {'Call': 4.0, 'Import': 1.0, 'Return': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 5, 'dest': 0, 'values': {'Import': 1.0, 'Use': 1.0}}
+  old: {'src': 2, 'dest': 5, 'values': {'Call': 4.0, 'Import': 1.0, 'Return': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 1, 'dest': 5, 'values': {'Call': 3.0, 'Import': 1.0, 'Return': 2.0, 'Create': 1.0, 'Contain': 2.0}}

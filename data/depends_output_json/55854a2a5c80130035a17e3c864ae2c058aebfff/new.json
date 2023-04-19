@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\generatorDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\matrix\\coreDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relationsRelation.java", "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\test\\java\\depends\\extractor\\pythonPythonParameterTypeDedudceTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\new\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\new\\src\\main\\java\\depends\\generatorDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\new\\src\\main\\java\\depends\\matrix\\coreDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\new\\src\\main\\java\\depends\\relationsRelation.java", "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\new\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\new\\src\\test\\java\\depends\\extractor\\pythonPythonParameterTypeDedudceTest.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 0,
@@ -13,7 +13,7 @@
     "src" : 1,
     "dest" : 3,
     "values" : {
-      "Call" : 3.0,
+      "Call" : 4.0,
       "Import" : 1.0,
       "Contain" : 1.0
     }
@@ -46,7 +46,7 @@
     "dest" : 3,
     "values" : {
       "Call" : 2.0,
-      "Return" : 2.0,
+      "Return" : 4.0,
       "Create" : 2.0
     }
   } ]

@@ -1,23 +1,13 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCDTParser.java", "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCppVisitor.java", "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtMacroExtractor.java", "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandler.java", "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\test\\java\\depends\\extractor\\cppIncludeRelationTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\8a5e41b6fffda85f642c62d91a3918e5487e4643\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCDTParser.java", "D:\\desktop\\git-data\\depends\\8a5e41b6fffda85f642c62d91a3918e5487e4643\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtGPPParserExtensionConfigurationExtension.java" ],
   "cells" : [ {
-    "src" : 1,
-    "dest" : 3,
+    "src" : 0,
+    "dest" : 1,
     "values" : {
-      "Call" : 1.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 3.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
+      "Call" : 2.0,
+      "Create" : 2.0
     }
   } ]
 }

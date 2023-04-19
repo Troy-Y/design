@@ -1,0 +1,11 @@
+['D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\entity\\typesVarEntity.java', 'D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractorGenericHandler.java', 'D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractorHandlerContext.java', 'D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\javaJavaAdapterListener.java', 'D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\javaJavaHandler.java', 'D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java']
+  old: {'src': 4, 'dest': 2, 'values': {'Call': 12.0}}
+  new: {'src': 4, 'dest': 2, 'values': {'Call': 13.0}}
+  old: {'src': 2, 'dest': 0, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 2, 'dest': 0, 'values': {'Call': 2.0, 'Import': 1.0, 'Create': 1.0, 'Contain': 2.0}}
+  old: {'src': 1, 'dest': 2, 'values': {'Call': 7.0, 'Return': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 1, 'dest': 2, 'values': {'Call': 9.0, 'Return': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 3, 'dest': 4, 'values': {'Call': 25.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 3, 'dest': 4, 'values': {'Call': 26.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 4, 'dest': 1, 'values': {'Call': 23.0, 'Import': 1.0, 'Extend': 1.0}}
+  new: {'src': 4, 'dest': 1, 'values': {'Call': 25.0, 'Import': 1.0, 'Extend': 1.0}}

@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\old\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\old\\src\\main\\java\\depends\\entityVarEntity.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\old\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyRubyParserHelper.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\old\\src\\test\\java\\depends\\extractor\\rubyRubyClassMethodcallTest.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\old\\src\\test\\java\\depends\\extractor\\rubyRubyInheritTest.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\old\\src\\test\\java\\depends\\extractor\\rubyRubyVCallTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entityVarEntity.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyRubyParserHelper.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\test\\java\\depends\\extractor\\rubyRubyClassMethodcallTest.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\test\\java\\depends\\extractor\\rubyRubyInheritTest.java", "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\test\\java\\depends\\extractor\\rubyRubyVCallTest.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 2,
@@ -13,10 +13,20 @@
     "src" : 3,
     "dest" : 2,
     "values" : {
+      "Cast" : 2.0,
       "Call" : 3.0,
       "Import" : 1.0,
+      "Return" : 2.0,
+      "Use" : 1.0,
       "Create" : 3.0,
       "Contain" : 3.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Return" : 1.0
     }
   }, {
     "src" : 3,
@@ -26,7 +36,7 @@
       "Call" : 5.0,
       "Import" : 1.0,
       "Return" : 3.0,
-      "Parameter" : 2.0
+      "Parameter" : 3.0
     }
   }, {
     "src" : 5,
@@ -34,8 +44,7 @@
     "values" : {
       "Cast" : 4.0,
       "Import" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 1.0
+      "Use" : 2.0
     }
   }, {
     "src" : 5,
@@ -59,7 +68,7 @@
     "src" : 5,
     "dest" : 6,
     "values" : {
-      "Call" : 6.0,
+      "Call" : 11.0,
       "Create" : 1.0,
       "Contain" : 1.0
     }
@@ -78,7 +87,7 @@
       "Call" : 2.0,
       "Import" : 1.0,
       "Return" : 3.0,
-      "Use" : 25.0,
+      "Use" : 29.0,
       "Create" : 1.0,
       "Contain" : 2.0
     }
@@ -86,16 +95,16 @@
     "src" : 4,
     "dest" : 0,
     "values" : {
-      "Call" : 4.0
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 4,
-    "dest" : 3,
+    "dest" : 2,
     "values" : {
-      "Call" : 7.0,
+      "Call" : 1.0,
       "Import" : 1.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
       "Contain" : 1.0
     }
   }, {
@@ -108,6 +117,15 @@
       "Contain" : 2.0
     }
   }, {
+    "src" : 4,
+    "dest" : 6,
+    "values" : {
+      "Call" : 9.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
     "src" : 0,
     "dest" : 2,
     "values" : {
@@ -116,15 +134,6 @@
       "Use" : 1.0,
       "Parameter" : 2.0,
       "Contain" : 5.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 6,
-    "values" : {
-      "Call" : 5.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
     }
   } ]
 }

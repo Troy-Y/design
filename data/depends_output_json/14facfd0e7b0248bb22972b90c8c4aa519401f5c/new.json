@@ -1,28 +1,29 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractorGenericHandler.java", "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\javaJavaAdapterListener.java", "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\javaJavaHandler.java", "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\contextFormalParameterListContextHelper.java", "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\contextUnannTypeContextHelper.java", "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\test\\resources\\java-code-examplesFieldVar.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\new\\src\\main\\java\\depends\\extractorGenericHandler.java", "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\new\\src\\main\\java\\depends\\extractor\\javaJavaAdapterListener.java", "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\new\\src\\main\\java\\depends\\extractor\\javaJavaHandler.java", "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\new\\src\\main\\java\\depends\\extractor\\java\\contextFormalParameterListContextHelper.java", "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\new\\src\\main\\java\\depends\\extractor\\java\\contextUnannTypeContextHelper.java", "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\new\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\new\\src\\test\\resources\\java-code-examplesFieldVar.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 4,
     "values" : {
-      "Call" : 12.0,
+      "Call" : 14.0,
       "Import" : 1.0,
-      "Create" : 6.0
+      "Create" : 7.0
     }
   }, {
     "src" : 1,
     "dest" : 3,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 3.0,
       "Import" : 1.0,
-      "Create" : 1.0
+      "Create" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 2,
     "dest" : 0,
     "values" : {
-      "Call" : 21.0,
+      "Call" : 23.0,
       "Import" : 1.0,
       "Extend" : 1.0
     }
@@ -30,14 +31,14 @@
     "src" : 3,
     "dest" : 4,
     "values" : {
-      "Call" : 8.0,
-      "Create" : 4.0
+      "Call" : 4.0,
+      "Create" : 2.0
     }
   }, {
     "src" : 1,
     "dest" : 2,
     "values" : {
-      "Call" : 23.0,
+      "Call" : 25.0,
       "Use" : 1.0,
       "Create" : 1.0,
       "Contain" : 1.0

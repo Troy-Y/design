@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\03ff920f60c1088290aa287da24a8d71912fcc61\\old\\src\\main\\java\\depends\\format\\detailUnsolvedSymbolDumper.java", "D:\\desktop\\git-data\\depends\\03ff920f60c1088290aa287da24a8d71912fcc61\\old\\src\\main\\java\\depends\\relationsInferer.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\03ff920f60c1088290aa287da24a8d71912fcc61\\new\\src\\main\\java\\depends\\format\\detailUnsolvedSymbolDumper.java", "D:\\desktop\\git-data\\depends\\03ff920f60c1088290aa287da24a8d71912fcc61\\new\\src\\main\\java\\depends\\relationsInferer.java" ],
   "cells" : [ ]
 }

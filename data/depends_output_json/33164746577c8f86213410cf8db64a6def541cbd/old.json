@@ -1,24 +1,33 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\992902c9aae4fd38c81ec8de2339201d5713c288\\new\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\992902c9aae4fd38c81ec8de2339201d5713c288\\new\\src\\main\\java\\depends\\relationsInferer.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtExpressionUsage.java", "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\javaJavaEntitiesListener.java", "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java", "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java" ],
   "cells" : [ {
-    "src" : 1,
-    "dest" : 0,
+    "src" : 3,
+    "dest" : 4,
     "values" : {
-      "Cast" : 2.0,
-      "Call" : 1.0,
+      "Call" : 2.0,
       "Import" : 1.0,
-      "Use" : 2.0
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
     }
   }, {
-    "src" : 0,
-    "dest" : 1,
+    "src" : 1,
+    "dest" : 2,
     "values" : {
-      "Call" : 4.0,
+      "Call" : 3.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 1.0,
       "Import" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 3.0
+      "Contain" : 1.0
     }
   } ]
 }

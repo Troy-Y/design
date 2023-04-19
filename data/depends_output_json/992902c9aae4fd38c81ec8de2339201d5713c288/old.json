@@ -1,6 +1,24 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\71c2604390fa83b01f05f532a4bd517954cf9291\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\71c2604390fa83b01f05f532a4bd517954cf9291\\new\\src\\test\\java\\depends\\extractor\\cppCppExpressionTest.java", "D:\\desktop\\git-data\\depends\\71c2604390fa83b01f05f532a4bd517954cf9291\\new\\src\\test\\java\\depends\\extractor\\cppDuplicateDeclarationTest.java" ],
-  "cells" : [ ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\992902c9aae4fd38c81ec8de2339201d5713c288\\old\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\992902c9aae4fd38c81ec8de2339201d5713c288\\old\\src\\main\\java\\depends\\relationsInferer.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 2.0,
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 4.0,
+      "Import" : 1.0,
+      "Use" : 2.0,
+      "Parameter" : 3.0
+    }
+  } ]
 }

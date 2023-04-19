@@ -1,113 +1,48 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\new\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\new\\src\\main\\java\\depends\\entityFunctionEntity.java", "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\new\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\new\\src\\main\\java\\depends\\extractor\\javaJavaListener.java", "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\new\\src\\test\\java\\depends\\extractorParserTest.java", "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\new\\src\\test\\java\\depends\\extractor\\rubyRubyAssignedVariableTypeDedudceTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\old\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyFileParser.java", "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\old\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\old\\src\\test\\java\\depends\\extractor\\rubyRubyClassMethodcallTest.java" ],
   "cells" : [ {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Parameter" : 2.0,
-      "Contain" : 2.0
-    }
-  }, {
-    "src" : 6,
-    "dest" : 2,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Parameter" : 2.0
-    }
-  }, {
-    "src" : 6,
-    "dest" : 0,
-    "values" : {
-      "Cast" : 1.0,
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 0,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 1,
-    "values" : {
-      "Call" : 3.0,
-      "Import" : 1.0,
-      "Return" : 3.0,
-      "Use" : 34.0,
-      "Create" : 1.0,
-      "Parameter" : 2.0,
-      "Contain" : 2.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 2,
-    "values" : {
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
     "src" : 2,
     "dest" : 0,
     "values" : {
-      "Call" : 3.0,
-      "Extend" : 1.0,
-      "Use" : 2.0
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
     }
   }, {
-    "src" : 7,
+    "src" : 1,
     "dest" : 0,
     "values" : {
-      "Cast" : 3.0,
-      "Call" : 11.0,
-      "Import" : 1.0,
-      "Use" : 1.0,
-      "Contain" : 2.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 3,
-    "values" : {
-      "Import" : 1.0,
-      "Use" : 1.0,
+      "Return" : 1.0,
+      "Use" : 2.0,
       "Parameter" : 1.0,
       "Contain" : 1.0
     }
   }, {
-    "src" : 4,
-    "dest" : 2,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Contain" : 3.0
-    }
-  }, {
-    "src" : 0,
+    "src" : 3,
     "dest" : 1,
     "values" : {
-      "Call" : 7.0,
-      "Use" : 12.0,
-      "Parameter" : 3.0,
-      "Contain" : 2.0
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 7.0,
+      "Contain" : 1.0
     }
   }, {
-    "src" : 0,
-    "dest" : 2,
+    "src" : 3,
+    "dest" : 0,
     "values" : {
-      "Call" : 2.0,
-      "Return" : 2.0,
-      "Use" : 1.0,
-      "Parameter" : 2.0,
+      "Import" : 1.0,
+      "Use" : 3.0,
+      "Parameter" : 3.0,
       "Contain" : 4.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Contain" : 1.0
     }
   } ]
 }

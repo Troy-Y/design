@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\4795536acf50163115018b25d37621a354588d94\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\4795536acf50163115018b25d37621a354588d94\\old\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\4795536acf50163115018b25d37621a354588d94\\old\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\4795536acf50163115018b25d37621a354588d94\\old\\src\\test\\java\\depends\\extractor\\cppAliasTest.java", "D:\\desktop\\git-data\\depends\\4795536acf50163115018b25d37621a354588d94\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\4795536acf50163115018b25d37621a354588d94\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\4795536acf50163115018b25d37621a354588d94\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\4795536acf50163115018b25d37621a354588d94\\new\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\4795536acf50163115018b25d37621a354588d94\\new\\src\\test\\java\\depends\\extractor\\cppAliasTest.java", "D:\\desktop\\git-data\\depends\\4795536acf50163115018b25d37621a354588d94\\new\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 1,
@@ -14,9 +14,10 @@
     "src" : 2,
     "dest" : 0,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 1.0,
       "Import" : 1.0,
       "Use" : 5.0,
+      "Parameter" : 1.0,
       "Contain" : 1.0
     }
   }, {

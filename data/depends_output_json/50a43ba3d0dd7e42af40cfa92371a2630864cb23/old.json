@@ -1,107 +1,31 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java", "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\javaJavaProcessor.java", "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\rubyRubyProcessor.java", "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\test\\java\\depends\\extractor\\cppCppParserTest.java", "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\test\\java\\depends\\extractor\\javaJavaParserTest.java", "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\test\\java\\depends\\extractor\\rubyRubyParserTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyRubyParserHelper.java", "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java" ],
   "cells" : [ {
-    "src" : 0,
-    "dest" : 6,
-    "values" : {
-      "Call" : 4.0,
-      "Import" : 1.0,
-      "Parameter" : 3.0
-    }
-  }, {
-    "src" : 7,
-    "dest" : 6,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 3,
+    "src" : 1,
     "dest" : 2,
     "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 3.0
-    }
-  }, {
-    "src" : 6,
-    "dest" : 0,
-    "values" : {
-      "Cast" : 2.0,
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Use" : 2.0
-    }
-  }, {
-    "src" : 9,
-    "dest" : 6,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
+      "Call" : 14.0,
       "Use" : 1.0,
-      "Create" : 1.0,
       "Contain" : 1.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 2,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 2.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 2,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 4.0
-    }
-  }, {
-    "src" : 8,
-    "dest" : 6,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Call" : 8.0,
-      "Use" : 13.0,
-      "Parameter" : 3.0,
-      "Contain" : 3.0
     }
   }, {
     "src" : 1,
-    "dest" : 6,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Use" : 14.0,
-      "Parameter" : 2.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 6,
+    "dest" : 0,
     "values" : {
       "Call" : 2.0,
-      "Import" : 1.0,
       "Use" : 1.0,
       "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 2,
+    "values" : {
+      "Call" : 10.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
       "Contain" : 1.0
     }
   } ]

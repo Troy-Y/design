@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\adf1da4360a6e7455af8519c6aa6e7a7bb181740\\old\\src\\main\\java\\depends\\extractor\\golangGoBuiltInType.java", "D:\\desktop\\git-data\\depends\\adf1da4360a6e7455af8519c6aa6e7a7bb181740\\old\\src\\main\\java\\depends\\extractor\\golangGoListener.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\adf1da4360a6e7455af8519c6aa6e7a7bb181740\\new\\src\\main\\java\\depends\\extractor\\golangGoBuiltInType.java", "D:\\desktop\\git-data\\depends\\adf1da4360a6e7455af8519c6aa6e7a7bb181740\\new\\src\\main\\java\\depends\\extractor\\golangGoListener.java" ],
   "cells" : [ ]
 }

@@ -1,6 +1,16 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\b1bf37ebe644f4a625073ccf771a1417bdfd2805\\new\\src\\main\\java\\depends\\entityExpression.java" ],
-  "cells" : [ ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\8c02ab483a07fc0343f1359988fb2cdffa62481d\\old\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\8c02ab483a07fc0343f1359988fb2cdffa62481d\\old\\src\\main\\java\\depends\\entityPackageEntity.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 2.0,
+      "Return" : 2.0,
+      "Use" : 1.0,
+      "Parameter" : 3.0,
+      "Contain" : 3.0
+    }
+  } ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f0d4e9dea522938cdd90d5c886d98456a5014b12\\old\\src\\main\\java\\depends\\formatDependencyDumper.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\f0d4e9dea522938cdd90d5c886d98456a5014b12\\new\\src\\main\\java\\depends\\formatDependencyDumper.java" ],
   "cells" : [ ]
 }

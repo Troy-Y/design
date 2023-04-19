@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\javaJavaEntitiesListener.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\javaJavaFileParser.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextAnnotationProcessor.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextClassTypeContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextCreatorContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextFormalParameterListContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextQualitiedNameContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextTypeParameterContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\main\\java\\depends\\extractor\\java\\contextVariableDeclaratorsContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\entityEntityRepoExpendsImportsOfPackageTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\entityJavaParserTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\cppCppExpressionTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\cppMacroRelationTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaAnnotationParserTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaComplexExpressionTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaEmbededClassTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaGenericTypeTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaInternalClassTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaParameterParserTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaTypeInferUnderSamePackageTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\java\\depends\\format\\matrixFileDependencyGeneratorTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\old\\src\\test\\resources\\java-code-examplesAnnotationTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\javaJavaEntitiesListener.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\javaJavaFileParser.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\contextAnnotationProcessor.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\contextClassTypeContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\contextCreatorContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\contextFormalParameterListContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\contextQualitiedNameContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\contextTypeParameterContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\contextVariableDeclaratorsContextHelper.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\entityEntityRepoExpendsImportsOfPackageTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\cppCppExpressionTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\cppMacroRelationTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\javaJavaAnnotationParserTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\javaJavaComplexExpressionTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\javaJavaEmbededClassTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\javaJavaGenericTypeTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\javaJavaInternalClassTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\javaJavaParameterParserTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\javaJavaParserTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\javaJavaTypeInferUnderSamePackageTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\format\\matrixFileDependencyGeneratorTest.java", "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\resources\\java-code-examplesAnnotationTest.java" ],
   "cells" : [ {
     "src" : 17,
     "dest" : 1,
@@ -15,6 +15,14 @@
     "values" : {
       "Call" : 1.0,
       "Use" : 1.0
+    }
+  }, {
+    "src" : 21,
+    "dest" : 19,
+    "values" : {
+      "Call" : 6.0,
+      "Extend" : 1.0,
+      "Use" : 14.0
     }
   }, {
     "src" : 1,
@@ -32,13 +40,12 @@
       "Use" : 1.0
     }
   }, {
-    "src" : 18,
-    "dest" : 11,
+    "src" : 16,
+    "dest" : 19,
     "values" : {
       "Call" : 2.0,
-      "Import" : 1.0,
       "Extend" : 1.0,
-      "Use" : 2.0
+      "Use" : 3.0
     }
   }, {
     "src" : 5,
@@ -55,15 +62,6 @@
       "Use" : 1.0
     }
   }, {
-    "src" : 15,
-    "dest" : 11,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 3.0
-    }
-  }, {
     "src" : 21,
     "dest" : 1,
     "values" : {
@@ -71,20 +69,36 @@
       "Contain" : 5.0
     }
   }, {
-    "src" : 16,
-    "dest" : 1,
+    "src" : 13,
+    "dest" : 19,
     "values" : {
       "Call" : 2.0,
-      "Contain" : 2.0
+      "Extend" : 1.0,
+      "Use" : 3.0
     }
   }, {
-    "src" : 11,
-    "dest" : 1,
+    "src" : 10,
+    "dest" : 19,
     "values" : {
       "Call" : 1.0,
       "Import" : 1.0,
-      "Return" : 1.0,
-      "Create" : 1.0
+      "Extend" : 1.0,
+      "Use" : 7.0
+    }
+  }, {
+    "src" : 18,
+    "dest" : 19,
+    "values" : {
+      "Call" : 2.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 16,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 20,
@@ -95,6 +109,14 @@
       "Contain" : 1.0
     }
   }, {
+    "src" : 17,
+    "dest" : 19,
+    "values" : {
+      "Call" : 2.0,
+      "Extend" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
     "src" : 2,
     "dest" : 7,
     "values" : {
@@ -102,20 +124,18 @@
       "Use" : 1.0
     }
   }, {
-    "src" : 17,
-    "dest" : 11,
+    "src" : 14,
+    "dest" : 19,
     "values" : {
       "Call" : 2.0,
-      "Import" : 1.0,
       "Extend" : 1.0,
       "Use" : 3.0
     }
   }, {
-    "src" : 14,
-    "dest" : 11,
+    "src" : 20,
+    "dest" : 19,
     "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
+      "Call" : 3.0,
       "Extend" : 1.0,
       "Use" : 3.0
     }
@@ -123,24 +143,17 @@
     "src" : 15,
     "dest" : 1,
     "values" : {
-      "Call" : 1.0,
-      "Contain" : 1.0
+      "Call" : 2.0,
+      "Contain" : 2.0
     }
   }, {
     "src" : 19,
     "dest" : 1,
     "values" : {
       "Call" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 20,
-    "dest" : 11,
-    "values" : {
-      "Call" : 3.0,
       "Import" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 3.0
+      "Return" : 1.0,
+      "Create" : 1.0
     }
   }, {
     "src" : 0,
@@ -175,21 +188,19 @@
       "Use" : 1.0
     }
   }, {
-    "src" : 19,
-    "dest" : 11,
+    "src" : 15,
+    "dest" : 19,
     "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
+      "Call" : 3.0,
       "Extend" : 1.0,
-      "Use" : 3.0
+      "Use" : 5.0
     }
   }, {
-    "src" : 10,
-    "dest" : 11,
+    "src" : 13,
+    "dest" : 1,
     "values" : {
       "Call" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 7.0
+      "Contain" : 1.0
     }
   }, {
     "src" : 14,
@@ -197,15 +208,6 @@
     "values" : {
       "Call" : 1.0,
       "Contain" : 1.0
-    }
-  }, {
-    "src" : 21,
-    "dest" : 11,
-    "values" : {
-      "Call" : 6.0,
-      "Import" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 14.0
     }
   }, {
     "src" : 0,
@@ -219,7 +221,7 @@
     "src" : 0,
     "dest" : 2,
     "values" : {
-      "Call" : 9.0,
+      "Call" : 10.0,
       "Import" : 1.0,
       "Use" : 1.0,
       "Create" : 1.0,
@@ -241,15 +243,6 @@
       "Use" : 1.0,
       "Create" : 1.0,
       "Contain" : 1.0
-    }
-  }, {
-    "src" : 16,
-    "dest" : 11,
-    "values" : {
-      "Call" : 3.0,
-      "Import" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 5.0
     }
   } ]
 }

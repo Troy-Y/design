@@ -1,14 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\6a44c4c5226ec32a0ef93f087bfa78ce7074fb79\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\6a44c4c5226ec32a0ef93f087bfa78ce7074fb79\\new\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\6a44c4c5226ec32a0ef93f087bfa78ce7074fb79\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java" ],
-  "cells" : [ {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  } ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtANSICParserExtensionConfigurationExtension.java", "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtGPPParserExtensionConfigurationExtension.java", "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\test\\java\\depends\\entityEntityRepoExpendsImportsOfPackageTest.java", "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\test\\java\\depends\\extractor\\cppContainRelationTest.java", "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\test\\java\\depends\\extractor\\cpp\\cdtForwardDeclareTest.java" ],
+  "cells" : [ ]
 }

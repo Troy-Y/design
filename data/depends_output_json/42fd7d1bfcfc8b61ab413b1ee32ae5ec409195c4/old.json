@@ -1,6 +1,50 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\9c9690c06347324221b0a726098d00d255fe4d51\\new\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java" ],
-  "cells" : [ ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\test\\java\\depends\\extractorParserTest.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\test\\java\\depends\\extractor\\rubyRubyVarTest.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 0,
+    "values" : {
+      "Call" : 6.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 7.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 1,
+    "values" : {
+      "Call" : 6.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 0,
+    "values" : {
+      "Call" : 12.0
+    }
+  } ]
 }

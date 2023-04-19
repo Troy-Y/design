@@ -1,29 +1,54 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\0f46120a8a1bf842fb72c29a12fb32d14d191b5f\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\0f46120a8a1bf842fb72c29a12fb32d14d191b5f\\new\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\0f46120a8a1bf842fb72c29a12fb32d14d191b5f\\new\\src\\main\\java\\depends\\matrixDependencyMatrix.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\dependsDependsCommand.java", "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\matrixDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\matrixMatrixLevelShinker.java", "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\matrixOrderedMatrixGenerator.java" ],
   "cells" : [ {
-    "src" : 1,
+    "src" : 4,
     "dest" : 2,
     "values" : {
-      "Import" : 1.0,
+      "Call" : 6.0,
       "Return" : 1.0,
-      "Contain" : 1.0
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 2.0
     }
   }, {
-    "src" : 0,
-    "dest" : 1,
+    "src" : 1,
+    "dest" : 3,
     "values" : {
-      "Call" : 3.0,
+      "Call" : 2.0,
       "Import" : 1.0,
-      "Contain" : 1.0
+      "Create" : 1.0
     }
   }, {
-    "src" : 0,
+    "src" : 1,
     "dest" : 2,
     "values" : {
       "Call" : 1.0,
       "Import" : 1.0,
+      "Use" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Call" : 6.0,
+      "Return" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 16.0,
+      "Create" : 3.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
       "Contain" : 1.0
     }
   } ]

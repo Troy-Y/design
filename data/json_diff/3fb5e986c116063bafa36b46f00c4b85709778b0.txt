@@ -1,0 +1,9 @@
+['D:\\desktop\\git-data\\depends\\3fb5e986c116063bafa36b46f00c4b85709778b0\\old\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java', 'D:\\desktop\\git-data\\depends\\3fb5e986c116063bafa36b46f00c4b85709778b0\\old\\src\\main\\java\\depends\\extractor\\rubyRubyImportLookupStrategy.java', 'D:\\desktop\\git-data\\depends\\3fb5e986c116063bafa36b46f00c4b85709778b0\\old\\src\\main\\java\\depends\\extractor\\rubyRubyListener.java', 'D:\\desktop\\git-data\\depends\\3fb5e986c116063bafa36b46f00c4b85709778b0\\old\\src\\main\\java\\depends\\extractor\\rubyRubyParserHelper.java', 'D:\\desktop\\git-data\\depends\\3fb5e986c116063bafa36b46f00c4b85709778b0\\old\\src\\main\\java\\depends\\relationsInferer.java']
+  old: {'src': 1, 'dest': 4, 'values': {'Import': 1.0, 'Parameter': 1.0}}
+  new: {'src': 2, 'dest': 0, 'values': {'Call': 4.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 2, 'dest': 0, 'values': {'Call': 4.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 2, 'dest': 3, 'values': {'Call': 17.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 2, 'dest': 3, 'values': {'Call': 15.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 2, 'dest': 4, 'values': {'Import': 1.0, 'Parameter': 1.0}}
+  old: {'src': 2, 'dest': 4, 'values': {'Import': 1.0, 'Parameter': 1.0}}
+  new: {'src': 0, 'dest': 4, 'values': {'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}

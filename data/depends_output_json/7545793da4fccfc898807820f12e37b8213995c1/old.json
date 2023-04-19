@@ -1,6 +1,87 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\c3e4b3a4fc2adb7d51b05cd5c325dbcf8fe87618\\new\\src\\main\\java\\depends\\format\\jsonJCellObject.java", "D:\\desktop\\git-data\\depends\\c3e4b3a4fc2adb7d51b05cd5c325dbcf8fe87618\\new\\src\\main\\java\\depends\\matrix\\coreDependencyMatrix.java" ],
-  "cells" : [ ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\7545793da4fccfc898807820f12e37b8213995c1\\old\\src\\main\\java\\depends\\format\\jsonJCellObject.java", "D:\\desktop\\git-data\\depends\\7545793da4fccfc898807820f12e37b8213995c1\\old\\src\\main\\java\\depends\\format\\jsonJDataBuilder.java", "D:\\desktop\\git-data\\depends\\7545793da4fccfc898807820f12e37b8213995c1\\old\\src\\main\\java\\depends\\generatorDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\7545793da4fccfc898807820f12e37b8213995c1\\old\\src\\main\\java\\depends\\generatorFunctionDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\7545793da4fccfc898807820f12e37b8213995c1\\old\\src\\main\\java\\depends\\matrix\\coreDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\7545793da4fccfc898807820f12e37b8213995c1\\old\\src\\main\\java\\depends\\matrix\\coreDependencyPair.java", "D:\\desktop\\git-data\\depends\\7545793da4fccfc898807820f12e37b8213995c1\\old\\src\\main\\java\\depends\\matrix\\coreDependencyValue.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 4,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 4.0,
+      "Use" : 2.0,
+      "Create" : 1.0,
+      "Parameter" : 2.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 5,
+    "values" : {
+      "Call" : 5.0,
+      "Use" : 4.0,
+      "Create" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 4,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Return" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 6,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 4,
+    "values" : {
+      "Import" : 1.0,
+      "Return" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 6,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 5,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
 }

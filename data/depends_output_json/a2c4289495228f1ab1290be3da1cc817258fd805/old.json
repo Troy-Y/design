@@ -1,14 +1,27 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\test\\java\\depends\\extractor\\cppCppParserTest.java", "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\test\\java\\depends\\extractor\\javaJavaParserTest.java", "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\test\\java\\depends\\format\\jsonJsonFormatDependencyDumperTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\a2c4289495228f1ab1290be3da1cc817258fd805\\old\\src\\main\\java\\depends\\matrix\\coreDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\a2c4289495228f1ab1290be3da1cc817258fd805\\old\\src\\main\\java\\depends\\matrix\\transformOrderedMatrixGenerator.java", "D:\\desktop\\git-data\\depends\\a2c4289495228f1ab1290be3da1cc817258fd805\\old\\src\\test\\java\\depends\\format\\jsonJsonFormatDependencyDumperTest.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 0,
     "values" : {
+      "Call" : 6.0,
+      "Import" : 1.0,
       "Return" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 2.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 2.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 0,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
       "Contain" : 1.0
     }
   } ]

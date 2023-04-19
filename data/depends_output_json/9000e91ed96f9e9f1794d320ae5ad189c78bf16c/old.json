@@ -1,46 +1,13 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyRubyParserHelper.java", "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\test\\java\\depends\\extractor\\rubyRubyNameInfererTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\9000e91ed96f9e9f1794d320ae5ad189c78bf16c\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\9000e91ed96f9e9f1794d320ae5ad189c78bf16c\\old\\src\\main\\java\\depends\\relationsInferer.java" ],
   "cells" : [ {
-    "src" : 1,
-    "dest" : 3,
-    "values" : {
-      "Import" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 14.0,
-      "Use" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 0,
-    "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
     "src" : 0,
-    "dest" : 3,
+    "dest" : 1,
     "values" : {
       "Import" : 1.0,
       "Use" : 9.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 2,
-    "values" : {
-      "Call" : 10.0,
-      "Use" : 1.0,
       "Parameter" : 1.0,
       "Contain" : 1.0
     }

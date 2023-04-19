@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\c0871c6bedb8b77d874d90b3def499652b11dd72\\old\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java", "D:\\desktop\\git-data\\depends\\c0871c6bedb8b77d874d90b3def499652b11dd72\\old\\src\\test\\java\\depends\\extractor\\javaJavaFunctionExtractTest.java", "D:\\desktop\\git-data\\depends\\c0871c6bedb8b77d874d90b3def499652b11dd72\\old\\src\\test\\resources\\java-code-examplesMaze.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\c0871c6bedb8b77d874d90b3def499652b11dd72\\new\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java", "D:\\desktop\\git-data\\depends\\c0871c6bedb8b77d874d90b3def499652b11dd72\\new\\src\\test\\java\\depends\\extractor\\javaProductionErrorReproducer.java", "D:\\desktop\\git-data\\depends\\c0871c6bedb8b77d874d90b3def499652b11dd72\\new\\src\\test\\resources\\java-code-examplesMaze.java" ],
   "cells" : [ ]
 }

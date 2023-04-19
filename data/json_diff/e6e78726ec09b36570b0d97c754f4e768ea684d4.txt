@@ -1,0 +1,1 @@
+['D:\\desktop\\git-data\\depends\\e6e78726ec09b36570b0d97c754f4e768ea684d4\\old\\src\\main\\java\\depends\\format\\detailDetailTextFormatDependencyDumper.java', 'D:\\desktop\\git-data\\depends\\e6e78726ec09b36570b0d97c754f4e768ea684d4\\old\\src\\main\\java\\depends\\matrix\\coreDependencyDetail.java']

@@ -1,32 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\afc64d54694e15059c6e391c8b46b03f16fe447b\\new\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\afc64d54694e15059c6e391c8b46b03f16fe447b\\new\\src\\main\\java\\depends\\extractor\\cppCppFileParser.java", "D:\\desktop\\git-data\\depends\\afc64d54694e15059c6e391c8b46b03f16fe447b\\new\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java", "D:\\desktop\\git-data\\depends\\afc64d54694e15059c6e391c8b46b03f16fe447b\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppFileParser.java" ],
-  "cells" : [ {
-    "src" : 2,
-    "dest" : 0,
-    "values" : {
-      "Call" : 3.0,
-      "Import" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 4.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 3,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 1,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 11.0
-    }
-  } ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\af55fca6c7a7f90236a0af2c047f2fd2fa6252e8\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandler.java" ],
+  "cells" : [ ]
 }

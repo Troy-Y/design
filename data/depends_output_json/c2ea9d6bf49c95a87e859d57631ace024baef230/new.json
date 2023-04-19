@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entityRelation.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entityTypeInfer.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\typesFileEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\typesFunctionEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\extractor\\javaJavaEntitiesListener.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\test\\resources\\java-code-examplesComplexExpressionExample.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\new\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\new\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\new\\src\\main\\java\\depends\\entityRelation.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\new\\src\\main\\java\\depends\\entityTypeInfer.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\new\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\new\\src\\main\\java\\depends\\entity\\typesFileEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\new\\src\\main\\java\\depends\\entity\\typesFunctionEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\new\\src\\main\\java\\depends\\extractor\\javaJavaEntitiesListener.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\new\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\new\\src\\test\\resources\\java-code-examplesComplexExpressionExample.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 4,
@@ -19,36 +19,47 @@
     }
   }, {
     "src" : 6,
+    "dest" : 4,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 6,
     "dest" : 0,
     "values" : {
-      "Call" : 1.0,
+      "Call" : 2.0,
       "Import" : 1.0,
       "Extend" : 1.0,
-      "Use" : 1.0
+      "Use" : 2.0
     }
   }, {
     "src" : 6,
     "dest" : 1,
     "values" : {
-      "Call" : 5.0
+      "Call" : 5.0,
+      "Import" : 1.0,
+      "Use" : 2.0,
+      "Parameter" : 2.0
     }
   }, {
     "src" : 5,
     "dest" : 0,
     "values" : {
-      "Cast" : 5.0,
-      "Call" : 5.0,
+      "Cast" : 3.0,
+      "Call" : 1.0,
       "Import" : 1.0,
-      "Use" : 1.0,
+      "Use" : 2.0,
       "Parameter" : 1.0
     }
   }, {
     "src" : 5,
     "dest" : 1,
     "values" : {
-      "Call" : 39.0,
+      "Call" : 24.0,
       "Import" : 1.0,
-      "Return" : 3.0,
+      "Return" : 2.0,
       "Use" : 3.0,
       "Parameter" : 11.0,
       "Contain" : 11.0
@@ -57,17 +68,15 @@
     "src" : 5,
     "dest" : 2,
     "values" : {
-      "Import" : 1.0,
-      "Use" : 9.0,
-      "Contain" : 1.0
+      "Import" : 1.0
     }
   }, {
     "src" : 5,
     "dest" : 3,
     "values" : {
-      "Call" : 13.0,
+      "Call" : 1.0,
       "Import" : 1.0,
-      "Create" : 13.0
+      "Create" : 1.0
     }
   }, {
     "src" : 5,
@@ -80,22 +89,18 @@
     "src" : 5,
     "dest" : 6,
     "values" : {
-      "Cast" : 5.0,
-      "Call" : 2.0,
+      "Cast" : 3.0,
+      "Call" : 1.0,
       "Import" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 1.0
+      "Use" : 2.0
     }
   }, {
     "src" : 5,
     "dest" : 7,
     "values" : {
-      "Cast" : 2.0,
-      "Call" : 3.0,
       "Import" : 1.0,
       "Return" : 2.0,
       "Use" : 2.0,
-      "Parameter" : 1.0,
       "Contain" : 4.0
     }
   }, {
@@ -200,6 +205,12 @@
       "Parameter" : 3.0
     }
   }, {
+    "src" : 4,
+    "dest" : 0,
+    "values" : {
+      "Parameter" : 1.0
+    }
+  }, {
     "src" : 0,
     "dest" : 1,
     "values" : {
@@ -219,22 +230,16 @@
     "dest" : 2,
     "values" : {
       "Call" : 1.0,
-      "Use" : 18.0,
+      "Use" : 17.0,
       "Parameter" : 2.0,
       "Contain" : 1.0
     }
   }, {
     "src" : 0,
-    "dest" : 5,
-    "values" : {
-      "Import" : 1.0
-    }
-  }, {
-    "src" : 0,
     "dest" : 4,
     "values" : {
-      "Call" : 6.0,
-      "Parameter" : 5.0
+      "Call" : 5.0,
+      "Parameter" : 3.0
     }
   } ]
 }

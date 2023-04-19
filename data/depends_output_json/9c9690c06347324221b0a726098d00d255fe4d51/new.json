@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\9c9690c06347324221b0a726098d00d255fe4d51\\old\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\9c9690c06347324221b0a726098d00d255fe4d51\\new\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java" ],
   "cells" : [ ]
 }

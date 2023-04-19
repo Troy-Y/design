@@ -1,11 +1,12 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\old\\src\\main\\java\\depends\\extractor\\pomPomCoords.java", "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\old\\src\\main\\java\\depends\\extractor\\pomPomListener.java", "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\old\\src\\main\\java\\depends\\extractor\\pomPomParent.java", "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\old\\src\\test\\java\\depends\\extractor\\pomDependencyWithoutVersionTest.java", "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\old\\src\\test\\java\\depends\\extractor\\pomMavenParserTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pomPomCoords.java", "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pomPomListener.java", "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pomPomParent.java", "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\test\\java\\depends\\extractor\\pomDependencyWithoutVersionTest.java", "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\test\\java\\depends\\extractor\\pomMavenParserTest.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 0,
     "values" : {
+      "Call" : 1.0,
       "Use" : 3.0,
       "Parameter" : 1.0
     }
@@ -13,11 +14,10 @@
     "src" : 1,
     "dest" : 2,
     "values" : {
-      "Cast" : 2.0,
-      "Call" : 1.0,
-      "Use" : 7.0,
+      "Call" : 2.0,
+      "Use" : 1.0,
       "Create" : 1.0,
-      "Contain" : 2.0
+      "Contain" : 1.0
     }
   }, {
     "src" : 3,
@@ -31,10 +31,18 @@
     "src" : 1,
     "dest" : 0,
     "values" : {
-      "Call" : 8.0,
-      "Use" : 7.0,
+      "Call" : 10.0,
+      "Return" : 1.0,
+      "Use" : 4.0,
       "Create" : 4.0,
-      "Contain" : 1.0
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 2,
+    "values" : {
+      "Use" : 3.0,
+      "Parameter" : 1.0
     }
   } ]
 }

@@ -1,30 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\pythonPythonGlobalVarTest.java", "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\pythonPythonObjectCreationTest.java", "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\pythonPythonObjectThrowReturn.java", "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\pythonPythonParserTest.java" ],
-  "cells" : [ {
-    "src" : 1,
-    "dest" : 3,
-    "values" : {
-      "Call" : 4.0,
-      "Extend" : 1.0,
-      "Use" : 3.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 3,
-    "values" : {
-      "Call" : 7.0,
-      "Extend" : 1.0,
-      "Use" : 5.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 3,
-    "values" : {
-      "Call" : 3.0,
-      "Extend" : 1.0,
-      "Use" : 3.0
-    }
-  } ]
+  "variables" : [ ],
+  "cells" : [ ]
 }

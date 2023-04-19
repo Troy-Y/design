@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\a41d0bc65bcb34a4b37983e789d2c0f4b4b5df99\\old\\src\\main\\java\\dependsLangRegister.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\a41d0bc65bcb34a4b37983e789d2c0f4b4b5df99\\new\\src\\main\\java\\dependsLangRegister.java" ],
   "cells" : [ ]
 }

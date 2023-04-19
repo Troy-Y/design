@@ -1,39 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\3fb5e986c116063bafa36b46f00c4b85709778b0\\new\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java", "D:\\desktop\\git-data\\depends\\3fb5e986c116063bafa36b46f00c4b85709778b0\\new\\src\\main\\java\\depends\\extractor\\rubyRubyImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\3fb5e986c116063bafa36b46f00c4b85709778b0\\new\\src\\main\\java\\depends\\extractor\\rubyRubyListener.java", "D:\\desktop\\git-data\\depends\\3fb5e986c116063bafa36b46f00c4b85709778b0\\new\\src\\main\\java\\depends\\extractor\\rubyRubyParserHelper.java", "D:\\desktop\\git-data\\depends\\3fb5e986c116063bafa36b46f00c4b85709778b0\\new\\src\\main\\java\\depends\\relationsInferer.java" ],
-  "cells" : [ {
-    "src" : 2,
-    "dest" : 0,
-    "values" : {
-      "Call" : 4.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 3,
-    "values" : {
-      "Call" : 17.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 4,
-    "values" : {
-      "Import" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 4,
-    "values" : {
-      "Import" : 1.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  } ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\old\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\old\\src\\test\\java\\depends\\extractor\\cppIncludeRelationTest.java", "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\old\\src\\test\\java\\depends\\extractor\\cppUsingTest.java", "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\old\\src\\test\\java\\depends\\extractor\\cppextendsTest.java", "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\old\\src\\test\\java\\depends\\extractor\\javaJavaGenericTypeTest.java", "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\old\\src\\test\\java\\depends\\extractor\\rubyRubyInheritTest.java" ],
+  "cells" : [ ]
 }

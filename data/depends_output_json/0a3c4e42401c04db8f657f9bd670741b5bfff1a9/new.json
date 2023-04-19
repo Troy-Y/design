@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\0a3c4e42401c04db8f657f9bd670741b5bfff1a9\\old\\src\\main\\java\\depends\\extractor\\pythonPython3CodeListener.java", "D:\\desktop\\git-data\\depends\\0a3c4e42401c04db8f657f9bd670741b5bfff1a9\\old\\src\\main\\java\\depends\\extractor\\pythonPythonImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\0a3c4e42401c04db8f657f9bd670741b5bfff1a9\\old\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\0a3c4e42401c04db8f657f9bd670741b5bfff1a9\\new\\src\\main\\java\\depends\\extractor\\pythonPython3CodeListener.java", "D:\\desktop\\git-data\\depends\\0a3c4e42401c04db8f657f9bd670741b5bfff1a9\\new\\src\\main\\java\\depends\\extractor\\pythonPythonImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\0a3c4e42401c04db8f657f9bd670741b5bfff1a9\\new\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java" ],
   "cells" : [ ]
 }

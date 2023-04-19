@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\main\\java\\depends\\entityAliasEntity.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\main\\java\\depends\\entityCandidateTypes.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\main\\java\\depends\\entityFunctionEntity.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\main\\java\\depends\\entityMultiDeclareEntities.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\main\\java\\depends\\entityTypeEntity.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\test\\java\\depends\\extractor\\rubyRubyAssignedVariableTypeDedudceTest.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\test\\java\\depends\\extractor\\rubyRubyParameterTypeDedudceTest.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\test\\java\\depends\\extractor\\rubyRubySingletonMethodTest.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\old\\src\\test\\java\\depends\\extractor\\rubyRubyVarInvocationRecordTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\main\\java\\depends\\entityAliasEntity.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\main\\java\\depends\\entityCandidateTypes.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\main\\java\\depends\\entityFunctionEntity.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\main\\java\\depends\\entityMultiDeclareEntities.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\main\\java\\depends\\entityTypeEntity.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\test\\java\\depends\\extractor\\rubyRubyAssignedVariableTypeDedudceTest.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\test\\java\\depends\\extractor\\rubyRubyParameterTypeDedudceTest.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\test\\java\\depends\\extractor\\rubyRubySingletonMethodTest.java", "D:\\desktop\\git-data\\depends\\f0d9d3175387483307bc59ba422d5d65b0be4b23\\new\\src\\test\\java\\depends\\extractor\\rubyRubyVarInvocationRecordTest.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 10,
@@ -28,7 +28,7 @@
     "src" : 6,
     "dest" : 3,
     "values" : {
-      "Call" : 6.0,
+      "Call" : 7.0,
       "Use" : 1.0,
       "Parameter" : 3.0,
       "Contain" : 3.0
@@ -116,15 +116,15 @@
     "src" : 7,
     "dest" : 2,
     "values" : {
-      "Call" : 3.0,
+      "Call" : 4.0,
       "Extend" : 1.0,
-      "Use" : 2.0
+      "Use" : 3.0
     }
   }, {
     "src" : 10,
     "dest" : 6,
     "values" : {
-      "Cast" : 2.0,
+      "Cast" : 3.0,
       "Call" : 1.0,
       "Import" : 1.0,
       "Use" : 1.0
@@ -146,7 +146,7 @@
     "src" : 10,
     "dest" : 3,
     "values" : {
-      "Call" : 16.0,
+      "Call" : 18.0,
       "Import" : 1.0,
       "Return" : 8.0,
       "Use" : 8.0,
@@ -166,7 +166,7 @@
     "src" : 8,
     "dest" : 3,
     "values" : {
-      "Call" : 9.0,
+      "Call" : 10.0,
       "Import" : 1.0,
       "Return" : 2.0,
       "Use" : 3.0,
@@ -201,7 +201,7 @@
     "src" : 10,
     "dest" : 8,
     "values" : {
-      "Call" : 5.0,
+      "Call" : 7.0,
       "Import" : 1.0,
       "Use" : 1.0,
       "Parameter" : 1.0,
@@ -302,12 +302,6 @@
       "Parameter" : 2.0
     }
   }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 9.0
-    }
-  }, {
     "src" : 4,
     "dest" : 10,
     "values" : {
@@ -315,6 +309,12 @@
       "Import" : 1.0,
       "Use" : 14.0,
       "Parameter" : 2.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Call" : 9.0
     }
   }, {
     "src" : 1,
@@ -348,10 +348,10 @@
     "dest" : 5,
     "values" : {
       "Call" : 2.0,
-      "Return" : 2.0,
+      "Return" : 3.0,
       "Use" : 1.0,
       "Parameter" : 2.0,
-      "Contain" : 4.0
+      "Contain" : 5.0
     }
   }, {
     "src" : 2,
@@ -367,6 +367,15 @@
     "dest" : 7,
     "values" : {
       "Return" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 6,
+    "values" : {
+      "Return" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 3,
@@ -390,21 +399,21 @@
       "Parameter" : 1.0
     }
   }, {
-    "src" : 13,
-    "dest" : 2,
-    "values" : {
-      "Cast" : 1.0,
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
     "src" : 9,
     "dest" : 10,
     "values" : {
       "Import" : 1.0,
       "Use" : 9.0,
       "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 13,
+    "dest" : 2,
+    "values" : {
+      "Cast" : 1.0,
+      "Call" : 1.0,
+      "Import" : 1.0,
       "Contain" : 1.0
     }
   }, {

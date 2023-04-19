@@ -1,55 +1,30 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCDTParser.java", "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppFileParser.java", "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandler.java", "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandlerTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\old\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\old\\src\\main\\java\\depends\\entityRelationCounter.java", "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\old\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java" ],
   "cells" : [ {
-    "src" : 3,
-    "dest" : 2,
-    "values" : {
-      "Call" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 3,
+    "src" : 2,
     "dest" : 1,
     "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 1,
-    "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 1,
-    "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 4,
-    "values" : {
-      "Call" : 2.0,
-      "Create" : 1.0,
+      "Use" : 12.0,
       "Contain" : 1.0
     }
   }, {
     "src" : 2,
-    "dest" : 4,
+    "dest" : 0,
     "values" : {
-      "Call" : 4.0,
-      "Use" : 1.0,
+      "Import" : 1.0,
+      "Use" : 26.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
       "Create" : 1.0,
-      "Contain" : 1.0
+      "Use" : 21.0,
+      "Contain" : 2.0
     }
   } ]
 }

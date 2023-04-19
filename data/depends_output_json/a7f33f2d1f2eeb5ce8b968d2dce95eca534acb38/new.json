@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\old\\src\\main\\java\\dependsDependsCommand.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\old\\src\\main\\java\\depends\\generatorDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\old\\src\\main\\java\\depends\\matrix\\coreDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\old\\src\\main\\java\\depends\\matrix\\transformMatrixLevelReducer.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\old\\src\\main\\java\\depends\\matrix\\transformOrderedMatrixGenerator.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\old\\src\\test\\java\\depends\\format\\jsonJsonFormatDependencyDumperTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\dependsDependsCommand.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\generatorDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\coreDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\transformMatrixLevelReducer.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\transformOrderedMatrixGenerator.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\test\\java\\depends\\format\\jsonJsonFormatDependencyDumperTest.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 3,
@@ -24,7 +24,7 @@
     "src" : 1,
     "dest" : 2,
     "values" : {
-      "Call" : 5.0,
+      "Call" : 6.0,
       "Import" : 1.0,
       "Use" : 2.0,
       "Parameter" : 2.0,
@@ -34,7 +34,7 @@
     "src" : 1,
     "dest" : 0,
     "values" : {
-      "Call" : 37.0,
+      "Call" : 38.0,
       "Create" : 3.0,
       "Use" : 1.0,
       "Parameter" : 3.0,
@@ -66,7 +66,7 @@
     "src" : 5,
     "dest" : 3,
     "values" : {
-      "Call" : 7.0,
+      "Call" : 8.0,
       "Import" : 1.0,
       "Return" : 1.0,
       "Use" : 1.0,

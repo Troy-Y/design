@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\main\\java\\depends\\matrixDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\main\\java\\depends\\matrixFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\test\\java\\depends\\extractor\\cppForwardDeclareTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\matrixDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\matrixFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\test\\java\\depends\\extractor\\cppForwardDeclareTest.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 3,
@@ -15,6 +15,7 @@
     "src" : 1,
     "dest" : 2,
     "values" : {
+      "Call" : 2.0,
       "Import" : 1.0,
       "Return" : 1.0,
       "Use" : 1.0,
@@ -24,10 +25,10 @@
     "src" : 3,
     "dest" : 2,
     "values" : {
-      "Call" : 4.0,
-      "Return" : 2.0,
+      "Call" : 3.0,
+      "Return" : 1.0,
       "Create" : 1.0,
-      "Contain" : 2.0
+      "Contain" : 1.0
     }
   }, {
     "src" : 4,
@@ -42,8 +43,7 @@
     "src" : 4,
     "dest" : 2,
     "values" : {
-      "Import" : 1.0,
-      "Contain" : 1.0
+      "Import" : 1.0
     }
   }, {
     "src" : 0,

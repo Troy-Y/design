@@ -1,17 +1,17 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\bd983fec851a961323dab11367d9e59a7023ca61\\new\\src\\main\\java\\depends\\extractor\\cppCppWorker.java", "D:\\desktop\\git-data\\depends\\bd983fec851a961323dab11367d9e59a7023ca61\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCDTParser.java", "D:\\desktop\\git-data\\depends\\bd983fec851a961323dab11367d9e59a7023ca61\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\bd983fec851a961323dab11367d9e59a7023ca61\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppFileParser.java", "D:\\desktop\\git-data\\depends\\bd983fec851a961323dab11367d9e59a7023ca61\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtFileIndex.java", "D:\\desktop\\git-data\\depends\\bd983fec851a961323dab11367d9e59a7023ca61\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandler.java", "D:\\desktop\\git-data\\depends\\bd983fec851a961323dab11367d9e59a7023ca61\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4Antlr4CppFileParser.java", "D:\\desktop\\git-data\\depends\\bd983fec851a961323dab11367d9e59a7023ca61\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4CppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\bd983fec851a961323dab11367d9e59a7023ca61\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdtCppParameterParserTest.java", "D:\\desktop\\git-data\\depends\\bd983fec851a961323dab11367d9e59a7023ca61\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandlerTest.java", "D:\\desktop\\git-data\\depends\\bd983fec851a961323dab11367d9e59a7023ca61\\new\\src\\test\\java\\depends\\extractor\\cpp\\g4PreprocessorHandlerTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cppCppFileParser.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4Antlr4CppFileParser.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4CppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4DeclaratorIdVisitor.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4FunctiondefinitionContextHelper.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4SimpletypespecifierContextHelper.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\test\\java\\depends\\extractor\\cpp\\cdtCppParameterParserTest.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\test\\java\\depends\\extractor\\cpp\\cdtIncludeRelationTest.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\test\\java\\depends\\extractor\\cpp\\g4G4GrammarTest.java", "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\test\\java\\depends\\extractor\\cpp\\g4PreprocessorHandlerTest.java" ],
   "cells" : [ {
-    "src" : 6,
-    "dest" : 7,
+    "src" : 4,
+    "dest" : 5,
     "values" : {
-      "Call" : 1.0,
+      "Call" : 2.0,
       "Create" : 1.0,
       "Contain" : 1.0
     }
   }, {
-    "src" : 3,
+    "src" : 1,
     "dest" : 2,
     "values" : {
       "Call" : 1.0,
@@ -19,107 +19,26 @@
       "Contain" : 1.0
     }
   }, {
-    "src" : 3,
-    "dest" : 1,
-    "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 8,
-    "dest" : 3,
-    "values" : {
-      "Call" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 1,
-    "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 9,
-    "dest" : 5,
-    "values" : {
-      "Call" : 2.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 4,
-    "values" : {
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 4,
-    "values" : {
-      "Call" : 4.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 6,
+    "src" : 1,
+    "dest" : 0,
     "values" : {
       "Call" : 1.0,
       "Import" : 1.0,
-      "Create" : 1.0
+      "Extend" : 1.0,
+      "Use" : 3.0
     }
   }, {
-    "src" : 9,
-    "dest" : 1,
+    "src" : 7,
+    "dest" : 0,
     "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 9,
-    "dest" : 4,
-    "values" : {
-      "Call" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 5,
-    "values" : {
-      "Call" : 4.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 3,
-    "values" : {
-      "Import" : 1.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 4,
-    "values" : {
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 4,
-    "values" : {
-      "Call" : 1.0,
       "Import" : 1.0,
-      "Create" : 1.0,
+      "Contain" : 3.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
       "Contain" : 1.0
     }
   } ]

@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonClassTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonDecoratorTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonFuncCallTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonFunctionTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonObjectCreationTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonObjectThrowReturn.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonParameterTypeDedudceTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonParserTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonSelfShouldBeThisTypeTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonShouldGetRelationInSamePackageTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\new\\src\\test\\java\\depends\\extractor\\pythonPythonClassTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\new\\src\\test\\java\\depends\\extractor\\pythonPythonDecoratorTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\new\\src\\test\\java\\depends\\extractor\\pythonPythonFuncCallTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\new\\src\\test\\java\\depends\\extractor\\pythonPythonFunctionTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\new\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\new\\src\\test\\java\\depends\\extractor\\pythonPythonObjectCreationTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\new\\src\\test\\java\\depends\\extractor\\pythonPythonObjectThrowReturn.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\new\\src\\test\\java\\depends\\extractor\\pythonPythonParameterTypeDedudceTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\new\\src\\test\\java\\depends\\extractor\\pythonPythonParserTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\new\\src\\test\\java\\depends\\extractor\\pythonSelfShouldBeThisTypeTest.java", "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\new\\src\\test\\java\\depends\\extractor\\pythonShouldGetRelationInSamePackageTest.java" ],
   "cells" : [ {
     "src" : 8,
     "dest" : 0,
@@ -15,6 +15,12 @@
       "Call" : 3.0
     }
   }, {
+    "src" : 6,
+    "dest" : 0,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
     "src" : 10,
     "dest" : 0,
     "values" : {
@@ -22,12 +28,6 @@
     }
   }, {
     "src" : 3,
-    "dest" : 0,
-    "values" : {
-      "Call" : 1.0
-    }
-  }, {
-    "src" : 6,
     "dest" : 0,
     "values" : {
       "Call" : 1.0
@@ -42,7 +42,7 @@
     "src" : 1,
     "dest" : 9,
     "values" : {
-      "Call" : 4.0,
+      "Call" : 8.0,
       "Extend" : 1.0,
       "Use" : 7.0
     }
@@ -50,7 +50,7 @@
     "src" : 3,
     "dest" : 9,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 4.0,
       "Extend" : 1.0,
       "Use" : 3.0
     }
@@ -58,7 +58,7 @@
     "src" : 10,
     "dest" : 9,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 4.0,
       "Extend" : 1.0,
       "Use" : 3.0
     }
@@ -66,7 +66,7 @@
     "src" : 7,
     "dest" : 9,
     "values" : {
-      "Call" : 3.0,
+      "Call" : 7.0,
       "Extend" : 1.0,
       "Use" : 5.0
     }
@@ -74,7 +74,7 @@
     "src" : 5,
     "dest" : 9,
     "values" : {
-      "Call" : 8.0,
+      "Call" : 13.0,
       "Extend" : 1.0,
       "Use" : 17.0
     }
@@ -113,7 +113,7 @@
     "src" : 2,
     "dest" : 9,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 4.0,
       "Extend" : 1.0,
       "Use" : 3.0
     }
@@ -121,7 +121,7 @@
     "src" : 8,
     "dest" : 9,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 3.0,
       "Extend" : 1.0,
       "Use" : 3.0
     }
@@ -129,7 +129,7 @@
     "src" : 4,
     "dest" : 9,
     "values" : {
-      "Call" : 3.0,
+      "Call" : 5.0,
       "Extend" : 1.0,
       "Use" : 5.0
     }
@@ -137,7 +137,7 @@
     "src" : 11,
     "dest" : 9,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 4.0,
       "Extend" : 1.0,
       "Use" : 3.0
     }
@@ -145,7 +145,7 @@
     "src" : 6,
     "dest" : 9,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 4.0,
       "Extend" : 1.0,
       "Use" : 3.0
     }

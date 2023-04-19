@@ -1,96 +1,14 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\entityRelationCounter.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\cppCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\jsonJDataBuilder.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\xmlXDataBuilder.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\utilConfigure.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\test\\java\\depends\\entityEntityResolveBindingsTest.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\test\\java\\depends\\format\\matrixFileDependencyGeneratorTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\a55530ff2876cc32b45255e940910a9892f60f66\\old\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\a55530ff2876cc32b45255e940910a9892f60f66\\old\\src\\main\\java\\depends\\extractor\\cppCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\a55530ff2876cc32b45255e940910a9892f60f66\\old\\src\\main\\java\\depends\\extractor\\cppCppWorker.java" ],
   "cells" : [ {
     "src" : 2,
-    "dest" : 1,
+    "dest" : 0,
     "values" : {
       "Import" : 1.0,
-      "Use" : 26.0
-    }
-  }, {
-    "src" : 7,
-    "dest" : 3,
-    "values" : {
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 8,
-    "dest" : 1,
-    "values" : {
-      "Import" : 1.0,
-      "Use" : 2.0
-    }
-  }, {
-    "src" : 6,
-    "dest" : 7,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
-    "src" : 9,
-    "dest" : 1,
-    "values" : {
-      "Import" : 1.0,
-      "Use" : 6.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 1,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
+      "Extend" : 1.0,
       "Use" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 6,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 5,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 3,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 7,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 7,
-    "values" : {
-      "Call" : 12.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
     }
   } ]
 }

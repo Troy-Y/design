@@ -1,120 +1,66 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\732df06a5137eb2037e24c0b52305e6280eaec63\\new\\src\\main\\java\\dependsDependsCommand.java", "D:\\desktop\\git-data\\depends\\732df06a5137eb2037e24c0b52305e6280eaec63\\new\\src\\main\\java\\dependsLangRegister.java", "D:\\desktop\\git-data\\depends\\732df06a5137eb2037e24c0b52305e6280eaec63\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\732df06a5137eb2037e24c0b52305e6280eaec63\\new\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\732df06a5137eb2037e24c0b52305e6280eaec63\\new\\src\\main\\java\\depends\\extractorLangProcessorRegistration.java", "D:\\desktop\\git-data\\depends\\732df06a5137eb2037e24c0b52305e6280eaec63\\new\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java", "D:\\desktop\\git-data\\depends\\732df06a5137eb2037e24c0b52305e6280eaec63\\new\\src\\main\\java\\depends\\extractor\\javaJavaProcessor.java", "D:\\desktop\\git-data\\depends\\732df06a5137eb2037e24c0b52305e6280eaec63\\new\\src\\main\\java\\depends\\extractor\\rubyRubyProcessor.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\main\\java\\depends\\entityCandidateTypes.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\main\\java\\depends\\entityFileEntity.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\main\\java\\depends\\extractor\\javaJavaListener.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyRubyParserHelper.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\main\\java\\depends\\formatDependencyDumper.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\main\\java\\depends\\format\\pathDotPathFilenameWritter.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\main\\java\\depends\\matrixFunctionDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\addonsDV8MappingFileBuilderTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\cppConstructFunctionReturnValueTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\cppCppExpressionTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\cppCppParameterParserTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\cppForwardDeclareTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\cppIncludeRelationTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\cppMacroRelationTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\cppUsingTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\cppextendsTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\javaJavaAnnotationParserTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\javaJavaParameterParserTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\rubyRubyInheritTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\rubyRubyMixinTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\rubyRubyNameTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\rubyRubyParserTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\rubyRubyRequireTest.java", "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\old\\src\\test\\java\\depends\\extractor\\rubyRubyVCallTest.java" ],
   "cells" : [ {
-    "src" : 1,
-    "dest" : 4,
+    "src" : 21,
+    "dest" : 23,
     "values" : {
       "Call" : 2.0,
+      "Extend" : 1.0,
+      "Use" : 3.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 1,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 22,
+    "dest" : 23,
+    "values" : {
+      "Call" : 2.0,
+      "Extend" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 1,
+    "values" : {
       "Import" : 1.0,
       "Use" : 1.0
     }
   }, {
-    "src" : 1,
+    "src" : 4,
     "dest" : 3,
     "values" : {
       "Import" : 1.0,
       "Parameter" : 1.0
     }
   }, {
-    "src" : 6,
-    "dest" : 3,
+    "src" : 25,
+    "dest" : 23,
     "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
+      "Call" : 3.0,
       "Extend" : 1.0,
-      "Use" : 2.0
+      "Use" : 5.0
     }
   }, {
-    "src" : 5,
-    "dest" : 3,
+    "src" : 24,
+    "dest" : 23,
     "values" : {
       "Call" : 2.0,
-      "Import" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 3.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 7,
-    "values" : {
-      "Call" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 6,
-    "values" : {
-      "Call" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 5,
-    "values" : {
-      "Call" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 1,
-    "values" : {
-      "Call" : 2.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 7,
-    "dest" : 3,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
       "Extend" : 1.0,
       "Use" : 4.0
     }
   }, {
-    "src" : 2,
-    "dest" : 0,
+    "src" : 20,
+    "dest" : 23,
     "values" : {
-      "Call" : 14.0,
-      "Create" : 3.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 3,
-    "values" : {
-      "Call" : 5.0,
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 3,
-    "values" : {
-      "Call" : 2.0,
-      "Return" : 1.0,
-      "Use" : 1.0,
-      "Parameter" : 2.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 4,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Use" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 4,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Use" : 1.0
+      "Call" : 7.0,
+      "Extend" : 1.0,
+      "Use" : 16.0
     }
   } ]
 }

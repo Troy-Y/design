@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\97edd75c00417bc6f661d7b91fd9a4032295cf4a\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtExpressionUsage.java", "D:\\desktop\\git-data\\depends\\97edd75c00417bc6f661d7b91fd9a4032295cf4a\\old\\src\\test\\java\\depends\\extractor\\cppDuplicateDeclarationTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\97edd75c00417bc6f661d7b91fd9a4032295cf4a\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtExpressionUsage.java", "D:\\desktop\\git-data\\depends\\97edd75c00417bc6f661d7b91fd9a4032295cf4a\\new\\src\\test\\java\\depends\\extractor\\cppDuplicateDeclarationTest.java" ],
   "cells" : [ ]
 }

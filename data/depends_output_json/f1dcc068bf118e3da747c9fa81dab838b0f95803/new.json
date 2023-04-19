@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entityMultiDeclareEntities.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repoInMemoryEntityRepo.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cppCppHandlerContext.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCppVisitor.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\test\\java\\depends\\extractor\\cppForwardDeclareTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\new\\src\\main\\java\\depends\\entityMultiDeclareEntities.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\new\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\new\\src\\main\\java\\depends\\entity\\repoInMemoryEntityRepo.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\new\\src\\main\\java\\depends\\extractor\\cppCppHandlerContext.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\new\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCppVisitor.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\new\\src\\test\\java\\depends\\extractor\\cppForwardDeclareTest.java" ],
   "cells" : [ {
     "src" : 6,
     "dest" : 7,
@@ -15,20 +15,10 @@
     "src" : 6,
     "dest" : 4,
     "values" : {
-      "Call" : 4.0,
+      "Call" : 6.0,
       "Import" : 1.0,
       "Use" : 1.0,
       "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 1,
-    "values" : {
-      "Call" : 11.0,
-      "Import" : 1.0,
-      "Use" : 6.0,
-      "Parameter" : 1.0,
       "Contain" : 1.0
     }
   }, {
@@ -36,6 +26,16 @@
     "dest" : 3,
     "values" : {
       "Call" : 31.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 1,
+    "values" : {
+      "Call" : 12.0,
+      "Import" : 1.0,
+      "Use" : 6.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 6,
@@ -51,7 +51,7 @@
     "values" : {
       "Call" : 5.0,
       "Import" : 1.0,
-      "Parameter" : 5.0
+      "Parameter" : 4.0
     }
   }, {
     "src" : 5,
@@ -72,17 +72,17 @@
       "Contain" : 1.0
     }
   }, {
+    "src" : 2,
+    "dest" : 1,
+    "values" : {
+      "Implement" : 1.0
+    }
+  }, {
     "src" : 0,
     "dest" : 7,
     "values" : {
       "Import" : 1.0,
       "Parameter" : 1.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 1,
-    "values" : {
-      "Implement" : 1.0
     }
   }, {
     "src" : 2,
@@ -118,7 +118,7 @@
     "src" : 4,
     "dest" : 1,
     "values" : {
-      "Call" : 3.0,
+      "Call" : 5.0,
       "Import" : 1.0,
       "Parameter" : 1.0
     }
@@ -126,10 +126,10 @@
     "src" : 4,
     "dest" : 3,
     "values" : {
-      "Call" : 8.0,
+      "Call" : 9.0,
       "Import" : 1.0,
       "Extend" : 1.0,
-      "Use" : 9.0
+      "Use" : 17.0
     }
   }, {
     "src" : 4,

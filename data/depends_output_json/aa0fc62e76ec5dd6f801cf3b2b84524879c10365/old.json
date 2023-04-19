@@ -1,6 +1,15 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\b499608b3494ccf7bf40fee3f24620f5aece9f29\\new\\src\\main\\java\\depends\\entityTypeEntity.java", "D:\\desktop\\git-data\\depends\\b499608b3494ccf7bf40fee3f24620f5aece9f29\\new\\src\\main\\java\\depends\\extractor\\javaJavaListener.java" ],
-  "cells" : [ ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\aa0fc62e76ec5dd6f801cf3b2b84524879c10365\\old\\src\\main\\java\\depends\\entityFunctionEntity.java", "D:\\desktop\\git-data\\depends\\aa0fc62e76ec5dd6f801cf3b2b84524879c10365\\old\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java", "D:\\desktop\\git-data\\depends\\aa0fc62e76ec5dd6f801cf3b2b84524879c10365\\old\\src\\main\\java\\depends\\relationsRelationCounter.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 2.0,
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  } ]
 }

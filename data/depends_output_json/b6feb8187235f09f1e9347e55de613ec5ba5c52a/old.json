@@ -1,48 +1,66 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\new\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java", "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\new\\src\\main\\java\\depends\\extractor\\rubyRubyProcessor.java", "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyFileParser.java", "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\new\\src\\test\\java\\depends\\extractor\\javaJavaCylicInheritTest.java", "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\new\\src\\test\\java\\depends\\extractor\\rubyRubyParserTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\entity\\repoBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\extractor\\cppCppBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\extractor\\emptyEmptyBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\extractor\\golangGoBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\extractor\\javaJavaBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\extractor\\pythonPythonBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\extractor\\rubyRubyBuiltInType.java", "D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\relationsBindingResolver.java" ],
   "cells" : [ {
-    "src" : 5,
-    "dest" : 1,
-    "values" : {
-      "Call" : 1.0,
-      "Use" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 2,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
     "src" : 2,
-    "dest" : 3,
+    "dest" : 0,
     "values" : {
-      "Call" : 2.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
+      "Import" : 1.0,
+      "Extend" : 1.0
     }
   }, {
     "src" : 1,
-    "dest" : 2,
+    "dest" : 0,
     "values" : {
       "Call" : 1.0,
       "Import" : 1.0,
-      "Create" : 1.0
+      "Extend" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 0,
+    "values" : {
+      "Call" : 4.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 0,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 1.0
     }
   }, {
     "src" : 3,
     "dest" : 0,
     "values" : {
-      "Call" : 5.0,
+      "Call" : 1.0,
       "Import" : 1.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
+      "Extend" : 1.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Extend" : 1.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 0,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Extend" : 1.0,
+      "Use" : 1.0
     }
   } ]
 }

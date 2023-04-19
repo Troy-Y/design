@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\entityCandidateTypes.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\entityFunctionEntity.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\cppCppHandlerContext.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppFileParser.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCppVisitor.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtExpressionUsage.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\javaJavaFileParser.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\javaJavaListener.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\pomPomFileParser.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\pomPomListener.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\python\\unionExpressionUsage.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\python\\unionPythonCodeListener.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\python\\unionPythonFileParser.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyFileParser.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\test\\java\\depends\\extractorParserTest.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\test\\java\\depends\\extractor\\cppDuplicateDeclarationTest.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\test\\java\\depends\\extractor\\cppUsingTest.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\old\\src\\test\\java\\depends\\extractor\\rubyRubyReturnTypeDedudceTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\entityCandidateTypes.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\entityFunctionEntity.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\cppCppHandlerContext.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppFileParser.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCppVisitor.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtExpressionUsage.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\javaJavaFileParser.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\javaJavaListener.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\pomPomFileParser.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\pomPomListener.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\python\\unionExpressionUsage.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\python\\unionPythonCodeListener.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\python\\unionPythonFileParser.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyFileParser.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\test\\java\\depends\\extractorParserTest.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\test\\java\\depends\\extractor\\cppDuplicateDeclarationTest.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\test\\java\\depends\\extractor\\cppUsingTest.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java", "D:\\desktop\\git-data\\depends\\a778caf06c8c15c134f22780a1cfc25a6e135b2c\\new\\src\\test\\java\\depends\\extractor\\rubyRubyReturnTypeDedudceTest.java" ],
   "cells" : [ {
     "src" : 11,
     "dest" : 21,
@@ -56,9 +56,16 @@
     "src" : 7,
     "dest" : 8,
     "values" : {
-      "Call" : 1.0,
+      "Call" : 2.0,
       "Create" : 1.0,
       "Contain" : 1.0
+    }
+  }, {
+    "src" : 25,
+    "dest" : 21,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 4.0
     }
   }, {
     "src" : 11,
@@ -141,11 +148,10 @@
     "src" : 9,
     "dest" : 3,
     "values" : {
-      "Call" : 19.0,
+      "Call" : 29.0,
       "Import" : 1.0,
       "Return" : 1.0,
       "Create" : 2.0,
-      "Use" : 10.0,
       "Parameter" : 1.0,
       "Contain" : 3.0
     }
@@ -157,6 +163,18 @@
       "Contain" : 1.0
     }
   }, {
+    "src" : 18,
+    "dest" : 3,
+    "values" : {
+      "Call" : 31.0,
+      "Import" : 1.0,
+      "Return" : 3.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Parameter" : 2.0,
+      "Contain" : 2.0
+    }
+  }, {
     "src" : 8,
     "dest" : 21,
     "values" : {
@@ -166,30 +184,10 @@
       "Contain" : 1.0
     }
   }, {
-    "src" : 18,
-    "dest" : 3,
-    "values" : {
-      "Call" : 23.0,
-      "Import" : 1.0,
-      "Return" : 3.0,
-      "Use" : 10.0,
-      "Create" : 1.0,
-      "Parameter" : 2.0,
-      "Contain" : 2.0
-    }
-  }, {
     "src" : 0,
     "dest" : 3,
     "values" : {
       "Parameter" : 1.0
-    }
-  }, {
-    "src" : 18,
-    "dest" : 1,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Contain" : 1.0
     }
   }, {
     "src" : 0,
@@ -200,6 +198,14 @@
       "Use" : 1.0,
       "Parameter" : 3.0,
       "Contain" : 3.0
+    }
+  }, {
+    "src" : 18,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 0,
@@ -214,7 +220,6 @@
     "src" : 25,
     "dest" : 2,
     "values" : {
-      "Call" : 2.0,
       "Import" : 1.0,
       "Contain" : 2.0
     }
@@ -244,6 +249,13 @@
       "Import" : 1.0
     }
   }, {
+    "src" : 6,
+    "dest" : 21,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
     "src" : 16,
     "dest" : 2,
     "values" : {
@@ -251,13 +263,6 @@
       "Import" : 1.0,
       "Use" : 1.0,
       "Contain" : 4.0
-    }
-  }, {
-    "src" : 6,
-    "dest" : 21,
-    "values" : {
-      "Import" : 1.0,
-      "Parameter" : 1.0
     }
   }, {
     "src" : 16,
@@ -293,7 +298,7 @@
     "src" : 4,
     "dest" : 1,
     "values" : {
-      "Call" : 6.0,
+      "Call" : 7.0,
       "Extend" : 1.0,
       "Use" : 3.0
     }
@@ -313,6 +318,13 @@
     "values" : {
       "Import" : 1.0,
       "Contain" : 6.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 3,
+    "values" : {
+      "Call" : 2.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 4,
@@ -344,7 +356,7 @@
       "Call" : 9.0,
       "Import" : 1.0,
       "Extend" : 1.0,
-      "Use" : 17.0
+      "Use" : 15.0
     }
   }, {
     "src" : 6,
@@ -357,11 +369,10 @@
     "src" : 12,
     "dest" : 3,
     "values" : {
-      "Call" : 20.0,
+      "Call" : 31.0,
       "Import" : 1.0,
       "Return" : 1.0,
       "Create" : 1.0,
-      "Use" : 11.0,
       "Parameter" : 1.0,
       "Contain" : 2.0
     }
@@ -462,7 +473,7 @@
     "src" : 17,
     "dest" : 16,
     "values" : {
-      "Call" : 1.0,
+      "Call" : 2.0,
       "Create" : 1.0,
       "Contain" : 1.0
     }
@@ -497,7 +508,6 @@
     "src" : 19,
     "dest" : 2,
     "values" : {
-      "Call" : 1.0,
       "Import" : 1.0,
       "Contain" : 1.0
     }
@@ -521,7 +531,7 @@
     "src" : 8,
     "dest" : 6,
     "values" : {
-      "Call" : 6.0,
+      "Call" : 5.0,
       "Import" : 1.0,
       "Use" : 1.0,
       "Create" : 1.0,
@@ -552,9 +562,8 @@
     "src" : 22,
     "dest" : 3,
     "values" : {
-      "Call" : 2.0,
+      "Call" : 6.0,
       "Import" : 1.0,
-      "Use" : 4.0,
       "Parameter" : 1.0,
       "Contain" : 1.0
     }
@@ -571,9 +580,10 @@
     "src" : 1,
     "dest" : 4,
     "values" : {
-      "Call" : 2.0,
+      "Cast" : 2.0,
+      "Call" : 3.0,
       "Return" : 3.0,
-      "Use" : 1.0,
+      "Use" : 2.0,
       "Parameter" : 2.0,
       "Contain" : 5.0
     }
@@ -581,10 +591,10 @@
     "src" : 1,
     "dest" : 3,
     "values" : {
-      "Call" : 24.0,
-      "Use" : 5.0,
+      "Call" : 23.0,
+      "Use" : 3.0,
       "Parameter" : 4.0,
-      "Contain" : 5.0
+      "Contain" : 3.0
     }
   }, {
     "src" : 1,
@@ -599,7 +609,6 @@
     "src" : 17,
     "dest" : 2,
     "values" : {
-      "Call" : 1.0,
       "Import" : 1.0,
       "Contain" : 1.0
     }
@@ -607,6 +616,7 @@
     "src" : 22,
     "dest" : 21,
     "values" : {
+      "Call" : 1.0,
       "Use" : 1.0,
       "Parameter" : 1.0,
       "Contain" : 1.0
@@ -624,8 +634,9 @@
     "src" : 19,
     "dest" : 20,
     "values" : {
-      "Call" : 1.0,
-      "Create" : 1.0
+      "Call" : 2.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 24,
@@ -663,7 +674,7 @@
     "src" : 1,
     "dest" : 21,
     "values" : {
-      "Call" : 5.0,
+      "Call" : 6.0,
       "Import" : 1.0,
       "Parameter" : 3.0
     }
@@ -680,8 +691,9 @@
     "src" : 3,
     "dest" : 2,
     "values" : {
+      "Call" : 1.0,
       "Return" : 1.0,
-      "Use" : 2.0,
+      "Use" : 1.0,
       "Parameter" : 2.0,
       "Contain" : 1.0
     }
@@ -689,10 +701,10 @@
     "src" : 15,
     "dest" : 3,
     "values" : {
-      "Call" : 27.0,
+      "Call" : 34.0,
       "Import" : 1.0,
       "Return" : 1.0,
-      "Use" : 11.0,
+      "Use" : 3.0,
       "Create" : 3.0,
       "Parameter" : 6.0,
       "Contain" : 5.0
@@ -712,12 +724,6 @@
       "Call" : 15.0,
       "Import" : 1.0,
       "Contain" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 0,
-    "values" : {
-      "Cast" : 1.0
     }
   }, {
     "src" : 15,
@@ -755,7 +761,7 @@
     "src" : 10,
     "dest" : 11,
     "values" : {
-      "Call" : 1.0,
+      "Call" : 2.0,
       "Create" : 1.0,
       "Contain" : 1.0
     }
@@ -763,7 +769,7 @@
     "src" : 13,
     "dest" : 14,
     "values" : {
-      "Call" : 1.0,
+      "Call" : 2.0,
       "Create" : 1.0,
       "Contain" : 1.0
     }

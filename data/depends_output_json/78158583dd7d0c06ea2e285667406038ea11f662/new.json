@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\78158583dd7d0c06ea2e285667406038ea11f662\\old\\src\\main\\java\\depends\\generatorFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\78158583dd7d0c06ea2e285667406038ea11f662\\old\\src\\test\\java\\depends\\extractor\\golangGoFunctionsTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\78158583dd7d0c06ea2e285667406038ea11f662\\new\\src\\main\\java\\depends\\generatorFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\78158583dd7d0c06ea2e285667406038ea11f662\\new\\src\\test\\java\\depends\\extractor\\golangGoFunctionsTest.java" ],
   "cells" : [ ]
 }

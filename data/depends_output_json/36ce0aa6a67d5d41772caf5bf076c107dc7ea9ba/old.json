@@ -1,6 +1,15 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\52a70558ce0b44e21e51fe9d9c602c47f7a2d7fd\\new\\src\\main\\java\\depends\\entityPackageNamePrefixRemover.java" ],
-  "cells" : [ ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\36ce0aa6a67d5d41772caf5bf076c107dc7ea9ba\\old\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\36ce0aa6a67d5d41772caf5bf076c107dc7ea9ba\\old\\src\\main\\java\\depends\\entityFileEntity.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 2.0,
+      "Call" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0
+    }
+  } ]
 }

@@ -1,67 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\extractor\\golangGoHandlerContext.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\extractor\\golangGoListener.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\format\\jsonDetailItem.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\generatorDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\generatorFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\generatorFunctionDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\matrix\\coreDependencyDetail.java" ],
-  "cells" : [ {
-    "src" : 2,
-    "dest" : 1,
-    "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 0,
-    "values" : {
-      "Call" : 9.0
-    }
-  }, {
-    "src" : 6,
-    "dest" : 4,
-    "values" : {
-      "Call" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 2.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 0,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 4.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 4,
-    "values" : {
-      "Call" : 2.0,
-      "Extend" : 1.0,
-      "Use" : 4.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 7,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 7,
-    "values" : {
-      "Call" : 7.0,
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Use" : 2.0,
-      "Create" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 2.0
-    }
-  } ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\78158583dd7d0c06ea2e285667406038ea11f662\\old\\src\\main\\java\\depends\\generatorFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\78158583dd7d0c06ea2e285667406038ea11f662\\old\\src\\test\\java\\depends\\extractor\\golangGoFunctionsTest.java" ],
+  "cells" : [ ]
 }

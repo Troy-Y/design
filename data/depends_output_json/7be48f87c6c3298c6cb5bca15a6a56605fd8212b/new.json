@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\7be48f87c6c3298c6cb5bca15a6a56605fd8212b\\old\\src\\main\\java\\depends\\extractor\\pomPomListener.java", "D:\\desktop\\git-data\\depends\\7be48f87c6c3298c6cb5bca15a6a56605fd8212b\\old\\src\\test\\java\\depends\\extractor\\pomDependencyTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\7be48f87c6c3298c6cb5bca15a6a56605fd8212b\\new\\src\\main\\java\\depends\\extractor\\pomPomListener.java", "D:\\desktop\\git-data\\depends\\7be48f87c6c3298c6cb5bca15a6a56605fd8212b\\new\\src\\test\\java\\depends\\extractor\\pomDependencyTest.java" ],
   "cells" : [ ]
 }

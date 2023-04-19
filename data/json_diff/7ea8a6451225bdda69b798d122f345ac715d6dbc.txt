@@ -1,0 +1,9 @@
+['D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\old\\src\\main\\java\\dependsMain.java', 'D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\old\\src\\main\\java\\depends\\entityContainerEntity.java', 'D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\old\\src\\main\\java\\depends\\entityVarEntity.java', 'D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\old\\src\\main\\java\\depends\\extractorHandlerContext.java', 'D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java', 'D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\old\\src\\main\\java\\depends\\extractor\\javaJavaEntitiesListener.java', 'D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\old\\src\\main\\java\\depends\\extractor\\java\\contextClassTypeContextHelper.java', 'D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\old\\src\\main\\java\\depends\\relationsRelationCounter.java', 'D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java']
+  old: {'src': 2, 'dest': 1, 'values': {'Cast': 1.0, 'Call': 1.0, 'Use': 1.0}}
+  new: {'src': 2, 'dest': 1, 'values': {'Cast': 1.0, 'Use': 1.0}}
+  old: {'src': 3, 'dest': 1, 'values': {'Cast': 4.0, 'Call': 4.0, 'Import': 1.0, 'Return': 2.0}}
+  new: {'src': 3, 'dest': 1, 'values': {'Cast': 4.0, 'Call': 2.0, 'Import': 1.0, 'Return': 2.0}}
+  old: {'src': 7, 'dest': 1, 'values': {'Cast': 2.0, 'Call': 4.0, 'Import': 1.0, 'Parameter': 1.0}}
+  new: {'src': 7, 'dest': 1, 'values': {'Cast': 2.0, 'Call': 2.0, 'Import': 1.0, 'Parameter': 1.0}}
+  old: {'src': 5, 'dest': 6, 'values': {'Call': 11.0, 'Import': 1.0, 'Use': 11.0}}
+  new: {'src': 5, 'dest': 6, 'values': {'Call': 16.0, 'Import': 1.0, 'Use': 16.0}}

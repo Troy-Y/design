@@ -1,0 +1,1 @@
+['D:\\desktop\\git-data\\depends\\adf1da4360a6e7455af8519c6aa6e7a7bb181740\\old\\src\\main\\java\\depends\\extractor\\golangGoBuiltInType.java', 'D:\\desktop\\git-data\\depends\\adf1da4360a6e7455af8519c6aa6e7a7bb181740\\old\\src\\main\\java\\depends\\extractor\\golangGoListener.java']

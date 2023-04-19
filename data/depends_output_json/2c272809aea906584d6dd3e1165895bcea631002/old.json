@@ -1,6 +1,16 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\6bd17bb8eaabfe6e1a18cd3fc41d463f85a13d1d\\new\\src\\main\\java\\depends\\extractor\\python\\unionExpressionUsage.java", "D:\\desktop\\git-data\\depends\\6bd17bb8eaabfe6e1a18cd3fc41d463f85a13d1d\\new\\src\\test\\java\\depends\\extractor\\pythonPythonClassAssignmentTest.java" ],
-  "cells" : [ ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\old\\src\\main\\java\\depends\\extractorIncludedFileLocator.java", "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\old\\src\\main\\java\\depends\\extractor\\python\\unionPythonCodeListener.java", "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\old\\src\\test\\java\\depends\\extractor\\pythonImportWithSameNameTest.java", "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\old\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
 }

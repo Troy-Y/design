@@ -1,13 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\d24751ef175b659308407c2f736ce52e7734d064\\new\\src\\main\\java\\depends\\extractor\\pythonPythonImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\d24751ef175b659308407c2f736ce52e7734d064\\new\\src\\main\\java\\depends\\relationsInferer.java" ],
-  "cells" : [ {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Import" : 1.0,
-      "Parameter" : 1.0
-    }
-  } ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\dccbf433b2c975c9a132ce9f90496729429da304\\old\\src\\main\\java\\depends\\relationsInferer.java" ],
+  "cells" : [ ]
 }

@@ -1,0 +1,21 @@
+['D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entityAliasEntity.java', 'D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entityCandidateTypes.java', 'D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entityDecoratedEntity.java', 'D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entityFunctionEntity.java', 'D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entityTypeEntity.java', 'D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\extractor\\pythonPython3CodeListener.java', 'D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\extractor\\pythonPythonParserHelper.java', 'D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\extractor\\pythonPythonProcessor.java', 'D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\relationsRelationCounter.java', 'D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\test\\java\\depends\\extractorParserTest.java', 'D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\test\\java\\depends\\extractor\\pythonPythonFunctionTest.java']
+  old: {'src': 8, 'dest': 4, 'values': {'Cast': 2.0, 'Call': 2.0, 'Import': 1.0, 'Parameter': 1.0, 'Contain': 7.0}}
+  new: {'src': 8, 'dest': 4, 'values': {'Cast': 2.0, 'Call': 2.0, 'Import': 1.0, 'Parameter': 1.0, 'Contain': 2.0}}
+  old: {'src': 3, 'dest': 4, 'values': {'Return': 1.0, 'Use': 2.0, 'Parameter': 3.0}}
+  new: {'src': 5, 'dest': 2, 'values': {'Cast': 2.0, 'Call': 1.0, 'Import': 1.0, 'Use': 1.0}}
+  old: {'src': 5, 'dest': 4, 'values': {'Call': 1.0, 'Import': 1.0, 'Contain': 1.0}}
+  new: {'src': 3, 'dest': 4, 'values': {'Cast': 2.0, 'Return': 1.0, 'Parameter': 1.0}}
+  old: {'src': 5, 'dest': 6, 'values': {'Call': 2.0, 'Use': 1.0, 'Contain': 1.0}}
+  new: {'src': 5, 'dest': 4, 'values': {'Call': 1.0, 'Import': 1.0, 'Contain': 1.0}}
+  old: {'src': 9, 'dest': 3, 'values': {'Call': 2.0, 'Import': 1.0, 'Parameter': 2.0}}
+  new: {'src': 5, 'dest': 6, 'values': {'Call': 3.0, 'Use': 1.0, 'Contain': 1.0}}
+  old: {'src': 9, 'dest': 4, 'values': {'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  new: {'src': 9, 'dest': 3, 'values': {'Call': 2.0, 'Import': 1.0, 'Parameter': 2.0}}
+  old: {'src': 4, 'dest': 3, 'values': {'Return': 1.0, 'Contain': 1.0}}
+  new: {'src': 9, 'dest': 4, 'values': {'Import': 1.0}}
+  old: {'src': 0, 'dest': 3, 'values': {'Cast': 6.0, 'Call': 3.0, 'Return': 2.0, 'Use': 3.0, 'Contain': 3.0}}
+  new: {'src': 4, 'dest': 3, 'values': {'Return': 1.0, 'Contain': 1.0}}
+  old: {'src': 0, 'dest': 2, 'values': {'Cast': 4.0, 'Call': 2.0, 'Use': 2.0, 'Contain': 2.0}}
+  new: {'src': 0, 'dest': 3, 'values': {'Cast': 6.0, 'Call': 3.0, 'Return': 2.0, 'Use': 3.0, 'Contain': 3.0}}
+  old: {'src': 2, 'dest': 4, 'values': {'Use': 3.0, 'Parameter': 3.0, 'Contain': 1.0}}
+  new: {'src': 0, 'dest': 2, 'values': {'Cast': 4.0, 'Call': 2.0, 'Use': 2.0, 'Contain': 2.0}}

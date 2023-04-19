@@ -1,0 +1,1 @@
+['D:\\desktop\\git-data\\depends\\d24751ef175b659308407c2f736ce52e7734d064\\old\\src\\main\\java\\depends\\extractor\\pythonPythonImportLookupStrategy.java', 'D:\\desktop\\git-data\\depends\\d24751ef175b659308407c2f736ce52e7734d064\\old\\src\\main\\java\\depends\\relationsInferer.java']

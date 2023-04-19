@@ -1,14 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\192c5468900d3e159d0c1a633621d985e95d570e\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\192c5468900d3e159d0c1a633621d985e95d570e\\new\\src\\main\\java\\depends\\utilTemporaryFile.java" ],
-  "cells" : [ {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Use" : 1.0
-    }
-  } ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\0b82d62bc4ae4654adacde93509845d43bf5ae17\\old\\src\\main\\java\\depends\\entityFileEntity.java" ],
+  "cells" : [ ]
 }

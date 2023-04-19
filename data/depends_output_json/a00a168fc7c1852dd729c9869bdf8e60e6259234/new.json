@@ -1,6 +1,16 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\old\\src\\main\\java\\depends\\entityAliasEntity.java", "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\old\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\old\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java" ],
-  "cells" : [ ]
+  "variables" : [ "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\new\\src\\main\\java\\depends\\entityAliasEntity.java", "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\new\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\new\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 2.0,
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Contain" : 1.0
+    }
+  } ]
 }

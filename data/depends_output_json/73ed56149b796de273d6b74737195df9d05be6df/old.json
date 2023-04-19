@@ -1,32 +1,25 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\9e18a0c54d88fb6c260a5571c43700dd5e439e67\\new\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\9e18a0c54d88fb6c260a5571c43700dd5e439e67\\new\\src\\main\\java\\depends\\entity\\typesFileEntity.java", "D:\\desktop\\git-data\\depends\\9e18a0c54d88fb6c260a5571c43700dd5e439e67\\new\\src\\main\\java\\depends\\entity\\typesFunctionEntity.java", "D:\\desktop\\git-data\\depends\\9e18a0c54d88fb6c260a5571c43700dd5e439e67\\new\\src\\main\\java\\depends\\extractor\\javaJavaEntitiesListener.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\73ed56149b796de273d6b74737195df9d05be6df\\old\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\73ed56149b796de273d6b74737195df9d05be6df\\old\\src\\main\\java\\depends\\utilConfigure.java" ],
   "cells" : [ {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Cast" : 3.0,
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Use" : 2.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 2,
-    "values" : {
-      "Import" : 1.0,
-      "Return" : 2.0,
-      "Use" : 2.0,
-      "Contain" : 4.0
-    }
-  }, {
-    "src" : 3,
+    "src" : 1,
     "dest" : 0,
     "values" : {
       "Import" : 1.0,
+      "Return" : 1.0,
       "Use" : 1.0,
-      "Parameter" : 1.0
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 1,
+    "values" : {
+      "Call" : 13.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
     }
   } ]
 }

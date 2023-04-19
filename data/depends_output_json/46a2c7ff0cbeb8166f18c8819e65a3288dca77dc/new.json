@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entityRelationCounter.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entityTypeInfer.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entity\\typesTypeAliasEntity.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entity\\typesVarEntity.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractorImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtExpressionUsage.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandler.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\javaJavaImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\main\\java\\depends\\entityRelationCounter.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\main\\java\\depends\\entityTypeInfer.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\main\\java\\depends\\entity\\typesTypeAliasEntity.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\main\\java\\depends\\entity\\typesVarEntity.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\main\\java\\depends\\extractorImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtExpressionUsage.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandler.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\main\\java\\depends\\extractor\\javaJavaImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\new\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java" ],
   "cells" : [ {
     "src" : 4,
     "dest" : 12,
@@ -15,7 +15,7 @@
     "dest" : 3,
     "values" : {
       "Call" : 2.0,
-      "Use" : 10.0,
+      "Use" : 14.0,
       "Parameter" : 2.0
     }
   }, {
@@ -27,13 +27,21 @@
       "Parameter" : 4.0
     }
   }, {
+    "src" : 12,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Return" : 1.0
+    }
+  }, {
     "src" : 6,
     "dest" : 3,
     "values" : {
       "Call" : 1.0,
-      "Import" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 1.0
+      "Import" : 2.0,
+      "Use" : 3.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 6,
@@ -56,8 +64,10 @@
     "dest" : 3,
     "values" : {
       "Call" : 1.0,
-      "Import" : 1.0,
-      "Parameter" : 1.0
+      "Import" : 2.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 1,
@@ -68,12 +78,26 @@
       "Contain" : 1.0
     }
   }, {
+    "src" : 7,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Return" : 1.0
+    }
+  }, {
     "src" : 2,
     "dest" : 1,
     "values" : {
-      "Call" : 1.0,
-      "Use" : 1.0,
+      "Call" : 2.0,
+      "Use" : 4.0,
       "Contain" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 4,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 4.0
     }
   }, {
     "src" : 2,
@@ -82,13 +106,6 @@
       "Cast" : 2.0,
       "Call" : 4.0,
       "Parameter" : 1.0
-    }
-  }, {
-    "src" : 7,
-    "dest" : 4,
-    "values" : {
-      "Import" : 1.0,
-      "Parameter" : 4.0
     }
   }, {
     "src" : 2,
@@ -118,10 +135,13 @@
       "Contain" : 2.0
     }
   }, {
-    "src" : 3,
-    "dest" : 0,
+    "src" : 8,
+    "dest" : 3,
     "values" : {
-      "Parameter" : 1.0
+      "Import" : 1.0,
+      "Return" : 1.0,
+      "Use" : 1.0,
+      "Contain" : 2.0
     }
   }, {
     "src" : 9,
@@ -163,14 +183,11 @@
       "Contain" : 1.0
     }
   }, {
-    "src" : 4,
-    "dest" : 0,
+    "src" : 9,
+    "dest" : 3,
     "values" : {
-      "Cast" : 4.0,
-      "Call" : 2.0,
       "Import" : 1.0,
-      "Use" : 3.0,
-      "Parameter" : 2.0
+      "Use" : 4.0
     }
   }, {
     "src" : 9,
@@ -181,6 +198,16 @@
       "Use" : 2.0,
       "Parameter" : 1.0,
       "Contain" : 1.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 4.0,
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Use" : 2.0,
+      "Parameter" : 1.0
     }
   }, {
     "src" : 9,
@@ -195,17 +222,14 @@
     "src" : 4,
     "dest" : 3,
     "values" : {
+      "Call" : 8.0,
       "Import" : 1.0,
-      "Use" : 3.0,
-      "Implement" : 1.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 2,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0
+      "Return" : 10.0,
+      "Create" : 8.0,
+      "Use" : 11.0,
+      "Implement" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 5.0
     }
   }, {
     "src" : 13,
@@ -215,6 +239,14 @@
       "Import" : 1.0,
       "Create" : 5.0,
       "Contain" : 5.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 2,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Create" : 1.0
     }
   }, {
     "src" : 0,
@@ -248,17 +280,19 @@
     "dest" : 3,
     "values" : {
       "Call" : 5.0,
-      "Use" : 6.0,
-      "Parameter" : 3.0
+      "Import" : 1.0,
+      "Use" : 8.0,
+      "Parameter" : 3.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 4,
     "dest" : 6,
     "values" : {
-      "Cast" : 4.0,
-      "Call" : 2.0,
+      "Cast" : 2.0,
+      "Call" : 1.0,
       "Import" : 1.0,
-      "Use" : 2.0
+      "Use" : 1.0
     }
   }, {
     "src" : 0,

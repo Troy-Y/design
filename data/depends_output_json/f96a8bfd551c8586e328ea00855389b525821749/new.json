@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entityGenericName.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\javaJavaProcessor.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\pomPomProcessor.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\test\\java\\depends\\extractor\\pomEntityExtractTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\new\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\new\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\new\\src\\main\\java\\depends\\entityGenericName.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\new\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\new\\src\\main\\java\\depends\\extractor\\javaJavaProcessor.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\new\\src\\main\\java\\depends\\extractor\\pomPomProcessor.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\new\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\new\\src\\test\\java\\depends\\extractor\\pomEntityExtractTest.java" ],
   "cells" : [ {
     "src" : 6,
     "dest" : 7,
@@ -38,6 +38,19 @@
     }
   }, {
     "src" : 6,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0
+    }
+  }, {
+    "src" : 6,
     "dest" : 1,
     "values" : {
       "Call" : 18.0,
@@ -46,13 +59,6 @@
       "Use" : 12.0,
       "Parameter" : 12.0,
       "Contain" : 16.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 0,
-    "values" : {
-      "Import" : 3.0,
-      "Use" : 3.0
     }
   }, {
     "src" : 3,
@@ -82,6 +88,16 @@
     }
   }, {
     "src" : 7,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 7,
     "dest" : 6,
     "values" : {
       "Use" : 1.0,
@@ -102,7 +118,7 @@
       "Call" : 3.0,
       "Import" : 1.0,
       "Use" : 2.0,
-      "Parameter" : 3.0,
+      "Parameter" : 4.0,
       "Contain" : 11.0
     }
   }, {

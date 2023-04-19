@@ -1,0 +1,1 @@
+['D:\\desktop\\git-data\\depends\\65c0b0c4055b0c16ac00850488ab68600ac7ff44\\old\\src\\main\\java\\depends\\extractorHandlerContext.java', 'D:\\desktop\\git-data\\depends\\65c0b0c4055b0c16ac00850488ab68600ac7ff44\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java']
