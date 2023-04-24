@@ -1,1 +1,2 @@
-['D:\\desktop\\git-data\\depends\\03ff920f60c1088290aa287da24a8d71912fcc61\\old\\src\\main\\java\\depends\\format\\detailUnsolvedSymbolDumper.java', 'D:\\desktop\\git-data\\depends\\03ff920f60c1088290aa287da24a8d71912fcc61\\old\\src\\main\\java\\depends\\relationsInferer.java']
+0.UnsolvedSymbolDumper.java
+1.Inferer.java

@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\extractor\\emptyEmptyImportLookupStategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\extractor\\javaJavaImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\extractor\\pythonPythonImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\relationsImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\relationsInferer.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\Main.javaMain.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.javaCppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\extractor\\empty\\EmptyImportLookupStategy.javaEmptyImportLookupStategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\extractor\\java\\JavaImportLookupStrategy.javaJavaImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java" ],
   "cells" : [ {
     "src" : 8,
     "dest" : 1,
@@ -82,18 +82,18 @@
       "Implement" : 1.0
     }
   }, {
-    "src" : 5,
-    "dest" : 8,
-    "values" : {
-      "Import" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
     "src" : 3,
     "dest" : 7,
     "values" : {
       "Import" : 1.0,
       "Implement" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 8,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 1.0
     }
   }, {
     "src" : 7,
@@ -144,18 +144,18 @@
       "Contain" : 1.0
     }
   }, {
-    "src" : 2,
-    "dest" : 7,
-    "values" : {
-      "Import" : 1.0,
-      "Return" : 1.0
-    }
-  }, {
     "src" : 6,
     "dest" : 8,
     "values" : {
       "Import" : 1.0,
       "Parameter" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 7,
+    "values" : {
+      "Import" : 1.0,
+      "Return" : 1.0
     }
   }, {
     "src" : 4,

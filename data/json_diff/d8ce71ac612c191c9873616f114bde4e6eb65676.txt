@@ -1,1 +1,2 @@
-['D:\\desktop\\git-data\\depends\\d8ce71ac612c191c9873616f114bde4e6eb65676\\old\\src\\main\\java\\depends\\entityVarEntity.java', 'D:\\desktop\\git-data\\depends\\d8ce71ac612c191c9873616f114bde4e6eb65676\\old\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java']
+0.VarEntity.java
+1.PythonImportTest.java

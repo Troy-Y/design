@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\8fcd25200e5fdde5f09fd81f5aadd68c5bd16546\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\8fcd25200e5fdde5f09fd81f5aadd68c5bd16546\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\8fcd25200e5fdde5f09fd81f5aadd68c5bd16546\\new\\src\\main\\java\\depends\\extractor\\pythonPython3CodeListener.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\8fcd25200e5fdde5f09fd81f5aadd68c5bd16546\\new\\src\\main\\java\\depends\\Main.javaMain.java", "D:\\desktop\\git-data\\depends\\8fcd25200e5fdde5f09fd81f5aadd68c5bd16546\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java", "D:\\desktop\\git-data\\depends\\8fcd25200e5fdde5f09fd81f5aadd68c5bd16546\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java" ],
   "cells" : [ ]
 }

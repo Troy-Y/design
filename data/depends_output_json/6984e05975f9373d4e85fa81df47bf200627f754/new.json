@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\entityFileEntity.java", "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\extractor\\pomPomFileParser.java", "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\extractor\\pythonPythonFileParser.java", "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyFileParser.java", "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\relationsRelationCounter.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java", "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.javaPomFileParser.java", "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.javaPythonFileParser.java", "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.javaJRubyFileParser.java", "D:\\desktop\\git-data\\depends\\6984e05975f9373d4e85fa81df47bf200627f754\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 0,

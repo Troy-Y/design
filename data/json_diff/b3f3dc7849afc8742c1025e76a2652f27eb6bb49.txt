@@ -1,1 +1,9 @@
-['D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\dependsDependsCommand.java', 'D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\dependsMain.java', 'D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\matrixDependencyMatrix.java', 'D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\matrixMatrixLevelShinker.java', 'D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\matrixOrderedMatrixGenerator.java']
+0.DependsCommand.java
+1.Main.java
+2.DependencyMatrix.java
+3.MatrixLevelShinker.java
+4.OrderedMatrixGenerator.java
+  old: {'src': 1, 'dest': 3, 'values': {'Call': 2.0, 'Import': 1.0, 'Create': 1.0}}
+  new: {'src': 4, 'dest': 2, 'values': {'Call': 6.0, 'Return': 1.0, 'Use': 1.0, 'Create': 1.0, 'Parameter': 1.0, 'Contain': 2.0}}
+  old: {'src': 4, 'dest': 2, 'values': {'Call': 6.0, 'Return': 1.0, 'Use': 1.0, 'Create': 1.0, 'Parameter': 1.0, 'Contain': 2.0}}
+  new: {'src': 1, 'dest': 3, 'values': {'Call': 2.0, 'Import': 1.0, 'Create': 1.0}}

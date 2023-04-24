@@ -1,10 +1,30 @@
-['D:\\desktop\\git-data\\depends\\b6da2c64b7cdcebbedc7b8b1563c85593bd078be\\old\\src\\main\\java\\depends\\entityFileEntity.java', 'D:\\desktop\\git-data\\depends\\b6da2c64b7cdcebbedc7b8b1563c85593bd078be\\old\\src\\main\\java\\depends\\entityFunctionEntity.java', 'D:\\desktop\\git-data\\depends\\b6da2c64b7cdcebbedc7b8b1563c85593bd078be\\old\\src\\main\\java\\depends\\entityVarEntity.java', 'D:\\desktop\\git-data\\depends\\b6da2c64b7cdcebbedc7b8b1563c85593bd078be\\old\\src\\main\\java\\depends\\entity\\repoBuiltInType.java', 'D:\\desktop\\git-data\\depends\\b6da2c64b7cdcebbedc7b8b1563c85593bd078be\\old\\src\\main\\java\\depends\\entity\\repoNullBuiltInType.java', 'D:\\desktop\\git-data\\depends\\b6da2c64b7cdcebbedc7b8b1563c85593bd078be\\old\\src\\main\\java\\depends\\extractorHandlerContext.java', 'D:\\desktop\\git-data\\depends\\b6da2c64b7cdcebbedc7b8b1563c85593bd078be\\old\\src\\main\\java\\depends\\extractor\\cppCppBuiltInType.java', 'D:\\desktop\\git-data\\depends\\b6da2c64b7cdcebbedc7b8b1563c85593bd078be\\old\\src\\main\\java\\depends\\extractor\\javaJavaBuiltInType.java', 'D:\\desktop\\git-data\\depends\\b6da2c64b7cdcebbedc7b8b1563c85593bd078be\\old\\src\\main\\java\\depends\\extractor\\rubyRubyBuiltInType.java', 'D:\\desktop\\git-data\\depends\\b6da2c64b7cdcebbedc7b8b1563c85593bd078be\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java', 'D:\\desktop\\git-data\\depends\\b6da2c64b7cdcebbedc7b8b1563c85593bd078be\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java', 'D:\\desktop\\git-data\\depends\\b6da2c64b7cdcebbedc7b8b1563c85593bd078be\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyRubyParserHelper.java', 'D:\\desktop\\git-data\\depends\\b6da2c64b7cdcebbedc7b8b1563c85593bd078be\\old\\src\\main\\java\\depends\\relationsInferer.java']
+0.FileEntity.java
+1.FunctionEntity.java
+2.VarEntity.java
+3.BuiltInType.java
+4.NullBuiltInType.java
+5.HandlerContext.java
+6.CppBuiltInType.java
+7.JavaBuiltInType.java
+8.RubyBuiltInType.java
+9.ExpressionUsage.java
+10.JRubyVisitor.java
+11.RubyParserHelper.java
+12.Inferer.java
   old: {'src': 12, 'dest': 0, 'values': {'Cast': 3.0, 'Import': 1.0, 'Use': 2.0, 'Parameter': 1.0}}
   new: {'src': 12, 'dest': 0, 'values': {'Cast': 5.0, 'Call': 2.0, 'Import': 1.0, 'Use': 3.0, 'Parameter': 2.0, 'Contain': 1.0}}
-  old: {'src': 1, 'dest': 2, 'values': {'Call': 1.0, 'Return': 1.0, 'Use': 1.0, 'Parameter': 2.0, 'Contain': 2.0}}
-  new: {'src': 1, 'dest': 12, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 2.0, 'Parameter': 1.0}}
   old: {'src': 1, 'dest': 12, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 2.0, 'Parameter': 1.0}}
   new: {'src': 1, 'dest': 2, 'values': {'Call': 2.0, 'Return': 2.0, 'Use': 1.0, 'Parameter': 2.0, 'Contain': 3.0}}
+  old: {'src': 1, 'dest': 2, 'values': {'Call': 1.0, 'Return': 1.0, 'Use': 1.0, 'Parameter': 2.0, 'Contain': 2.0}}
+  new: {'src': 1, 'dest': 12, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 2.0, 'Parameter': 1.0}}
+  old: {'src': 1, 'dest': 0, 'values': {'Cast': 1.0, 'Use': 1.0, 'Contain': 1.0}}
+  new: {'src': 12, 'dest': 4, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
+  old: {'src': 12, 'dest': 4, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
+  new: {'src': 1, 'dest': 0, 'values': {'Cast': 1.0, 'Use': 1.0, 'Contain': 1.0}}
+  old: {'src': 6, 'dest': 3, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 1.0}}
+  new: {'src': 12, 'dest': 3, 'values': {'Call': 3.0, 'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  old: {'src': 12, 'dest': 3, 'values': {'Call': 3.0, 'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  new: {'src': 6, 'dest': 3, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 1.0}}
   old: {'src': 5, 'dest': 0, 'values': {'Cast': 2.0, 'Call': 2.0, 'Import': 1.0, 'Return': 2.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   new: {'src': 12, 'dest': 2, 'values': {'Import': 1.0, 'Parameter': 1.0}}
   old: {'src': 5, 'dest': 1, 'values': {'Cast': 3.0, 'Call': 5.0, 'Import': 1.0, 'Return': 3.0, 'Create': 2.0, 'Contain': 2.0}}
@@ -27,9 +47,9 @@
   new: {'src': 10, 'dest': 2, 'values': {'Cast': 2.0, 'Call': 1.0, 'Import': 1.0, 'Contain': 1.0}}
   old: {'src': 9, 'dest': 1, 'values': {'Import': 1.0, 'Contain': 1.0}}
   new: {'src': 8, 'dest': 3, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 1.0}}
-  old: {'src': 9, 'dest': 12, 'values': {'Import': 1.0, 'Use': 9.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  new: {'src': 5, 'dest': 12, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
   old: {'src': 9, 'dest': 2, 'values': {'Import': 1.0, 'Contain': 1.0}}
+  new: {'src': 5, 'dest': 12, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  old: {'src': 9, 'dest': 12, 'values': {'Import': 1.0, 'Use': 9.0, 'Parameter': 1.0, 'Contain': 1.0}}
   new: {'src': 2, 'dest': 12, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 2.0, 'Parameter': 2.0}}
   old: {'src': 9, 'dest': 11, 'values': {'Call': 9.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
   new: {'src': 10, 'dest': 9, 'values': {'Call': 2.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
@@ -40,4 +60,4 @@
   old: {'src': 4, 'dest': 3, 'values': {'Extend': 1.0}}
   new: {'src': 9, 'dest': 2, 'values': {'Import': 1.0, 'Contain': 1.0}}
   old: {'src': 3, 'dest': 12, 'values': {'Import': 1.0, 'Use': 2.0}}
-  new: {'src': 9, 'dest': 11, 'values': {'Call': 10.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  new: {'src': 10, 'dest': 11, 'values': {'Call': 12.0, 'Use': 1.0, 'Contain': 1.0}}

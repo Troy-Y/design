@@ -1,4 +1,9 @@
-['D:\\desktop\\git-data\\depends\\37e47836910002a4e254fb5f7a5a9e85d3d202ad\\old\\src\\main\\java\\depends\\deptypesDependencyType.java', 'D:\\desktop\\git-data\\depends\\37e47836910002a4e254fb5f7a5a9e85d3d202ad\\old\\src\\main\\java\\depends\\generatorDependencyGenerator.java', 'D:\\desktop\\git-data\\depends\\37e47836910002a4e254fb5f7a5a9e85d3d202ad\\old\\src\\main\\java\\depends\\generatorFileDependencyGenerator.java', 'D:\\desktop\\git-data\\depends\\37e47836910002a4e254fb5f7a5a9e85d3d202ad\\old\\src\\main\\java\\depends\\generatorFunctionDependencyGenerator.java', 'D:\\desktop\\git-data\\depends\\37e47836910002a4e254fb5f7a5a9e85d3d202ad\\old\\src\\main\\java\\depends\\generatorStructureDependencyGenerator.java', 'D:\\desktop\\git-data\\depends\\37e47836910002a4e254fb5f7a5a9e85d3d202ad\\old\\src\\main\\java\\depends\\matrix\\coreDependencyMatrix.java']
+0.DependencyType.java
+1.DependencyGenerator.java
+2.FileDependencyGenerator.java
+3.FunctionDependencyGenerator.java
+4.StructureDependencyGenerator.java
+5.DependencyMatrix.java
   old: {'src': 2, 'dest': 1, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 6.0}}
   new: {'src': 2, 'dest': 1, 'values': {'Extend': 1.0, 'Use': 2.0}}
   old: {'src': 3, 'dest': 1, 'values': {'Call': 1.0, 'Extend': 1.0, 'Use': 3.0}}

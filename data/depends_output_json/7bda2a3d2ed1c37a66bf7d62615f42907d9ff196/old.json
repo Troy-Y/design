@@ -1,15 +1,8 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\extractor\\emptyEmptyImportLookupStategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\extractor\\javaJavaImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\extractor\\pythonPythonImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\relationsImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\relationsInferer.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\Main.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\entity\\Entity.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\extractor\\empty\\EmptyImportLookupStategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\extractor\\java\\JavaImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\7bda2a3d2ed1c37a66bf7d62615f42907d9ff196\\old\\src\\main\\java\\depends\\relations\\Inferer.java" ],
   "cells" : [ {
-    "src" : 6,
-    "dest" : 7,
-    "values" : {
-      "Import" : 1.0,
-      "Implement" : 1.0
-    }
-  }, {
     "src" : 8,
     "dest" : 1,
     "values" : {
@@ -19,6 +12,13 @@
       "Use" : 11.0,
       "Parameter" : 11.0,
       "Contain" : 16.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 7,
+    "values" : {
+      "Import" : 1.0,
+      "Implement" : 1.0
     }
   }, {
     "src" : 3,
@@ -67,13 +67,6 @@
       "Parameter" : 1.0
     }
   }, {
-    "src" : 5,
-    "dest" : 7,
-    "values" : {
-      "Import" : 1.0,
-      "Implement" : 1.0
-    }
-  }, {
     "src" : 3,
     "dest" : 8,
     "values" : {
@@ -82,6 +75,13 @@
       "Parameter" : 1.0
     }
   }, {
+    "src" : 5,
+    "dest" : 7,
+    "values" : {
+      "Import" : 1.0,
+      "Implement" : 1.0
+    }
+  }, {
     "src" : 3,
     "dest" : 7,
     "values" : {
@@ -96,14 +96,14 @@
       "Parameter" : 1.0
     }
   }, {
-    "src" : 4,
+    "src" : 7,
     "dest" : 1,
     "values" : {
       "Import" : 1.0,
       "Return" : 1.0
     }
   }, {
-    "src" : 7,
+    "src" : 4,
     "dest" : 1,
     "values" : {
       "Import" : 1.0,
@@ -144,18 +144,18 @@
       "Contain" : 1.0
     }
   }, {
-    "src" : 6,
-    "dest" : 8,
-    "values" : {
-      "Import" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
     "src" : 2,
     "dest" : 7,
     "values" : {
       "Import" : 1.0,
       "Return" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 8,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 1.0
     }
   }, {
     "src" : 4,

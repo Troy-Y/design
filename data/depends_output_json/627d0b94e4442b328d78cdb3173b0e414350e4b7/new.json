@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\627d0b94e4442b328d78cdb3173b0e414350e4b7\\new\\src\\main\\java\\dependsDependsCommand.java", "D:\\desktop\\git-data\\depends\\627d0b94e4442b328d78cdb3173b0e414350e4b7\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\627d0b94e4442b328d78cdb3173b0e414350e4b7\\new\\src\\main\\java\\depends\\format\\jsonJCellObject.java", "D:\\desktop\\git-data\\depends\\627d0b94e4442b328d78cdb3173b0e414350e4b7\\new\\src\\main\\java\\depends\\format\\jsonJDataBuilder.java", "D:\\desktop\\git-data\\depends\\627d0b94e4442b328d78cdb3173b0e414350e4b7\\new\\src\\main\\java\\depends\\generatorDependencyGenerator.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\627d0b94e4442b328d78cdb3173b0e414350e4b7\\new\\src\\main\\java\\depends\\DependsCommand.javaDependsCommand.java", "D:\\desktop\\git-data\\depends\\627d0b94e4442b328d78cdb3173b0e414350e4b7\\new\\src\\main\\java\\depends\\Main.javaMain.java", "D:\\desktop\\git-data\\depends\\627d0b94e4442b328d78cdb3173b0e414350e4b7\\new\\src\\main\\java\\depends\\format\\json\\JCellObject.javaJCellObject.java", "D:\\desktop\\git-data\\depends\\627d0b94e4442b328d78cdb3173b0e414350e4b7\\new\\src\\main\\java\\depends\\format\\json\\JDataBuilder.javaJDataBuilder.java", "D:\\desktop\\git-data\\depends\\627d0b94e4442b328d78cdb3173b0e414350e4b7\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 4,

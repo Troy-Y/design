@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\3cc5f49916278bbee16c90c01c2b08160616fde8\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandler.java", "D:\\desktop\\git-data\\depends\\3cc5f49916278bbee16c90c01c2b08160616fde8\\old\\src\\test\\java\\depends\\extractor\\cppIncludeRelationTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\3cc5f49916278bbee16c90c01c2b08160616fde8\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.java", "D:\\desktop\\git-data\\depends\\3cc5f49916278bbee16c90c01c2b08160616fde8\\old\\src\\test\\java\\depends\\extractor\\cpp\\IncludeRelationTest.java" ],
   "cells" : [ ]
 }

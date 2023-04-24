@@ -1,16 +1,8 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entityCandidateTypes.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\pythonExpressionUsage.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\pythonPython3CodeListener.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\utilFileUtil.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\CandidateTypes.javaCandidateTypes.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.javaExpressionUsage.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\util\\FileUtil.javaFileUtil.java", "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java" ],
   "cells" : [ {
-    "src" : 6,
-    "dest" : 7,
-    "values" : {
-      "Call" : 9.0,
-      "Import" : 1.0,
-      "Use" : 9.0
-    }
-  }, {
     "src" : 1,
     "dest" : 3,
     "values" : {
@@ -18,6 +10,14 @@
       "Use" : 13.0,
       "Parameter" : 3.0,
       "Contain" : 3.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 7,
+    "values" : {
+      "Call" : 9.0,
+      "Import" : 1.0,
+      "Use" : 9.0
     }
   }, {
     "src" : 1,

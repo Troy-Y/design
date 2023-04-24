@@ -1,1 +1,1 @@
-['D:\\desktop\\git-data\\depends\\ac667382e1c7de19897e263e07f5130bf7babb7c\\old\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java']
+0.CppImportLookupStrategy.java

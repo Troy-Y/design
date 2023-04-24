@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\6bd17bb8eaabfe6e1a18cd3fc41d463f85a13d1d\\new\\src\\main\\java\\depends\\extractor\\python\\unionExpressionUsage.java", "D:\\desktop\\git-data\\depends\\6bd17bb8eaabfe6e1a18cd3fc41d463f85a13d1d\\new\\src\\test\\java\\depends\\extractor\\pythonPythonClassAssignmentTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\6bd17bb8eaabfe6e1a18cd3fc41d463f85a13d1d\\new\\src\\main\\java\\depends\\extractor\\python\\union\\ExpressionUsage.javaExpressionUsage.java", "D:\\desktop\\git-data\\depends\\6bd17bb8eaabfe6e1a18cd3fc41d463f85a13d1d\\new\\src\\test\\java\\depends\\extractor\\python\\PythonClassAssignmentTest.javaPythonClassAssignmentTest.java" ],
   "cells" : [ ]
 }

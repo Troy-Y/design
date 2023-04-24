@@ -1,13 +1,23 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\dependsDependsCommand.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\generatorDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\coreDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\transformMatrixLevelReducer.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\transformOrderedMatrixGenerator.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\test\\java\\depends\\format\\jsonJsonFormatDependencyDumperTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\DependsCommand.javaDependsCommand.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\Main.javaMain.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.javaDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\transform\\MatrixLevelReducer.javaMatrixLevelReducer.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\transform\\OrderedMatrixGenerator.javaOrderedMatrixGenerator.java", "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\test\\java\\depends\\format\\json\\JsonFormatDependencyDumperTest.javaJsonFormatDependencyDumperTest.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 3,
     "values" : {
       "Import" : 1.0,
       "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Call" : 6.0,
+      "Import" : 1.0,
+      "Use" : 2.0,
+      "Parameter" : 2.0,
+      "Contain" : 2.0
     }
   }, {
     "src" : 2,
@@ -18,16 +28,6 @@
       "Return" : 2.0,
       "Use" : 1.0,
       "Create" : 1.0,
-      "Contain" : 2.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 6.0,
-      "Import" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 2.0,
       "Contain" : 2.0
     }
   }, {

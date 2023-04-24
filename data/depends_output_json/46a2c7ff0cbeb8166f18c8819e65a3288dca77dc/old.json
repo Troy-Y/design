@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entityRelationCounter.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entityTypeInfer.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entity\\typesTypeAliasEntity.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entity\\typesVarEntity.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractorImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtExpressionUsage.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandler.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\javaJavaImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entity\\Expression.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entity\\RelationCounter.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entity\\TypeInfer.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entity\\types\\TypeAliasEntity.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\entity\\types\\VarEntity.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\ImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ExpressionUsage.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\main\\java\\depends\\extractor\\java\\JavaImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\46a2c7ff0cbeb8166f18c8819e65a3288dca77dc\\old\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.java" ],
   "cells" : [ {
     "src" : 4,
     "dest" : 12,
@@ -76,14 +76,6 @@
       "Contain" : 1.0
     }
   }, {
-    "src" : 2,
-    "dest" : 0,
-    "values" : {
-      "Cast" : 2.0,
-      "Call" : 4.0,
-      "Parameter" : 1.0
-    }
-  }, {
     "src" : 7,
     "dest" : 4,
     "values" : {
@@ -92,9 +84,17 @@
     }
   }, {
     "src" : 2,
+    "dest" : 0,
+    "values" : {
+      "Cast" : 2.0,
+      "Call" : 4.0,
+      "Parameter" : 1.0
+    }
+  }, {
+    "src" : 2,
     "dest" : 6,
     "values" : {
-      "Call" : 3.0,
+      "Call" : 6.0,
       "Import" : 1.0,
       "Contain" : 2.0
     }
@@ -174,21 +174,21 @@
     }
   }, {
     "src" : 9,
+    "dest" : 10,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 9,
     "dest" : 4,
     "values" : {
       "Call" : 2.0,
       "Import" : 1.0,
       "Use" : 2.0,
       "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 9,
-    "dest" : 10,
-    "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
       "Contain" : 1.0
     }
   }, {
@@ -200,14 +200,6 @@
       "Implement" : 1.0
     }
   }, {
-    "src" : 4,
-    "dest" : 2,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
     "src" : 13,
     "dest" : 4,
     "values" : {
@@ -215,6 +207,14 @@
       "Import" : 1.0,
       "Create" : 5.0,
       "Contain" : 5.0
+    }
+  }, {
+    "src" : 4,
+    "dest" : 2,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Create" : 1.0
     }
   }, {
     "src" : 0,

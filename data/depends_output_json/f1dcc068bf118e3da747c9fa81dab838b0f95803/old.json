@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entityMultiDeclareEntities.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repoInMemoryEntityRepo.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cppCppHandlerContext.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCppVisitor.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\test\\java\\depends\\extractor\\cppForwardDeclareTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\MultiDeclareEntities.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppHandlerContext.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\relations\\Inferer.java", "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\test\\java\\depends\\extractor\\cpp\\ForwardDeclareTest.java" ],
   "cells" : [ {
     "src" : 6,
     "dest" : 7,
@@ -22,6 +22,12 @@
       "Contain" : 1.0
     }
   }, {
+    "src" : 6,
+    "dest" : 3,
+    "values" : {
+      "Call" : 31.0
+    }
+  }, {
     "src" : 3,
     "dest" : 1,
     "values" : {
@@ -30,12 +36,6 @@
       "Use" : 6.0,
       "Parameter" : 1.0,
       "Contain" : 1.0
-    }
-  }, {
-    "src" : 6,
-    "dest" : 3,
-    "values" : {
-      "Call" : 31.0
     }
   }, {
     "src" : 6,
@@ -72,17 +72,17 @@
       "Contain" : 1.0
     }
   }, {
+    "src" : 2,
+    "dest" : 1,
+    "values" : {
+      "Implement" : 1.0
+    }
+  }, {
     "src" : 0,
     "dest" : 7,
     "values" : {
       "Import" : 1.0,
       "Parameter" : 1.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 1,
-    "values" : {
-      "Implement" : 1.0
     }
   }, {
     "src" : 2,
@@ -105,6 +105,14 @@
       "Contain" : 1.0
     }
   }, {
+    "src" : 4,
+    "dest" : 1,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
     "src" : 7,
     "dest" : 1,
     "values" : {
@@ -113,14 +121,6 @@
       "Use" : 1.0,
       "Parameter" : 1.0,
       "Contain" : 1.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 1,
-    "values" : {
-      "Call" : 3.0,
-      "Import" : 1.0,
-      "Parameter" : 1.0
     }
   }, {
     "src" : 4,

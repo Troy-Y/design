@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\7c73166c8a304f72fcd110424d570ce17be2ee18\\old\\src\\main\\java\\dependsDependsCommand.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\7c73166c8a304f72fcd110424d570ce17be2ee18\\old\\src\\main\\java\\depends\\DependsCommand.java" ],
   "cells" : [ ]
 }

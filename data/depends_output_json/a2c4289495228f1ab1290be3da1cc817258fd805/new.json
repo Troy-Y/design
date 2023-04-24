@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\a2c4289495228f1ab1290be3da1cc817258fd805\\new\\src\\main\\java\\depends\\matrix\\coreDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\a2c4289495228f1ab1290be3da1cc817258fd805\\new\\src\\main\\java\\depends\\matrix\\transformOrderedMatrixGenerator.java", "D:\\desktop\\git-data\\depends\\a2c4289495228f1ab1290be3da1cc817258fd805\\new\\src\\test\\java\\depends\\format\\jsonJsonFormatDependencyDumperTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\a2c4289495228f1ab1290be3da1cc817258fd805\\new\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.javaDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\a2c4289495228f1ab1290be3da1cc817258fd805\\new\\src\\main\\java\\depends\\matrix\\transform\\OrderedMatrixGenerator.javaOrderedMatrixGenerator.java", "D:\\desktop\\git-data\\depends\\a2c4289495228f1ab1290be3da1cc817258fd805\\new\\src\\test\\java\\depends\\format\\json\\JsonFormatDependencyDumperTest.javaJsonFormatDependencyDumperTest.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 0,

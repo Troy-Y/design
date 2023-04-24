@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\70a678537832952f5bf42e6c44372a60e63821ab\\old\\src\\main\\java\\depends\\extractor\\pomPomCoords.java", "D:\\desktop\\git-data\\depends\\70a678537832952f5bf42e6c44372a60e63821ab\\old\\src\\main\\java\\depends\\extractor\\pomPomListener.java", "D:\\desktop\\git-data\\depends\\70a678537832952f5bf42e6c44372a60e63821ab\\old\\src\\main\\java\\depends\\extractor\\pomPomParent.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\70a678537832952f5bf42e6c44372a60e63821ab\\old\\src\\main\\java\\depends\\extractor\\pom\\PomCoords.java", "D:\\desktop\\git-data\\depends\\70a678537832952f5bf42e6c44372a60e63821ab\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java", "D:\\desktop\\git-data\\depends\\70a678537832952f5bf42e6c44372a60e63821ab\\old\\src\\main\\java\\depends\\extractor\\pom\\PomParent.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 0,

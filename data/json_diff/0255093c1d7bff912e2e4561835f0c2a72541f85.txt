@@ -1,4 +1,13 @@
-['D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\old\\src\\main\\java\\depends\\deptypesDependencyType.java', 'D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\old\\src\\main\\java\\depends\\entityExpression.java', 'D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\old\\src\\main\\java\\depends\\entityRelationCounter.java', 'D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\old\\src\\main\\java\\depends\\extractorAbstractLangWorker.java', 'D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\old\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java', 'D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\old\\src\\main\\java\\depends\\format\\matrixDependencyMatrix.java', 'D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\old\\src\\main\\java\\depends\\format\\xmlXDepObject.java', 'D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\old\\src\\main\\java\\depends\\utilConfigure.java', 'D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\old\\src\\test\\java\\depends\\extractor\\javaProductionErrorReproducer.java', 'D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\old\\src\\test\\resources\\java-code-examplesMaze.java']
+0.DependencyType.java
+1.Expression.java
+2.RelationCounter.java
+3.AbstractLangWorker.java
+4.ExpressionUsage.java
+5.DependencyMatrix.java
+6.XDepObject.java
+7.Configure.java
+8.ProductionErrorReproducer.java
+9.Maze.java
   old: {'src': 2, 'dest': 1, 'values': {'Use': 9.0, 'Contain': 1.0}}
   new: {'src': 7, 'dest': 3, 'values': {'Import': 1.0, 'Return': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
   old: {'src': 7, 'dest': 3, 'values': {'Import': 1.0, 'Return': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}

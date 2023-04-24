@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\8a5e41b6fffda85f642c62d91a3918e5487e4643\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCDTParser.java", "D:\\desktop\\git-data\\depends\\8a5e41b6fffda85f642c62d91a3918e5487e4643\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtGPPParserExtensionConfigurationExtension.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\8a5e41b6fffda85f642c62d91a3918e5487e4643\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.java", "D:\\desktop\\git-data\\depends\\8a5e41b6fffda85f642c62d91a3918e5487e4643\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\GPPParserExtensionConfigurationExtension.java" ],
   "cells" : [ {
     "src" : 0,
     "dest" : 1,

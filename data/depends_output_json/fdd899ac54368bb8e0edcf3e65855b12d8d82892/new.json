@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\entityGenericName.java", "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\entity\\repoInMemoryEntityRepo.java", "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java", "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\test\\java\\depends\\extractor\\cppCppParserTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\Main.javaMain.java", "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\entity\\GenericName.javaGenericName.java", "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.javaInMemoryEntityRepo.java", "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.javaCppProcessor.java", "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 1,

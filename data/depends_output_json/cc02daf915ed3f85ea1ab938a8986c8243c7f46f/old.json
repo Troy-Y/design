@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\cc02daf915ed3f85ea1ab938a8986c8243c7f46f\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\cc02daf915ed3f85ea1ab938a8986c8243c7f46f\\old\\src\\main\\java\\depends\\extractor\\javaJavaFileParser.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\cc02daf915ed3f85ea1ab938a8986c8243c7f46f\\old\\src\\main\\java\\depends\\Main.java", "D:\\desktop\\git-data\\depends\\cc02daf915ed3f85ea1ab938a8986c8243c7f46f\\old\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.java" ],
   "cells" : [ ]
 }

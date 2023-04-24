@@ -1,17 +1,27 @@
-['D:\\desktop\\git-data\\depends\\a447c227972f3eff0425e4931efb3ebd500d1fe2\\old\\src\\main\\java\\depends\\deptypesDependencyType.java', 'D:\\desktop\\git-data\\depends\\a447c227972f3eff0425e4931efb3ebd500d1fe2\\old\\src\\main\\java\\depends\\entityEntity.java', 'D:\\desktop\\git-data\\depends\\a447c227972f3eff0425e4931efb3ebd500d1fe2\\old\\src\\main\\java\\depends\\entity\\typesAnonymousBlock.java', 'D:\\desktop\\git-data\\depends\\a447c227972f3eff0425e4931efb3ebd500d1fe2\\old\\src\\main\\java\\depends\\entity\\typesFileEntity.java', 'D:\\desktop\\git-data\\depends\\a447c227972f3eff0425e4931efb3ebd500d1fe2\\old\\src\\main\\java\\depends\\entity\\typesFunctionEntity.java', 'D:\\desktop\\git-data\\depends\\a447c227972f3eff0425e4931efb3ebd500d1fe2\\old\\src\\main\\java\\depends\\entity\\typesPackageEntity.java', 'D:\\desktop\\git-data\\depends\\a447c227972f3eff0425e4931efb3ebd500d1fe2\\old\\src\\main\\java\\depends\\entity\\typesTypeEntity.java', 'D:\\desktop\\git-data\\depends\\a447c227972f3eff0425e4931efb3ebd500d1fe2\\old\\src\\main\\java\\depends\\extractorGenericHandler.java', 'D:\\desktop\\git-data\\depends\\a447c227972f3eff0425e4931efb3ebd500d1fe2\\old\\src\\main\\java\\depends\\extractorHandlerContext.java', 'D:\\desktop\\git-data\\depends\\a447c227972f3eff0425e4931efb3ebd500d1fe2\\old\\src\\main\\java\\depends\\extractor\\javaJavaAdapterListener.java', 'D:\\desktop\\git-data\\depends\\a447c227972f3eff0425e4931efb3ebd500d1fe2\\old\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java', 'D:\\desktop\\git-data\\depends\\a447c227972f3eff0425e4931efb3ebd500d1fe2\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java', 'D:\\desktop\\git-data\\depends\\a447c227972f3eff0425e4931efb3ebd500d1fe2\\old\\src\\test\\resources\\java-code-examplesFieldAccessInferExample.java']
+0.DependencyType.java
+1.Entity.java
+2.AnonymousBlock.java
+3.FileEntity.java
+4.FunctionEntity.java
+5.PackageEntity.java
+6.TypeEntity.java
+7.GenericHandler.java
+8.HandlerContext.java
+9.JavaAdapterListener.java
+10.ExpressionUsage.java
+11.JavaVarResolveTest.java
+12.FieldAccessInferExample.java
   old: {'src': 1, 'dest': 4, 'values': {'Import': 1.0, 'Use': 1.0, 'Parameter': 2.0}}
   new: {'src': 1, 'dest': 4, 'values': {'Import': 1.0}}
   old: {'src': 8, 'dest': 1, 'values': {'Call': 15.0, 'Import': 1.0, 'Return': 7.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 9.0}}
   new: {'src': 8, 'dest': 1, 'values': {'Call': 5.0, 'Import': 1.0, 'Return': 5.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 10.0}}
   old: {'src': 3, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0}}
-  new: {'src': 8, 'dest': 5, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}
-  old: {'src': 8, 'dest': 5, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}
   new: {'src': 10, 'dest': 0, 'values': {'Import': 1.0}}
   old: {'src': 10, 'dest': 0, 'values': {'Import': 1.0, 'Use': 2.0}}
   new: {'src': 8, 'dest': 3, 'values': {'Cast': 2.0, 'Call': 4.0, 'Import': 1.0, 'Return': 2.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  old: {'src': 6, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0}}
-  new: {'src': 5, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0}}
   old: {'src': 8, 'dest': 3, 'values': {'Cast': 2.0, 'Call': 4.0, 'Import': 1.0, 'Return': 2.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 5, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0}}
+  old: {'src': 6, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0}}
   new: {'src': 7, 'dest': 8, 'values': {'Call': 3.0, 'Return': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   old: {'src': 5, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0}}
   new: {'src': 10, 'dest': 8, 'values': {'Call': 5.0}}
@@ -25,9 +35,9 @@
   new: {'src': 11, 'dest': 1, 'values': {'Import': 1.0, 'Contain': 1.0}}
   old: {'src': 7, 'dest': 0, 'values': {'Import': 1.0, 'Use': 2.0}}
   new: {'src': 7, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  old: {'src': 7, 'dest': 1, 'values': {'Call': 2.0, 'Import': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  new: {'src': 9, 'dest': 10, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   old: {'src': 4, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0}}
+  new: {'src': 9, 'dest': 10, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 7, 'dest': 1, 'values': {'Call': 2.0, 'Import': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
   new: {'src': 8, 'dest': 6, 'values': {'Cast': 6.0, 'Call': 1.0, 'Import': 1.0, 'Return': 1.0, 'Create': 1.0, 'Use': 2.0, 'Contain': 1.0}}
   old: {'src': 11, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Contain': 1.0}}
   new: {'src': 11, 'dest': 6, 'values': {'Cast': 2.0, 'Import': 1.0, 'Use': 2.0}}

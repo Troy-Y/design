@@ -1,4 +1,27 @@
-['D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\dependsMain.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\entityExpression.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractorHandlerContext.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppEntitiesListener.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppFileParser.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtCppHandlerContext.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtExpressionUsage.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractor\\javaJavaEntitiesListener.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractor\\javaJavaFileParser.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractor\\javaJavaProcessor.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractor\\rubyRubyBuiltInType.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractor\\rubyRubyProcessor.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyFileParser.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\formatDependencyDumper.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\format\\pathDotPathFilenameWritter.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\format\\pathEmptyFilenameWritter.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\matrixDependencyMatrix.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\matrixFilenameWritter.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\relationsImportLookupStrategy.java', 'D:\\desktop\\git-data\\depends\\688be131883243dadff572e351c0bc4a04e2ab88\\old\\src\\main\\java\\depends\\relationsInferer.java']
+0.Main.java
+1.Expression.java
+2.AbstractLangProcessor.java
+3.HandlerContext.java
+4.CppProcessor.java
+5.CdtCppEntitiesListener.java
+6.CdtCppFileParser.java
+7.CppHandlerContext.java
+8.ExpressionUsage.java
+9.JavaEntitiesListener.java
+10.JavaFileParser.java
+11.JavaProcessor.java
+12.ExpressionUsage.java
+13.RubyBuiltInType.java
+14.RubyProcessor.java
+15.ExpressionUsage.java
+16.JRubyFileParser.java
+17.DependencyDumper.java
+18.DotPathFilenameWritter.java
+19.EmptyFilenameWritter.java
+20.DependencyMatrix.java
+21.FilenameWritter.java
+22.ImportLookupStrategy.java
+23.Inferer.java
   old: {'src': 14, 'dest': 23, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}
   new: {'src': 11, 'dest': 22, 'values': {'Import': 1.0, 'Return': 1.0}}
   old: {'src': 11, 'dest': 23, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}
@@ -11,48 +34,48 @@
   new: {'src': 12, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Return': 1.0, 'Create': 1.0, 'Use': 36.0, 'Parameter': 1.0, 'Contain': 2.0}}
   old: {'src': 12, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Return': 1.0, 'Create': 1.0, 'Use': 37.0, 'Parameter': 1.0, 'Contain': 2.0}}
   new: {'src': 14, 'dest': 22, 'values': {'Import': 1.0, 'Return': 1.0}}
-  old: {'src': 5, 'dest': 23, 'values': {'Import': 1.0, 'Use': 5.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  new: {'src': 10, 'dest': 12, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   old: {'src': 5, 'dest': 3, 'values': {'Call': 28.0}}
+  new: {'src': 10, 'dest': 12, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 5, 'dest': 23, 'values': {'Import': 1.0, 'Use': 5.0, 'Parameter': 1.0, 'Contain': 1.0}}
   new: {'src': 5, 'dest': 2, 'values': {'Call': 2.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 3.0}}
   old: {'src': 2, 'dest': 20, 'values': {'Call': 1.0, 'Import': 1.0, 'Return': 1.0, 'Contain': 1.0}}
   new: {'src': 5, 'dest': 22, 'values': {'Import': 1.0, 'Return': 1.0}}
   old: {'src': 2, 'dest': 23, 'values': {'Call': 1.0, 'Import': 1.0, 'Contain': 1.0}}
   new: {'src': 2, 'dest': 21, 'values': {'Call': 1.0, 'Import': 1.0, 'Return': 1.0, 'Contain': 1.0}}
   old: {'src': 17, 'dest': 20, 'values': {'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  new: {'src': 17, 'dest': 21, 'values': {'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  old: {'src': 5, 'dest': 6, 'values': {'Call': 2.0, 'Create': 1.0, 'Contain': 1.0}}
   new: {'src': 2, 'dest': 23, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 5, 'dest': 6, 'values': {'Call': 2.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 17, 'dest': 21, 'values': {'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
   old: {'src': 5, 'dest': 7, 'values': {'Call': 2.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   new: {'src': 5, 'dest': 6, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
   old: {'src': 5, 'dest': 8, 'values': {'Call': 3.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 7, 'dest': 8, 'values': {'Call': 3.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  old: {'src': 7, 'dest': 3, 'values': {'Call': 2.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 3.0}}
   new: {'src': 2, 'dest': 22, 'values': {'Import': 1.0, 'Return': 1.0}}
+  old: {'src': 7, 'dest': 3, 'values': {'Call': 2.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 3.0}}
+  new: {'src': 7, 'dest': 8, 'values': {'Call': 3.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   old: {'src': 19, 'dest': 21, 'values': {'Import': 1.0, 'Implement': 1.0}}
   new: {'src': 7, 'dest': 3, 'values': {'Call': 28.0}}
   old: {'src': 11, 'dest': 2, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 4.0}}
-  new: {'src': 7, 'dest': 4, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  old: {'src': 0, 'dest': 20, 'values': {'Call': 2.0}}
   new: {'src': 19, 'dest': 20, 'values': {'Implement': 1.0}}
+  old: {'src': 0, 'dest': 20, 'values': {'Call': 2.0}}
+  new: {'src': 7, 'dest': 4, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   old: {'src': 0, 'dest': 21, 'values': {'Import': 1.0, 'Contain': 1.0}}
   new: {'src': 11, 'dest': 2, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 2.0}}
-  old: {'src': 16, 'dest': 23, 'values': {'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  new: {'src': 7, 'dest': 6, 'values': {'Call': 2.0, 'Create': 1.0, 'Contain': 1.0}}
   old: {'src': 6, 'dest': 23, 'values': {'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  new: {'src': 7, 'dest': 6, 'values': {'Call': 2.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 16, 'dest': 23, 'values': {'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
   new: {'src': 0, 'dest': 20, 'values': {'Import': 1.0, 'Contain': 1.0}}
   old: {'src': 14, 'dest': 16, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
-  new: {'src': 9, 'dest': 23, 'values': {'Import': 1.0, 'Parameter': 1.0}}
-  old: {'src': 4, 'dest': 23, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}
   new: {'src': 0, 'dest': 21, 'values': {'Call': 2.0}}
+  old: {'src': 4, 'dest': 23, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}
+  new: {'src': 9, 'dest': 23, 'values': {'Import': 1.0, 'Parameter': 1.0}}
   old: {'src': 8, 'dest': 1, 'values': {'Call': 2.0, 'Import': 1.0, 'Return': 1.0, 'Create': 2.0, 'Use': 30.0, 'Parameter': 1.0, 'Contain': 3.0}}
   new: {'src': 21, 'dest': 20, 'values': {'Call': 1.0, 'Import': 1.0, 'Parameter': 1.0}}
   old: {'src': 14, 'dest': 13, 'values': {'Call': 1.0, 'Create': 1.0}}
   new: {'src': 6, 'dest': 23, 'values': {'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
   old: {'src': 1, 'dest': 23, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 14.0, 'Parameter': 4.0}}
-  new: {'src': 14, 'dest': 16, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
-  old: {'src': 11, 'dest': 10, 'values': {'Call': 1.0, 'Create': 1.0}}
   new: {'src': 16, 'dest': 23, 'values': {'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  old: {'src': 11, 'dest': 10, 'values': {'Call': 1.0, 'Create': 1.0}}
+  new: {'src': 14, 'dest': 16, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
   old: {'src': 15, 'dest': 3, 'values': {'Call': 6.0, 'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
   new: {'src': 11, 'dest': 9, 'values': {'Call': 1.0, 'Create': 1.0}}
   old: {'src': 18, 'dest': 21, 'values': {'Import': 1.0, 'Implement': 1.0}}
@@ -63,15 +86,15 @@
   new: {'src': 7, 'dest': 23, 'values': {'Import': 1.0, 'Use': 5.0, 'Parameter': 1.0, 'Contain': 1.0}}
   old: {'src': 10, 'dest': 23, 'values': {'Import': 1.0, 'Parameter': 1.0}}
   new: {'src': 1, 'dest': 23, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 14.0, 'Parameter': 4.0}}
-  old: {'src': 15, 'dest': 1, 'values': {'Call': 2.0, 'Import': 1.0, 'Return': 3.0, 'Use': 21.0, 'Create': 1.0, 'Contain': 2.0}}
-  new: {'src': 15, 'dest': 3, 'values': {'Call': 6.0, 'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
   old: {'src': 15, 'dest': 23, 'values': {'Import': 1.0, 'Use': 3.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  new: {'src': 15, 'dest': 3, 'values': {'Call': 6.0, 'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  old: {'src': 15, 'dest': 1, 'values': {'Call': 2.0, 'Import': 1.0, 'Return': 3.0, 'Use': 21.0, 'Create': 1.0, 'Contain': 2.0}}
   new: {'src': 18, 'dest': 20, 'values': {'Implement': 1.0}}
   old: {'src': 0, 'dest': 17, 'values': {'Call': 2.0, 'Import': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   new: {'src': 8, 'dest': 3, 'values': {'Call': 5.0, 'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  old: {'src': 10, 'dest': 9, 'values': {'Call': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 15, 'dest': 23, 'values': {'Import': 1.0, 'Use': 3.0, 'Parameter': 1.0, 'Contain': 1.0}}
   old: {'src': 0, 'dest': 18, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}
+  new: {'src': 15, 'dest': 23, 'values': {'Import': 1.0, 'Use': 3.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  old: {'src': 10, 'dest': 9, 'values': {'Call': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   new: {'src': 15, 'dest': 1, 'values': {'Call': 2.0, 'Import': 1.0, 'Return': 3.0, 'Use': 20.0, 'Create': 1.0, 'Contain': 2.0}}
   old: {'src': 0, 'dest': 19, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
   new: {'src': 0, 'dest': 17, 'values': {'Call': 2.0, 'Import': 1.0, 'Create': 1.0, 'Contain': 1.0}}
@@ -84,8 +107,8 @@
   old: {'src': 0, 'dest': 11, 'values': {'Import': 1.0}}
   new: {'src': 9, 'dest': 10, 'values': {'Call': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   old: {'src': 14, 'dest': 2, 'values': {'Call': 2.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 6.0}}
-  new: {'src': 4, 'dest': 3, 'values': {'Call': 2.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 3.0}}
-  old: {'src': 4, 'dest': 2, 'values': {'Call': 2.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 5.0}}
   new: {'src': 14, 'dest': 2, 'values': {'Call': 2.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 4.0}}
-  old: {'src': 0, 'dest': 2, 'values': {'Call': 6.0, 'Import': 1.0, 'Contain': 1.0}}
+  old: {'src': 4, 'dest': 2, 'values': {'Call': 2.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 5.0}}
+  new: {'src': 4, 'dest': 3, 'values': {'Call': 2.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 3.0}}
+  old: {'src': 4, 'dest': 6, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
   new: {'src': 0, 'dest': 2, 'values': {'Call': 5.0, 'Import': 1.0, 'Contain': 1.0}}

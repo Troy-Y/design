@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\27f1206a1aab12fc321a4993bc6b199789f767d5\\new\\src\\main\\java\\dependsDependsCommand.java", "D:\\desktop\\git-data\\depends\\27f1206a1aab12fc321a4993bc6b199789f767d5\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\27f1206a1aab12fc321a4993bc6b199789f767d5\\new\\src\\main\\java\\depends\\generatorDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\27f1206a1aab12fc321a4993bc6b199789f767d5\\new\\src\\main\\java\\depends\\generatorFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\27f1206a1aab12fc321a4993bc6b199789f767d5\\new\\src\\main\\java\\depends\\generatorFunctionDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\27f1206a1aab12fc321a4993bc6b199789f767d5\\new\\src\\main\\java\\depends\\generatorStructureDependencyGenerator.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\27f1206a1aab12fc321a4993bc6b199789f767d5\\new\\src\\main\\java\\depends\\DependsCommand.javaDependsCommand.java", "D:\\desktop\\git-data\\depends\\27f1206a1aab12fc321a4993bc6b199789f767d5\\new\\src\\main\\java\\depends\\Main.javaMain.java", "D:\\desktop\\git-data\\depends\\27f1206a1aab12fc321a4993bc6b199789f767d5\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\27f1206a1aab12fc321a4993bc6b199789f767d5\\new\\src\\main\\java\\depends\\generator\\FileDependencyGenerator.javaFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\27f1206a1aab12fc321a4993bc6b199789f767d5\\new\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.javaFunctionDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\27f1206a1aab12fc321a4993bc6b199789f767d5\\new\\src\\main\\java\\depends\\generator\\StructureDependencyGenerator.javaStructureDependencyGenerator.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 4,
@@ -31,13 +31,6 @@
       "Contain" : 2.0
     }
   }, {
-    "src" : 3,
-    "dest" : 2,
-    "values" : {
-      "Extend" : 1.0,
-      "Use" : 2.0
-    }
-  }, {
     "src" : 1,
     "dest" : 0,
     "values" : {
@@ -48,10 +41,11 @@
       "Contain" : 1.0
     }
   }, {
-    "src" : 5,
+    "src" : 3,
     "dest" : 2,
     "values" : {
-      "Extend" : 1.0
+      "Extend" : 1.0,
+      "Use" : 2.0
     }
   }, {
     "src" : 4,
@@ -59,6 +53,12 @@
     "values" : {
       "Extend" : 1.0,
       "Use" : 3.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 2,
+    "values" : {
+      "Extend" : 1.0
     }
   }, {
     "src" : 1,

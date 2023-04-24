@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\57c503c3c73449ea92cc6724d5ee4b31560cf138\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\57c503c3c73449ea92cc6724d5ee4b31560cf138\\old\\src\\main\\java\\depends\\utilFileTraversal.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\57c503c3c73449ea92cc6724d5ee4b31560cf138\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\57c503c3c73449ea92cc6724d5ee4b31560cf138\\old\\src\\main\\java\\depends\\util\\FileTraversal.java" ],
   "cells" : [ {
     "src" : 0,
     "dest" : 1,

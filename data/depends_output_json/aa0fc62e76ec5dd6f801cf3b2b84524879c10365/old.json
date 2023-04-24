@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\aa0fc62e76ec5dd6f801cf3b2b84524879c10365\\old\\src\\main\\java\\depends\\entityFunctionEntity.java", "D:\\desktop\\git-data\\depends\\aa0fc62e76ec5dd6f801cf3b2b84524879c10365\\old\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java", "D:\\desktop\\git-data\\depends\\aa0fc62e76ec5dd6f801cf3b2b84524879c10365\\old\\src\\main\\java\\depends\\relationsRelationCounter.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\aa0fc62e76ec5dd6f801cf3b2b84524879c10365\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java", "D:\\desktop\\git-data\\depends\\aa0fc62e76ec5dd6f801cf3b2b84524879c10365\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java", "D:\\desktop\\git-data\\depends\\aa0fc62e76ec5dd6f801cf3b2b84524879c10365\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 0,

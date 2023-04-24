@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\main\\java\\depends\\extractor\\javaJavaListener.java", "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\main\\java\\depends\\extractor\\java\\contextAnnotationProcessor.java", "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractorParserTest.java", "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\javaJavaAnnotationParserTest.java", "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\javaJavaParserTest.java", "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\resources\\java-code-examplesAnnotationTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java", "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\main\\java\\depends\\extractor\\java\\JavaListener.javaJavaListener.java", "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.javaAnnotationProcessor.java", "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\ParserTest.javaParserTest.java", "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.javaJavaAnnotationParserTest.java", "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java", "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\resources\\java-code-examples\\AnnotationTest.javaAnnotationTest.java" ],
   "cells" : [ {
     "src" : 4,
     "dest" : 3,
@@ -17,13 +17,6 @@
       "Use" : 15.0
     }
   }, {
-    "src" : 5,
-    "dest" : 3,
-    "values" : {
-      "Import" : 1.0,
-      "Extend" : 1.0
-    }
-  }, {
     "src" : 1,
     "dest" : 2,
     "values" : {
@@ -32,6 +25,13 @@
       "Use" : 1.0,
       "Create" : 1.0,
       "Contain" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 3,
+    "values" : {
+      "Import" : 1.0,
+      "Extend" : 1.0
     }
   } ]
 }

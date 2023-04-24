@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cppCppProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\emptyEmptyImportLookupStategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\golangGoImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\golangGoProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\javaJavaImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\javaJavaProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\kotlinKotlinProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\pomPomImportLookupStategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\pomPomProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\pythonBasePythonProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\pythonPythonImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\rubyRubyImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\rubyRubyProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relationsImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\cppCppParserTest.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\golangGolangParserTest.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\javaJavaParserTest.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\rubyRubyParserTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\empty\\EmptyImportLookupStategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\golang\\GoImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\golang\\GoProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\java\\JavaImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\pom\\PomImportLookupStategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\python\\BasePythonProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\golang\\GolangParserTest.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.java", "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java" ],
   "cells" : [ {
     "src" : 17,
     "dest" : 1,
@@ -100,13 +100,6 @@
       "Return" : 1.0
     }
   }, {
-    "src" : 19,
-    "dest" : 6,
-    "values" : {
-      "Call" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
     "src" : 7,
     "dest" : 0,
     "values" : {
@@ -114,6 +107,13 @@
       "Import" : 1.0,
       "Extend" : 1.0,
       "Use" : 2.0
+    }
+  }, {
+    "src" : 19,
+    "dest" : 6,
+    "values" : {
+      "Call" : 1.0,
+      "Create" : 1.0
     }
   }, {
     "src" : 11,
@@ -124,18 +124,18 @@
       "Extend" : 1.0
     }
   }, {
-    "src" : 16,
-    "dest" : 0,
-    "values" : {
-      "Import" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
     "src" : 11,
     "dest" : 15,
     "values" : {
       "Import" : 1.0,
       "Return" : 1.0
+    }
+  }, {
+    "src" : 16,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 1.0
     }
   }, {
     "src" : 1,
@@ -195,6 +195,13 @@
       "Contain" : 1.0
     }
   }, {
+    "src" : 3,
+    "dest" : 16,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 1.0
+    }
+  }, {
     "src" : 10,
     "dest" : 0,
     "values" : {
@@ -202,13 +209,6 @@
       "Import" : 1.0,
       "Extend" : 1.0,
       "Use" : 2.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 16,
-    "values" : {
-      "Import" : 1.0,
-      "Parameter" : 1.0
     }
   }, {
     "src" : 0,
@@ -238,11 +238,11 @@
       "Contain" : 1.0
     }
   }, {
-    "src" : 20,
-    "dest" : 13,
+    "src" : 5,
+    "dest" : 15,
     "values" : {
-      "Call" : 1.0,
-      "Create" : 1.0
+      "Import" : 1.0,
+      "Return" : 1.0
     }
   }, {
     "src" : 10,
@@ -252,11 +252,11 @@
       "Create" : 1.0
     }
   }, {
-    "src" : 5,
-    "dest" : 15,
+    "src" : 20,
+    "dest" : 13,
     "values" : {
-      "Import" : 1.0,
-      "Return" : 1.0
+      "Call" : 1.0,
+      "Create" : 1.0
     }
   }, {
     "src" : 2,
@@ -315,6 +315,14 @@
       "Implement" : 1.0
     }
   }, {
+    "src" : 8,
+    "dest" : 6,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
     "src" : 14,
     "dest" : 0,
     "values" : {
@@ -322,14 +330,6 @@
       "Import" : 1.0,
       "Extend" : 1.0,
       "Use" : 4.0
-    }
-  }, {
-    "src" : 8,
-    "dest" : 6,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0
     }
   }, {
     "src" : 18,

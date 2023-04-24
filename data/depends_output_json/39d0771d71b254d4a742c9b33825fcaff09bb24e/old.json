@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\39d0771d71b254d4a742c9b33825fcaff09bb24e\\old\\src\\main\\java\\depends\\formatDependencyDumper.java", "D:\\desktop\\git-data\\depends\\39d0771d71b254d4a742c9b33825fcaff09bb24e\\old\\src\\main\\java\\depends\\format\\excelExcelFormatDependencyDumper.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\39d0771d71b254d4a742c9b33825fcaff09bb24e\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java", "D:\\desktop\\git-data\\depends\\39d0771d71b254d4a742c9b33825fcaff09bb24e\\old\\src\\main\\java\\depends\\format\\excel\\ExcelFormatDependencyDumper.java" ],
   "cells" : [ {
     "src" : 0,
     "dest" : 1,

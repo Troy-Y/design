@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\54f62ce44ad8d8799f32ca9c8f9e9c8303285200\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\54f62ce44ad8d8799f32ca9c8f9e9c8303285200\\new\\src\\main\\java\\depends\\generatorDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\54f62ce44ad8d8799f32ca9c8f9e9c8303285200\\new\\src\\main\\java\\depends\\generatorFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\54f62ce44ad8d8799f32ca9c8f9e9c8303285200\\new\\src\\main\\java\\depends\\generatorFunctionDependencyGenerator.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\54f62ce44ad8d8799f32ca9c8f9e9c8303285200\\new\\src\\main\\java\\depends\\Main.javaMain.java", "D:\\desktop\\git-data\\depends\\54f62ce44ad8d8799f32ca9c8f9e9c8303285200\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\54f62ce44ad8d8799f32ca9c8f9e9c8303285200\\new\\src\\main\\java\\depends\\generator\\FileDependencyGenerator.javaFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\54f62ce44ad8d8799f32ca9c8f9e9c8303285200\\new\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.javaFunctionDependencyGenerator.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 1,

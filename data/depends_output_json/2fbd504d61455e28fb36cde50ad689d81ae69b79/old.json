@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\entity\\repoInMemoryEntityRepo.java", "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\generatorDependencyGenerator.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\Main.java", "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java", "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.java", "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 1,

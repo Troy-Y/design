@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\111602a07eff0a56d928a74b606a5742d5a9af18\\new\\src\\main\\java\\depends\\extractor\\python\\unionExpressionUsage.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\111602a07eff0a56d928a74b606a5742d5a9af18\\new\\src\\main\\java\\depends\\extractor\\python\\union\\ExpressionUsage.javaExpressionUsage.java" ],
   "cells" : [ ]
 }

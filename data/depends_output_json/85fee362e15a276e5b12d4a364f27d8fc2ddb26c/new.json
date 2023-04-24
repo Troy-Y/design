@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\85fee362e15a276e5b12d4a364f27d8fc2ddb26c\\new\\src\\main\\java\\depends\\relationsInferer.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\85fee362e15a276e5b12d4a364f27d8fc2ddb26c\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java" ],
   "cells" : [ ]
 }

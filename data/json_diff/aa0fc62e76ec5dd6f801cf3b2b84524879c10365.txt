@@ -1,1 +1,3 @@
-['D:\\desktop\\git-data\\depends\\aa0fc62e76ec5dd6f801cf3b2b84524879c10365\\old\\src\\main\\java\\depends\\entityFunctionEntity.java', 'D:\\desktop\\git-data\\depends\\aa0fc62e76ec5dd6f801cf3b2b84524879c10365\\old\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java', 'D:\\desktop\\git-data\\depends\\aa0fc62e76ec5dd6f801cf3b2b84524879c10365\\old\\src\\main\\java\\depends\\relationsRelationCounter.java']
+0.FunctionEntity.java
+1.RubyHandlerContext.java
+2.RelationCounter.java

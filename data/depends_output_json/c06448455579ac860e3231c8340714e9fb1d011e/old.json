@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\c06448455579ac860e3231c8340714e9fb1d011e\\old\\src\\test\\java\\depends\\extractor\\cppTypeDefTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\c06448455579ac860e3231c8340714e9fb1d011e\\old\\src\\test\\java\\depends\\extractor\\cpp\\TypeDefTest.java" ],
   "cells" : [ ]
 }

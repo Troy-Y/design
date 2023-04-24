@@ -1,12 +1,20 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\a7a5e763fe8b8606f488857d214fb2f17de8880a\\new\\src\\main\\java\\dependsDependsCommand.java", "D:\\desktop\\git-data\\depends\\a7a5e763fe8b8606f488857d214fb2f17de8880a\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\a7a5e763fe8b8606f488857d214fb2f17de8880a\\new\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\a7a5e763fe8b8606f488857d214fb2f17de8880a\\new\\src\\main\\java\\depends\\matrixDependencyMatrix.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\a7a5e763fe8b8606f488857d214fb2f17de8880a\\new\\src\\main\\java\\depends\\DependsCommand.javaDependsCommand.java", "D:\\desktop\\git-data\\depends\\a7a5e763fe8b8606f488857d214fb2f17de8880a\\new\\src\\main\\java\\depends\\Main.javaMain.java", "D:\\desktop\\git-data\\depends\\a7a5e763fe8b8606f488857d214fb2f17de8880a\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\a7a5e763fe8b8606f488857d214fb2f17de8880a\\new\\src\\main\\java\\depends\\matrix\\DependencyMatrix.javaDependencyMatrix.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 3,
     "values" : {
       "Call" : 2.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Call" : 6.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 2,
@@ -15,14 +23,6 @@
       "Call" : 1.0,
       "Import" : 1.0,
       "Return" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 6.0,
-      "Import" : 1.0,
       "Contain" : 1.0
     }
   }, {

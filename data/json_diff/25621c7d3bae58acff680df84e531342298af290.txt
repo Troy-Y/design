@@ -1,1 +1,4 @@
-['D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\pythonPythonGlobalVarTest.java', 'D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\pythonPythonObjectCreationTest.java', 'D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\pythonPythonObjectThrowReturn.java', 'D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\pythonPythonParserTest.java']
+0.PythonGlobalVarTest.java
+1.PythonObjectCreationTest.java
+2.PythonObjectThrowReturn.java
+3.PythonParserTest.java

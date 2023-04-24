@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\new\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\new\\src\\main\\java\\depends\\entityRelationCounter.java", "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\new\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java", "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java", "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\new\\src\\main\\java\\depends\\entity\\RelationCounter.javaRelationCounter.java", "D:\\desktop\\git-data\\depends\\77cc6f6c24fe3a65356102f66a6dd940056c93be\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.javaExpressionUsage.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 1,

@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\main\\java\\depends\\extractor\\pomPomListener.java", "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\main\\java\\depends\\extractor\\pomPomParent.java", "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\test\\java\\depends\\extractor\\mavenEntityExtractTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java", "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomParent.javaPomParent.java", "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\test\\java\\depends\\extractor\\maven\\EntityExtractTest.javaEntityExtractTest.java" ],
   "cells" : [ {
     "src" : 0,
     "dest" : 1,

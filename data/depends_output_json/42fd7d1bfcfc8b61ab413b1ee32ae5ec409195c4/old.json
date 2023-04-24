@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyExpressionUsage.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\test\\java\\depends\\extractorParserTest.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\test\\java\\depends\\extractor\\rubyRubyVarTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java", "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyVarTest.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 0,
@@ -13,15 +13,6 @@
       "Contain" : 1.0
     }
   }, {
-    "src" : 3,
-    "dest" : 2,
-    "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
     "src" : 1,
     "dest" : 0,
     "values" : {
@@ -29,6 +20,15 @@
       "Import" : 1.0,
       "Extend" : 1.0,
       "Use" : 3.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Call" : 2.0,
+      "Use" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 3,

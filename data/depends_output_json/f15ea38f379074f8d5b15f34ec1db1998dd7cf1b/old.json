@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\entityRelationCounter.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\extractor\\cppCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\format\\jsonJDataBuilder.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\format\\xmlXDataBuilder.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\utilConfigure.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\test\\java\\depends\\entityEntityResolveBindingsTest.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\test\\java\\depends\\format\\matrixFileDependencyGeneratorTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\Main.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\entity\\RelationCounter.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\format\\json\\JDataBuilder.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\main\\java\\depends\\util\\Configure.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\test\\java\\depends\\entity\\EntityResolveBindingsTest.java", "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\old\\src\\test\\java\\depends\\format\\matrix\\FileDependencyGeneratorTest.java" ],
   "cells" : [ {
     "src" : 7,
     "dest" : 3,
@@ -20,6 +20,13 @@
       "Use" : 26.0
     }
   }, {
+    "src" : 8,
+    "dest" : 1,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
     "src" : 6,
     "dest" : 7,
     "values" : {
@@ -27,13 +34,6 @@
       "Import" : 1.0,
       "Use" : 1.0,
       "Contain" : 1.0
-    }
-  }, {
-    "src" : 8,
-    "dest" : 1,
-    "values" : {
-      "Import" : 1.0,
-      "Use" : 2.0
     }
   }, {
     "src" : 9,

@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entityRelation.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entityTypeInfer.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\typesFileEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\typesFunctionEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\extractor\\javaJavaEntitiesListener.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\test\\resources\\java-code-examplesComplexExpressionExample.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\Entity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\Expression.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\Relation.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\TypeInfer.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\types\\FileEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\c2ea9d6bf49c95a87e859d57631ace024baef230\\old\\src\\test\\resources\\java-code-examples\\ComplexExpressionExample.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 4,
@@ -126,8 +126,7 @@
     "src" : 7,
     "dest" : 1,
     "values" : {
-      "Import" : 1.0,
-      "Parameter" : 1.0
+      "Import" : 1.0
     }
   }, {
     "src" : 2,

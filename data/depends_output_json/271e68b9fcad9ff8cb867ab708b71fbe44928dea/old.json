@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\271e68b9fcad9ff8cb867ab708b71fbe44928dea\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtASTStringUtilExt.java", "D:\\desktop\\git-data\\depends\\271e68b9fcad9ff8cb867ab708b71fbe44928dea\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdtTemplateParameterASTVisitor.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\271e68b9fcad9ff8cb867ab708b71fbe44928dea\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.java", "D:\\desktop\\git-data\\depends\\271e68b9fcad9ff8cb867ab708b71fbe44928dea\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\TemplateParameterASTVisitor.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 0,

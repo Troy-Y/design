@@ -1,8 +1,16 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\c3cf8f5b11ec32748fdcb7453dfe32ef97cd4c2c\\old\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\c3cf8f5b11ec32748fdcb7453dfe32ef97cd4c2c\\old\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\c3cf8f5b11ec32748fdcb7453dfe32ef97cd4c2c\\old\\src\\main\\java\\depends\\entity\\repoInMemoryEntityRepo.java", "D:\\desktop\\git-data\\depends\\c3cf8f5b11ec32748fdcb7453dfe32ef97cd4c2c\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\c3cf8f5b11ec32748fdcb7453dfe32ef97cd4c2c\\old\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\c3cf8f5b11ec32748fdcb7453dfe32ef97cd4c2c\\old\\src\\main\\java\\depends\\relationsRelationCounter.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\c3cf8f5b11ec32748fdcb7453dfe32ef97cd4c2c\\old\\src\\main\\java\\depends\\entity\\Entity.java", "D:\\desktop\\git-data\\depends\\c3cf8f5b11ec32748fdcb7453dfe32ef97cd4c2c\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java", "D:\\desktop\\git-data\\depends\\c3cf8f5b11ec32748fdcb7453dfe32ef97cd4c2c\\old\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.java", "D:\\desktop\\git-data\\depends\\c3cf8f5b11ec32748fdcb7453dfe32ef97cd4c2c\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\c3cf8f5b11ec32748fdcb7453dfe32ef97cd4c2c\\old\\src\\main\\java\\depends\\relations\\Inferer.java", "D:\\desktop\\git-data\\depends\\c3cf8f5b11ec32748fdcb7453dfe32ef97cd4c2c\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java" ],
   "cells" : [ {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Return" : 3.0,
+      "Parameter" : 2.0
+    }
+  }, {
     "src" : 3,
     "dest" : 2,
     "values" : {
@@ -10,14 +18,6 @@
       "Import" : 1.0,
       "Use" : 1.0,
       "Create" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 0,
-    "values" : {
-      "Import" : 1.0,
-      "Return" : 3.0,
-      "Parameter" : 2.0
     }
   }, {
     "src" : 3,

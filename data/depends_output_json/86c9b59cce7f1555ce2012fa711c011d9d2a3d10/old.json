@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\86c9b59cce7f1555ce2012fa711c011d9d2a3d10\\old\\src\\main\\java\\depends\\extractor\\cppCppImportLookupStrategy.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\86c9b59cce7f1555ce2012fa711c011d9d2a3d10\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java" ],
   "cells" : [ ]
 }

@@ -1,4 +1,15 @@
-['D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relationsInferer.java', 'D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonClassTest.java', 'D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonDecoratorTest.java', 'D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonFuncCallTest.java', 'D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonFunctionTest.java', 'D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java', 'D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonObjectCreationTest.java', 'D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonObjectThrowReturn.java', 'D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonParameterTypeDedudceTest.java', 'D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonPythonParserTest.java', 'D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonSelfShouldBeThisTypeTest.java', 'D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\pythonShouldGetRelationInSamePackageTest.java']
+0.Inferer.java
+1.PythonClassTest.java
+2.PythonDecoratorTest.java
+3.PythonFuncCallTest.java
+4.PythonFunctionTest.java
+5.PythonImportTest.java
+6.PythonObjectCreationTest.java
+7.PythonObjectThrowReturn.java
+8.PythonParameterTypeDedudceTest.java
+9.PythonParserTest.java
+10.SelfShouldBeThisTypeTest.java
+11.ShouldGetRelationInSamePackageTest.java
   old: {'src': 10, 'dest': 0, 'values': {'Call': 1.0}}
   new: {'src': 6, 'dest': 0, 'values': {'Call': 1.0}}
   old: {'src': 3, 'dest': 0, 'values': {'Call': 1.0}}

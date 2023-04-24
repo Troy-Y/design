@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\8891a1e63290fab0807651fad8884f9dee4bf4ff\\new\\src\\main\\java\\depends\\entityPackageEntity.java", "D:\\desktop\\git-data\\depends\\8891a1e63290fab0807651fad8884f9dee4bf4ff\\new\\src\\main\\java\\depends\\relationsInferer.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\8891a1e63290fab0807651fad8884f9dee4bf4ff\\new\\src\\main\\java\\depends\\entity\\PackageEntity.javaPackageEntity.java", "D:\\desktop\\git-data\\depends\\8891a1e63290fab0807651fad8884f9dee4bf4ff\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 0,

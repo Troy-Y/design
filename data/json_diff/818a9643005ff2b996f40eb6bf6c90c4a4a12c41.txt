@@ -1,1 +1,2 @@
-['D:\\desktop\\git-data\\depends\\818a9643005ff2b996f40eb6bf6c90c4a4a12c41\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java', 'D:\\desktop\\git-data\\depends\\818a9643005ff2b996f40eb6bf6c90c4a4a12c41\\old\\src\\test\\java\\depends\\extractor\\cppAliasTest.java']
+0.AbstractLangProcessor.java
+1.AliasTest.java

@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\old\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\old\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\old\\src\\main\\java\\depends\\extractor\\rubyRubyHandlerContext.java", "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\old\\src\\main\\java\\depends\\extractor\\ruby\\jrubyJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\old\\src\\test\\java\\depends\\extractor\\rubyRubyVarTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java", "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java", "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java", "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java", "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyVarTest.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 1,
@@ -20,16 +20,6 @@
       "Parameter" : 1.0
     }
   }, {
-    "src" : 1,
-    "dest" : 0,
-    "values" : {
-      "Call" : 4.0,
-      "Import" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
     "src" : 3,
     "dest" : 2,
     "values" : {
@@ -37,6 +27,16 @@
       "Import" : 1.0,
       "Use" : 1.0,
       "Create" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Call" : 4.0,
+      "Import" : 1.0,
+      "Use" : 2.0,
+      "Parameter" : 1.0,
       "Contain" : 1.0
     }
   }, {

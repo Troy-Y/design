@@ -1,1 +1,9 @@
-['D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\main\\java\\dependsLangRegister.java', 'D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\main\\java\\depends\\extractor\\kotlinKotlinListener.java', 'D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\main\\java\\depends\\extractor\\pomPomArtifactEntity.java', 'D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\main\\java\\depends\\extractor\\pythonExpressionUsage.java', 'D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\main\\java\\depends\\relationsRelationCounter.java', 'D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\test\\java\\depends\\extractorParserTest.java', 'D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\test\\java\\depends\\extractor\\pythonPythonClassTest.java', 'D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\test\\java\\depends\\extractor\\pythonPythonFunctionTest.java', 'D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\test\\java\\depends\\extractor\\pythonPythonImportTest.java']
+0.LangRegister.java
+1.KotlinListener.java
+2.PomArtifactEntity.java
+3.ExpressionUsage.java
+4.RelationCounter.java
+5.ParserTest.java
+6.PythonClassTest.java
+7.PythonFunctionTest.java
+8.PythonImportTest.java

@@ -1,1 +1,2 @@
-['D:\\desktop\\git-data\\depends\\ad3304fccba6662eb9a8fd3d3d428f95305d530a\\old\\src\\main\\java\\depends\\generatorFileDependencyGenerator.java', 'D:\\desktop\\git-data\\depends\\ad3304fccba6662eb9a8fd3d3d428f95305d530a\\old\\src\\main\\java\\depends\\generatorFunctionDependencyGenerator.java']
+0.FileDependencyGenerator.java
+1.FunctionDependencyGenerator.java

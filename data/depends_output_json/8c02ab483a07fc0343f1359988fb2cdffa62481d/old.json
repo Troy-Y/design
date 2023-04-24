@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\8c02ab483a07fc0343f1359988fb2cdffa62481d\\old\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\8c02ab483a07fc0343f1359988fb2cdffa62481d\\old\\src\\main\\java\\depends\\entityPackageEntity.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\8c02ab483a07fc0343f1359988fb2cdffa62481d\\old\\src\\main\\java\\depends\\entity\\Entity.java", "D:\\desktop\\git-data\\depends\\8c02ab483a07fc0343f1359988fb2cdffa62481d\\old\\src\\main\\java\\depends\\entity\\PackageEntity.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 0,

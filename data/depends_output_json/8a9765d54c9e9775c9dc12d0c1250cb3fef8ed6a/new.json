@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\8a9765d54c9e9775c9dc12d0c1250cb3fef8ed6a\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandler.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\8a9765d54c9e9775c9dc12d0c1250cb3fef8ed6a\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java" ],
   "cells" : [ ]
 }

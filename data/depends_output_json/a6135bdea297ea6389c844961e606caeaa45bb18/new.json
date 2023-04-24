@@ -1,16 +1,8 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entity\\typesFunctionEntity.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractorGenericHandler.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\javaJavaAdapterListener.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\javaJavaFileParser.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\javaJavaHandler.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\contextClassTypeContextHelper.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\contextFormalParameterListContextHelper.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\test\\resources\\java-code-examplesFieldAccessInferExample.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\test\\resources\\java-code-examplesLocalVarInferExample.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.javaFunctionEntity.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\GenericHandler.javaGenericHandler.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.javaJavaAdapterListener.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.javaJavaHandler.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.javaFormalParameterListContextHelper.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\test\\resources\\java-code-examples\\FieldAccessInferExample.javaFieldAccessInferExample.java", "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\test\\resources\\java-code-examples\\LocalVarInferExample.javaLocalVarInferExample.java" ],
   "cells" : [ {
-    "src" : 6,
-    "dest" : 2,
-    "values" : {
-      "Call" : 40.0,
-      "Import" : 1.0,
-      "Extend" : 1.0
-    }
-  }, {
     "src" : 1,
     "dest" : 0,
     "values" : {
@@ -20,9 +12,11 @@
     }
   }, {
     "src" : 6,
-    "dest" : 3,
+    "dest" : 2,
     "values" : {
-      "Call" : 21.0
+      "Call" : 40.0,
+      "Import" : 1.0,
+      "Extend" : 1.0
     }
   }, {
     "src" : 3,
@@ -33,6 +27,12 @@
       "Import" : 1.0,
       "Create" : 1.0,
       "Contain" : 2.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 3,
+    "values" : {
+      "Call" : 21.0
     }
   }, {
     "src" : 3,

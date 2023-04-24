@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\0015763f36796308409ae18dabf1546558d6b5de\\old\\src\\main\\java\\depends\\extractor\\pomPomArtifactEntity.java", "D:\\desktop\\git-data\\depends\\0015763f36796308409ae18dabf1546558d6b5de\\old\\src\\test\\java\\depends\\extractor\\pomEntityExtractTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\0015763f36796308409ae18dabf1546558d6b5de\\old\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.java", "D:\\desktop\\git-data\\depends\\0015763f36796308409ae18dabf1546558d6b5de\\old\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 0,

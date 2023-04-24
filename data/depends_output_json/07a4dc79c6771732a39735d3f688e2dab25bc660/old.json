@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entityCandidateTypes.java", "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entityDecoratedEntity.java", "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entityFunctionEntity.java", "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entityGenericName.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\CandidateTypes.java", "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java", "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java", "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java", "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\GenericName.java" ],
   "cells" : [ {
     "src" : 1,
     "dest" : 4,

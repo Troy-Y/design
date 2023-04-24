@@ -1,1 +1,1 @@
-['D:\\desktop\\git-data\\depends\\2f0724800b1a1808db7ad18db917480eeea8fe81\\old\\src\\main\\java\\depends\\relationsBindingResolver.java']
+0.BindingResolver.java

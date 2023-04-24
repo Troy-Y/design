@@ -1,1 +1,2 @@
-['D:\\desktop\\git-data\\depends\\a468b34326c2c9bb38f046acba12293c2ef7b863\\old\\src\\main\\java\\depends\\entityAliasEntity.java', 'D:\\desktop\\git-data\\depends\\a468b34326c2c9bb38f046acba12293c2ef7b863\\old\\src\\main\\java\\depends\\entityTypeEntity.java']
+0.AliasEntity.java
+1.TypeEntity.java

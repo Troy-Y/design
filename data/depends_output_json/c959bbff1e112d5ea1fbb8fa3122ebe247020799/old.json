@@ -1,16 +1,8 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\old\\src\\main\\java\\dependsDependsCommand.java", "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\old\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\old\\src\\main\\java\\depends\\matrixFileDependencyGenerator.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\old\\src\\main\\java\\depends\\DependsCommand.java", "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\old\\src\\main\\java\\depends\\Main.java", "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\old\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.java" ],
   "cells" : [ {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 3.0,
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
     "src" : 2,
     "dest" : 3,
     "values" : {
@@ -18,6 +10,14 @@
       "Import" : 1.0,
       "Use" : 1.0,
       "Create" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 2,
+    "values" : {
+      "Call" : 3.0,
+      "Import" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 1,

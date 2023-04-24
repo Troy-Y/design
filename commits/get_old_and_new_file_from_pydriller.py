@@ -37,16 +37,26 @@ for commit in cmts_list:
         for file in commit.modified_files:
             # 按路径输出
             try:
-                folder_name_old,file_name_old = os.path.split(file.old_path)
+                folder_name_old, file_name_old = os.path.split(file.old_path)
                 folder_name_new, file_name_new = os.path.split(file.new_path)
+                # print(folder_name_old)
+                # print(file_name_old)
+                # print(folder_name_new)
+                # print(file_name_new)
                 file_old_path = old_src_path + '\\' + folder_name_old
                 file_new_path = new_src_path + '\\' + folder_name_new
+                # print(file_old_path)
+                # print(file_new_path)
                 if not os.path.exists(file_old_path):
                     os.makedirs(file_old_path)
                 if not os.path.exists(file_new_path):
                     os.makedirs(file_new_path)
-                file_old = open(file_old_path + file_name_old, "w")
-                file_new = open(file_new_path + file_name_new, "w")
+                f_old = file_old_path + '\\' + file_name_old
+                f_new = file_new_path + '\\' + file_name_new
+                # print(f_old)
+                # print(f_new)
+                file_old = open(f_old, "w")
+                file_new = open(f_new + file_name_new, "w")
                 print(file.source_code,file = file_new)
                 print(file.source_code_before,file = file_old)
             except TypeError:

@@ -1,4 +1,11 @@
-['D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\old\\src\\main\\java\\depends\\extractorHandlerContext.java', 'D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\old\\src\\main\\java\\depends\\extractor\\golangGoHandlerContext.java', 'D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\old\\src\\main\\java\\depends\\extractor\\golangGoListener.java', 'D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\old\\src\\main\\java\\depends\\format\\jsonDetailItem.java', 'D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\old\\src\\main\\java\\depends\\generatorDependencyGenerator.java', 'D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\old\\src\\main\\java\\depends\\generatorFileDependencyGenerator.java', 'D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\old\\src\\main\\java\\depends\\generatorFunctionDependencyGenerator.java', 'D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\old\\src\\main\\java\\depends\\matrix\\coreDependencyDetail.java']
+0.HandlerContext.java
+1.GoHandlerContext.java
+2.GoListener.java
+3.DetailItem.java
+4.DependencyGenerator.java
+5.FileDependencyGenerator.java
+6.FunctionDependencyGenerator.java
+7.DependencyDetail.java
   old: {'src': 2, 'dest': 1, 'values': {'Call': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   new: {'src': 2, 'dest': 1, 'values': {'Call': 2.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   old: {'src': 1, 'dest': 0, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0}}

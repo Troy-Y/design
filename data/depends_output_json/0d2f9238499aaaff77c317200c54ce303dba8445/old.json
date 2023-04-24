@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\0d2f9238499aaaff77c317200c54ce303dba8445\\old\\src\\main\\java\\depends\\entityContainerEntity.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\0d2f9238499aaaff77c317200c54ce303dba8445\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java" ],
   "cells" : [ ]
 }

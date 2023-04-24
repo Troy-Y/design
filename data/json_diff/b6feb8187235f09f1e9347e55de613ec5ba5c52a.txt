@@ -1,4 +1,11 @@
-['D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\entity\\repoBuiltInType.java', 'D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\extractor\\cppCppBuiltInType.java', 'D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\extractor\\emptyEmptyBuiltInType.java', 'D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\extractor\\golangGoBuiltInType.java', 'D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\extractor\\javaJavaBuiltInType.java', 'D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\extractor\\pythonPythonBuiltInType.java', 'D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\extractor\\rubyRubyBuiltInType.java', 'D:\\desktop\\git-data\\depends\\b6feb8187235f09f1e9347e55de613ec5ba5c52a\\old\\src\\main\\java\\depends\\relationsBindingResolver.java']
+0.BuiltInType.java
+1.CppBuiltInType.java
+2.EmptyBuiltInType.java
+3.GoBuiltInType.java
+4.JavaBuiltInType.java
+5.PythonBuiltInType.java
+6.RubyBuiltInType.java
+7.BindingResolver.java
   old: {'src': 1, 'dest': 0, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 1.0}}
   new: {'src': 1, 'dest': 0, 'values': {'Import': 1.0, 'Extend': 1.0}}
   old: {'src': 7, 'dest': 0, 'values': {'Call': 4.0, 'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}

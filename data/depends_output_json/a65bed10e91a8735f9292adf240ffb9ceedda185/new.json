@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\a65bed10e91a8735f9292adf240ffb9ceedda185\\new\\src\\main\\java\\depends\\extractor\\cppCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\a65bed10e91a8735f9292adf240ffb9ceedda185\\new\\src\\test\\java\\depends\\extractor\\cppCppParameterParserTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\a65bed10e91a8735f9292adf240ffb9ceedda185\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppEntitiesListener.javaCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\a65bed10e91a8735f9292adf240ffb9ceedda185\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParameterParserTest.javaCppParameterParserTest.java" ],
   "cells" : [ ]
 }

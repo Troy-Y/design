@@ -1,8 +1,16 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\dependsDependsCommand.java", "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\matrixDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\matrixMatrixLevelShinker.java", "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\matrixOrderedMatrixGenerator.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\DependsCommand.java", "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\Main.java", "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java", "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\matrix\\MatrixLevelShinker.java", "D:\\desktop\\git-data\\depends\\b3f3dc7849afc8742c1025e76a2652f27eb6bb49\\old\\src\\main\\java\\depends\\matrix\\OrderedMatrixGenerator.java" ],
   "cells" : [ {
+    "src" : 1,
+    "dest" : 3,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Create" : 1.0
+    }
+  }, {
     "src" : 4,
     "dest" : 2,
     "values" : {
@@ -12,14 +20,6 @@
       "Create" : 1.0,
       "Parameter" : 1.0,
       "Contain" : 2.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 3,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0
     }
   }, {
     "src" : 1,

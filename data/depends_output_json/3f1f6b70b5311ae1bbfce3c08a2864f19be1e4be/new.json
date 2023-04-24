@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pomPomFileParser.java", "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pomPomListener.java", "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pomPomProcessor.java", "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\test\\java\\depends\\extractor\\pomMavenParserTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.javaPomFileParser.java", "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java", "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.javaPomProcessor.java", "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.javaMavenParserTest.java" ],
   "cells" : [ {
     "src" : 2,
     "dest" : 0,

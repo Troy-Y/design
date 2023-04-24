@@ -1,15 +1,8 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\dependsMain.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractor\\cppMacroRepo.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractor\\cppScanner.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCDTParser.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCdtCppFileParser.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtCppVisitor.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdtPreprocessorHandler.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\test\\java\\depends\\extractor\\javaUnsolvedSymbolsTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\Main.javaMain.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.javaMacroRepo.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractor\\cpp\\Scanner.javaScanner.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.javaCDTParser.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.javaCppVisitor.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java", "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\new\\src\\test\\java\\depends\\extractor\\java\\UnsolvedSymbolsTest.javaUnsolvedSymbolsTest.java" ],
   "cells" : [ {
-    "src" : 8,
-    "dest" : 1,
-    "values" : {
-      "Import" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
     "src" : 6,
     "dest" : 7,
     "values" : {
@@ -17,6 +10,13 @@
       "Use" : 1.0,
       "Parameter" : 1.0,
       "Contain" : 1.0
+    }
+  }, {
+    "src" : 8,
+    "dest" : 1,
+    "values" : {
+      "Import" : 1.0,
+      "Parameter" : 1.0
     }
   }, {
     "src" : 4,
@@ -69,20 +69,20 @@
       "Contain" : 1.0
     }
   }, {
-    "src" : 6,
-    "dest" : 8,
-    "values" : {
-      "Import" : 1.0,
-      "Use" : 5.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
     "src" : 5,
     "dest" : 7,
     "values" : {
       "Call" : 3.0,
       "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 8,
+    "values" : {
+      "Import" : 1.0,
+      "Use" : 5.0,
       "Parameter" : 1.0,
       "Contain" : 1.0
     }

@@ -14,12 +14,17 @@ for item in os.listdir(folder_path):
             json_old = json.load(f)
         with open(json_new_path, 'r') as f:
             json_new = json.load(f)
+
         diff_json_name = '../data/json_diff/' + os.path.basename(item_path) + '.txt'
         diff_json = open(diff_json_name,"w")
-        print(json_old['variables'],file=diff_json)
+        # print(json_old['variables'],file=diff_json)
+        i=0
+        for line in json_old['variables']:
+            print(i,end='.',file=diff_json)
+            i = i + 1
+            print(os.path.basename(line),file=diff_json)
 
         for cell1, cell2 in zip(json_old['cells'], json_new['cells']):
             if cell1 != cell2:
-                # print(f"Cell {cell1['src']} -> {cell1['dest']} is different:")
                 print(f"  old: {cell1}",file=diff_json)
                 print(f"  new: {cell2}",file=diff_json)

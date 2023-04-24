@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\deptypesDependencyType.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entityEntity.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entityGenericName.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractorAbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\javaJavaProcessor.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\pomPomProcessor.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relationsInferer.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relationsRelationCounter.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\test\\java\\depends\\extractor\\pomEntityExtractTest.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\Entity.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\GenericName.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java", "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.java" ],
   "cells" : [ {
     "src" : 6,
     "dest" : 7,
@@ -37,6 +37,13 @@
       "Contain" : 1.0
     }
   }, {
+    "src" : 5,
+    "dest" : 0,
+    "values" : {
+      "Import" : 3.0,
+      "Use" : 3.0
+    }
+  }, {
     "src" : 6,
     "dest" : 1,
     "values" : {
@@ -46,13 +53,6 @@
       "Use" : 12.0,
       "Parameter" : 12.0,
       "Contain" : 16.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 0,
-    "values" : {
-      "Import" : 3.0,
-      "Use" : 3.0
     }
   }, {
     "src" : 3,

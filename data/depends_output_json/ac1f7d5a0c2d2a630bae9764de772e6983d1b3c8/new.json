@@ -1,7 +1,7 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entityContainerEntity.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entityExpression.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entityTypeInfer.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entity\\repoEntityRepo.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entity\\repoNullParser.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entity\\typesAnonymousBlock.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entity\\typesFunctionEntity.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entity\\typesTypeEntity.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\extractorAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\extractorFileParser.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\extractorHandlerContext.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\extractor\\javaJavaFileParser.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\extractor\\javaJavaWorker.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\extractor\\java\\contextExpressionUsage.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\test\\java\\depends\\extractor\\javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\test\\resources\\java-code-examplesComplexExpressionExample.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entity\\TypeInfer.javaTypeInfer.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entity\\repo\\NullParser.javaNullParser.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entity\\types\\AnonymousBlock.javaAnonymousBlock.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.javaFunctionEntity.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\entity\\types\\TypeEntity.javaTypeEntity.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\extractor\\FileParser.javaFileParser.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\extractor\\java\\JavaWorker.javaJavaWorker.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.javaExpressionUsage.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java", "D:\\desktop\\git-data\\depends\\ac1f7d5a0c2d2a630bae9764de772e6983d1b3c8\\new\\src\\test\\resources\\java-code-examples\\ComplexExpressionExample.javaComplexExpressionExample.java" ],
   "cells" : [ {
     "src" : 6,
     "dest" : 7,
@@ -113,17 +113,17 @@
       "Parameter" : 1.0
     }
   }, {
+    "src" : 11,
+    "dest" : 9,
+    "values" : {
+      "Implement" : 1.0
+    }
+  }, {
     "src" : 2,
     "dest" : 7,
     "values" : {
       "Import" : 1.0,
       "Return" : 1.0
-    }
-  }, {
-    "src" : 11,
-    "dest" : 9,
-    "values" : {
-      "Implement" : 1.0
     }
   }, {
     "src" : 2,
@@ -169,15 +169,6 @@
       "Contain" : 1.0
     }
   }, {
-    "src" : 10,
-    "dest" : 0,
-    "values" : {
-      "Cast" : 2.0,
-      "Call" : 3.0,
-      "Import" : 1.0,
-      "Return" : 1.0
-    }
-  }, {
     "src" : 3,
     "dest" : 0,
     "values" : {
@@ -188,13 +179,13 @@
       "Parameter" : 1.0
     }
   }, {
-    "src" : 8,
-    "dest" : 3,
+    "src" : 10,
+    "dest" : 0,
     "values" : {
-      "Call" : 2.0,
+      "Cast" : 2.0,
+      "Call" : 3.0,
       "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
+      "Return" : 1.0
     }
   }, {
     "src" : 14,
@@ -203,6 +194,15 @@
       "Call" : 8.0,
       "Create" : 4.0,
       "Contain" : 4.0
+    }
+  }, {
+    "src" : 8,
+    "dest" : 3,
+    "values" : {
+      "Call" : 2.0,
+      "Import" : 1.0,
+      "Create" : 1.0,
+      "Contain" : 1.0
     }
   }, {
     "src" : 3,
@@ -266,14 +266,6 @@
       "Contain" : 1.0
     }
   }, {
-    "src" : 14,
-    "dest" : 7,
-    "values" : {
-      "Cast" : 2.0,
-      "Import" : 1.0,
-      "Use" : 2.0
-    }
-  }, {
     "src" : 13,
     "dest" : 10,
     "values" : {
@@ -282,6 +274,14 @@
       "Use" : 1.0,
       "Parameter" : 1.0,
       "Contain" : 1.0
+    }
+  }, {
+    "src" : 14,
+    "dest" : 7,
+    "values" : {
+      "Cast" : 2.0,
+      "Import" : 1.0,
+      "Use" : 2.0
     }
   }, {
     "src" : 14,

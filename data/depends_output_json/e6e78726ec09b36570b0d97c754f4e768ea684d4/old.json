@@ -1,6 +1,6 @@
 {
   "schemaVersion" : "1.0",
   "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\e6e78726ec09b36570b0d97c754f4e768ea684d4\\old\\src\\main\\java\\depends\\format\\detailDetailTextFormatDependencyDumper.java", "D:\\desktop\\git-data\\depends\\e6e78726ec09b36570b0d97c754f4e768ea684d4\\old\\src\\main\\java\\depends\\matrix\\coreDependencyDetail.java" ],
+  "variables" : [ "D:\\desktop\\git-data\\depends\\e6e78726ec09b36570b0d97c754f4e768ea684d4\\old\\src\\main\\java\\depends\\format\\detail\\DetailTextFormatDependencyDumper.java", "D:\\desktop\\git-data\\depends\\e6e78726ec09b36570b0d97c754f4e768ea684d4\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyDetail.java" ],
   "cells" : [ ]
 }
