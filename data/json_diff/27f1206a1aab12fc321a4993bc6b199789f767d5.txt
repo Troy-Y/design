@@ -4,15 +4,13 @@
 3.FileDependencyGenerator.java
 4.FunctionDependencyGenerator.java
 5.StructureDependencyGenerator.java
-  old: {'src': 1, 'dest': 4, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
-  new: {'src': 1, 'dest': 4, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}
-  old: {'src': 1, 'dest': 3, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
-  new: {'src': 1, 'dest': 3, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}
+  old: {'src': 1, 'dest': 0, 'values': {'Call': 21.0, 'Create': 3.0, 'Use': 1.0, 'Parameter': 2.0, 'Contain': 1.0}}
+  new: {'src': 1, 'dest': 0, 'values': {'Call': 37.0, 'Create': 3.0, 'Use': 1.0, 'Parameter': 3.0, 'Contain': 1.0}}
   old: {'src': 1, 'dest': 2, 'values': {'Call': 1.0, 'Import': 1.0, 'Return': 1.0, 'Contain': 2.0}}
   new: {'src': 1, 'dest': 2, 'values': {'Call': 5.0, 'Import': 1.0, 'Use': 2.0, 'Parameter': 2.0, 'Contain': 2.0}}
-  old: {'src': 3, 'dest': 2, 'values': {'Extend': 1.0, 'Use': 2.0}}
-  new: {'src': 1, 'dest': 0, 'values': {'Call': 37.0, 'Create': 3.0, 'Use': 1.0, 'Parameter': 3.0, 'Contain': 1.0}}
-  old: {'src': 1, 'dest': 0, 'values': {'Call': 21.0, 'Create': 3.0, 'Use': 1.0, 'Parameter': 2.0, 'Contain': 1.0}}
-  new: {'src': 3, 'dest': 2, 'values': {'Extend': 1.0, 'Use': 2.0}}
+  old: {'src': 1, 'dest': 3, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
+  new: {'src': 1, 'dest': 3, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}
+  old: {'src': 1, 'dest': 4, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
+  new: {'src': 1, 'dest': 4, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}
   old: {'src': 1, 'dest': 5, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
   new: {'src': 1, 'dest': 5, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}

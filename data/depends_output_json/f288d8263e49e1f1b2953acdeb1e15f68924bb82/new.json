@@ -1,6 +1,8 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f288d8263e49e1f1b2953acdeb1e15f68924bb82\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java" ],
-  "cells" : [ ]
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\f288d8263e49e1f1b2953acdeb1e15f68924bb82\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java"
+  ],
+  "cells": []
 }

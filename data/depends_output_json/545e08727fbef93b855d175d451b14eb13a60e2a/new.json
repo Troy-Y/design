@@ -1,14 +1,19 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\545e08727fbef93b855d175d451b14eb13a60e2a\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java", "D:\\desktop\\git-data\\depends\\545e08727fbef93b855d175d451b14eb13a60e2a\\new\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.javaPythonParserHelper.java" ],
-  "cells" : [ {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Call" : 5.0,
-      "Use" : 1.0,
-      "Contain" : 1.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\545e08727fbef93b855d175d451b14eb13a60e2a\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+    "D:\\desktop\\git-data\\depends\\545e08727fbef93b855d175d451b14eb13a60e2a\\new\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.javaPythonParserHelper.java"
+  ],
+  "cells": [
+    {
+      "src": 0,
+      "dest": 1,
+      "values": {
+        "Call": 5.0,
+        "Use": 1.0,
+        "Contain": 1.0
+      }
     }
-  } ]
+  ]
 }

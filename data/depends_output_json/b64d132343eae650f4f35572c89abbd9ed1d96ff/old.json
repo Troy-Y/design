@@ -1,14 +1,19 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\b64d132343eae650f4f35572c89abbd9ed1d96ff\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyObjectCreationTest.java", "D:\\desktop\\git-data\\depends\\b64d132343eae650f4f35572c89abbd9ed1d96ff\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java" ],
-  "cells" : [ {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Call" : 3.0,
-      "Extend" : 1.0,
-      "Use" : 4.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\b64d132343eae650f4f35572c89abbd9ed1d96ff\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyObjectCreationTest.java",
+    "D:\\desktop\\git-data\\depends\\b64d132343eae650f4f35572c89abbd9ed1d96ff\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java"
+  ],
+  "cells": [
+    {
+      "src": 0,
+      "dest": 1,
+      "values": {
+        "Call": 3.0,
+        "Extend": 1.0,
+        "Use": 4.0
+      }
     }
-  } ]
+  ]
 }

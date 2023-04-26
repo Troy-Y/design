@@ -7,19 +7,7 @@
 6.FunctionDependencyGenerator.java
 7.DependencyMatrix.java
 8.ForwardDeclareTest.java
-  old: {'src': 6, 'dest': 4, 'values': {'Call': 1.0, 'Extend': 1.0, 'Use': 2.0}}
-  new: {'src': 1, 'dest': 2, 'values': {'Call': 5.0, 'Import': 1.0, 'Contain': 1.0}}
-  old: {'src': 1, 'dest': 2, 'values': {'Call': 5.0, 'Import': 1.0, 'Contain': 1.0}}
-  new: {'src': 6, 'dest': 4, 'values': {'Call': 1.0, 'Extend': 1.0, 'Use': 2.0}}
   old: {'src': 1, 'dest': 0, 'values': {'Call': 35.0, 'Create': 3.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
   new: {'src': 1, 'dest': 0, 'values': {'Call': 36.0, 'Create': 3.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
   old: {'src': 8, 'dest': 5, 'values': {'Call': 2.0, 'Import': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   new: {'src': 8, 'dest': 5, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  old: {'src': 1, 'dest': 6, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}
-  new: {'src': 5, 'dest': 7, 'values': {'Call': 4.0, 'Import': 1.0, 'Return': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  old: {'src': 5, 'dest': 7, 'values': {'Call': 4.0, 'Import': 1.0, 'Return': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 1, 'dest': 6, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0}}
-  old: {'src': 1, 'dest': 5, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
-  new: {'src': 3, 'dest': 7, 'values': {'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  old: {'src': 3, 'dest': 7, 'values': {'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  new: {'src': 1, 'dest': 5, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}

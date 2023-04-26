@@ -1,15 +1,20 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\a468b34326c2c9bb38f046acba12293c2ef7b863\\new\\src\\main\\java\\depends\\entity\\AliasEntity.javaAliasEntity.java", "D:\\desktop\\git-data\\depends\\a468b34326c2c9bb38f046acba12293c2ef7b863\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java" ],
-  "cells" : [ {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Cast" : 6.0,
-      "Call" : 3.0,
-      "Return" : 2.0,
-      "Use" : 3.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\a468b34326c2c9bb38f046acba12293c2ef7b863\\new\\src\\main\\java\\depends\\entity\\AliasEntity.javaAliasEntity.java",
+    "D:\\desktop\\git-data\\depends\\a468b34326c2c9bb38f046acba12293c2ef7b863\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java"
+  ],
+  "cells": [
+    {
+      "src": 0,
+      "dest": 1,
+      "values": {
+        "Cast": 6.0,
+        "Call": 3.0,
+        "Return": 2.0,
+        "Use": 3.0
+      }
     }
-  } ]
+  ]
 }

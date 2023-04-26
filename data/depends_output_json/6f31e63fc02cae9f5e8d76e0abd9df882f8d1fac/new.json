@@ -1,48 +1,61 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\new\\src\\main\\java\\depends\\entity\\types\\VarEntity.javaVarEntity.java", "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\new\\src\\main\\java\\depends\\extractor\\GenericHandler.javaGenericHandler.java", "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java", "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\new\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.javaJavaAdapterListener.java", "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\new\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.javaJavaHandler.java", "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java" ],
-  "cells" : [ {
-    "src" : 4,
-    "dest" : 2,
-    "values" : {
-      "Call" : 13.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\new\\src\\main\\java\\depends\\entity\\types\\VarEntity.javaVarEntity.java",
+    "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\new\\src\\main\\java\\depends\\extractor\\GenericHandler.javaGenericHandler.java",
+    "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+    "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\new\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.javaJavaAdapterListener.java",
+    "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\new\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.javaJavaHandler.java",
+    "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java"
+  ],
+  "cells": [
+    {
+      "src": 1,
+      "dest": 2,
+      "values": {
+        "Call": 9.0,
+        "Return": 1.0,
+        "Use": 1.0,
+        "Create": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 2,
+      "dest": 0,
+      "values": {
+        "Call": 2.0,
+        "Import": 1.0,
+        "Create": 1.0,
+        "Contain": 2.0
+      }
+    },
+    {
+      "src": 3,
+      "dest": 4,
+      "values": {
+        "Call": 26.0,
+        "Use": 1.0,
+        "Create": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 4,
+      "dest": 1,
+      "values": {
+        "Call": 25.0,
+        "Import": 1.0,
+        "Extend": 1.0
+      }
+    },
+    {
+      "src": 4,
+      "dest": 2,
+      "values": {
+        "Call": 13.0
+      }
     }
-  }, {
-    "src" : 2,
-    "dest" : 0,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 2.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 4,
-    "values" : {
-      "Call" : 26.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 9.0,
-      "Return" : 1.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 1,
-    "values" : {
-      "Call" : 25.0,
-      "Import" : 1.0,
-      "Extend" : 1.0
-    }
-  } ]
+  ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\86e7c895c7fb279a4ba51e20ffeba80b8afa533c\\old\\src\\main\\java\\depends\\LangRegister.java", "D:\\desktop\\git-data\\depends\\86e7c895c7fb279a4ba51e20ffeba80b8afa533c\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java" ],
-  "cells" : [ ]
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\86e7c895c7fb279a4ba51e20ffeba80b8afa533c\\old\\src\\main\\java\\depends\\LangRegister.java",
+    "D:\\desktop\\git-data\\depends\\86e7c895c7fb279a4ba51e20ffeba80b8afa533c\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java"
+  ],
+  "cells": []
 }

@@ -1,6 +1,8 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\ecb6f60b491a6c69347720d86897fb26e6df310d\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java" ],
-  "cells" : [ ]
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\ecb6f60b491a6c69347720d86897fb26e6df310d\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java"
+  ],
+  "cells": []
 }

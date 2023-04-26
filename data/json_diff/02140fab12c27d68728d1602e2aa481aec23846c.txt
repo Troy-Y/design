@@ -25,12 +25,14 @@
 24.RubyRequireTest.java
 25.RubyVCallTest.java
   old: {'src': 3, 'dest': 1, 'values': {'Import': 1.0}}
-  new: {'src': 22, 'dest': 23, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 2.0}}
-  old: {'src': 22, 'dest': 23, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 2.0}}
   new: {'src': 4, 'dest': 3, 'values': {'Import': 1.0, 'Parameter': 1.0}}
-  old: {'src': 7, 'dest': 1, 'values': {'Import': 1.0, 'Use': 1.0}}
-  new: {'src': 25, 'dest': 23, 'values': {'Call': 3.0, 'Extend': 1.0, 'Use': 5.0}}
   old: {'src': 4, 'dest': 3, 'values': {'Import': 1.0, 'Parameter': 1.0}}
   new: {'src': 20, 'dest': 23, 'values': {'Call': 7.0, 'Extend': 1.0, 'Use': 16.0}}
-  old: {'src': 25, 'dest': 23, 'values': {'Call': 3.0, 'Extend': 1.0, 'Use': 5.0}}
+  old: {'src': 7, 'dest': 1, 'values': {'Import': 1.0, 'Use': 1.0}}
+  new: {'src': 21, 'dest': 23, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 3.0}}
+  old: {'src': 20, 'dest': 23, 'values': {'Call': 7.0, 'Extend': 1.0, 'Use': 16.0}}
+  new: {'src': 22, 'dest': 23, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 2.0}}
+  old: {'src': 21, 'dest': 23, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 3.0}}
   new: {'src': 24, 'dest': 23, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 4.0}}
+  old: {'src': 22, 'dest': 23, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 2.0}}
+  new: {'src': 25, 'dest': 23, 'values': {'Call': 3.0, 'Extend': 1.0, 'Use': 5.0}}

@@ -1,6 +1,9 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\d8ce71ac612c191c9873616f114bde4e6eb65676\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java", "D:\\desktop\\git-data\\depends\\d8ce71ac612c191c9873616f114bde4e6eb65676\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java" ],
-  "cells" : [ ]
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\d8ce71ac612c191c9873616f114bde4e6eb65676\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+    "D:\\desktop\\git-data\\depends\\d8ce71ac612c191c9873616f114bde4e6eb65676\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java"
+  ],
+  "cells": []
 }

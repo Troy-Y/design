@@ -27,11 +27,3 @@
 26.IncludeRelationTest.java
 27.UsingTest.java
 28.extendsTest.java
-  old: {'src': 11, 'dest': 9, 'values': {'Call': 5.0, 'Use': 5.0}}
-  new: {'src': 24, 'dest': 6, 'values': {'Import': 1.0, 'Contain': 1.0}}
-  old: {'src': 24, 'dest': 6, 'values': {'Import': 1.0, 'Contain': 1.0}}
-  new: {'src': 11, 'dest': 9, 'values': {'Call': 5.0, 'Use': 5.0}}
-  old: {'src': 0, 'dest': 8, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
-  new: {'src': 27, 'dest': 6, 'values': {'Import': 1.0, 'Contain': 2.0}}
-  old: {'src': 27, 'dest': 6, 'values': {'Import': 1.0, 'Contain': 2.0}}
-  new: {'src': 0, 'dest': 8, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}

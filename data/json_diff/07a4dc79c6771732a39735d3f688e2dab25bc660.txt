@@ -3,7 +3,7 @@
 2.DecoratedEntity.java
 3.FunctionEntity.java
 4.GenericName.java
-  old: {'src': 2, 'dest': 4, 'values': {'Call': 3.0, 'Use': 2.0, 'Parameter': 8.0, 'Contain': 4.0}}
-  new: {'src': 2, 'dest': 4, 'values': {'Call': 3.0, 'Use': 1.0, 'Parameter': 7.0, 'Contain': 3.0}}
   old: {'src': 0, 'dest': 4, 'values': {'Call': 1.0, 'Return': 1.0, 'Use': 1.0, 'Parameter': 9.0}}
   new: {'src': 0, 'dest': 4, 'values': {'Call': 1.0, 'Return': 1.0, 'Use': 1.0, 'Parameter': 8.0}}
+  old: {'src': 2, 'dest': 4, 'values': {'Call': 3.0, 'Use': 2.0, 'Parameter': 8.0, 'Contain': 4.0}}
+  new: {'src': 2, 'dest': 4, 'values': {'Call': 3.0, 'Use': 1.0, 'Parameter': 7.0, 'Contain': 3.0}}

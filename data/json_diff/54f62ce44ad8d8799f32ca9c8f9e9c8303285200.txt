@@ -2,11 +2,9 @@
 1.DependencyGenerator.java
 2.FileDependencyGenerator.java
 3.FunctionDependencyGenerator.java
-  old: {'src': 2, 'dest': 1, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 1.0}}
-  new: {'src': 2, 'dest': 1, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 2.0}}
   old: {'src': 0, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Contain': 1.0}}
   new: {'src': 0, 'dest': 1, 'values': {'Call': 2.0, 'Import': 1.0, 'Contain': 1.0}}
-  old: {'src': 0, 'dest': 2, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
-  new: {'src': 3, 'dest': 1, 'values': {'Call': 1.0, 'Extend': 1.0, 'Use': 2.0}}
+  old: {'src': 2, 'dest': 1, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 1.0}}
+  new: {'src': 2, 'dest': 1, 'values': {'Call': 2.0, 'Extend': 1.0, 'Use': 2.0}}
   old: {'src': 3, 'dest': 1, 'values': {'Call': 1.0, 'Extend': 1.0, 'Use': 1.0}}
-  new: {'src': 0, 'dest': 2, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0}}
+  new: {'src': 3, 'dest': 1, 'values': {'Call': 1.0, 'Extend': 1.0, 'Use': 2.0}}

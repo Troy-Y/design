@@ -1,25 +1,34 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java", "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.javaCppProcessor.java", "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java", "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\test\\java\\depends\\extractor\\cpp\\RelationToImplementationTest.javaRelationToImplementationTest.java" ],
-  "cells" : [ {
-    "src" : 2,
-    "dest" : 0,
-    "values" : {
-      "Import" : 1.0,
-      "Use" : 44.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java",
+    "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.javaCppProcessor.java",
+    "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+    "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\test\\java\\depends\\extractor\\cpp\\RelationToImplementationTest.javaRelationToImplementationTest.java"
+  ],
+  "cells": [
+    {
+      "src": 1,
+      "dest": 0,
+      "values": {
+        "Import": 1.0
+      }
+    },
+    {
+      "src": 2,
+      "dest": 0,
+      "values": {
+        "Import": 1.0,
+        "Use": 44.0
+      }
+    },
+    {
+      "src": 3,
+      "dest": 0,
+      "values": {
+        "Import": 1.0
+      }
     }
-  }, {
-    "src" : 1,
-    "dest" : 0,
-    "values" : {
-      "Import" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 0,
-    "values" : {
-      "Import" : 1.0
-    }
-  } ]
+  ]
 }

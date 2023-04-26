@@ -1,6 +1,8 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\95a08e0167a78c3c10c47733a155e3b025b8cac1\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyFileParser.java" ],
-  "cells" : [ ]
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\95a08e0167a78c3c10c47733a155e3b025b8cac1\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyFileParser.java"
+  ],
+  "cells": []
 }

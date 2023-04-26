@@ -1,14 +1,21 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\e24e3960f77b60597272487b31a9d91720a3c8ff\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java", "D:\\desktop\\git-data\\depends\\e24e3960f77b60597272487b31a9d91720a3c8ff\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java", "D:\\desktop\\git-data\\depends\\e24e3960f77b60597272487b31a9d91720a3c8ff\\new\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.javaFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\e24e3960f77b60597272487b31a9d91720a3c8ff\\new\\src\\main\\java\\depends\\util\\FolderCollector.javaFolderCollector.java" ],
-  "cells" : [ {
-    "src" : 2,
-    "dest" : 0,
-    "values" : {
-      "Cast" : 1.0,
-      "Import" : 1.0,
-      "Use" : 1.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\e24e3960f77b60597272487b31a9d91720a3c8ff\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
+    "D:\\desktop\\git-data\\depends\\e24e3960f77b60597272487b31a9d91720a3c8ff\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+    "D:\\desktop\\git-data\\depends\\e24e3960f77b60597272487b31a9d91720a3c8ff\\new\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.javaFileDependencyGenerator.java",
+    "D:\\desktop\\git-data\\depends\\e24e3960f77b60597272487b31a9d91720a3c8ff\\new\\src\\main\\java\\depends\\util\\FolderCollector.javaFolderCollector.java"
+  ],
+  "cells": [
+    {
+      "src": 2,
+      "dest": 0,
+      "values": {
+        "Cast": 1.0,
+        "Import": 1.0,
+        "Use": 1.0
+      }
     }
-  } ]
+  ]
 }

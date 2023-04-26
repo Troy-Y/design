@@ -6,25 +6,25 @@
 5.JRubyVisitor.java
 6.RubyParserHelper.java
 7.Inferer.java
-  old: {'src': 5, 'dest': 0, 'values': {'Import': 1.0, 'Contain': 3.0}}
+  old: {'src': 2, 'dest': 3, 'values': {'Call': 16.0, 'Import': 1.0, 'Use': 16.0}}
   new: {'src': 1, 'dest': 0, 'values': {'Parameter': 1.0}}
+  old: {'src': 2, 'dest': 7, 'values': {'Import': 1.0, 'Parameter': 1.0}}
+  new: {'src': 2, 'dest': 3, 'values': {'Call': 16.0, 'Import': 1.0, 'Use': 16.0}}
+  old: {'src': 4, 'dest': 0, 'values': {'Import': 1.0, 'Return': 1.0}}
+  new: {'src': 2, 'dest': 7, 'values': {'Import': 1.0, 'Parameter': 1.0}}
+  old: {'src': 4, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 4, 'dest': 0, 'values': {'Import': 1.0, 'Return': 1.0, 'Contain': 1.0}}
+  old: {'src': 4, 'dest': 7, 'values': {'Import': 1.0, 'Parameter': 1.0}}
+  new: {'src': 4, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 5, 'dest': 0, 'values': {'Import': 1.0, 'Contain': 3.0}}
+  new: {'src': 4, 'dest': 7, 'values': {'Import': 1.0, 'Parameter': 1.0}}
   old: {'src': 5, 'dest': 4, 'values': {'Call': 5.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   new: {'src': 5, 'dest': 0, 'values': {'Import': 1.0, 'Contain': 3.0}}
   old: {'src': 5, 'dest': 6, 'values': {'Call': 12.0, 'Use': 1.0, 'Contain': 1.0}}
   new: {'src': 5, 'dest': 4, 'values': {'Call': 5.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
   old: {'src': 5, 'dest': 7, 'values': {'Import': 1.0, 'Parameter': 1.0}}
   new: {'src': 5, 'dest': 6, 'values': {'Call': 13.0, 'Use': 1.0, 'Contain': 1.0}}
-  old: {'src': 0, 'dest': 7, 'values': {'Import': 1.0, 'Parameter': 2.0}}
+  old: {'src': 6, 'dest': 4, 'values': {'Import': 1.0, 'Parameter': 1.0}}
   new: {'src': 5, 'dest': 7, 'values': {'Import': 1.0, 'Parameter': 1.0}}
-  old: {'src': 2, 'dest': 3, 'values': {'Call': 16.0, 'Import': 1.0, 'Use': 16.0}}
-  new: {'src': 0, 'dest': 7, 'values': {'Import': 1.0, 'Parameter': 2.0}}
   old: {'src': 7, 'dest': 0, 'values': {'Call': 16.0, 'Import': 1.0, 'Return': 8.0, 'Use': 8.0, 'Parameter': 8.0, 'Contain': 14.0}}
-  new: {'src': 2, 'dest': 3, 'values': {'Call': 16.0, 'Import': 1.0, 'Use': 16.0}}
-  old: {'src': 4, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 7, 'dest': 0, 'values': {'Call': 16.0, 'Import': 1.0, 'Return': 8.0, 'Use': 8.0, 'Parameter': 8.0, 'Contain': 14.0}}
-  old: {'src': 4, 'dest': 0, 'values': {'Import': 1.0, 'Return': 1.0}}
-  new: {'src': 4, 'dest': 1, 'values': {'Call': 1.0, 'Import': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  old: {'src': 4, 'dest': 7, 'values': {'Import': 1.0, 'Parameter': 1.0}}
-  new: {'src': 4, 'dest': 0, 'values': {'Import': 1.0, 'Return': 1.0, 'Contain': 1.0}}
-  old: {'src': 2, 'dest': 7, 'values': {'Import': 1.0, 'Parameter': 1.0}}
-  new: {'src': 4, 'dest': 7, 'values': {'Import': 1.0, 'Parameter': 1.0}}
+  new: {'src': 6, 'dest': 4, 'values': {'Import': 1.0, 'Parameter': 1.0}}

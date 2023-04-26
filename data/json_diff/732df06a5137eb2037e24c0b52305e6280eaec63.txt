@@ -6,3 +6,29 @@
 5.CppProcessor.java
 6.JavaProcessor.java
 7.RubyProcessor.java
+  old: {'src': 1, 'dest': 3, 'values': {'Import': 1.0, 'Parameter': 1.0}}
+  new: {'src': 0, 'dest': 4, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0}}
+  old: {'src': 1, 'dest': 4, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0}}
+  new: {'src': 1, 'dest': 3, 'values': {'Import': 1.0, 'Parameter': 1.0}}
+  old: {'src': 1, 'dest': 5, 'values': {'Call': 1.0, 'Create': 1.0}}
+  new: {'src': 1, 'dest': 4, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0}}
+  old: {'src': 1, 'dest': 6, 'values': {'Call': 1.0, 'Create': 1.0}}
+  new: {'src': 1, 'dest': 5, 'values': {'Call': 1.0, 'Create': 1.0}}
+  old: {'src': 1, 'dest': 7, 'values': {'Call': 1.0, 'Create': 1.0}}
+  new: {'src': 1, 'dest': 6, 'values': {'Call': 1.0, 'Create': 1.0}}
+  old: {'src': 2, 'dest': 0, 'values': {'Call': 14.0, 'Create': 3.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  new: {'src': 1, 'dest': 7, 'values': {'Call': 1.0, 'Create': 1.0}}
+  old: {'src': 2, 'dest': 1, 'values': {'Call': 2.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 2, 'dest': 0, 'values': {'Call': 14.0, 'Create': 3.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  old: {'src': 2, 'dest': 3, 'values': {'Call': 5.0, 'Import': 1.0, 'Contain': 1.0}}
+  new: {'src': 2, 'dest': 1, 'values': {'Call': 2.0, 'Create': 1.0, 'Contain': 1.0}}
+  old: {'src': 2, 'dest': 4, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0}}
+  new: {'src': 2, 'dest': 3, 'values': {'Call': 5.0, 'Import': 1.0, 'Contain': 1.0}}
+  old: {'src': 4, 'dest': 3, 'values': {'Call': 2.0, 'Return': 1.0, 'Use': 1.0, 'Parameter': 2.0}}
+  new: {'src': 2, 'dest': 4, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0}}
+  old: {'src': 5, 'dest': 3, 'values': {'Call': 2.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 3.0}}
+  new: {'src': 4, 'dest': 3, 'values': {'Call': 2.0, 'Return': 1.0, 'Use': 1.0, 'Parameter': 2.0}}
+  old: {'src': 6, 'dest': 3, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 2.0}}
+  new: {'src': 5, 'dest': 3, 'values': {'Call': 2.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 3.0}}
+  old: {'src': 7, 'dest': 3, 'values': {'Call': 2.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 4.0}}
+  new: {'src': 6, 'dest': 3, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 2.0}}

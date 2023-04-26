@@ -1,57 +1,70 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\main\\java\\depends\\Main.java", "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java", "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\test\\java\\depends\\extractor\\cpp\\ForwardDeclareTest.java" ],
-  "cells" : [ {
-    "src" : 1,
-    "dest" : 3,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Use" : 1.0,
-      "Create" : 1.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\main\\java\\depends\\Main.java",
+    "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java",
+    "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java",
+    "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.java",
+    "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\old\\src\\test\\java\\depends\\extractor\\cpp\\ForwardDeclareTest.java"
+  ],
+  "cells": [
+    {
+      "src": 0,
+      "dest": 1,
+      "values": {
+        "Call": 2.0,
+        "Import": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 1,
+      "dest": 2,
+      "values": {
+        "Import": 1.0,
+        "Return": 1.0,
+        "Use": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 1,
+      "dest": 3,
+      "values": {
+        "Call": 2.0,
+        "Import": 1.0,
+        "Use": 1.0,
+        "Create": 1.0
+      }
+    },
+    {
+      "src": 3,
+      "dest": 2,
+      "values": {
+        "Call": 4.0,
+        "Return": 2.0,
+        "Create": 1.0,
+        "Contain": 2.0
+      }
+    },
+    {
+      "src": 4,
+      "dest": 2,
+      "values": {
+        "Import": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 4,
+      "dest": 3,
+      "values": {
+        "Call": 2.0,
+        "Import": 1.0,
+        "Create": 1.0,
+        "Contain": 1.0
+      }
     }
-  }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Use" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 2,
-    "values" : {
-      "Call" : 4.0,
-      "Return" : 2.0,
-      "Create" : 1.0,
-      "Contain" : 2.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 3,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 2,
-    "values" : {
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  } ]
+  ]
 }

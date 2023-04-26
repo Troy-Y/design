@@ -1,33 +1,42 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\new\\src\\main\\java\\depends\\DependsCommand.javaDependsCommand.java", "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\new\\src\\main\\java\\depends\\Main.javaMain.java", "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\new\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.javaFileDependencyGenerator.java" ],
-  "cells" : [ {
-    "src" : 1,
-    "dest" : 3,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Use" : 2.0,
-      "Create" : 2.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\new\\src\\main\\java\\depends\\DependsCommand.javaDependsCommand.java",
+    "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+    "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+    "D:\\desktop\\git-data\\depends\\c959bbff1e112d5ea1fbb8fa3122ebe247020799\\new\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.javaFileDependencyGenerator.java"
+  ],
+  "cells": [
+    {
+      "src": 1,
+      "dest": 0,
+      "values": {
+        "Call": 11.0,
+        "Create": 3.0,
+        "Use": 1.0,
+        "Parameter": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 1,
+      "dest": 2,
+      "values": {
+        "Call": 4.0,
+        "Import": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 1,
+      "dest": 3,
+      "values": {
+        "Call": 2.0,
+        "Import": 1.0,
+        "Use": 2.0,
+        "Create": 2.0
+      }
     }
-  }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 4.0,
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 0,
-    "values" : {
-      "Call" : 11.0,
-      "Create" : 3.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  } ]
+  ]
 }

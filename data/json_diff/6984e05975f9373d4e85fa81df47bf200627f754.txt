@@ -3,9 +3,9 @@
 2.PythonFileParser.java
 3.JRubyFileParser.java
 4.RelationCounter.java
-  old: {'src': 2, 'dest': 0, 'values': {'Cast': 1.0, 'Import': 1.0}}
-  new: {'src': 2, 'dest': 0, 'values': {'Cast': 2.0, 'Call': 1.0, 'Import': 1.0, 'Use': 1.0}}
   old: {'src': 1, 'dest': 0, 'values': {'Cast': 1.0, 'Import': 1.0}}
   new: {'src': 1, 'dest': 0, 'values': {'Cast': 2.0, 'Call': 1.0, 'Import': 1.0, 'Use': 1.0}}
+  old: {'src': 2, 'dest': 0, 'values': {'Cast': 1.0, 'Import': 1.0}}
+  new: {'src': 2, 'dest': 0, 'values': {'Cast': 2.0, 'Call': 1.0, 'Import': 1.0, 'Use': 1.0}}
   old: {'src': 3, 'dest': 0, 'values': {'Cast': 1.0, 'Import': 1.0}}
   new: {'src': 3, 'dest': 0, 'values': {'Cast': 2.0, 'Call': 1.0, 'Import': 1.0, 'Use': 1.0}}

@@ -1,6 +1,8 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\fd397a0f13a3c1627a0dcbd6099f66104dbf64be\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java" ],
-  "cells" : [ ]
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\fd397a0f13a3c1627a0dcbd6099f66104dbf64be\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+  ],
+  "cells": []
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\1ed9cd2236051e99d928002465df3059e6665c74\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java", "D:\\desktop\\git-data\\depends\\1ed9cd2236051e99d928002465df3059e6665c74\\old\\src\\test\\resources\\java-code-examples\\Maze.java" ],
-  "cells" : [ ]
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\1ed9cd2236051e99d928002465df3059e6665c74\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java",
+    "D:\\desktop\\git-data\\depends\\1ed9cd2236051e99d928002465df3059e6665c74\\old\\src\\test\\resources\\java-code-examples\\Maze.java"
+  ],
+  "cells": []
 }

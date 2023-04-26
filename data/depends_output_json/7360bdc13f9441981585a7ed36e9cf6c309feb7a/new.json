@@ -1,6 +1,10 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\7360bdc13f9441981585a7ed36e9cf6c309feb7a\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java", "D:\\desktop\\git-data\\depends\\7360bdc13f9441981585a7ed36e9cf6c309feb7a\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java", "D:\\desktop\\git-data\\depends\\7360bdc13f9441981585a7ed36e9cf6c309feb7a\\new\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.javaPythonFunctionTest.java" ],
-  "cells" : [ ]
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\7360bdc13f9441981585a7ed36e9cf6c309feb7a\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+    "D:\\desktop\\git-data\\depends\\7360bdc13f9441981585a7ed36e9cf6c309feb7a\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+    "D:\\desktop\\git-data\\depends\\7360bdc13f9441981585a7ed36e9cf6c309feb7a\\new\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.javaPythonFunctionTest.java"
+  ],
+  "cells": []
 }

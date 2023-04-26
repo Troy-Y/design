@@ -1,6 +1,9 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\a34d3437e2d3169a407bac183a15843cfc5c9336\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java", "D:\\desktop\\git-data\\depends\\a34d3437e2d3169a407bac183a15843cfc5c9336\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java" ],
-  "cells" : [ ]
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\a34d3437e2d3169a407bac183a15843cfc5c9336\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java",
+    "D:\\desktop\\git-data\\depends\\a34d3437e2d3169a407bac183a15843cfc5c9336\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
+  ],
+  "cells": []
 }

@@ -1,29 +1,42 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\entity\\CandidateTypes.javaCandidateTypes.java", "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\entity\\DecoratedEntity.javaDecoratedEntity.java", "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java", "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.javaASTStringUtilExt.java", "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.javaCppVisitor.java", "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaListener.javaJavaListener.java", "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java", "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\TypeParameterContextHelper.javaTypeParameterContextHelper.java" ],
-  "cells" : [ {
-    "src" : 4,
-    "dest" : 3,
-    "values" : {
-      "Call" : 18.0,
-      "Use" : 21.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\entity\\CandidateTypes.javaCandidateTypes.java",
+    "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\entity\\DecoratedEntity.javaDecoratedEntity.java",
+    "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+    "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.javaASTStringUtilExt.java",
+    "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.javaCppVisitor.java",
+    "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaListener.javaJavaListener.java",
+    "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java",
+    "D:\\desktop\\git-data\\depends\\0f27f45e35c0714b1aac19ddfd898a40c77838e0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\TypeParameterContextHelper.javaTypeParameterContextHelper.java"
+  ],
+  "cells": [
+    {
+      "src": 4,
+      "dest": 3,
+      "values": {
+        "Call": 18.0,
+        "Use": 21.0
+      }
+    },
+    {
+      "src": 5,
+      "dest": 6,
+      "values": {
+        "Call": 16.0,
+        "Import": 1.0,
+        "Use": 16.0
+      }
+    },
+    {
+      "src": 5,
+      "dest": 7,
+      "values": {
+        "Call": 1.0,
+        "Import": 1.0,
+        "Use": 1.0
+      }
     }
-  }, {
-    "src" : 5,
-    "dest" : 6,
-    "values" : {
-      "Call" : 16.0,
-      "Import" : 1.0,
-      "Use" : 16.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 7,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Use" : 1.0
-    }
-  } ]
+  ]
 }

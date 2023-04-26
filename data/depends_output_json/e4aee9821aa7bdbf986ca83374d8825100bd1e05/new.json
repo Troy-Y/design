@@ -1,40 +1,51 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\main\\java\\depends\\entity\\DecoratedEntity.javaDecoratedEntity.java", "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\main\\java\\depends\\entity\\GenericTypeArgument.javaGenericTypeArgument.java", "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java", "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java", "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\test\\java\\depends\\extractor\\java\\JavaGenericTypeTest.javaJavaGenericTypeTest.java" ],
-  "cells" : [ {
-    "src" : 2,
-    "dest" : 1,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 2.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\main\\java\\depends\\entity\\DecoratedEntity.javaDecoratedEntity.java",
+    "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\main\\java\\depends\\entity\\GenericTypeArgument.javaGenericTypeArgument.java",
+    "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java",
+    "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+    "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\new\\src\\test\\java\\depends\\extractor\\java\\JavaGenericTypeTest.javaJavaGenericTypeTest.java"
+  ],
+  "cells": [
+    {
+      "src": 0,
+      "dest": 1,
+      "values": {
+        "Call": 3.0,
+        "Use": 1.0,
+        "Parameter": 3.0,
+        "Contain": 3.0
+      }
+    },
+    {
+      "src": 0,
+      "dest": 3,
+      "values": {
+        "Call": 1.0,
+        "Import": 1.0,
+        "Use": 2.0,
+        "Parameter": 5.0
+      }
+    },
+    {
+      "src": 1,
+      "dest": 3,
+      "values": {
+        "Import": 1.0
+      }
+    },
+    {
+      "src": 2,
+      "dest": 1,
+      "values": {
+        "Call": 1.0,
+        "Import": 1.0,
+        "Create": 1.0,
+        "Use": 2.0,
+        "Parameter": 2.0
+      }
     }
-  }, {
-    "src" : 1,
-    "dest" : 3,
-    "values" : {
-      "Import" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Call" : 3.0,
-      "Use" : 1.0,
-      "Parameter" : 3.0,
-      "Contain" : 3.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 3,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 5.0
-    }
-  } ]
+  ]
 }

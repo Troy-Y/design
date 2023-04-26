@@ -8,7 +8,3 @@
 7.IncludeRelationTest.java
   old: {'src': 6, 'dest': 5, 'values': {'Call': 4.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
   new: {'src': 6, 'dest': 5, 'values': {'Call': 5.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  old: {'src': 4, 'dest': 6, 'values': {'Import': 1.0, 'Parameter': 1.0}}
-  new: {'src': 5, 'dest': 6, 'values': {'Parameter': 1.0}}
-  old: {'src': 5, 'dest': 6, 'values': {'Parameter': 1.0}}
-  new: {'src': 4, 'dest': 6, 'values': {'Import': 1.0, 'Parameter': 1.0}}

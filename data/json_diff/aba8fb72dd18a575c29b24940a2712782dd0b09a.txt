@@ -9,6 +9,4 @@
 8.G4GrammarTest.java
 9.PreprocessorHandlerTest.java
   old: {'src': 4, 'dest': 5, 'values': {'Call': 2.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 1, 'dest': 0, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 3.0}}
-  old: {'src': 1, 'dest': 0, 'values': {'Call': 1.0, 'Import': 1.0, 'Extend': 1.0, 'Use': 3.0}}
   new: {'src': 2, 'dest': 4, 'values': {'Call': 5.0, 'Import': 1.0, 'Create': 1.0, 'Contain': 1.0}}

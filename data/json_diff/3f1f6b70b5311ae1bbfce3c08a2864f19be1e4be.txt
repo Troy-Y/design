@@ -2,7 +2,7 @@
 1.PomListener.java
 2.PomProcessor.java
 3.MavenParserTest.java
-  old: {'src': 0, 'dest': 1, 'values': {'Call': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 1, 'dest': 2, 'values': {'Call': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  old: {'src': 2, 'dest': 0, 'values': {'Call': 1.0, 'Create': 1.0}}
+  new: {'src': 0, 'dest': 2, 'values': {'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
   old: {'src': 3, 'dest': 0, 'values': {'Call': 1.0, 'Import': 1.0, 'Return': 1.0, 'Create': 1.0}}
-  new: {'src': 0, 'dest': 1, 'values': {'Call': 1.0, 'Create': 1.0, 'Contain': 1.0}}
+  new: {'src': 1, 'dest': 2, 'values': {'Call': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}

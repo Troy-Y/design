@@ -4,9 +4,3 @@
 3.JavaFileParser.java
 4.JavaHandler.java
 5.ExpressionUsage.java
-  old: {'src': 5, 'dest': 0, 'values': {'Import': 1.0}}
-  new: {'src': 4, 'dest': 0, 'values': {'Call': 1.0, 'Import': 1.0, 'Parameter': 1.0}}
-  old: {'src': 4, 'dest': 0, 'values': {'Call': 1.0, 'Import': 1.0, 'Parameter': 1.0}}
-  new: {'src': 2, 'dest': 5, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  old: {'src': 2, 'dest': 5, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 2, 'dest': 4, 'values': {'Call': 27.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}

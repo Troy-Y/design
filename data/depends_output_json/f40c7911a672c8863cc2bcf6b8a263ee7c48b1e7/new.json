@@ -1,14 +1,19 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\f40c7911a672c8863cc2bcf6b8a263ee7c48b1e7\\new\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.javaEntityExtractTest.java", "D:\\desktop\\git-data\\depends\\f40c7911a672c8863cc2bcf6b8a263ee7c48b1e7\\new\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.javaMavenParserTest.java" ],
-  "cells" : [ {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Call" : 3.0,
-      "Extend" : 1.0,
-      "Use" : 5.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\f40c7911a672c8863cc2bcf6b8a263ee7c48b1e7\\new\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.javaEntityExtractTest.java",
+    "D:\\desktop\\git-data\\depends\\f40c7911a672c8863cc2bcf6b8a263ee7c48b1e7\\new\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.javaMavenParserTest.java"
+  ],
+  "cells": [
+    {
+      "src": 0,
+      "dest": 1,
+      "values": {
+        "Call": 3.0,
+        "Extend": 1.0,
+        "Use": 5.0
+      }
     }
-  } ]
+  ]
 }

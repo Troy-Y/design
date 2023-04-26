@@ -1,88 +1,105 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\4f0b1df3a334f787eb61192a37f3e287b119d4d6\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java", "D:\\desktop\\git-data\\depends\\4f0b1df3a334f787eb61192a37f3e287b119d4d6\\new\\src\\main\\java\\depends\\format\\dot\\DotDataBuilder.javaDotDataBuilder.java", "D:\\desktop\\git-data\\depends\\4f0b1df3a334f787eb61192a37f3e287b119d4d6\\new\\src\\main\\java\\depends\\matrix\\DependencyMatrix.javaDependencyMatrix.java", "D:\\desktop\\git-data\\depends\\4f0b1df3a334f787eb61192a37f3e287b119d4d6\\new\\src\\main\\java\\depends\\matrix\\DependencyPair.javaDependencyPair.java", "D:\\desktop\\git-data\\depends\\4f0b1df3a334f787eb61192a37f3e287b119d4d6\\new\\src\\main\\java\\depends\\matrix\\DependencyValue.javaDependencyValue.java", "D:\\desktop\\git-data\\depends\\4f0b1df3a334f787eb61192a37f3e287b119d4d6\\new\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.javaFileDependencyGenerator.java" ],
-  "cells" : [ {
-    "src" : 1,
-    "dest" : 4,
-    "values" : {
-      "Import" : 1.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\4f0b1df3a334f787eb61192a37f3e287b119d4d6\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+    "D:\\desktop\\git-data\\depends\\4f0b1df3a334f787eb61192a37f3e287b119d4d6\\new\\src\\main\\java\\depends\\format\\dot\\DotDataBuilder.javaDotDataBuilder.java",
+    "D:\\desktop\\git-data\\depends\\4f0b1df3a334f787eb61192a37f3e287b119d4d6\\new\\src\\main\\java\\depends\\matrix\\DependencyMatrix.javaDependencyMatrix.java",
+    "D:\\desktop\\git-data\\depends\\4f0b1df3a334f787eb61192a37f3e287b119d4d6\\new\\src\\main\\java\\depends\\matrix\\DependencyPair.javaDependencyPair.java",
+    "D:\\desktop\\git-data\\depends\\4f0b1df3a334f787eb61192a37f3e287b119d4d6\\new\\src\\main\\java\\depends\\matrix\\DependencyValue.javaDependencyValue.java",
+    "D:\\desktop\\git-data\\depends\\4f0b1df3a334f787eb61192a37f3e287b119d4d6\\new\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.javaFileDependencyGenerator.java"
+  ],
+  "cells": [
+    {
+      "src": 0,
+      "dest": 1,
+      "values": {
+        "Call": 2.0,
+        "Import": 1.0,
+        "Create": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 0,
+      "dest": 2,
+      "values": {
+        "Import": 1.0,
+        "Return": 1.0,
+        "Use": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 0,
+      "dest": 5,
+      "values": {
+        "Call": 2.0,
+        "Import": 1.0,
+        "Use": 1.0,
+        "Create": 1.0
+      }
+    },
+    {
+      "src": 1,
+      "dest": 2,
+      "values": {
+        "Call": 2.0,
+        "Import": 1.0,
+        "Use": 1.0,
+        "Parameter": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 1,
+      "dest": 3,
+      "values": {
+        "Call": 2.0,
+        "Import": 1.0,
+        "Use": 1.0,
+        "Parameter": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 1,
+      "dest": 4,
+      "values": {
+        "Import": 1.0
+      }
+    },
+    {
+      "src": 2,
+      "dest": 3,
+      "values": {
+        "Call": 8.0,
+        "Use": 4.0,
+        "Create": 1.0,
+        "Parameter": 1.0,
+        "Contain": 2.0
+      }
+    },
+    {
+      "src": 3,
+      "dest": 4,
+      "values": {
+        "Call": 2.0,
+        "Use": 1.0,
+        "Create": 1.0,
+        "Parameter": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 5,
+      "dest": 2,
+      "values": {
+        "Call": 4.0,
+        "Return": 2.0,
+        "Create": 1.0,
+        "Contain": 2.0
+      }
     }
-  }, {
-    "src" : 1,
-    "dest" : 3,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 3,
-    "values" : {
-      "Call" : 8.0,
-      "Use" : 4.0,
-      "Create" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 2.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 2,
-    "values" : {
-      "Call" : 4.0,
-      "Return" : 2.0,
-      "Create" : 1.0,
-      "Contain" : 2.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 1,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 4,
-    "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 2,
-    "values" : {
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Use" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 5,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Use" : 1.0,
-      "Create" : 1.0
-    }
-  } ]
+  ]
 }

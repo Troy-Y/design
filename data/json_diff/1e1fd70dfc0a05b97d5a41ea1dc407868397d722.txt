@@ -4,5 +4,3 @@
 3.MacroRepo.java
 4.CdtCppFileParser.java
 5.ParseErrorTest.java
-  old: {'src': 0, 'dest': 3, 'values': {'Extend': 1.0}}
-  new: {'src': 5, 'dest': 4, 'values': {'Cast': 1.0, 'Call': 1.0, 'Import': 1.0, 'Contain': 1.0}}

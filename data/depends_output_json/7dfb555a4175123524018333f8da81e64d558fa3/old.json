@@ -1,6 +1,8 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\7dfb555a4175123524018333f8da81e64d558fa3\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java" ],
-  "cells" : [ ]
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\7dfb555a4175123524018333f8da81e64d558fa3\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java"
+  ],
+  "cells": []
 }

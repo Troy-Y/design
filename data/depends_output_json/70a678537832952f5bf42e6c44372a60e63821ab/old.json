@@ -1,40 +1,49 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\70a678537832952f5bf42e6c44372a60e63821ab\\old\\src\\main\\java\\depends\\extractor\\pom\\PomCoords.java", "D:\\desktop\\git-data\\depends\\70a678537832952f5bf42e6c44372a60e63821ab\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java", "D:\\desktop\\git-data\\depends\\70a678537832952f5bf42e6c44372a60e63821ab\\old\\src\\main\\java\\depends\\extractor\\pom\\PomParent.java" ],
-  "cells" : [ {
-    "src" : 2,
-    "dest" : 0,
-    "values" : {
-      "Call" : 1.0,
-      "Use" : 3.0,
-      "Parameter" : 1.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\70a678537832952f5bf42e6c44372a60e63821ab\\old\\src\\main\\java\\depends\\extractor\\pom\\PomCoords.java",
+    "D:\\desktop\\git-data\\depends\\70a678537832952f5bf42e6c44372a60e63821ab\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java",
+    "D:\\desktop\\git-data\\depends\\70a678537832952f5bf42e6c44372a60e63821ab\\old\\src\\main\\java\\depends\\extractor\\pom\\PomParent.java"
+  ],
+  "cells": [
+    {
+      "src": 0,
+      "dest": 2,
+      "values": {
+        "Use": 3.0,
+        "Parameter": 1.0
+      }
+    },
+    {
+      "src": 1,
+      "dest": 0,
+      "values": {
+        "Call": 10.0,
+        "Return": 1.0,
+        "Use": 4.0,
+        "Create": 4.0,
+        "Parameter": 1.0
+      }
+    },
+    {
+      "src": 1,
+      "dest": 2,
+      "values": {
+        "Call": 2.0,
+        "Use": 1.0,
+        "Create": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 2,
+      "dest": 0,
+      "values": {
+        "Call": 1.0,
+        "Use": 3.0,
+        "Parameter": 1.0
+      }
     }
-  }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 0,
-    "values" : {
-      "Call" : 10.0,
-      "Return" : 1.0,
-      "Use" : 4.0,
-      "Create" : 4.0,
-      "Parameter" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 2,
-    "values" : {
-      "Use" : 3.0,
-      "Parameter" : 1.0
-    }
-  } ]
+  ]
 }

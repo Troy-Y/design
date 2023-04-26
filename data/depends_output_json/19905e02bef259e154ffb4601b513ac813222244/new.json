@@ -1,6 +1,10 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\19905e02bef259e154ffb4601b513ac813222244\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java", "D:\\desktop\\git-data\\depends\\19905e02bef259e154ffb4601b513ac813222244\\new\\src\\main\\java\\depends\\extractor\\java\\JavaImportLookupStrategy.javaJavaImportLookupStrategy.java", "D:\\desktop\\git-data\\depends\\19905e02bef259e154ffb4601b513ac813222244\\new\\src\\main\\java\\depends\\extractor\\java\\context\\CreatorContextHelper.javaCreatorContextHelper.java" ],
-  "cells" : [ ]
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\19905e02bef259e154ffb4601b513ac813222244\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+    "D:\\desktop\\git-data\\depends\\19905e02bef259e154ffb4601b513ac813222244\\new\\src\\main\\java\\depends\\extractor\\java\\JavaImportLookupStrategy.javaJavaImportLookupStrategy.java",
+    "D:\\desktop\\git-data\\depends\\19905e02bef259e154ffb4601b513ac813222244\\new\\src\\main\\java\\depends\\extractor\\java\\context\\CreatorContextHelper.javaCreatorContextHelper.java"
+  ],
+  "cells": []
 }

@@ -1,16 +1,21 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\731d2d7915c1cd8fa25f3744683167959fee21b1\\old\\src\\main\\java\\depends\\DependsCommand.java", "D:\\desktop\\git-data\\depends\\731d2d7915c1cd8fa25f3744683167959fee21b1\\old\\src\\main\\java\\depends\\Main.java" ],
-  "cells" : [ {
-    "src" : 1,
-    "dest" : 0,
-    "values" : {
-      "Call" : 39.0,
-      "Create" : 3.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\731d2d7915c1cd8fa25f3744683167959fee21b1\\old\\src\\main\\java\\depends\\DependsCommand.java",
+    "D:\\desktop\\git-data\\depends\\731d2d7915c1cd8fa25f3744683167959fee21b1\\old\\src\\main\\java\\depends\\Main.java"
+  ],
+  "cells": [
+    {
+      "src": 1,
+      "dest": 0,
+      "values": {
+        "Call": 39.0,
+        "Create": 3.0,
+        "Use": 1.0,
+        "Parameter": 1.0,
+        "Contain": 1.0
+      }
     }
-  } ]
+  ]
 }

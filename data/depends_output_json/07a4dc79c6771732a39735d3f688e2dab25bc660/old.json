@@ -1,89 +1,106 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\CandidateTypes.java", "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java", "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java", "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java", "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\GenericName.java" ],
-  "cells" : [ {
-    "src" : 1,
-    "dest" : 4,
-    "values" : {
-      "Call" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 9.0,
-      "Contain" : 1.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\CandidateTypes.java",
+    "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java",
+    "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java",
+    "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java",
+    "D:\\desktop\\git-data\\depends\\07a4dc79c6771732a39735d3f688e2dab25bc660\\old\\src\\main\\java\\depends\\entity\\GenericName.java"
+  ],
+  "cells": [
+    {
+      "src": 0,
+      "dest": 3,
+      "values": {
+        "Return": 1.0,
+        "Use": 1.0,
+        "Parameter": 2.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 0,
+      "dest": 4,
+      "values": {
+        "Call": 1.0,
+        "Return": 1.0,
+        "Use": 1.0,
+        "Parameter": 9.0
+      }
+    },
+    {
+      "src": 1,
+      "dest": 2,
+      "values": {
+        "Call": 2.0,
+        "Extend": 1.0,
+        "Use": 1.0
+      }
+    },
+    {
+      "src": 1,
+      "dest": 3,
+      "values": {
+        "Call": 2.0,
+        "Return": 3.0,
+        "Use": 1.0,
+        "Parameter": 2.0,
+        "Contain": 5.0
+      }
+    },
+    {
+      "src": 1,
+      "dest": 4,
+      "values": {
+        "Call": 1.0,
+        "Use": 2.0,
+        "Parameter": 9.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 2,
+      "dest": 1,
+      "values": {
+        "Cast": 3.0,
+        "Use": 3.0
+      }
+    },
+    {
+      "src": 2,
+      "dest": 4,
+      "values": {
+        "Call": 3.0,
+        "Use": 2.0,
+        "Parameter": 8.0,
+        "Contain": 4.0
+      }
+    },
+    {
+      "src": 3,
+      "dest": 1,
+      "values": {
+        "Call": 6.0,
+        "Extend": 1.0,
+        "Use": 3.0
+      }
+    },
+    {
+      "src": 3,
+      "dest": 2,
+      "values": {
+        "Call": 2.0
+      }
+    },
+    {
+      "src": 3,
+      "dest": 4,
+      "values": {
+        "Call": 1.0,
+        "Use": 2.0,
+        "Parameter": 7.0
+      }
     }
-  }, {
-    "src" : 2,
-    "dest" : 1,
-    "values" : {
-      "Cast" : 3.0,
-      "Use" : 3.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 3,
-    "values" : {
-      "Call" : 2.0,
-      "Return" : 3.0,
-      "Use" : 1.0,
-      "Parameter" : 2.0,
-      "Contain" : 5.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 2.0,
-      "Extend" : 1.0,
-      "Use" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 2,
-    "values" : {
-      "Call" : 2.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 1,
-    "values" : {
-      "Call" : 6.0,
-      "Extend" : 1.0,
-      "Use" : 3.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 4,
-    "values" : {
-      "Call" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 7.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 3,
-    "values" : {
-      "Return" : 1.0,
-      "Use" : 1.0,
-      "Parameter" : 2.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 4,
-    "values" : {
-      "Call" : 3.0,
-      "Use" : 2.0,
-      "Parameter" : 8.0,
-      "Contain" : 4.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 4,
-    "values" : {
-      "Call" : 1.0,
-      "Return" : 1.0,
-      "Use" : 1.0,
-      "Parameter" : 9.0
-    }
-  } ]
+  ]
 }

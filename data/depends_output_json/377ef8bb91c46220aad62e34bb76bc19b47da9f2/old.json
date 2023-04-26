@@ -1,6 +1,9 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\377ef8bb91c46220aad62e34bb76bc19b47da9f2\\old\\src\\main\\java\\depends\\generator\\FileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\377ef8bb91c46220aad62e34bb76bc19b47da9f2\\old\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.java" ],
-  "cells" : [ ]
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\377ef8bb91c46220aad62e34bb76bc19b47da9f2\\old\\src\\main\\java\\depends\\generator\\FileDependencyGenerator.java",
+    "D:\\desktop\\git-data\\depends\\377ef8bb91c46220aad62e34bb76bc19b47da9f2\\old\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.java"
+  ],
+  "cells": []
 }

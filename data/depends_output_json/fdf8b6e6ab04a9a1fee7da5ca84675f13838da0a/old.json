@@ -1,6 +1,8 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\fdf8b6e6ab04a9a1fee7da5ca84675f13838da0a\\old\\src\\main\\java\\depends\\matrix\\transform\\MatrixLevelReducer.java" ],
-  "cells" : [ ]
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\fdf8b6e6ab04a9a1fee7da5ca84675f13838da0a\\old\\src\\main\\java\\depends\\matrix\\transform\\MatrixLevelReducer.java"
+  ],
+  "cells": []
 }

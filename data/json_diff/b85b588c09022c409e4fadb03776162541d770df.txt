@@ -4,15 +4,13 @@
 3.ASTStringUtilExt.java
 4.CppVisitor.java
 5.Inferer.java
-  old: {'src': 4, 'dest': 3, 'values': {'Call': 4.0, 'Use': 5.0}}
-  new: {'src': 2, 'dest': 1, 'values': {'Import': 1.0}}
-  old: {'src': 5, 'dest': 1, 'values': {'Cast': 8.0, 'Call': 4.0, 'Import': 1.0, 'Use': 5.0, 'Parameter': 3.0, 'Contain': 3.0}}
-  new: {'src': 4, 'dest': 3, 'values': {'Call': 4.0, 'Use': 5.0}}
   old: {'src': 3, 'dest': 5, 'values': {'Import': 1.0, 'Use': 2.0}}
-  new: {'src': 5, 'dest': 1, 'values': {'Cast': 7.0, 'Call': 2.0, 'Import': 1.0, 'Use': 3.0, 'Parameter': 2.0, 'Contain': 1.0}}
-  old: {'src': 5, 'dest': 2, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Parameter': 1.0}}
+  new: {'src': 2, 'dest': 1, 'values': {'Import': 1.0}}
+  old: {'src': 4, 'dest': 3, 'values': {'Call': 4.0, 'Use': 5.0}}
   new: {'src': 3, 'dest': 5, 'values': {'Import': 1.0, 'Use': 2.0}}
   old: {'src': 4, 'dest': 5, 'values': {'Import': 1.0, 'Use': 5.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  new: {'src': 5, 'dest': 2, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 2.0, 'Create': 1.0, 'Parameter': 2.0, 'Contain': 1.0}}
-  old: {'src': 1, 'dest': 5, 'values': {'Call': 3.0, 'Import': 1.0, 'Parameter': 1.0}}
+  new: {'src': 4, 'dest': 3, 'values': {'Call': 4.0, 'Use': 5.0}}
+  old: {'src': 5, 'dest': 1, 'values': {'Cast': 8.0, 'Call': 4.0, 'Import': 1.0, 'Use': 5.0, 'Parameter': 3.0, 'Contain': 3.0}}
   new: {'src': 4, 'dest': 5, 'values': {'Import': 1.0, 'Use': 5.0, 'Parameter': 1.0, 'Contain': 1.0}}
+  old: {'src': 5, 'dest': 2, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 1.0, 'Create': 1.0, 'Parameter': 1.0}}
+  new: {'src': 5, 'dest': 1, 'values': {'Cast': 7.0, 'Call': 2.0, 'Import': 1.0, 'Use': 3.0, 'Parameter': 2.0, 'Contain': 1.0}}

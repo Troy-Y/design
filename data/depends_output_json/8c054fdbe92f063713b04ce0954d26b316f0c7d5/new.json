@@ -1,67 +1,84 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\extractor\\golang\\GoHandlerContext.javaGoHandlerContext.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\extractor\\golang\\GoListener.javaGoListener.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\format\\json\\DetailItem.javaDetailItem.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\generator\\FileDependencyGenerator.javaFileDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.javaFunctionDependencyGenerator.java", "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\matrix\\core\\DependencyDetail.javaDependencyDetail.java" ],
-  "cells" : [ {
-    "src" : 2,
-    "dest" : 1,
-    "values" : {
-      "Call" : 2.0,
-      "Use" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+    "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\extractor\\golang\\GoHandlerContext.javaGoHandlerContext.java",
+    "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\extractor\\golang\\GoListener.javaGoListener.java",
+    "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\format\\json\\DetailItem.javaDetailItem.java",
+    "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java",
+    "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\generator\\FileDependencyGenerator.javaFileDependencyGenerator.java",
+    "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.javaFunctionDependencyGenerator.java",
+    "D:\\desktop\\git-data\\depends\\8c054fdbe92f063713b04ce0954d26b316f0c7d5\\new\\src\\main\\java\\depends\\matrix\\core\\DependencyDetail.javaDependencyDetail.java"
+  ],
+  "cells": [
+    {
+      "src": 1,
+      "dest": 0,
+      "values": {
+        "Call": 1.0,
+        "Import": 1.0,
+        "Extend": 1.0,
+        "Use": 4.0
+      }
+    },
+    {
+      "src": 2,
+      "dest": 0,
+      "values": {
+        "Call": 9.0
+      }
+    },
+    {
+      "src": 2,
+      "dest": 1,
+      "values": {
+        "Call": 2.0,
+        "Use": 1.0,
+        "Create": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 4,
+      "dest": 7,
+      "values": {
+        "Call": 1.0,
+        "Import": 1.0,
+        "Return": 1.0,
+        "Create": 1.0
+      }
+    },
+    {
+      "src": 5,
+      "dest": 4,
+      "values": {
+        "Call": 2.0,
+        "Extend": 1.0,
+        "Use": 4.0
+      }
+    },
+    {
+      "src": 5,
+      "dest": 7,
+      "values": {
+        "Call": 7.0,
+        "Import": 1.0,
+        "Return": 1.0,
+        "Use": 2.0,
+        "Create": 1.0,
+        "Parameter": 1.0,
+        "Contain": 2.0
+      }
+    },
+    {
+      "src": 6,
+      "dest": 4,
+      "values": {
+        "Call": 1.0,
+        "Extend": 1.0,
+        "Use": 2.0
+      }
     }
-  }, {
-    "src" : 2,
-    "dest" : 0,
-    "values" : {
-      "Call" : 9.0
-    }
-  }, {
-    "src" : 6,
-    "dest" : 4,
-    "values" : {
-      "Call" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 2.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 0,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Extend" : 1.0,
-      "Use" : 4.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 4,
-    "values" : {
-      "Call" : 2.0,
-      "Extend" : 1.0,
-      "Use" : 4.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 7,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 7,
-    "values" : {
-      "Call" : 7.0,
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Use" : 2.0,
-      "Create" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 2.0
-    }
-  } ]
+  ]
 }

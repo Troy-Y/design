@@ -1,83 +1,103 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\Main.javaMain.java", "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java", "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java", "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java", "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java", "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java", "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java", "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java", "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java" ],
-  "cells" : [ {
-    "src" : 2,
-    "dest" : 1,
-    "values" : {
-      "Cast" : 1.0,
-      "Use" : 1.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+    "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+    "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+    "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+    "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java",
+    "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
+    "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java",
+    "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+    "D:\\desktop\\git-data\\depends\\7ea8a6451225bdda69b798d122f345ac715d6dbc\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java"
+  ],
+  "cells": [
+    {
+      "src": 1,
+      "dest": 2,
+      "values": {
+        "Call": 3.0,
+        "Return": 2.0,
+        "Use": 1.0,
+        "Parameter": 2.0,
+        "Contain": 4.0
+      }
+    },
+    {
+      "src": 2,
+      "dest": 1,
+      "values": {
+        "Cast": 1.0,
+        "Use": 1.0
+      }
+    },
+    {
+      "src": 3,
+      "dest": 1,
+      "values": {
+        "Cast": 4.0,
+        "Call": 2.0,
+        "Import": 1.0,
+        "Return": 2.0
+      }
+    },
+    {
+      "src": 3,
+      "dest": 2,
+      "values": {
+        "Call": 1.0,
+        "Import": 1.0,
+        "Create": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 4,
+      "dest": 2,
+      "values": {
+        "Call": 1.0,
+        "Import": 1.0,
+        "Create": 1.0,
+        "Contain": 1.0
+      }
+    },
+    {
+      "src": 5,
+      "dest": 6,
+      "values": {
+        "Call": 16.0,
+        "Import": 1.0,
+        "Use": 16.0
+      }
+    },
+    {
+      "src": 7,
+      "dest": 1,
+      "values": {
+        "Cast": 2.0,
+        "Call": 2.0,
+        "Import": 1.0,
+        "Parameter": 1.0
+      }
+    },
+    {
+      "src": 7,
+      "dest": 2,
+      "values": {
+        "Call": 4.0,
+        "Import": 1.0,
+        "Contain": 2.0
+      }
+    },
+    {
+      "src": 8,
+      "dest": 1,
+      "values": {
+        "Cast": 1.0,
+        "Import": 1.0,
+        "Contain": 1.0
+      }
     }
-  }, {
-    "src" : 8,
-    "dest" : 1,
-    "values" : {
-      "Cast" : 1.0,
-      "Import" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 1,
-    "dest" : 2,
-    "values" : {
-      "Call" : 3.0,
-      "Return" : 2.0,
-      "Use" : 1.0,
-      "Parameter" : 2.0,
-      "Contain" : 4.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 2,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 1,
-    "values" : {
-      "Cast" : 4.0,
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Return" : 2.0
-    }
-  }, {
-    "src" : 7,
-    "dest" : 1,
-    "values" : {
-      "Cast" : 2.0,
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
-    "src" : 7,
-    "dest" : 2,
-    "values" : {
-      "Call" : 4.0,
-      "Import" : 1.0,
-      "Contain" : 2.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 2,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 5,
-    "dest" : 6,
-    "values" : {
-      "Call" : 16.0,
-      "Import" : 1.0,
-      "Use" : 16.0
-    }
-  } ]
+  ]
 }

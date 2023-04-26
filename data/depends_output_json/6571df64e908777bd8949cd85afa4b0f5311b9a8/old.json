@@ -1,25 +1,34 @@
 {
-  "schemaVersion" : "1.0",
-  "name" : "output-file-sdsm",
-  "variables" : [ "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\entity\\Expression.java", "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.java", "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ExpressionUsage.java", "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.java", "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.java" ],
-  "cells" : [ {
-    "src" : 2,
-    "dest" : 1,
-    "values" : {
-      "Call" : 3.0,
-      "Use" : 3.0
+  "schemaVersion": "1.0",
+  "name": "output-file-sdsm",
+  "variables": [
+    "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\entity\\Expression.java",
+    "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.java",
+    "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ExpressionUsage.java",
+    "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.java",
+    "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.java"
+  ],
+  "cells": [
+    {
+      "src": 2,
+      "dest": 0,
+      "values": {
+        "Call": 14.0,
+        "Import": 1.0,
+        "Return": 1.0,
+        "Create": 2.0,
+        "Use": 13.0,
+        "Parameter": 1.0,
+        "Contain": 3.0
+      }
+    },
+    {
+      "src": 2,
+      "dest": 1,
+      "values": {
+        "Call": 3.0,
+        "Use": 3.0
+      }
     }
-  }, {
-    "src" : 2,
-    "dest" : 0,
-    "values" : {
-      "Call" : 14.0,
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Create" : 2.0,
-      "Use" : 13.0,
-      "Parameter" : 1.0,
-      "Contain" : 3.0
-    }
-  } ]
+  ]
 }
