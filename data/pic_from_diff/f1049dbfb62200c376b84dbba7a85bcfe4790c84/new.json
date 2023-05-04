@@ -1,0 +1,60 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\Main.javaMain.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\matrix\\DependencyMatrix.javaDependencyMatrix.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.javaFileDependencyGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\test\\java\\depends\\extractor\\cpp\\ForwardDeclareTest.javaForwardDeclareTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\matrix\\DependencyMatrix.javaDependencyMatrix.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.javaFileDependencyGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.javaFileDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\matrix\\DependencyMatrix.javaDependencyMatrix.java"
+    },
+    {
+      "label": "Import",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\test\\java\\depends\\extractor\\cpp\\ForwardDeclareTest.javaForwardDeclareTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\matrix\\DependencyMatrix.javaDependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\test\\java\\depends\\extractor\\cpp\\ForwardDeclareTest.javaForwardDeclareTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1049dbfb62200c376b84dbba7a85bcfe4790c84\\new\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.javaFileDependencyGenerator.java"
+    }
+  ]
+}

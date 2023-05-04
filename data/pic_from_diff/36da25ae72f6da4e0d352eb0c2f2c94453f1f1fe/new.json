@@ -1,0 +1,11 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\36da25ae72f6da4e0d352eb0c2f2c94453f1f1fe\\new\\src\\test\\java\\depends\\extractor\\cpp\\IncludeRelationTest.javaIncludeRelationTest.java"
+    }
+  ],
+  "links": []
+}

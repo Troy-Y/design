@@ -1,0 +1,39 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\python\\PythonGlobalVarTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\python\\PythonGlobalVarTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 5.0,
+      "source": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java",
+      "target": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
+    }
+  ]
+}

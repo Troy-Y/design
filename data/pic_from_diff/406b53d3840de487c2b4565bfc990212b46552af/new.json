@@ -1,0 +1,24 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\new\\src\\main\\java\\depends\\extractor\\pom\\PomParent.javaPomParent.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\new\\src\\test\\java\\depends\\extractor\\pom\\DependencyWithPropertiesOfParentTest.javaDependencyWithPropertiesOfParentTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\new\\src\\main\\java\\depends\\extractor\\pom\\PomParent.javaPomParent.java"
+    }
+  ]
+}

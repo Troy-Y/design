@@ -1,0 +1,252 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\Main.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroFileRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroMemoryRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\pom\\PomCoords.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\pom\\PomLocator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\format\\detail\\UnsolvedSymbolDumper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\cpp\\IncludeRelationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubySingletonMethodTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyVarInvocationRecordTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\format\\detail\\UnsolvedSymbolDumper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroFileRepo.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroMemoryRepo.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.java"
+    },
+    {
+      "label": "Use",
+      "weight": 13.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\cpp\\IncludeRelationTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java"
+    },
+    {
+      "label": "Use",
+      "weight": 32.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubySingletonMethodTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubySingletonMethodTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyVarInvocationRecordTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyVarInvocationRecordTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\ae520072222fef1d0fcb05033fadc0e852d8c30d\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ce0800e38c7c40f081366c3fa7da3333d5b7c127\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ce0800e38c7c40f081366c3fa7da3333d5b7c127\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ce0800e38c7c40f081366c3fa7da3333d5b7c127\\old\\src\\test\\java\\depends\\entity\\EntityResolveBindingsTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ce0800e38c7c40f081366c3fa7da3333d5b7c127\\old\\src\\test\\java\\depends\\extractor\\cpp\\ContainRelationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ce0800e38c7c40f081366c3fa7da3333d5b7c127\\old\\src\\test\\java\\depends\\extractor\\cpp\\DuplicateDeclarationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ce0800e38c7c40f081366c3fa7da3333d5b7c127\\old\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppExpressionTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ce0800e38c7c40f081366c3fa7da3333d5b7c127\\old\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\ForwardDeclareTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ce0800e38c7c40f081366c3fa7da3333d5b7c127\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\ce0800e38c7c40f081366c3fa7da3333d5b7c127\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ce0800e38c7c40f081366c3fa7da3333d5b7c127\\old\\src\\test\\java\\depends\\entity\\EntityResolveBindingsTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\ce0800e38c7c40f081366c3fa7da3333d5b7c127\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.javaPythonCodeListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonFileParser.javaPythonFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonProcessor.javaPythonProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.javaRubyProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.javaJRubyFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.javaPythonCodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonFileParser.javaPythonFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.javaPythonCodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonProcessor.javaPythonProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonFileParser.javaPythonFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.javaPythonCodeListener.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonFileParser.javaPythonFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonProcessor.javaPythonProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonProcessor.javaPythonProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonFileParser.javaPythonFileParser.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.javaRubyProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.javaJRubyFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.javaJRubyFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.javaRubyProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\aaa26dab1acc77b60ee66459259a230fb59b79eb\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.javaJRubyFileParser.java"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\Main.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\Scanner.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\test\\java\\depends\\extractor\\java\\UnsolvedSymbolsTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Import",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\Scanner.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "label": "Create",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+      "target": "D:\\desktop\\git-data\\depends\\b48185e08400c5b39608b6118fdb7744d99cf8ee\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    }
+  ]
+}

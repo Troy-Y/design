@@ -1,0 +1,24 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\new\\src\\main\\java\\depends\\extractor\\python\\union\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.javaPythonCodeListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\new\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.javaPythonFuncCallTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.javaPythonCodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\new\\src\\main\\java\\depends\\extractor\\python\\union\\ExpressionUsage.javaExpressionUsage.java"
+    }
+  ]
+}

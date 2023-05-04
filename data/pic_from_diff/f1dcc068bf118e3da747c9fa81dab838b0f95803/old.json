@@ -1,0 +1,132 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\MultiDeclareEntities.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\test\\java\\depends\\extractor\\cpp\\ForwardDeclareTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\MultiDeclareEntities.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\MultiDeclareEntities.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Use",
+      "weight": 9.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 5.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Call",
+      "weight": 31.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppHandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\MultiDeclareEntities.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+      "target": "D:\\desktop\\git-data\\depends\\f1dcc068bf118e3da747c9fa81dab838b0f95803\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    }
+  ]
+}

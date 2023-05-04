@@ -1,0 +1,17 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c0871c6bedb8b77d874d90b3def499652b11dd72\\old\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c0871c6bedb8b77d874d90b3def499652b11dd72\\old\\src\\test\\java\\depends\\extractor\\java\\JavaFunctionExtractTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c0871c6bedb8b77d874d90b3def499652b11dd72\\old\\src\\test\\resources\\java-code-examples\\Maze.java"
+    }
+  ],
+  "links": []
+}

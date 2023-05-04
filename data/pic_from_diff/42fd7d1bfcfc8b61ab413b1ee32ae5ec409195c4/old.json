@@ -1,0 +1,57 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyVarTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Call",
+      "weight": 12.0,
+      "source": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.java"
+    }
+  ]
+}

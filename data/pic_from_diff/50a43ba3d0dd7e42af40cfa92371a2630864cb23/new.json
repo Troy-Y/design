@@ -1,0 +1,39 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.javaRubyParserHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.javaRubyParserHelper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.javaRubyParserHelper.java"
+    }
+  ]
+}

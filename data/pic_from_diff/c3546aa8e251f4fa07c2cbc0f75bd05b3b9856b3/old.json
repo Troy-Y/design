@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppEntitiesListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\DeclaratorIdVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\FunctionDeclaratorVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\FunctiondefinitionContextHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\SimpletypespecifierContextHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\java\\JavaWorker.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\util\\FileTraversal.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParameterParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java",
+      "target": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\util\\FileTraversal.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppEntitiesListener.java"
+    },
+    {
+      "label": "Use",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.java",
+      "target": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.java",
+      "target": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\FunctionDeclaratorVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\DeclaratorIdVisitor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\FunctiondefinitionContextHelper.java",
+      "target": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\FunctionDeclaratorVisitor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\FunctiondefinitionContextHelper.java",
+      "target": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\SimpletypespecifierContextHelper.java"
+    },
+    {
+      "label": "Use",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\java\\JavaWorker.java",
+      "target": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParameterParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\c3546aa8e251f4fa07c2cbc0f75bd05b3b9856b3\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.java"
+    }
+  ]
+}

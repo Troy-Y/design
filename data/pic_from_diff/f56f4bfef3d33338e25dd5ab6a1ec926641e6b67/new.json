@@ -1,0 +1,102 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.javaPythonFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.javaPythonProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.javaIncludedFileLocator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.javaPythonParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.javaPythonFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.javaPythonFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.javaPythonProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.javaPythonFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.javaIncludedFileLocator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.javaIncludedFileLocator.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.javaPythonProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.javaPythonFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.javaPythonProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.javaPythonProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.javaIncludedFileLocator.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.javaPythonProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java"
+    },
+    {
+      "label": "Import",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.javaIncludedFileLocator.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.javaPythonParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.javaPythonFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.javaPythonParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\f56f4bfef3d33338e25dd5ab6a1ec926641e6b67\\new\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.javaPythonProcessor.java"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\CandidateTypes.javaCandidateTypes.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\util\\FileUtil.javaFileUtil.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\CandidateTypes.javaCandidateTypes.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\CandidateTypes.javaCandidateTypes.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "label": "Cast",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\CandidateTypes.javaCandidateTypes.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 8.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "label": "Use",
+      "weight": 9.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\util\\FileUtil.javaFileUtil.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 6.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 18.0,
+      "source": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\4f4fa047ee1ae9222b6e1a2cbe3ef16a422e8c73\\new\\src\\main\\java\\depends\\util\\FileUtil.javaFileUtil.java"
+    }
+  ]
+}

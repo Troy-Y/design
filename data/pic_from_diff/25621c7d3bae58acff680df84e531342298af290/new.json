@@ -1,0 +1,39 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\python\\PythonGlobalVarTest.javaPythonGlobalVarTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.javaPythonObjectCreationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.javaPythonObjectThrowReturn.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.javaPythonParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\python\\PythonGlobalVarTest.javaPythonGlobalVarTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.javaPythonParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.javaPythonObjectCreationTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.javaPythonParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 5.0,
+      "source": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.javaPythonObjectThrowReturn.java",
+      "target": "D:\\desktop\\git-data\\depends\\25621c7d3bae58acff680df84e531342298af290\\new\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.javaPythonParserTest.java"
+    }
+  ]
+}

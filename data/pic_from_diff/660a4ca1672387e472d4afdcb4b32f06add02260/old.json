@@ -1,0 +1,24 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\660a4ca1672387e472d4afdcb4b32f06add02260\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\660a4ca1672387e472d4afdcb4b32f06add02260\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\660a4ca1672387e472d4afdcb4b32f06add02260\\old\\src\\test\\java\\depends\\extractor\\cpp\\GenericTypeTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Use",
+      "weight": 8.0,
+      "source": "D:\\desktop\\git-data\\depends\\660a4ca1672387e472d4afdcb4b32f06add02260\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\660a4ca1672387e472d4afdcb4b32f06add02260\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.java"
+    }
+  ]
+}

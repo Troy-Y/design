@@ -1,0 +1,105 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.javaCppProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.javaJavaProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.javaRubyProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+      "target": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.javaCppProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.javaJavaProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "label": "Use",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.javaRubyProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+      "target": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\92a61b330674a6f9e99cf6c6ea6c8e621eaecf59\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
+    }
+  ]
+}

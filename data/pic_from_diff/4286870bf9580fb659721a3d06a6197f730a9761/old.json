@@ -1,0 +1,303 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\FileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\golang\\GoFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\java\\JavaListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\test\\java\\depends\\extractor\\cpp\\ParseErrorTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\FileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\FileParser.java"
+    },
+    {
+      "label": "Use",
+      "weight": 8.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\FileParser.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Use",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\golang\\GoFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\golang\\GoFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\FileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\FileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\java\\JavaListener.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\java\\JavaListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\FileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\FileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\FileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\FileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\FileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Call",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\test\\java\\depends\\extractor\\cpp\\ParseErrorTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\FileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\test\\java\\depends\\extractor\\cpp\\ParseErrorTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\test\\java\\depends\\extractor\\cpp\\ParseErrorTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\4286870bf9580fb659721a3d06a6197f730a9761\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java"
+    }
+  ]
+}

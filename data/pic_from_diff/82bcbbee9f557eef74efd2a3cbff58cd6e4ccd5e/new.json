@@ -1,0 +1,27 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\82bcbbee9f557eef74efd2a3cbff58cd6e4ccd5e\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.javaCDTParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\82bcbbee9f557eef74efd2a3cbff58cd6e4ccd5e\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.javaCppVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\82bcbbee9f557eef74efd2a3cbff58cd6e4ccd5e\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\GPPParserExtensionConfigurationExtension.javaGPPParserExtensionConfigurationExtension.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\82bcbbee9f557eef74efd2a3cbff58cd6e4ccd5e\\new\\src\\test\\java\\depends\\extractor\\cpp\\MacroTest.javaMacroTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Create",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\82bcbbee9f557eef74efd2a3cbff58cd6e4ccd5e\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.javaCDTParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\82bcbbee9f557eef74efd2a3cbff58cd6e4ccd5e\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\GPPParserExtensionConfigurationExtension.javaGPPParserExtensionConfigurationExtension.java"
+    }
+  ]
+}

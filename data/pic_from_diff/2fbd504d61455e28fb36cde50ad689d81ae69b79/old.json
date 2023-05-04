@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\Main.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.java",
+      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    }
+  ]
+}

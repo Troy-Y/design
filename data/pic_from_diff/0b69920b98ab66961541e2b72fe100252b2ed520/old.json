@@ -1,0 +1,39 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0b69920b98ab66961541e2b72fe100252b2ed520\\old\\src\\main\\java\\depends\\DependsCommand.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0b69920b98ab66961541e2b72fe100252b2ed520\\old\\src\\main\\java\\depends\\Main.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0b69920b98ab66961541e2b72fe100252b2ed520\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0b69920b98ab66961541e2b72fe100252b2ed520\\old\\src\\main\\java\\depends\\format\\detail\\UnsolvedSymbolDumper.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\0b69920b98ab66961541e2b72fe100252b2ed520\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\0b69920b98ab66961541e2b72fe100252b2ed520\\old\\src\\main\\java\\depends\\DependsCommand.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\0b69920b98ab66961541e2b72fe100252b2ed520\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\0b69920b98ab66961541e2b72fe100252b2ed520\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\0b69920b98ab66961541e2b72fe100252b2ed520\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\0b69920b98ab66961541e2b72fe100252b2ed520\\old\\src\\main\\java\\depends\\format\\detail\\UnsolvedSymbolDumper.java"
+    }
+  ]
+}

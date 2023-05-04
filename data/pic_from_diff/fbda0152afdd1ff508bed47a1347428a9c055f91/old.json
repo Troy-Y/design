@@ -1,0 +1,78 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\entity\\types\\FileEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\GlobalIncludeMap.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\format\\dot\\DotDataBuilder.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\entity\\types\\FileEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\GlobalIncludeMap.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    }
+  ]
+}

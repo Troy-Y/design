@@ -1,0 +1,87 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\entity\\RelationCounter.javaRelationCounter.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\format\\matrix\\DependencyMatrix.javaDependencyMatrix.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\format\\xml\\XDepObject.javaXDepObject.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\test\\java\\depends\\extractor\\java\\ProductionErrorReproducer.javaProductionErrorReproducer.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\test\\resources\\java-code-examples\\Maze.javaMaze.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Use",
+      "weight": 26.0,
+      "source": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\entity\\RelationCounter.javaRelationCounter.java",
+      "target": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\entity\\RelationCounter.javaRelationCounter.java",
+      "target": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "label": "Use",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+      "target": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+      "target": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\format\\matrix\\DependencyMatrix.javaDependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+      "target": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\format\\xml\\XDepObject.javaXDepObject.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+      "target": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
+      "target": "D:\\desktop\\git-data\\depends\\0255093c1d7bff912e2e4561835f0c2a72541f85\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
+    }
+  ]
+}

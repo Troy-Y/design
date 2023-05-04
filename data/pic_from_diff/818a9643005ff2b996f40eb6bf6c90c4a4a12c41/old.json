@@ -1,0 +1,14 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\818a9643005ff2b996f40eb6bf6c90c4a4a12c41\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\818a9643005ff2b996f40eb6bf6c90c4a4a12c41\\old\\src\\test\\java\\depends\\extractor\\cpp\\AliasTest.java"
+    }
+  ],
+  "links": []
+}

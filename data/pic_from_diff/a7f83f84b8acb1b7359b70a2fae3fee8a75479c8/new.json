@@ -1,0 +1,129 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.javaRubyParserHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyClassMethodcallTest.javaRubyClassMethodcallTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyInheritTest.javaRubyInheritTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyVCallTest.javaRubyVCallTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 5.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.javaRubyParserHelper.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.javaRubyParserHelper.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.javaRubyParserHelper.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f83f84b8acb1b7359b70a2fae3fee8a75479c8\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    }
+  ]
+}

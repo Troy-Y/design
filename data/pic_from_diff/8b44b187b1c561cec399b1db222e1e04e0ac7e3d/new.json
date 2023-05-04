@@ -1,0 +1,30 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\8b44b187b1c561cec399b1db222e1e04e0ac7e3d\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\8b44b187b1c561cec399b1db222e1e04e0ac7e3d\\new\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.javaPythonFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\8b44b187b1c561cec399b1db222e1e04e0ac7e3d\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\8b44b187b1c561cec399b1db222e1e04e0ac7e3d\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\8b44b187b1c561cec399b1db222e1e04e0ac7e3d\\new\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.javaPythonFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\8b44b187b1c561cec399b1db222e1e04e0ac7e3d\\new\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.javaPythonFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\8b44b187b1c561cec399b1db222e1e04e0ac7e3d\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\test\\java\\depends\\extractor\\java\\JavaCylicInheritTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\1016ff9298216859922a8e055c425d0b789d9ef3\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.java"
+    }
+  ]
+}

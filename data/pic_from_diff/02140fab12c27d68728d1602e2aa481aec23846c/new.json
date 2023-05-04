@@ -1,0 +1,123 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\main\\java\\depends\\entity\\CandidateTypes.javaCandidateTypes.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\main\\java\\depends\\extractor\\java\\JavaListener.javaJavaListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.javaRubyParserHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\main\\java\\depends\\format\\DependencyDumper.javaDependencyDumper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\main\\java\\depends\\format\\path\\DotPathFilenameWritter.javaDotPathFilenameWritter.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\main\\java\\depends\\matrix\\FunctionDependencyGenerator.javaFunctionDependencyGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\addons\\DV8MappingFileBuilderTest.javaDV8MappingFileBuilderTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\cpp\\ConstructFunctionReturnValueTest.javaConstructFunctionReturnValueTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppExpressionTest.javaCppExpressionTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParameterParserTest.javaCppParameterParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\cpp\\ForwardDeclareTest.javaForwardDeclareTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\cpp\\IncludeRelationTest.javaIncludeRelationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\cpp\\MacroRelationTest.javaMacroRelationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\cpp\\UsingTest.javaUsingTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\cpp\\extendsTest.javaextendsTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.javaJavaAnnotationParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParameterParserTest.javaJavaParameterParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyInheritTest.javaRubyInheritTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyMixinTest.javaRubyMixinTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyNameTest.javaRubyNameTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyRequireTest.javaRubyRequireTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyVCallTest.javaRubyVCallTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.javaRubyParserHelper.java",
+      "target": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java"
+    },
+    {
+      "label": "Use",
+      "weight": 16.0,
+      "source": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyInheritTest.javaRubyInheritTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyMixinTest.javaRubyMixinTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyNameTest.javaRubyNameTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyRequireTest.javaRubyRequireTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 5.0,
+      "source": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyVCallTest.javaRubyVCallTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\02140fab12c27d68728d1602e2aa481aec23846c\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java"
+    }
+  ]
+}

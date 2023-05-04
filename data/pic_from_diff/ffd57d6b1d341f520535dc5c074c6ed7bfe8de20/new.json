@@ -1,0 +1,69 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\entity\\FunctionEntity.javaFunctionEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\matrix\\DependencyMatrix.javaDependencyMatrix.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.javaFileDependencyGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\matrix\\FunctionDependencyGenerator.javaFunctionDependencyGenerator.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\entity\\FunctionEntity.javaFunctionEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\matrix\\DependencyMatrix.javaDependencyMatrix.java",
+      "target": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.javaFileDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.javaFileDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\matrix\\DependencyMatrix.javaDependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\matrix\\FunctionDependencyGenerator.javaFunctionDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\matrix\\FunctionDependencyGenerator.javaFunctionDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\entity\\FunctionEntity.javaFunctionEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\matrix\\FunctionDependencyGenerator.javaFunctionDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\ffd57d6b1d341f520535dc5c074c6ed7bfe8de20\\new\\src\\main\\java\\depends\\matrix\\DependencyMatrix.javaDependencyMatrix.java"
+    }
+  ]
+}

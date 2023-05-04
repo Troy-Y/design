@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\entity\\Expression.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\entity\\Expression.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\6571df64e908777bd8949cd85afa4b0f5311b9a8\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.java"
+    }
+  ]
+}

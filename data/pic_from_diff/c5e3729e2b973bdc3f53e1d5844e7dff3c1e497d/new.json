@@ -1,0 +1,27 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c5e3729e2b973bdc3f53e1d5844e7dff3c1e497d\\new\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.javaJavaAdapterListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c5e3729e2b973bdc3f53e1d5844e7dff3c1e497d\\new\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.javaJavaHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c5e3729e2b973bdc3f53e1d5844e7dff3c1e497d\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\c5e3729e2b973bdc3f53e1d5844e7dff3c1e497d\\new\\src\\test\\resources\\java-code-examples\\FieldAccessInferExample.javaFieldAccessInferExample.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\c5e3729e2b973bdc3f53e1d5844e7dff3c1e497d\\new\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.javaJavaAdapterListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\c5e3729e2b973bdc3f53e1d5844e7dff3c1e497d\\new\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.javaJavaHandler.java"
+    }
+  ]
+}

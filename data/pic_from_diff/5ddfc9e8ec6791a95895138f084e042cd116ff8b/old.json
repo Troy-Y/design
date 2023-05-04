@@ -1,0 +1,348 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\empty\\EmptyImportLookupStategy.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\golang\\GoImportLookupStrategy.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\golang\\GoProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\java\\JavaImportLookupStrategy.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\pom\\PomImportLookupStategy.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\python\\BasePythonProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyImportLookupStrategy.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\golang\\GolangParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Use",
+      "weight": 7.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\empty\\EmptyImportLookupStategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\empty\\EmptyImportLookupStategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\golang\\GoImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\golang\\GoImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\golang\\GoProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\golang\\GoProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\golang\\GoImportLookupStrategy.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\golang\\GoProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\java\\JavaImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\java\\JavaImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\java\\JavaImportLookupStrategy.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\java\\JavaImportLookupStrategy.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\pom\\PomImportLookupStategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\empty\\EmptyImportLookupStategy.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\pom\\PomImportLookupStategy.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\python\\BasePythonProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\python\\BasePythonProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\python\\BasePythonProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java"
+    },
+    {
+      "label": "Use",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyImportLookupStrategy.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\golang\\GolangParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\golang\\GoImportLookupStrategy.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\golang\\GolangParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\java\\JavaImportLookupStrategy.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyImportLookupStrategy.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\5ddfc9e8ec6791a95895138f084e042cd116ff8b\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    }
+  ]
+}

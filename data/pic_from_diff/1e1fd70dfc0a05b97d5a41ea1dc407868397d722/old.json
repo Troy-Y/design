@@ -1,0 +1,51 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroEhcacheRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroFileRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroMemoryRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\test\\java\\depends\\extractor\\cpp\\ParseErrorTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroEhcacheRepo.java",
+      "target": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroFileRepo.java",
+      "target": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroMemoryRepo.java",
+      "target": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\1e1fd70dfc0a05b97d5a41ea1dc407868397d722\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    }
+  ]
+}

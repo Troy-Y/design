@@ -1,0 +1,17 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\7360bdc13f9441981585a7ed36e9cf6c309feb7a\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\7360bdc13f9441981585a7ed36e9cf6c309feb7a\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\7360bdc13f9441981585a7ed36e9cf6c309feb7a\\new\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.javaPythonFunctionTest.java"
+    }
+  ],
+  "links": []
+}

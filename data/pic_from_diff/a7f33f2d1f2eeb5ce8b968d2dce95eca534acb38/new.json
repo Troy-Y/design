@@ -1,0 +1,78 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\DependsCommand.javaDependsCommand.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\Main.javaMain.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.javaDependencyMatrix.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\transform\\MatrixLevelReducer.javaMatrixLevelReducer.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\transform\\OrderedMatrixGenerator.javaOrderedMatrixGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\test\\java\\depends\\format\\json\\JsonFormatDependencyDumperTest.javaJsonFormatDependencyDumperTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\DependsCommand.javaDependsCommand.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.javaDependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.javaDependencyMatrix.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\transform\\OrderedMatrixGenerator.javaOrderedMatrixGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\transform\\MatrixLevelReducer.javaMatrixLevelReducer.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.javaDependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\transform\\OrderedMatrixGenerator.javaOrderedMatrixGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.javaDependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\test\\java\\depends\\format\\json\\JsonFormatDependencyDumperTest.javaJsonFormatDependencyDumperTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\a7f33f2d1f2eeb5ce8b968d2dce95eca534acb38\\new\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.javaDependencyMatrix.java"
+    }
+  ]
+}

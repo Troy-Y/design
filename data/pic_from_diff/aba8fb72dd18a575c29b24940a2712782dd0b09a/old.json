@@ -1,0 +1,69 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\Antlr4CppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\CppEntitiesListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\DeclaratorIdVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\FunctiondefinitionContextHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\SimpletypespecifierContextHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppParameterParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\IncludeRelationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\test\\java\\depends\\extractor\\cpp\\g4\\G4GrammarTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\test\\java\\depends\\extractor\\cpp\\g4\\PreprocessorHandlerTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\Antlr4CppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\Antlr4CppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\CppEntitiesListener.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\FunctiondefinitionContextHelper.java",
+      "target": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\SimpletypespecifierContextHelper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppParameterParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\IncludeRelationTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.java"
+    }
+  ]
+}

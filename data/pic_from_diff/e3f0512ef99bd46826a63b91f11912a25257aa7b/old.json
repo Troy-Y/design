@@ -1,0 +1,24 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\old\\src\\main\\java\\depends\\extractor\\pom\\PomParent.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\old\\src\\test\\java\\depends\\extractor\\maven\\EntityExtractTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\old\\src\\main\\java\\depends\\extractor\\pom\\PomParent.java"
+    }
+  ]
+}

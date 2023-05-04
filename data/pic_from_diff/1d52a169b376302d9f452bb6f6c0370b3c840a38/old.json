@@ -1,0 +1,492 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\Main.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\AbstractFormatDependencyDumper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\detail\\DetailTextFormatDependencyDumper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\dot\\DotFormatDependencyDumper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\excel\\ExcelFormatDependencyDumper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\json\\JDataBuilder.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\json\\JsonFormatDependencyDumper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\plantuml\\PlantUmlFormatDependencyDumper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\xml\\XmlFormatDependencyDumper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyPair.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyValue.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\EmptyLeadingNameStripper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\FunctionDependencyGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\ILeadingNameStrippper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\LeadingNameStripper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\MatrixLevelReducer.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\OrderedMatrixGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\test\\java\\depends\\extractor\\cpp\\ForwardDeclareTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\test\\java\\depends\\matrix\\MatrixLevelReducerTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\FunctionDependencyGenerator.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\LeadingNameStripper.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\MatrixLevelReducer.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\OrderedMatrixGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\AbstractFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\AbstractFormatDependencyDumper.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\detail\\DetailTextFormatDependencyDumper.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\dot\\DotFormatDependencyDumper.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\excel\\ExcelFormatDependencyDumper.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\json\\JsonFormatDependencyDumper.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\plantuml\\PlantUmlFormatDependencyDumper.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\xml\\XmlFormatDependencyDumper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\detail\\DetailTextFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\AbstractFormatDependencyDumper.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\detail\\DetailTextFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\detail\\DetailTextFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyPair.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\detail\\DetailTextFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyValue.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\dot\\DotFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\AbstractFormatDependencyDumper.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\dot\\DotFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\dot\\DotFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyPair.java"
+    },
+    {
+      "label": "Use",
+      "weight": 7.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\excel\\ExcelFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\AbstractFormatDependencyDumper.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\excel\\ExcelFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\excel\\ExcelFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyPair.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\excel\\ExcelFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyValue.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\json\\JDataBuilder.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\json\\JDataBuilder.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyPair.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\json\\JDataBuilder.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyValue.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\json\\JsonFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\AbstractFormatDependencyDumper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\json\\JsonFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\json\\JDataBuilder.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\json\\JsonFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\plantuml\\PlantUmlFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\AbstractFormatDependencyDumper.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\plantuml\\PlantUmlFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\plantuml\\PlantUmlFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyPair.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\plantuml\\PlantUmlFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyValue.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyPair.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyValue.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\xml\\XmlFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\AbstractFormatDependencyDumper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\xml\\XmlFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\format\\xml\\XmlFormatDependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\EmptyLeadingNameStripper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\ILeadingNameStrippper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyPair.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyPair.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyValue.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\EmptyLeadingNameStripper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\ILeadingNameStrippper.java"
+    },
+    {
+      "label": "Use",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Call",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\ILeadingNameStrippper.java"
+    },
+    {
+      "label": "Use",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\FunctionDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\FunctionDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Call",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\FunctionDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\ILeadingNameStrippper.java"
+    },
+    {
+      "label": "Implement",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\LeadingNameStripper.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\ILeadingNameStrippper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\MatrixLevelReducer.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\MatrixLevelReducer.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyPair.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\MatrixLevelReducer.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyValue.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\OrderedMatrixGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\OrderedMatrixGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyPair.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\OrderedMatrixGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\DependencyValue.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\test\\java\\depends\\extractor\\cpp\\ForwardDeclareTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\FileDependencyGenerator.java"
+    },
+    {
+      "label": "Use",
+      "weight": 6.0,
+      "source": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\test\\java\\depends\\matrix\\MatrixLevelReducerTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\1d52a169b376302d9f452bb6f6c0370b3c840a38\\old\\src\\main\\java\\depends\\matrix\\MatrixLevelReducer.java"
+    }
+  ]
+}

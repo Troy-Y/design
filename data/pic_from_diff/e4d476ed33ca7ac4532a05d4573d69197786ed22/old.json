@@ -1,0 +1,87 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\RelationCounter.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\extractor\\java\\JavaWorker.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\Entity.java",
+      "target": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\RelationCounter.java",
+      "target": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 16.0,
+      "source": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java",
+      "target": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java",
+      "target": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\RelationCounter.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java",
+      "target": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.java",
+      "target": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Use",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\extractor\\java\\JavaWorker.java",
+      "target": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\e4d476ed33ca7ac4532a05d4573d69197786ed22\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    }
+  ]
+}

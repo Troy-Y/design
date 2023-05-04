@@ -1,0 +1,129 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\LangRegister.javaLangRegister.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\Main.javaMain.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\addons\\DV8MappingFileBuilder.javaDV8MappingFileBuilder.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.javaCppProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.javaJavaProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinProcessor.javaKotlinProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.javaPomProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.javaRubyProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\test\\java\\depends\\addons\\DV8MappingFileBuilderTest.javaDV8MappingFileBuilderTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\LangRegister.javaLangRegister.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\LangRegister.javaLangRegister.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.javaCppProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\LangRegister.javaLangRegister.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.javaJavaProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\LangRegister.javaLangRegister.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinProcessor.javaKotlinProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\LangRegister.javaLangRegister.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.javaPomProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\LangRegister.javaLangRegister.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.javaRubyProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\LangRegister.javaLangRegister.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\addons\\DV8MappingFileBuilder.javaDV8MappingFileBuilder.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.javaCppProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.javaJavaProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinProcessor.javaKotlinProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.javaPomProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "label": "Use",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyProcessor.javaRubyProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\test\\java\\depends\\addons\\DV8MappingFileBuilderTest.javaDV8MappingFileBuilderTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\591411548f540dd2d9140a07d9664cdd89946ca0\\new\\src\\main\\java\\depends\\addons\\DV8MappingFileBuilder.javaDV8MappingFileBuilder.java"
+    }
+  ]
+}

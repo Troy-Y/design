@@ -1,0 +1,30 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e70523571dbd04f8db9ee2e4fe3b8d56eaf4d3d8\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e70523571dbd04f8db9ee2e4fe3b8d56eaf4d3d8\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppExpressionTest.javaCppExpressionTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e70523571dbd04f8db9ee2e4fe3b8d56eaf4d3d8\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e70523571dbd04f8db9ee2e4fe3b8d56eaf4d3d8\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e70523571dbd04f8db9ee2e4fe3b8d56eaf4d3d8\\new\\src\\test\\resources\\java-code-examples\\ComplexExpressionExample.javaComplexExpressionExample.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\e70523571dbd04f8db9ee2e4fe3b8d56eaf4d3d8\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppExpressionTest.javaCppExpressionTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\e70523571dbd04f8db9ee2e4fe3b8d56eaf4d3d8\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\extractor\\python\\union\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppExpressionTest.javaCppExpressionTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\test\\java\\depends\\extractor\\cpp\\MacroRelationTest.javaMacroRelationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\test\\java\\depends\\extractor\\cpp\\RelationInSameFileTest.javaRelationInSameFileTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\test\\java\\depends\\extractor\\cpp\\RelationToImplementationTest.javaRelationToImplementationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 10.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 5.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\extractor\\python\\union\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 5.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\extractor\\python\\union\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 12.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppExpressionTest.javaCppExpressionTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\test\\java\\depends\\extractor\\cpp\\MacroRelationTest.javaMacroRelationTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\test\\java\\depends\\extractor\\cpp\\RelationInSameFileTest.javaRelationInSameFileTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\test\\java\\depends\\extractor\\cpp\\RelationToImplementationTest.javaRelationToImplementationTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\af9d8bc51ca3f187e0866baad28ded0c3d4b122f\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    }
+  ]
+}

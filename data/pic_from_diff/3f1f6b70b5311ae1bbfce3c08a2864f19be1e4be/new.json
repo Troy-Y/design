@@ -1,0 +1,51 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.javaPomFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.javaPomProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.javaMavenParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.javaPomFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.javaPomFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.javaPomProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.javaPomProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.javaPomProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.javaPomFileParser.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.javaMavenParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\\new\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.javaPomFileParser.java"
+    }
+  ]
+}

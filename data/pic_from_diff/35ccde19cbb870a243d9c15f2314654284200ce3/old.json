@@ -1,0 +1,99 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\Expression.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\extractor\\java\\JavaListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyAssignedVariableTypeDedudceTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\Expression.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\Expression.java",
+      "target": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\extractor\\java\\JavaListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\extractor\\java\\JavaListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\Expression.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyAssignedVariableTypeDedudceTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\35ccde19cbb870a243d9c15f2314654284200ce3\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\FileEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\golang\\GoHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\pom\\PomHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\python\\PythonBuiltInType.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\test\\java\\depends\\extractor\\python\\ShouldGetRelationInSamePackageTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\FileEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 8.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\FileEntity.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\FileEntity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 15.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\golang\\GoHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\golang\\GoHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandlerContext.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\pom\\PomHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\FileEntity.java"
+    },
+    {
+      "label": "Call",
+      "weight": 20.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 8.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\main\\java\\depends\\entity\\FileEntity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\test\\java\\depends\\extractor\\python\\ShouldGetRelationInSamePackageTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\910f31e4f279f89f9e62d90e5ea98ceaa6eb50c4\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\main\\java\\depends\\extractor\\java\\JavaListener.javaJavaListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.javaAnnotationProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\ParserTest.javaParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.javaJavaAnnotationParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\resources\\java-code-examples\\AnnotationTest.javaAnnotationTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\main\\java\\depends\\extractor\\java\\JavaListener.javaJavaListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.javaAnnotationProcessor.java"
+    },
+    {
+      "label": "Call",
+      "weight": 8.0,
+      "source": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.javaJavaAnnotationParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\ParserTest.javaParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 15.0,
+      "source": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.javaJavaAnnotationParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\new\\src\\test\\java\\depends\\extractor\\ParserTest.javaParserTest.java"
+    }
+  ]
+}

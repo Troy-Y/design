@@ -1,0 +1,57 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\test\\java\\depends\\extractor\\ParserTest.javaParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyVarTest.javaRubyVarTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "label": "Call",
+      "weight": 21.0,
+      "source": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\42fd7d1bfcfc8b61ab413b1ee32ae5ec409195c4\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java"
+    }
+  ]
+}

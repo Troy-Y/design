@@ -1,0 +1,63 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.javaCDTParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandlerTest.javaPreprocessorHandlerTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.javaCDTParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java",
+      "target": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.javaCDTParser.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandlerTest.javaPreprocessorHandlerTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.javaCDTParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandlerTest.javaPreprocessorHandlerTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\693efac76f15e268b40b292e439296a71eadbeb9\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java"
+    }
+  ]
+}

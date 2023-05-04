@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\Main.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\extractor\\python\\BasePythonProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\relations\\BindingResolver.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\relations\\BindingResolver.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java"
+    },
+    {
+      "label": "Use",
+      "weight": 8.0,
+      "source": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Use",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\extractor\\python\\BasePythonProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+      "target": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Create",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\relations\\BindingResolver.java"
+    },
+    {
+      "label": "Create",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\8e144f23fa61ee9e6853a3dbc979d774b1da01b9\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java"
+    }
+  ]
+}

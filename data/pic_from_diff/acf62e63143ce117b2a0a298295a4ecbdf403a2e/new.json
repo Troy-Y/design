@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\test\\java\\depends\\format\\json\\JsonFormatDependencyDumperTest.javaJsonFormatDependencyDumperTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+      "target": "D:\\desktop\\git-data\\depends\\acf62e63143ce117b2a0a298295a4ecbdf403a2e\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    }
+  ]
+}

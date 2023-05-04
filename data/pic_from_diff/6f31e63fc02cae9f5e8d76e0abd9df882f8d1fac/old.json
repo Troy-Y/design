@@ -1,0 +1,57 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\entity\\types\\VarEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\GenericHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\GenericHandler.java",
+      "target": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\entity\\types\\VarEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.java",
+      "target": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\GenericHandler.java"
+    },
+    {
+      "label": "Call",
+      "weight": 12.0,
+      "source": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.java",
+      "target": "D:\\desktop\\git-data\\depends\\6f31e63fc02cae9f5e8d76e0abd9df882f8d1fac\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.javaFunctionEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\GenericHandler.javaGenericHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.javaJavaAdapterListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.javaJavaHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.javaFormalParameterListContextHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\test\\resources\\java-code-examples\\FieldAccessInferExample.javaFieldAccessInferExample.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\test\\resources\\java-code-examples\\LocalVarInferExample.javaLocalVarInferExample.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Parameter",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.javaFunctionEntity.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.javaFunctionEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\GenericHandler.javaGenericHandler.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\GenericHandler.javaGenericHandler.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 9.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.javaFunctionEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.javaJavaAdapterListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.javaJavaHandler.java"
+    },
+    {
+      "label": "Use",
+      "weight": 10.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.javaJavaAdapterListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.javaJavaAdapterListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.javaFormalParameterListContextHelper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.javaJavaAdapterListener.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.javaJavaHandler.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\GenericHandler.javaGenericHandler.java"
+    },
+    {
+      "label": "Call",
+      "weight": 21.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.javaJavaHandler.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "label": "Use",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.javaFormalParameterListContextHelper.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\a6135bdea297ea6389c844961e606caeaa45bb18\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java"
+    }
+  ]
+}

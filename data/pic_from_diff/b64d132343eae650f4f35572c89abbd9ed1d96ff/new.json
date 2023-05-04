@@ -1,0 +1,21 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b64d132343eae650f4f35572c89abbd9ed1d96ff\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyObjectCreationTest.javaRubyObjectCreationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b64d132343eae650f4f35572c89abbd9ed1d96ff\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Use",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\b64d132343eae650f4f35572c89abbd9ed1d96ff\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyObjectCreationTest.javaRubyObjectCreationTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\b64d132343eae650f4f35572c89abbd9ed1d96ff\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java"
+    }
+  ]
+}

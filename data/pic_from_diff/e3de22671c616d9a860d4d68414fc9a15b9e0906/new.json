@@ -1,0 +1,20 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e3de22671c616d9a860d4d68414fc9a15b9e0906\\new\\src\\test\\java\\depends\\extractor\\cpp\\ContainRelationTest.javaContainRelationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e3de22671c616d9a860d4d68414fc9a15b9e0906\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParameterParserTest.javaCppParameterParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e3de22671c616d9a860d4d68414fc9a15b9e0906\\new\\src\\test\\java\\depends\\extractor\\cpp\\DuplicateDeclarationTest.javaDuplicateDeclarationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\e3de22671c616d9a860d4d68414fc9a15b9e0906\\new\\src\\test\\java\\depends\\extractor\\cpp\\MacroRelationTest.javaMacroRelationTest.java"
+    }
+  ],
+  "links": []
+}

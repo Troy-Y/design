@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.javaCDTParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.javaCppVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\MacroExtractor.javaMacroExtractor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\test\\java\\depends\\extractor\\cpp\\IncludeRelationTest.javaIncludeRelationTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.javaCppVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\MacroExtractor.javaMacroExtractor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.javaCppVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\dbbf80236fdfe6b22ccbc08d0343900cae193f34\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java"
+    }
+  ]
+}

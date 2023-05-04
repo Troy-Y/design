@@ -1,0 +1,132 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\DependsCommand.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\Main.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\FileDependencyGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\test\\java\\depends\\extractor\\cpp\\ForwardDeclareTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\DependsCommand.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\FileDependencyGenerator.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\Main.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\format\\DependencyDumper.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
+    },
+    {
+      "label": "Return",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\FileDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\FileDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
+    },
+    {
+      "label": "Use",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\test\\java\\depends\\extractor\\cpp\\ForwardDeclareTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\aa24d5986c6687569e1ec50e46d9f9d6e6e26e7b\\old\\src\\main\\java\\depends\\generator\\FileDependencyGenerator.java"
+    }
+  ]
+}

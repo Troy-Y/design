@@ -1,0 +1,132 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\AliasEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\CandidateTypes.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\TypeEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\AliasEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\AliasEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\AliasEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\TypeEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\CandidateTypes.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\CandidateTypes.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\TypeEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\TypeEntity.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\TypeEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\TypeEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\TypeEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 7.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\TypeEntity.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\TypeEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\abcfc508235d96e36355792435c7b60852db42b3\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
+    }
+  ]
+}

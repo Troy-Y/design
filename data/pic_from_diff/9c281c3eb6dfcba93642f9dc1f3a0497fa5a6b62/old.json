@@ -1,0 +1,60 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\main\\java\\depends\\entity\\FileEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyInheritTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyMixinTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyObjectCreationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyRequireTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\main\\java\\depends\\entity\\FileEntity.java",
+      "target": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\main\\java\\depends\\entity\\Entity.java"
+    },
+    {
+      "label": "Use",
+      "weight": 19.0,
+      "source": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyInheritTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyMixinTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyObjectCreationTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyRequireTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\9c281c3eb6dfcba93642f9dc1f3a0497fa5a6b62\\old\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.java"
+    }
+  ]
+}

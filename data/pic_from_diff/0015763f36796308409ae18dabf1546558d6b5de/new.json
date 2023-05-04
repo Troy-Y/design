@@ -1,0 +1,21 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0015763f36796308409ae18dabf1546558d6b5de\\new\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.javaPomArtifactEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\0015763f36796308409ae18dabf1546558d6b5de\\new\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.javaEntityExtractTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\0015763f36796308409ae18dabf1546558d6b5de\\new\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.javaEntityExtractTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\0015763f36796308409ae18dabf1546558d6b5de\\new\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.javaPomArtifactEntity.java"
+    }
+  ]
+}

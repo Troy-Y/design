@@ -1,0 +1,60 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\main\\java\\depends\\util\\TemporaryFile.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\main\\java\\depends\\extractor\\cpp\\MacroRepo.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.java"
+    },
+    {
+      "label": "Use",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\a3c2b61023b98080fe98c63e2af86332e49e771f\\old\\src\\main\\java\\depends\\util\\TemporaryFile.java"
+    }
+  ]
+}

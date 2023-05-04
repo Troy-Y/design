@@ -1,0 +1,35 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\main\\java\\depends\\LangRegister.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\main\\java\\depends\\extractor\\kotlin\\KotlinListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\test\\java\\depends\\extractor\\python\\PythonClassTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2906517017bdb3e65b0000eb0f5b32c0f4233ab8\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
+    }
+  ],
+  "links": []
+}

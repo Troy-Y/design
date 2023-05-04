@@ -1,0 +1,60 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\GenericHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\context\\UnannTypeContextHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\test\\resources\\java-code-examples\\FieldVar.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.java"
+    },
+    {
+      "label": "Create",
+      "weight": 6.0,
+      "source": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\context\\UnannTypeContextHelper.java"
+    },
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.java",
+      "target": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\GenericHandler.java"
+    },
+    {
+      "label": "Create",
+      "weight": 4.0,
+      "source": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.java",
+      "target": "D:\\desktop\\git-data\\depends\\14facfd0e7b0248bb22972b90c8c4aa519401f5c\\old\\src\\main\\java\\depends\\extractor\\java\\context\\UnannTypeContextHelper.java"
+    }
+  ]
+}

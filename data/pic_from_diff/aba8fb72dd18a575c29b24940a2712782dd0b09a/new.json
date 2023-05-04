@@ -1,0 +1,69 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.javaCppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4\\Antlr4CppFileParser.javaAntlr4CppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4\\CppEntitiesListener.javaCppEntitiesListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4\\helper\\DeclaratorIdVisitor.javaDeclaratorIdVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4\\helper\\FunctiondefinitionContextHelper.javaFunctiondefinitionContextHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4\\helper\\SimpletypespecifierContextHelper.javaSimpletypespecifierContextHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppParameterParserTest.javaCppParameterParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\IncludeRelationTest.javaIncludeRelationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\test\\java\\depends\\extractor\\cpp\\g4\\G4GrammarTest.javaG4GrammarTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\test\\java\\depends\\extractor\\cpp\\g4\\PreprocessorHandlerTest.javaPreprocessorHandlerTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4\\Antlr4CppFileParser.javaAntlr4CppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.javaCppFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4\\Antlr4CppFileParser.javaAntlr4CppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4\\CppEntitiesListener.javaCppEntitiesListener.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4\\CppEntitiesListener.javaCppEntitiesListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\g4\\helper\\FunctiondefinitionContextHelper.javaFunctiondefinitionContextHelper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppParameterParserTest.javaCppParameterParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.javaCppFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\IncludeRelationTest.javaIncludeRelationTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\aba8fb72dd18a575c29b24940a2712782dd0b09a\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppFileParser.javaCppFileParser.java"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\new\\src\\test\\java\\depends\\extractor\\cpp\\IncludeRelationTest.javaIncludeRelationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\new\\src\\test\\java\\depends\\extractor\\cpp\\UsingTest.javaUsingTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\new\\src\\test\\java\\depends\\extractor\\cpp\\extendsTest.javaextendsTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\new\\src\\test\\java\\depends\\extractor\\java\\JavaGenericTypeTest.javaJavaGenericTypeTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\2f9f7cd9e1671757e0e78687775b5da919ccd14b\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyInheritTest.javaRubyInheritTest.java"
+    }
+  ],
+  "links": []
+}

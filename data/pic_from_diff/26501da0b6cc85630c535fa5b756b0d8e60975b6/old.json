@@ -1,0 +1,57 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\entity\\PackageEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\generator\\FileDependencyGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 5.0,
+      "source": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\26501da0b6cc85630c535fa5b756b0d8e60975b6\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
+    }
+  ]
+}

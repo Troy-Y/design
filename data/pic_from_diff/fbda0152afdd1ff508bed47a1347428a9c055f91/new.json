@@ -1,0 +1,78 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\entity\\types\\FileEntity.javaFileEntity.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\GlobalIncludeMap.javaGlobalIncludeMap.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\format\\dot\\DotDataBuilder.javaDotDataBuilder.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.javaEntityRepoExpendsImportsOfPackageTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\entity\\types\\FileEntity.javaFileEntity.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\GlobalIncludeMap.javaGlobalIncludeMap.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.javaEntityRepoExpendsImportsOfPackageTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\fbda0152afdd1ff508bed47a1347428a9c055f91\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
+    }
+  ]
+}

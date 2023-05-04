@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.javaRubyParserHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyNameInfererTest.javaRubyNameInfererTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.javaRubyParserHelper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.javaRubyParserHelper.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+      "target": "D:\\desktop\\git-data\\depends\\956454688ea4fba4a0103560f7e856989f9d2f6b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
+    }
+  ]
+}

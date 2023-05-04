@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\old\\src\\main\\java\\depends\\format\\matrix\\DependencyMatrix.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\old\\src\\main\\java\\depends\\format\\matrix\\DependencyValue.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\old\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\old\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\old\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.java",
+      "target": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\old\\src\\main\\java\\depends\\format\\matrix\\DependencyMatrix.java"
+    }
+  ]
+}

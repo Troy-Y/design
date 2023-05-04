@@ -1,0 +1,174 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\LangRegister.javaLangRegister.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\BasePythonProcessor.javaBasePythonProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\PythonBuiltInType.javaPythonBuiltInType.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.javaPythonHandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\NameAliasImport.javaNameAliasImport.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\Python3CodeListener.javaPython3CodeListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\PythonParserHelper.javaPythonParserHelper.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonFileParser.javaPythonFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\Python3ParserTest.javaPython3ParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonClassTest.javaPythonClassTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonDecoratorTest.javaPythonDecoratorTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonFuncCallTest.javaPythonFuncCallTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonFunctionTest.javaPythonFunctionTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonGlobalVarTest.javaPythonGlobalVarTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonImportTest.javaPythonImportTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonObjectCreationTest.javaPythonObjectCreationTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonObjectThrowReturn.javaPythonObjectThrowReturn.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\BasePythonProcessor.javaBasePythonProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\PythonBuiltInType.javaPythonBuiltInType.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\BasePythonProcessor.javaBasePythonProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 2.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\NameAliasImport.javaNameAliasImport.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.javaPythonHandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\ExpressionUsage.javaExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\PythonParserHelper.javaPythonParserHelper.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\Python3CodeListener.javaPython3CodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.javaPythonHandlerContext.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\Python3CodeListener.javaPython3CodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\ExpressionUsage.javaExpressionUsage.java"
+    },
+    {
+      "label": "Create",
+      "weight": 5.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\Python3CodeListener.javaPython3CodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\NameAliasImport.javaNameAliasImport.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\Python3CodeListener.javaPython3CodeListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\PythonParserHelper.javaPythonParserHelper.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\py3\\PythonParserHelper.javaPythonParserHelper.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.javaPythonHandlerContext.java"
+    },
+    {
+      "label": "Use",
+      "weight": 7.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonClassTest.javaPythonClassTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\Python3ParserTest.javaPython3ParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonDecoratorTest.javaPythonDecoratorTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\Python3ParserTest.javaPython3ParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonFuncCallTest.javaPythonFuncCallTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\Python3ParserTest.javaPython3ParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 5.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonFunctionTest.javaPythonFunctionTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\Python3ParserTest.javaPython3ParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonGlobalVarTest.javaPythonGlobalVarTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\Python3ParserTest.javaPython3ParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 18.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonImportTest.javaPythonImportTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\Python3ParserTest.javaPython3ParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 3.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonObjectCreationTest.javaPythonObjectCreationTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\Python3ParserTest.javaPython3ParserTest.java"
+    },
+    {
+      "label": "Use",
+      "weight": 5.0,
+      "source": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\PythonObjectThrowReturn.javaPythonObjectThrowReturn.java",
+      "target": "D:\\desktop\\git-data\\depends\\51debb5a1199aaabb5fd109bfc1d247e42f03027\\new\\src\\test\\java\\depends\\extractor\\python3\\Python3ParserTest.javaPython3ParserTest.java"
+    }
+  ]
+}

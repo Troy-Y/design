@@ -1,0 +1,72 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\main\\java\\depends\\entity\\repo\\IdGenerator.javaIdGenerator.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyInheritTest.javaRubyInheritTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Extend",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java",
+      "target": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\main\\java\\depends\\entity\\repo\\IdGenerator.javaIdGenerator.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java",
+      "target": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
+    },
+    {
+      "label": "Call",
+      "weight": 7.0,
+      "source": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyInheritTest.javaRubyInheritTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
+    },
+    {
+      "label": "Use",
+      "weight": 16.0,
+      "source": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyInheritTest.javaRubyInheritTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyParserTest.javaRubyParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\363a2f7966ace601867d66357314513bf203aae4\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
+    }
+  ]
+}

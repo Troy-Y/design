@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pom\\PomCoords.javaPomCoords.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pom\\PomParent.javaPomParent.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\test\\java\\depends\\extractor\\pom\\DependencyWithoutVersionTest.javaDependencyWithoutVersionTest.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.javaMavenParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pom\\PomCoords.javaPomCoords.java",
+      "target": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pom\\PomParent.javaPomParent.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pom\\PomCoords.javaPomCoords.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pom\\PomParent.javaPomParent.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pom\\PomParent.javaPomParent.java",
+      "target": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\main\\java\\depends\\extractor\\pom\\PomCoords.javaPomCoords.java"
+    },
+    {
+      "label": "Use",
+      "weight": 5.0,
+      "source": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\test\\java\\depends\\extractor\\pom\\DependencyWithoutVersionTest.javaDependencyWithoutVersionTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\b11253d8af444193832a39661bb94f71bb57ca4f\\new\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.javaMavenParserTest.java"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\Main.javaMain.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\entity\\GenericName.javaGenericName.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.javaInMemoryEntityRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.javaCppProcessor.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.javaInMemoryEntityRepo.java",
+      "target": "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\entity\\GenericName.javaGenericName.java"
+    },
+    {
+      "label": "Create",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java",
+      "target": "D:\\desktop\\git-data\\depends\\fdd899ac54368bb8e0edcf3e65855b12d8d82892\\new\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.javaInMemoryEntityRepo.java"
+    }
+  ]
+}

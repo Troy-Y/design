@@ -1,0 +1,75 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+      "target": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.java",
+      "target": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.java",
+      "target": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\JavaAdapterListener.java"
+    },
+    {
+      "label": "Parameter",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\JavaHandler.java",
+      "target": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    },
+    {
+      "label": "Import",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.java",
+      "target": "D:\\desktop\\git-data\\depends\\010ee718f84bebb1e36a87b70e07069d5ccf6b6e\\old\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.java"
+    }
+  ]
+}

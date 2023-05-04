@@ -1,0 +1,24 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\new\\src\\main\\java\\depends\\entity\\MultiDeclareEntities.javaMultiDeclareEntities.java"
+    },
+    {
+      "id": "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\new\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.javaPythonParameterTypeDedudceTest.java"
+    }
+  ],
+  "links": [
+    {
+      "label": "Contain",
+      "weight": 1.0,
+      "source": "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+      "target": "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\new\\src\\main\\java\\depends\\entity\\MultiDeclareEntities.javaMultiDeclareEntities.java"
+    }
+  ]
+}
