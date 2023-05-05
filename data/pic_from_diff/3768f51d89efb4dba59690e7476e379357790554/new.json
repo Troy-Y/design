@@ -1,195 +1,218 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\DecoratedEntity.javaDecoratedEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\repo\\BuiltInType.javaBuiltInType.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.javaASTStringUtilExt.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\MacroExtractor.javaMacroExtractor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\cpp\\MacroRelationTest.javaMacroRelationTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\cpp\\UsingTest.javaUsingTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyAssignedVariableTypeDedudceTest.javaRubyAssignedVariableTypeDedudceTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Use",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\DecoratedEntity.javaDecoratedEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 5.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\DecoratedEntity.javaDecoratedEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Use",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\repo\\BuiltInType.javaBuiltInType.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java"
-    },
-    {
-      "label": "Use",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.javaASTStringUtilExt.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java"
-    },
-    {
-      "label": "Use",
-      "weight": 4.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\MacroExtractor.javaMacroExtractor.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\MacroExtractor.javaMacroExtractor.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
-    },
-    {
-      "label": "Use",
-      "weight": 8.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 4.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\repo\\BuiltInType.javaBuiltInType.java"
-    },
-    {
-      "label": "Use",
-      "weight": 4.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\cpp\\MacroRelationTest.javaMacroRelationTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java"
-    },
-    {
-      "label": "Use",
-      "weight": 4.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\cpp\\UsingTest.javaUsingTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyAssignedVariableTypeDedudceTest.javaRubyAssignedVariableTypeDedudceTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyAssignedVariableTypeDedudceTest.javaRubyAssignedVariableTypeDedudceTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
-    },
-    {
-      "label": "Import",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyAssignedVariableTypeDedudceTest.javaRubyAssignedVariableTypeDedudceTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\DecoratedEntity.javaDecoratedEntity.java",
+        "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+        "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+        "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+        "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\repo\\BuiltInType.javaBuiltInType.java",
+        "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.javaASTStringUtilExt.java",
+        "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\MacroExtractor.javaMacroExtractor.java",
+        "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+        "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+        "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\cpp\\MacroRelationTest.javaMacroRelationTest.java",
+        "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\cpp\\UsingTest.javaUsingTest.java",
+        "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyAssignedVariableTypeDedudceTest.javaRubyAssignedVariableTypeDedudceTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\DecoratedEntity.javaDecoratedEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+            "label": "Use: 2.0, ",
+            "Use": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\DecoratedEntity.javaDecoratedEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Call: 1.0, Import: 1.0, Parameter: 5.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Parameter": 5.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+            "label": "Return: 1.0, Use: 9.0, Parameter: 1.0, Contain: 1.0, ",
+            "Return": 1.0,
+            "Use": 9.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "label": "Cast: 1.0, Call: 1.0, Use: 1.0, Parameter: 2.0, Contain: 1.0, ",
+            "Cast": 1.0,
+            "Call": 1.0,
+            "Use": 1.0,
+            "Parameter": 2.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Call: 5.0, Import: 1.0, Parameter: 2.0, ",
+            "Call": 5.0,
+            "Import": 1.0,
+            "Parameter": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "label": "Return: 2.0, Contain: 1.0, ",
+            "Return": 2.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Call: 2.0, Import: 1.0, Use: 1.0, Parameter: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+            "label": "Return: 1.0, Use: 4.0, Parameter: 2.0, Contain: 1.0, ",
+            "Return": 1.0,
+            "Use": 4.0,
+            "Parameter": 2.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Call: 5.0, Import: 1.0, Parameter: 2.0, ",
+            "Call": 5.0,
+            "Import": 1.0,
+            "Parameter": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\repo\\BuiltInType.javaBuiltInType.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+            "label": "Import: 1.0, Use: 2.0, ",
+            "Import": 1.0,
+            "Use": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.javaASTStringUtilExt.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+            "label": "Import: 1.0, Use: 2.0, ",
+            "Import": 1.0,
+            "Use": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\MacroExtractor.javaMacroExtractor.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+            "label": "Import: 1.0, Use: 4.0, ",
+            "Import": 1.0,
+            "Use": 4.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\MacroExtractor.javaMacroExtractor.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "label": "Import: 1.0, Contain: 1.0, ",
+            "Import": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+            "label": "Call: 32.0, Return: 3.0, Use: 1.0, Create: 1.0, Parameter: 2.0, Contain: 2.0, ",
+            "Call": 32.0,
+            "Return": 3.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Parameter": 2.0,
+            "Contain": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+            "label": "Use: 8.0, ",
+            "Use": 8.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "label": "Contain: 1.0, ",
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.javaExpressionUsage.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Import: 1.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+            "label": "Cast: 2.0, Call: 1.0, Return: 1.0, Use: 7.0, Parameter: 1.0, Contain: 4.0, ",
+            "Cast": 2.0,
+            "Call": 1.0,
+            "Return": 1.0,
+            "Use": 7.0,
+            "Parameter": 1.0,
+            "Contain": 4.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "label": "Parameter: 2.0, ",
+            "Parameter": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\repo\\BuiltInType.javaBuiltInType.java",
+            "label": "Call: 5.0, Import: 1.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 5.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\cpp\\MacroRelationTest.javaMacroRelationTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+            "label": "Import: 1.0, Use: 4.0, ",
+            "Import": 1.0,
+            "Use": 4.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\cpp\\UsingTest.javaUsingTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+            "label": "Import: 1.0, Use: 4.0, ",
+            "Import": 1.0,
+            "Use": 4.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyAssignedVariableTypeDedudceTest.javaRubyAssignedVariableTypeDedudceTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\TypeEntity.javaTypeEntity.java",
+            "label": "Cast: 1.0, Call: 2.0, Import: 1.0, Use: 16.0, Contain: 1.0, ",
+            "Cast": 1.0,
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 16.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyAssignedVariableTypeDedudceTest.javaRubyAssignedVariableTypeDedudceTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "label": "Call: 11.0, Import: 1.0, Use: 2.0, Contain: 2.0, ",
+            "Call": 11.0,
+            "Import": 1.0,
+            "Use": 2.0,
+            "Contain": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyAssignedVariableTypeDedudceTest.javaRubyAssignedVariableTypeDedudceTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\3768f51d89efb4dba59690e7476e379357790554\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Import: 1.0, ",
+            "Import": 1.0
+        }
+    ]
 }

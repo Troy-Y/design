@@ -1,45 +1,39 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ExpressionUsage.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ExpressionUsage.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java",
+        "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java",
+        "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ExpressionUsage.java",
+        "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.java",
+        "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.java",
+        "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ExpressionUsage.java",
+            "label": "Call: 3.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 3.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.java",
+            "label": "Call: 2.0, Import: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\33164746577c8f86213410cf8db64a6def541cbd\\old\\src\\main\\java\\depends\\entity\\ContainerEntity.java",
+            "label": "Cast: 1.0, Import: 1.0, Contain: 1.0, ",
+            "Cast": 1.0,
+            "Import": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

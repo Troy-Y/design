@@ -1,14 +1,7 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\4f47c91b8afdbec29e73ee4d3c49a1d54963e8ff\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.javaCppVisitor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\4f47c91b8afdbec29e73ee4d3c49a1d54963e8ff\\new\\src\\test\\java\\depends\\extractor\\cpp\\GenericTypeTest.javaGenericTypeTest.java"
-    }
-  ],
-  "links": []
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\4f47c91b8afdbec29e73ee4d3c49a1d54963e8ff\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.javaCppVisitor.java",
+        "D:\\desktop\\git-data\\depends\\4f47c91b8afdbec29e73ee4d3c49a1d54963e8ff\\new\\src\\test\\java\\depends\\extractor\\cpp\\GenericTypeTest.javaGenericTypeTest.java"
+    ],
+    "edges": []
 }

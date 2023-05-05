@@ -1,39 +1,36 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.java",
-      "target": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
-      "target": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
-      "target": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.java",
+        "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
+        "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.java",
+        "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.java",
+            "target": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.java",
+            "label": "Call: 10.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 10.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
+            "target": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\ExpressionUsage.java",
+            "label": "Call: 2.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
+            "target": "D:\\desktop\\git-data\\depends\\50a43ba3d0dd7e42af40cfa92371a2630864cb23\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\RubyParserHelper.java",
+            "label": "Call: 14.0, Use: 1.0, Contain: 1.0, ",
+            "Call": 14.0,
+            "Use": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

@@ -1,252 +1,292 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\Main.javaMain.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\RelationCounter.javaRelationCounter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\types\\FileEntity.javaFileEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.javaCppWorker.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.javaCDTParser.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtAstVisitor.javaCdtAstVisitor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\java\\JavaWorker.javaJavaWorker.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\FileUtil.javaFileUtil.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\entity\\EntityGetAncestorTest.javaEntityGetAncestorTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppAllElementsParserTest.javaCppAllElementsParserTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppParameterParserTest.javaCppParameterParserTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\IncludeRelationTest.javaIncludeRelationTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\Main.javaMain.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
-    },
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\Main.javaMain.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.javaCppWorker.java"
-    },
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\Main.javaMain.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\java\\JavaWorker.javaJavaWorker.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\Main.javaMain.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\RelationCounter.javaRelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\types\\FileEntity.javaFileEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\types\\FileEntity.javaFileEntity.java"
-    },
-    {
-      "label": "Use",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.javaCppWorker.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
-    },
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.javaCppWorker.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.javaCppWorker.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.javaCppWorker.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\types\\FileEntity.javaFileEntity.java"
-    },
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.javaCDTParser.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java"
-    },
-    {
-      "label": "Use",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\FileUtil.javaFileUtil.java"
-    },
-    {
-      "label": "Use",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\FileUtil.javaFileUtil.java"
-    },
-    {
-      "label": "Use",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\java\\JavaWorker.javaJavaWorker.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\java\\JavaWorker.javaJavaWorker.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java"
-    },
-    {
-      "label": "Import",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\entity\\EntityGetAncestorTest.javaEntityGetAncestorTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\types\\FileEntity.javaFileEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java"
-    },
-    {
-      "label": "Create",
-      "weight": 5.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppAllElementsParserTest.javaCppAllElementsParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 11.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppAllElementsParserTest.javaCppAllElementsParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java"
-    },
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppParameterParserTest.javaCppParameterParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 5.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppParameterParserTest.javaCppParameterParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java"
-    },
-    {
-      "label": "Create",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\IncludeRelationTest.javaIncludeRelationTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 13.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\IncludeRelationTest.javaIncludeRelationTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\RelationCounter.javaRelationCounter.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\types\\FileEntity.javaFileEntity.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.javaCppWorker.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.javaCDTParser.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtAstVisitor.javaCdtAstVisitor.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\java\\JavaWorker.javaJavaWorker.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\FileUtil.javaFileUtil.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\entity\\EntityGetAncestorTest.javaEntityGetAncestorTest.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppAllElementsParserTest.javaCppAllElementsParserTest.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppParameterParserTest.javaCppParameterParserTest.java",
+        "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\IncludeRelationTest.javaIncludeRelationTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+            "label": "Call: 3.0, Import: 1.0, Contain: 1.0, ",
+            "Call": 3.0,
+            "Import": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.javaCppWorker.java",
+            "label": "Call: 1.0, Import: 1.0, Create: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\java\\JavaWorker.javaJavaWorker.java",
+            "label": "Call: 1.0, Import: 1.0, Create: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
+            "label": "Call: 1.0, Import: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\RelationCounter.javaRelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\types\\FileEntity.javaFileEntity.java",
+            "label": "Cast: 4.0, Call: 2.0, Import: 1.0, Use: 1.0, Parameter: 1.0, ",
+            "Cast": 4.0,
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
+            "label": "Call: 10.0, Import: 1.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 10.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\types\\FileEntity.javaFileEntity.java",
+            "label": "Cast: 2.0, Call: 2.0, Import: 1.0, Return: 2.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Cast": 2.0,
+            "Call": 2.0,
+            "Import": 1.0,
+            "Return": 2.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.javaCppWorker.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+            "label": "Call: 2.0, Import: 1.0, Extend: 1.0, Use: 2.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Extend": 1.0,
+            "Use": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.javaCppWorker.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+            "label": "Call: 1.0, Import: 1.0, Create: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.javaCppWorker.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java",
+            "label": "Call: 2.0, Import: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppWorker.javaCppWorker.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
+            "label": "Import: 1.0, Parameter: 1.0, ",
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+            "label": "Call: 3.0, Import: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 3.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+            "label": "Call: 2.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java",
+            "label": "Call: 1.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\types\\FileEntity.javaFileEntity.java",
+            "label": "Cast: 2.0, Call: 2.0, Import: 1.0, Use: 1.0, Contain: 1.0, ",
+            "Cast": 2.0,
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CDTParser.javaCDTParser.java",
+            "label": "Call: 2.0, Use: 1.0, Create: 1.0, ",
+            "Call": 2.0,
+            "Use": 1.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.javaCdtCppEntitiesListener.java",
+            "label": "Call: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java",
+            "label": "Call: 1.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\FileUtil.javaFileUtil.java",
+            "label": "Call: 2.0, Import: 1.0, Use: 2.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\FileUtil.javaFileUtil.java",
+            "label": "Call: 2.0, Import: 1.0, Use: 2.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\java\\JavaWorker.javaJavaWorker.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+            "label": "Call: 1.0, Import: 1.0, Extend: 1.0, Use: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Extend": 1.0,
+            "Use": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\java\\JavaWorker.javaJavaWorker.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
+            "label": "Import: 1.0, Parameter: 1.0, ",
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+            "label": "Import: 1.0, ",
+            "Import": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\entity\\EntityGetAncestorTest.javaEntityGetAncestorTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\entity\\types\\FileEntity.javaFileEntity.java",
+            "label": "Call: 1.0, Import: 1.0, Create: 1.0, Use: 2.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Create": 1.0,
+            "Use": 2.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java",
+            "label": "Call: 1.0, Import: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppAllElementsParserTest.javaCppAllElementsParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+            "label": "Call: 5.0, Create: 5.0, ",
+            "Call": 5.0,
+            "Create": 5.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppAllElementsParserTest.javaCppAllElementsParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java",
+            "label": "Call: 1.0, Import: 1.0, Extend: 1.0, Use: 11.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Extend": 1.0,
+            "Use": 11.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppParameterParserTest.javaCppParameterParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+            "label": "Call: 1.0, Create: 1.0, ",
+            "Call": 1.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\CppParameterParserTest.javaCppParameterParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java",
+            "label": "Call: 1.0, Import: 1.0, Extend: 1.0, Use: 5.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Extend": 1.0,
+            "Use": 5.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\IncludeRelationTest.javaIncludeRelationTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppFileParser.javaCdtCppFileParser.java",
+            "label": "Call: 3.0, Create: 3.0, ",
+            "Call": 3.0,
+            "Create": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\IncludeRelationTest.javaIncludeRelationTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef6313afbf9eed528f73188beec32975621fe6f5\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParserTest.javaCppParserTest.java",
+            "label": "Call: 1.0, Import: 1.0, Extend: 1.0, Use: 13.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Extend": 1.0,
+            "Use": 13.0
+        }
+    ]
 }

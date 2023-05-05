@@ -1,39 +1,29 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.javaCppProcessor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\test\\java\\depends\\extractor\\cpp\\RelationToImplementationTest.javaRelationToImplementationTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Import",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.javaCppProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java"
-    },
-    {
-      "label": "Use",
-      "weight": 44.0,
-      "source": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java"
-    },
-    {
-      "label": "Import",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\test\\java\\depends\\extractor\\cpp\\RelationToImplementationTest.javaRelationToImplementationTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java",
+        "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.javaCppProcessor.java",
+        "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+        "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\test\\java\\depends\\extractor\\cpp\\RelationToImplementationTest.javaRelationToImplementationTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppProcessor.javaCppProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java",
+            "label": "Import: 1.0, ",
+            "Import": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java",
+            "label": "Import: 1.0, Use: 44.0, ",
+            "Import": 1.0,
+            "Use": 44.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\test\\java\\depends\\extractor\\cpp\\RelationToImplementationTest.javaRelationToImplementationTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\23659135c34b9001b295def775ca28131d6a0944\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java",
+            "label": "Import: 1.0, ",
+            "Import": 1.0
+        }
+    ]
 }

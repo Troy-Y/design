@@ -1,105 +1,106 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\Main.javaMain.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\entity\\RelationCounter.javaRelationCounter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppEntitiesListener.javaCppEntitiesListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\json\\JDataBuilder.javaJDataBuilder.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.javaXDataBuilder.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\test\\java\\depends\\entity\\EntityResolveBindingsTest.javaEntityResolveBindingsTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\test\\java\\depends\\format\\matrix\\FileDependencyGeneratorTest.javaFileDependencyGeneratorTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\Main.javaMain.java",
-      "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
-    },
-    {
-      "label": "Use",
-      "weight": 26.0,
-      "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\entity\\RelationCounter.javaRelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java"
-    },
-    {
-      "label": "Use",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
-      "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
-      "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\json\\JDataBuilder.javaJDataBuilder.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
-      "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.javaXDataBuilder.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
-      "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\json\\JDataBuilder.javaJDataBuilder.java",
-      "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.javaXDataBuilder.java",
-      "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
-      "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
-    },
-    {
-      "label": "Use",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\test\\java\\depends\\entity\\EntityResolveBindingsTest.javaEntityResolveBindingsTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java"
-    },
-    {
-      "label": "Use",
-      "weight": 6.0,
-      "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\test\\java\\depends\\format\\matrix\\FileDependencyGeneratorTest.javaFileDependencyGeneratorTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+        "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java",
+        "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\entity\\RelationCounter.javaRelationCounter.java",
+        "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+        "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppEntitiesListener.javaCppEntitiesListener.java",
+        "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\json\\JDataBuilder.javaJDataBuilder.java",
+        "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.javaXDataBuilder.java",
+        "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
+        "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\test\\java\\depends\\entity\\EntityResolveBindingsTest.javaEntityResolveBindingsTest.java",
+        "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\test\\java\\depends\\format\\matrix\\FileDependencyGeneratorTest.javaFileDependencyGeneratorTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+            "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+            "label": "Call: 1.0, Import: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\entity\\RelationCounter.javaRelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java",
+            "label": "Import: 1.0, Use: 26.0, ",
+            "Import": 1.0,
+            "Use": 26.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+            "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java",
+            "label": "Call: 1.0, Import: 1.0, Use: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Use": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+            "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\json\\JDataBuilder.javaJDataBuilder.java",
+            "label": "Call: 2.0, Import: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+            "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.javaXDataBuilder.java",
+            "label": "Call: 2.0, Import: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+            "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
+            "label": "Call: 12.0, Import: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 12.0,
+            "Import": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\json\\JDataBuilder.javaJDataBuilder.java",
+            "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
+            "label": "Call: 2.0, Import: 1.0, Parameter: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.javaXDataBuilder.java",
+            "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
+            "label": "Call: 2.0, Import: 1.0, Parameter: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\util\\Configure.javaConfigure.java",
+            "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+            "label": "Import: 1.0, Return: 1.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Import": 1.0,
+            "Return": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\test\\java\\depends\\entity\\EntityResolveBindingsTest.javaEntityResolveBindingsTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java",
+            "label": "Import: 1.0, Use: 2.0, ",
+            "Import": 1.0,
+            "Use": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\test\\java\\depends\\format\\matrix\\FileDependencyGeneratorTest.javaFileDependencyGeneratorTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\\new\\src\\main\\java\\depends\\deptypes\\DependencyType.javaDependencyType.java",
+            "label": "Import: 1.0, Use: 6.0, ",
+            "Import": 1.0,
+            "Use": 6.0
+        }
+    ]
 }

@@ -1,21 +1,16 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f40c7911a672c8863cc2bcf6b8a263ee7c48b1e7\\old\\src\\test\\java\\depends\\extractor\\maven\\EntityExtractTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f40c7911a672c8863cc2bcf6b8a263ee7c48b1e7\\old\\src\\test\\java\\depends\\extractor\\maven\\MavenParserTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Use",
-      "weight": 4.0,
-      "source": "D:\\desktop\\git-data\\depends\\f40c7911a672c8863cc2bcf6b8a263ee7c48b1e7\\old\\src\\test\\java\\depends\\extractor\\maven\\EntityExtractTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\f40c7911a672c8863cc2bcf6b8a263ee7c48b1e7\\old\\src\\test\\java\\depends\\extractor\\maven\\MavenParserTest.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\f40c7911a672c8863cc2bcf6b8a263ee7c48b1e7\\old\\src\\test\\java\\depends\\extractor\\maven\\EntityExtractTest.java",
+        "D:\\desktop\\git-data\\depends\\f40c7911a672c8863cc2bcf6b8a263ee7c48b1e7\\old\\src\\test\\java\\depends\\extractor\\maven\\MavenParserTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f40c7911a672c8863cc2bcf6b8a263ee7c48b1e7\\old\\src\\test\\java\\depends\\extractor\\maven\\EntityExtractTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\f40c7911a672c8863cc2bcf6b8a263ee7c48b1e7\\old\\src\\test\\java\\depends\\extractor\\maven\\MavenParserTest.java",
+            "label": "Call: 3.0, Extend: 1.0, Use: 4.0, ",
+            "Call": 3.0,
+            "Extend": 1.0,
+            "Use": 4.0
+        }
+    ]
 }

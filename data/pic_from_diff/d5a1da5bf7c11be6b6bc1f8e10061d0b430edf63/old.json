@@ -1,72 +1,80 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\entity\\RelationCounter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\CppEntitiesListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\entity\\RelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
-      "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\CppEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\entity\\RelationCounter.java",
+        "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.java",
+        "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+        "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java",
+        "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\CppEntitiesListener.java",
+        "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.java",
+        "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\entity\\RelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.java",
+            "label": "Cast: 2.0, Call: 3.0, Import: 1.0, Parameter: 1.0, ",
+            "Cast": 2.0,
+            "Call": 3.0,
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+            "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.java",
+            "label": "Cast: 3.0, Call: 2.0, Import: 1.0, Return: 2.0, Create: 1.0, Contain: 1.0, ",
+            "Cast": 3.0,
+            "Call": 2.0,
+            "Import": 1.0,
+            "Return": 2.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CdtCppEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+            "label": "Call: 3.0, Import: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 3.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\cpp\\g4\\CppEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+            "label": "Call: 2.0, Import: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\entity\\types\\FunctionEntity.java",
+            "label": "Call: 1.0, Import: 1.0, Contain: 3.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Contain": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+            "label": "Call: 26.0, Import: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 26.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\d5a1da5bf7c11be6b6bc1f8e10061d0b430edf63\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+            "label": "Call: 15.0, Import: 1.0, Create: 2.0, Contain: 2.0, ",
+            "Call": 15.0,
+            "Import": 1.0,
+            "Create": 2.0,
+            "Contain": 2.0
+        }
+    ]
 }

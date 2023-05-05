@@ -1,48 +1,41 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\java\\JavaListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\test\\resources\\java-code-examples\\AnnotationTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\java\\JavaListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+        "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\java\\JavaListener.java",
+        "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.java",
+        "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\test\\java\\depends\\extractor\\ParserTest.java",
+        "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.java",
+        "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.java",
+        "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\test\\resources\\java-code-examples\\AnnotationTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\java\\JavaListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.java",
+            "label": "Call: 10.0, Import: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 10.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+            "label": "Call: 1.0, Import: 1.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\f4c48c2854b43b3b3da8662775eedebf4e0705ec\\old\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.java",
+            "label": "Call: 2.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 2.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        }
+    ]
 }

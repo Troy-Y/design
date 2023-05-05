@@ -1,120 +1,133 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\Entity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\GenericName.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\Entity.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\GenericName.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\Entity.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\Entity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Import",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java"
-    },
-    {
-      "label": "Use",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java"
-    },
-    {
-      "label": "Use",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 16.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\Entity.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\GenericName.java"
-    },
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java"
-    },
-    {
-      "label": "Use",
-      "weight": 40.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 11.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\Entity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java",
+        "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\Entity.java",
+        "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\GenericName.java",
+        "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+        "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.java",
+        "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.java",
+        "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+        "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+        "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\Entity.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\GenericName.java",
+            "label": "Call: 9.0, Return: 1.0, Use: 3.0, Parameter: 2.0, Contain: 1.0, ",
+            "Call": 9.0,
+            "Return": 1.0,
+            "Use": 3.0,
+            "Parameter": 2.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\Entity.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Import: 1.0, Parameter: 2.0, ",
+            "Import": 1.0,
+            "Parameter": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\Entity.java",
+            "label": "Call: 1.0, Import: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Call: 2.0, Import: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java",
+            "label": "Import: 1.0, ",
+            "Import": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\java\\JavaProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+            "label": "Call: 1.0, Import: 1.0, Extend: 1.0, Use: 2.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Extend": 1.0,
+            "Use": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java",
+            "label": "Import: 3.0, Use: 3.0, ",
+            "Import": 3.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\pom\\PomProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.java",
+            "label": "Call: 2.0, Import: 1.0, Extend: 1.0, Use: 2.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Extend": 1.0,
+            "Use": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\Entity.java",
+            "label": "Call: 18.0, Import: 1.0, Return: 9.0, Use: 12.0, Parameter: 12.0, Contain: 16.0, ",
+            "Call": 18.0,
+            "Import": 1.0,
+            "Return": 9.0,
+            "Use": 12.0,
+            "Parameter": 12.0,
+            "Contain": 16.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\GenericName.java",
+            "label": "Call: 15.0, Import: 1.0, Use: 3.0, Parameter: 3.0, ",
+            "Call": 15.0,
+            "Import": 1.0,
+            "Use": 3.0,
+            "Parameter": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+            "label": "Call: 2.0, Create: 1.0, ",
+            "Call": 2.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java",
+            "label": "Import: 1.0, Use: 40.0, ",
+            "Import": 1.0,
+            "Use": 40.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\entity\\Entity.java",
+            "label": "Call: 3.0, Import: 1.0, Use: 2.0, Parameter: 3.0, Contain: 11.0, ",
+            "Call": 3.0,
+            "Import": 1.0,
+            "Use": 2.0,
+            "Parameter": 3.0,
+            "Contain": 11.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\f96a8bfd551c8586e328ea00855389b525821749\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

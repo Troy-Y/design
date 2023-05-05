@@ -1,21 +1,16 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ddb8a9e3558024968aec613e317a7dafe3ad4e29\\old\\src\\main\\java\\depends\\format\\path\\DotPathFilenameWritter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ddb8a9e3558024968aec613e317a7dafe3ad4e29\\old\\src\\test\\java\\depends\\format\\path\\DotPathFilenameWritterTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ddb8a9e3558024968aec613e317a7dafe3ad4e29\\old\\src\\test\\java\\depends\\format\\path\\DotPathFilenameWritterTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ddb8a9e3558024968aec613e317a7dafe3ad4e29\\old\\src\\main\\java\\depends\\format\\path\\DotPathFilenameWritter.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\ddb8a9e3558024968aec613e317a7dafe3ad4e29\\old\\src\\main\\java\\depends\\format\\path\\DotPathFilenameWritter.java",
+        "D:\\desktop\\git-data\\depends\\ddb8a9e3558024968aec613e317a7dafe3ad4e29\\old\\src\\test\\java\\depends\\format\\path\\DotPathFilenameWritterTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ddb8a9e3558024968aec613e317a7dafe3ad4e29\\old\\src\\test\\java\\depends\\format\\path\\DotPathFilenameWritterTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ddb8a9e3558024968aec613e317a7dafe3ad4e29\\old\\src\\main\\java\\depends\\format\\path\\DotPathFilenameWritter.java",
+            "label": "Call: 4.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 4.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

@@ -1,30 +1,24 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java",
-      "target": "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java"
-    },
-    {
-      "label": "Return",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java",
+        "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java",
+        "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java",
+            "target": "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java",
+            "label": "Call: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\test\\java\\depends\\extractor\\pom\\MavenParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\60e961d4b1f2cc6040a442a9503a9f4af7a8a335\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java",
+            "label": "Cast: 1.0, Return: 1.0, ",
+            "Cast": 1.0,
+            "Return": 1.0
+        }
+    ]
 }

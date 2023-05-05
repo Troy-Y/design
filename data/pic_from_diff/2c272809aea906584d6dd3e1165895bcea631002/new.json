@@ -1,27 +1,20 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\new\\src\\main\\java\\depends\\extractor\\IncludedFileLocator.javaIncludedFileLocator.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.javaPythonCodeListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\new\\src\\test\\java\\depends\\extractor\\python\\ImportWithSameNameTest.javaImportWithSameNameTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.javaPythonCodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\new\\src\\main\\java\\depends\\extractor\\IncludedFileLocator.javaIncludedFileLocator.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\new\\src\\main\\java\\depends\\extractor\\IncludedFileLocator.javaIncludedFileLocator.java",
+        "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.javaPythonCodeListener.java",
+        "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\new\\src\\test\\java\\depends\\extractor\\python\\ImportWithSameNameTest.javaImportWithSameNameTest.java",
+        "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.javaPythonCodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\2c272809aea906584d6dd3e1165895bcea631002\\new\\src\\main\\java\\depends\\extractor\\IncludedFileLocator.javaIncludedFileLocator.java",
+            "label": "Call: 2.0, Import: 1.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

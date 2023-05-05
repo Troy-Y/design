@@ -1,17 +1,8 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ee7f8fb970603e83023c7ba9af905fa1e71bb0c9\\old\\src\\main\\java\\depends\\entity\\FileEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ee7f8fb970603e83023c7ba9af905fa1e71bb0c9\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ee7f8fb970603e83023c7ba9af905fa1e71bb0c9\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
-    }
-  ],
-  "links": []
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\ee7f8fb970603e83023c7ba9af905fa1e71bb0c9\\old\\src\\main\\java\\depends\\entity\\FileEntity.java",
+        "D:\\desktop\\git-data\\depends\\ee7f8fb970603e83023c7ba9af905fa1e71bb0c9\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java",
+        "D:\\desktop\\git-data\\depends\\ee7f8fb970603e83023c7ba9af905fa1e71bb0c9\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
+    ],
+    "edges": []
 }

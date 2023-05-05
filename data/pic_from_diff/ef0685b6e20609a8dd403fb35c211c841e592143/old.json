@@ -1,171 +1,165 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonClassTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\SelfShouldBeThisTypeTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\ShouldGetRelationInSamePackageTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Call",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonClassTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Use",
-      "weight": 7.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonClassTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Call",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Call",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Call",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Use",
-      "weight": 5.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Call",
-      "weight": 7.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Use",
-      "weight": 17.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Call",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Call",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Use",
-      "weight": 5.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Call",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Call",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\SelfShouldBeThisTypeTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\SelfShouldBeThisTypeTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Call",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\ShouldGetRelationInSamePackageTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\ShouldGetRelationInSamePackageTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+        "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonClassTest.java",
+        "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java",
+        "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java",
+        "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java",
+        "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
+        "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java",
+        "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java",
+        "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java",
+        "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+        "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\SelfShouldBeThisTypeTest.java",
+        "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\ShouldGetRelationInSamePackageTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonClassTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Call: 3.0, ",
+            "Call": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonClassTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 4.0, Extend: 1.0, Use: 7.0, ",
+            "Call": 4.0,
+            "Extend": 1.0,
+            "Use": 7.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Call: 1.0, ",
+            "Call": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 2.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 2.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Call: 1.0, ",
+            "Call": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 2.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 2.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Call: 2.0, ",
+            "Call": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 3.0, Extend: 1.0, Use: 5.0, ",
+            "Call": 3.0,
+            "Extend": 1.0,
+            "Use": 5.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Call: 7.0, ",
+            "Call": 7.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 8.0, Extend: 1.0, Use: 17.0, ",
+            "Call": 8.0,
+            "Extend": 1.0,
+            "Use": 17.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Call: 1.0, ",
+            "Call": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 2.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 2.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Call: 2.0, ",
+            "Call": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 3.0, Extend: 1.0, Use: 5.0, ",
+            "Call": 3.0,
+            "Extend": 1.0,
+            "Use": 5.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Call: 1.0, ",
+            "Call": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 2.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 2.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Import: 1.0, Contain: 1.0, ",
+            "Import": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\SelfShouldBeThisTypeTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Call: 1.0, ",
+            "Call": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\SelfShouldBeThisTypeTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 2.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 2.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\ShouldGetRelationInSamePackageTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Call: 1.0, ",
+            "Call": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\ShouldGetRelationInSamePackageTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ef0685b6e20609a8dd403fb35c211c841e592143\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 2.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 2.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        }
+    ]
 }

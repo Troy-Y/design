@@ -1,17 +1,8 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\bd85ee5b8f053acc98d47772a628169e2826dcf2\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\bd85ee5b8f053acc98d47772a628169e2826dcf2\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.javaPythonCodeListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\bd85ee5b8f053acc98d47772a628169e2826dcf2\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java"
-    }
-  ],
-  "links": []
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\bd85ee5b8f053acc98d47772a628169e2826dcf2\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
+        "D:\\desktop\\git-data\\depends\\bd85ee5b8f053acc98d47772a628169e2826dcf2\\new\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.javaPythonCodeListener.java",
+        "D:\\desktop\\git-data\\depends\\bd85ee5b8f053acc98d47772a628169e2826dcf2\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java"
+    ],
+    "edges": []
 }

@@ -1,33 +1,29 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java",
-      "target": "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+        "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.java",
+        "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java",
+        "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.java",
+            "label": "Call: 2.0, Import: 1.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java",
+            "target": "D:\\desktop\\git-data\\depends\\5ece4e7c6b382d64750e632187291e71fdce43b4\\old\\src\\main\\java\\depends\\extractor\\ruby\\IncludedFileLocator.java",
+            "label": "Call: 1.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

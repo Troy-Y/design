@@ -1,297 +1,314 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\LangRegister.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonBuiltInType.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonClassTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonGlobalVarTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\SelfShouldBeThisTypeTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\ShouldGetRelationInSamePackageTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\LangRegister.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java"
-    },
-    {
-      "label": "Create",
-      "weight": 5.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java"
-    },
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonBuiltInType.java"
-    },
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonClassTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 7.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonClassTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 5.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonGlobalVarTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonGlobalVarTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 8.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 18.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 5.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Return",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\SelfShouldBeThisTypeTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\ShouldGetRelationInSamePackageTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\LangRegister.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonBuiltInType.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonClassTest.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonGlobalVarTest.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\SelfShouldBeThisTypeTest.java",
+        "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\ShouldGetRelationInSamePackageTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\LangRegister.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java",
+            "label": "Call: 1.0, Create: 1.0, ",
+            "Call": 1.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java",
+            "label": "Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java",
+            "label": "Call: 2.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java",
+            "label": "Call: 2.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.java",
+            "label": "Call: 5.0, Create: 5.0, ",
+            "Call": 5.0,
+            "Create": 5.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+            "label": "Call: 2.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java",
+            "label": "Call: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java",
+            "label": "Call: 5.0, Use: 1.0, Contain: 1.0, ",
+            "Call": 5.0,
+            "Use": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java",
+            "label": "Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "label": "Call: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java",
+            "label": "Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.java",
+            "label": "Cast: 4.0, Call: 3.0, Contain: 2.0, ",
+            "Cast": 4.0,
+            "Call": 3.0,
+            "Contain": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java",
+            "label": "Parameter: 1.0, ",
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonBuiltInType.java",
+            "label": "Call: 1.0, Create: 1.0, ",
+            "Call": 1.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+            "label": "Call: 1.0, Create: 1.0, ",
+            "Call": 1.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.java",
+            "label": "Call: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonClassTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+            "label": "Call: 3.0, Contain: 3.0, ",
+            "Call": 3.0,
+            "Contain": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonClassTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 8.0, Extend: 1.0, Use: 7.0, ",
+            "Call": 8.0,
+            "Extend": 1.0,
+            "Use": 7.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+            "label": "Call: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 4.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 4.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+            "label": "Call: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 4.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 4.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+            "label": "Call: 2.0, Contain: 2.0, ",
+            "Call": 2.0,
+            "Contain": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFunctionTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 5.0, Extend: 1.0, Use: 5.0, ",
+            "Call": 5.0,
+            "Extend": 1.0,
+            "Use": 5.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonGlobalVarTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+            "label": "Call: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonGlobalVarTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 3.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 3.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+            "label": "Call: 8.0, Contain: 8.0, ",
+            "Call": 8.0,
+            "Contain": 8.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 14.0, Extend: 1.0, Use: 18.0, ",
+            "Call": 14.0,
+            "Extend": 1.0,
+            "Use": 18.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+            "label": "Call: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectCreationTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 4.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 4.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+            "label": "Call: 2.0, Contain: 2.0, ",
+            "Call": 2.0,
+            "Contain": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonObjectThrowReturn.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 7.0, Extend: 1.0, Use: 5.0, ",
+            "Call": 7.0,
+            "Extend": 1.0,
+            "Use": 5.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 3.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 3.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonFileParser.java",
+            "label": "Cast: 1.0, Return: 1.0, ",
+            "Cast": 1.0,
+            "Return": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.java",
+            "label": "Call: 2.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\SelfShouldBeThisTypeTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 4.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 4.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\ShouldGetRelationInSamePackageTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\e2172ec78fc490f3d76b04559f7f219968a12e49\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParserTest.java",
+            "label": "Call: 4.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 4.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        }
+    ]
 }

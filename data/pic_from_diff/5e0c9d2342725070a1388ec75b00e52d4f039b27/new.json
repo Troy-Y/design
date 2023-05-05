@@ -1,7 +1,4 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [],
-  "links": []
+    "nodes": [],
+    "edges": []
 }

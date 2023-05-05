@@ -1,102 +1,106 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.javaExpressionUsage.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.javaNameAliasImport.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.javaPythonParserHelper.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.javaPythonProcessor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\importtypes\\Import.javaImport.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Parameter",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\importtypes\\Import.javaImport.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.javaExpressionUsage.java",
-      "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.javaPythonParserHelper.java"
-    },
-    {
-      "label": "Extend",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.javaNameAliasImport.java",
-      "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\importtypes\\Import.javaImport.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.javaExpressionUsage.java"
-    },
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.javaNameAliasImport.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.javaPythonParserHelper.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.javaPythonProcessor.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
-      "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
-      "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.javaNameAliasImport.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
-      "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\importtypes\\Import.javaImport.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.javaPythonProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
+        "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.javaExpressionUsage.java",
+        "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.javaNameAliasImport.java",
+        "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+        "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
+        "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.javaPythonParserHelper.java",
+        "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.javaPythonProcessor.java",
+        "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\importtypes\\Import.javaImport.java",
+        "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\importtypes\\Import.javaImport.java",
+            "label": "Import: 1.0, Use: 1.0, Parameter: 2.0, ",
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.javaExpressionUsage.java",
+            "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.javaPythonParserHelper.java",
+            "label": "Call: 3.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 3.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.javaNameAliasImport.java",
+            "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\importtypes\\Import.javaImport.java",
+            "label": "Call: 1.0, Import: 1.0, Extend: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Extend": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.javaExpressionUsage.java",
+            "label": "Call: 2.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.javaNameAliasImport.java",
+            "label": "Call: 1.0, Create: 1.0, ",
+            "Call": 1.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.javaPythonParserHelper.java",
+            "label": "Call: 4.0, Use: 1.0, Contain: 1.0, ",
+            "Call": 4.0,
+            "Use": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.javaPythonProcessor.java",
+            "label": "Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
+            "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
+            "label": "Call: 1.0, Import: 1.0, Parameter: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
+            "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\NameAliasImport.javaNameAliasImport.java",
+            "label": "Cast: 4.0, Call: 3.0, Contain: 2.0, ",
+            "Cast": 4.0,
+            "Call": 3.0,
+            "Contain": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
+            "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\importtypes\\Import.javaImport.java",
+            "label": "Import: 1.0, Use: 1.0, Parameter: 1.0, Contain: 2.0, ",
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonProcessor.javaPythonProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\46d74885110c34cd8e4f01990d5828ad7a4af826\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
+            "label": "Call: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

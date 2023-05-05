@@ -1,24 +1,19 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomParent.javaPomParent.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\test\\java\\depends\\extractor\\maven\\EntityExtractTest.javaEntityExtractTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 4.0,
-      "source": "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomParent.javaPomParent.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java",
+        "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomParent.javaPomParent.java",
+        "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\test\\java\\depends\\extractor\\maven\\EntityExtractTest.javaEntityExtractTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\e3f0512ef99bd46826a63b91f11912a25257aa7b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomParent.javaPomParent.java",
+            "label": "Cast: 6.0, Call: 1.0, Use: 7.0, Create: 1.0, Contain: 4.0, ",
+            "Cast": 6.0,
+            "Call": 1.0,
+            "Use": 7.0,
+            "Create": 1.0,
+            "Contain": 4.0
+        }
+    ]
 }

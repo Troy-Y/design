@@ -1,24 +1,18 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\old\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\old\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\old\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\old\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.java",
+        "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java",
+        "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\old\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\old\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.java",
+            "label": "Call: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

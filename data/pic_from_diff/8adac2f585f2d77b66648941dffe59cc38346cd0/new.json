@@ -1,267 +1,272 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.javaAnnotationProcessor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\CreatorContextHelper.javaCreatorContextHelper.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.javaExpressionUsage.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.javaFormalParameterListContextHelper.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\QualitiedNameContextHelper.javaQualitiedNameContextHelper.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\TypeParameterContextHelper.javaTypeParameterContextHelper.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\VariableDeclaratorsContextHelper.javaVariableDeclaratorsContextHelper.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.javaEntityRepoExpendsImportsOfPackageTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppExpressionTest.javaCppExpressionTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\cpp\\MacroRelationTest.javaMacroRelationTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.javaJavaAnnotationParserTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaComplexExpressionTest.javaJavaComplexExpressionTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaEmbededClassTest.javaJavaEmbededClassTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaGenericTypeTest.javaJavaGenericTypeTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaInternalClassTest.javaJavaInternalClassTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParameterParserTest.javaJavaParameterParserTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaTypeInferUnderSamePackageTest.javaJavaTypeInferUnderSamePackageTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\format\\matrix\\FileDependencyGeneratorTest.javaFileDependencyGeneratorTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\resources\\java-code-examples\\AnnotationTest.javaAnnotationTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.javaAnnotationProcessor.java"
-    },
-    {
-      "label": "Use",
-      "weight": 11.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.javaExpressionUsage.java"
-    },
-    {
-      "label": "Create",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.javaFormalParameterListContextHelper.java"
-    },
-    {
-      "label": "Use",
-      "weight": 4.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\QualitiedNameContextHelper.javaQualitiedNameContextHelper.java"
-    },
-    {
-      "label": "Use",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\TypeParameterContextHelper.javaTypeParameterContextHelper.java"
-    },
-    {
-      "label": "Use",
-      "weight": 5.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\VariableDeclaratorsContextHelper.javaVariableDeclaratorsContextHelper.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java"
-    },
-    {
-      "label": "Use",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.javaAnnotationProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\QualitiedNameContextHelper.javaQualitiedNameContextHelper.java"
-    },
-    {
-      "label": "Use",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.javaExpressionUsage.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java"
-    },
-    {
-      "label": "Use",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.javaExpressionUsage.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\CreatorContextHelper.javaCreatorContextHelper.java"
-    },
-    {
-      "label": "Use",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.javaFormalParameterListContextHelper.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java"
-    },
-    {
-      "label": "Use",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.javaFormalParameterListContextHelper.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\QualitiedNameContextHelper.javaQualitiedNameContextHelper.java"
-    },
-    {
-      "label": "Use",
-      "weight": 7.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.javaEntityRepoExpendsImportsOfPackageTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.javaJavaAnnotationParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.javaJavaAnnotationParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaComplexExpressionTest.javaJavaComplexExpressionTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaComplexExpressionTest.javaJavaComplexExpressionTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaEmbededClassTest.javaJavaEmbededClassTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 5.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaEmbededClassTest.javaJavaEmbededClassTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaGenericTypeTest.javaJavaGenericTypeTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaGenericTypeTest.javaJavaGenericTypeTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaInternalClassTest.javaJavaInternalClassTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaInternalClassTest.javaJavaInternalClassTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParameterParserTest.javaJavaParameterParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParameterParserTest.javaJavaParameterParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
-    },
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaTypeInferUnderSamePackageTest.javaJavaTypeInferUnderSamePackageTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaTypeInferUnderSamePackageTest.javaJavaTypeInferUnderSamePackageTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 5.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java"
-    },
-    {
-      "label": "Use",
-      "weight": 14.0,
-      "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.javaAnnotationProcessor.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\CreatorContextHelper.javaCreatorContextHelper.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.javaExpressionUsage.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.javaFormalParameterListContextHelper.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\QualitiedNameContextHelper.javaQualitiedNameContextHelper.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\TypeParameterContextHelper.javaTypeParameterContextHelper.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\VariableDeclaratorsContextHelper.javaVariableDeclaratorsContextHelper.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.javaEntityRepoExpendsImportsOfPackageTest.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppExpressionTest.javaCppExpressionTest.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\cpp\\MacroRelationTest.javaMacroRelationTest.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.javaJavaAnnotationParserTest.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaComplexExpressionTest.javaJavaComplexExpressionTest.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaEmbededClassTest.javaJavaEmbededClassTest.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaGenericTypeTest.javaJavaGenericTypeTest.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaInternalClassTest.javaJavaInternalClassTest.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParameterParserTest.javaJavaParameterParserTest.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaTypeInferUnderSamePackageTest.javaJavaTypeInferUnderSamePackageTest.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\format\\matrix\\FileDependencyGeneratorTest.javaFileDependencyGeneratorTest.java",
+        "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\resources\\java-code-examples\\AnnotationTest.javaAnnotationTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.javaAnnotationProcessor.java",
+            "label": "Call: 9.0, Import: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 9.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java",
+            "label": "Call: 11.0, Import: 1.0, Use: 11.0, ",
+            "Call": 11.0,
+            "Import": 1.0,
+            "Use": 11.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.javaExpressionUsage.java",
+            "label": "Call: 2.0, Import: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.javaFormalParameterListContextHelper.java",
+            "label": "Call: 3.0, Import: 1.0, Create: 3.0, ",
+            "Call": 3.0,
+            "Import": 1.0,
+            "Create": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\QualitiedNameContextHelper.javaQualitiedNameContextHelper.java",
+            "label": "Call: 4.0, Import: 1.0, Use: 4.0, ",
+            "Call": 4.0,
+            "Import": 1.0,
+            "Use": 4.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\TypeParameterContextHelper.javaTypeParameterContextHelper.java",
+            "label": "Call: 1.0, Import: 1.0, Use: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Use": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\VariableDeclaratorsContextHelper.javaVariableDeclaratorsContextHelper.java",
+            "label": "Call: 5.0, Import: 1.0, Use: 5.0, ",
+            "Call": 5.0,
+            "Import": 1.0,
+            "Use": 5.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaEntitiesListener.javaJavaEntitiesListener.java",
+            "label": "Call: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\AnnotationProcessor.javaAnnotationProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\QualitiedNameContextHelper.javaQualitiedNameContextHelper.java",
+            "label": "Call: 1.0, Use: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.javaExpressionUsage.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java",
+            "label": "Call: 1.0, Use: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ExpressionUsage.javaExpressionUsage.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\CreatorContextHelper.javaCreatorContextHelper.java",
+            "label": "Call: 1.0, Use: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.javaFormalParameterListContextHelper.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.javaClassTypeContextHelper.java",
+            "label": "Call: 1.0, Use: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\FormalParameterListContextHelper.javaFormalParameterListContextHelper.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\context\\QualitiedNameContextHelper.javaQualitiedNameContextHelper.java",
+            "label": "Call: 1.0, Use: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.javaEntityRepoExpendsImportsOfPackageTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+            "label": "Call: 1.0, Import: 1.0, Extend: 1.0, Use: 7.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Extend": 1.0,
+            "Use": 7.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.javaJavaAnnotationParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java",
+            "label": "Call: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaAnnotationParserTest.javaJavaAnnotationParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+            "label": "Call: 2.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 2.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaComplexExpressionTest.javaJavaComplexExpressionTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java",
+            "label": "Call: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaComplexExpressionTest.javaJavaComplexExpressionTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+            "label": "Call: 2.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 2.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaEmbededClassTest.javaJavaEmbededClassTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java",
+            "label": "Call: 2.0, Contain: 2.0, ",
+            "Call": 2.0,
+            "Contain": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaEmbededClassTest.javaJavaEmbededClassTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+            "label": "Call: 3.0, Extend: 1.0, Use: 5.0, ",
+            "Call": 3.0,
+            "Extend": 1.0,
+            "Use": 5.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaGenericTypeTest.javaJavaGenericTypeTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java",
+            "label": "Call: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaGenericTypeTest.javaJavaGenericTypeTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+            "label": "Call: 2.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 2.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaInternalClassTest.javaJavaInternalClassTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java",
+            "label": "Call: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaInternalClassTest.javaJavaInternalClassTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+            "label": "Call: 2.0, Extend: 1.0, Use: 2.0, ",
+            "Call": 2.0,
+            "Extend": 1.0,
+            "Use": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParameterParserTest.javaJavaParameterParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java",
+            "label": "Call: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParameterParserTest.javaJavaParameterParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+            "label": "Call: 2.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 2.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java",
+            "label": "Call: 1.0, Import: 1.0, Return: 1.0, Create: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Return": 1.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaTypeInferUnderSamePackageTest.javaJavaTypeInferUnderSamePackageTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java",
+            "label": "Call: 2.0, Use: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Use": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaTypeInferUnderSamePackageTest.javaJavaTypeInferUnderSamePackageTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+            "label": "Call: 3.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 3.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\main\\java\\depends\\extractor\\java\\JavaFileParser.javaJavaFileParser.java",
+            "label": "Call: 5.0, Contain: 5.0, ",
+            "Call": 5.0,
+            "Contain": 5.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\8adac2f585f2d77b66648941dffe59cc38346cd0\\new\\src\\test\\java\\depends\\extractor\\java\\JavaParserTest.javaJavaParserTest.java",
+            "label": "Call: 6.0, Extend: 1.0, Use: 14.0, ",
+            "Call": 6.0,
+            "Extend": 1.0,
+            "Use": 14.0
+        }
+    ]
 }

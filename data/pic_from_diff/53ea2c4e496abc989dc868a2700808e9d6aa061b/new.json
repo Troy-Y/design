@@ -1,126 +1,143 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.javaCppImportLookupStrategy.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.javaPomArtifactEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.javaCppImportLookupStrategy.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java"
-    },
-    {
-      "label": "Implement",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.javaCppImportLookupStrategy.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.javaCppImportLookupStrategy.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.javaPomArtifactEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java"
-    },
-    {
-      "label": "Implement",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java"
-    },
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
+        "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.javaCppImportLookupStrategy.java",
+        "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.javaPomArtifactEntity.java",
+        "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+        "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
+        "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java",
+        "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+        "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+        "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Call: 3.0, Import: 1.0, Parameter: 1.0, ",
+            "Call": 3.0,
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.javaCppImportLookupStrategy.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
+            "label": "Cast: 4.0, Call: 4.0, Import: 1.0, Use: 2.0, Parameter: 1.0, Contain: 1.0, ",
+            "Cast": 4.0,
+            "Call": 4.0,
+            "Import": 1.0,
+            "Use": 2.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.javaCppImportLookupStrategy.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java",
+            "label": "Import: 1.0, Implement: 1.0, ",
+            "Import": 1.0,
+            "Implement": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\cpp\\CppImportLookupStrategy.javaCppImportLookupStrategy.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Call: 2.0, Import: 1.0, Parameter: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.javaPomArtifactEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
+            "label": "Cast: 1.0, Call: 1.0, Import: 1.0, Use: 1.0, Contain: 1.0, ",
+            "Cast": 1.0,
+            "Call": 1.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.javaPython3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Call: 1.0, Import: 1.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
+            "label": "Cast: 1.0, Call: 1.0, Import: 1.0, Use: 1.0, Parameter: 1.0, ",
+            "Cast": 1.0,
+            "Call": 1.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java",
+            "label": "Import: 1.0, Implement: 1.0, ",
+            "Import": 1.0,
+            "Implement": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.javaPythonImportLookupStrategy.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Import: 1.0, Parameter: 1.0, ",
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
+            "label": "Import: 1.0, Parameter: 1.0, ",
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Parameter: 1.0, ",
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
+            "label": "Cast: 6.0, Call: 3.0, Import: 1.0, Use: 4.0, Parameter: 3.0, Contain: 3.0, ",
+            "Cast": 6.0,
+            "Call": 3.0,
+            "Import": 1.0,
+            "Use": 4.0,
+            "Parameter": 3.0,
+            "Contain": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\ImportLookupStrategy.javaImportLookupStrategy.java",
+            "label": "Call: 4.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 4.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+            "label": "Call: 2.0, Create: 1.0, ",
+            "Call": 2.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\53ea2c4e496abc989dc868a2700808e9d6aa061b\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java",
+            "label": "Cast: 4.0, Call: 2.0, Import: 1.0, Use: 1.0, Parameter: 1.0, ",
+            "Cast": 4.0,
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0
+        }
+    ]
 }

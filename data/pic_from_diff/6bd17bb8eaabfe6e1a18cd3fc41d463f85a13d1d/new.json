@@ -1,14 +1,7 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\6bd17bb8eaabfe6e1a18cd3fc41d463f85a13d1d\\new\\src\\main\\java\\depends\\extractor\\python\\union\\ExpressionUsage.javaExpressionUsage.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\6bd17bb8eaabfe6e1a18cd3fc41d463f85a13d1d\\new\\src\\test\\java\\depends\\extractor\\python\\PythonClassAssignmentTest.javaPythonClassAssignmentTest.java"
-    }
-  ],
-  "links": []
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\6bd17bb8eaabfe6e1a18cd3fc41d463f85a13d1d\\new\\src\\main\\java\\depends\\extractor\\python\\union\\ExpressionUsage.javaExpressionUsage.java",
+        "D:\\desktop\\git-data\\depends\\6bd17bb8eaabfe6e1a18cd3fc41d463f85a13d1d\\new\\src\\test\\java\\depends\\extractor\\python\\PythonClassAssignmentTest.javaPythonClassAssignmentTest.java"
+    ],
+    "edges": []
 }

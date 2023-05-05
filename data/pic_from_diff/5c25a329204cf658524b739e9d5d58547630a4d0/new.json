@@ -1,66 +1,68 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyVarTest.javaRubyVarTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
-      "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java",
-      "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java",
-      "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
-      "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
-    },
-    {
-      "label": "Call",
-      "weight": 24.0,
-      "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
-      "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
-      "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java"
-    },
-    {
-      "label": "Use",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyVarTest.javaRubyVarTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java",
+        "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+        "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java",
+        "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+        "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyVarTest.javaRubyVarTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+            "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java",
+            "label": "Call: 6.0, Import: 1.0, Use: 6.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 6.0,
+            "Import": 1.0,
+            "Use": 6.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java",
+            "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java",
+            "label": "Call: 1.0, Import: 1.0, Parameter: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java",
+            "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+            "label": "Call: 8.0, Import: 1.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 8.0,
+            "Import": 1.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+            "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java",
+            "label": "Import: 1.0, Parameter: 1.0, ",
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+            "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+            "label": "Call: 24.0, ",
+            "Call": 24.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.javaJRubyVisitor.java",
+            "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.javaRubyHandlerContext.java",
+            "label": "Call: 7.0, Import: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 7.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyVarTest.javaRubyVarTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\5c25a329204cf658524b739e9d5d58547630a4d0\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java",
+            "label": "Import: 1.0, Use: 2.0, ",
+            "Import": 1.0,
+            "Use": 2.0
+        }
+    ]
 }

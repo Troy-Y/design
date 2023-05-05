@@ -1,26 +1,11 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ANSICParserExtensionConfigurationExtension.javaANSICParserExtensionConfigurationExtension.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\GPPParserExtensionConfigurationExtension.javaGPPParserExtensionConfigurationExtension.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.javaEntityRepoExpendsImportsOfPackageTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\test\\java\\depends\\extractor\\cpp\\ContainRelationTest.javaContainRelationTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\ForwardDeclareTest.javaForwardDeclareTest.java"
-    }
-  ],
-  "links": []
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.javaAbstractLangWorker.java",
+        "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ANSICParserExtensionConfigurationExtension.javaANSICParserExtensionConfigurationExtension.java",
+        "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\GPPParserExtensionConfigurationExtension.javaGPPParserExtensionConfigurationExtension.java",
+        "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.javaEntityRepoExpendsImportsOfPackageTest.java",
+        "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\test\\java\\depends\\extractor\\cpp\\ContainRelationTest.javaContainRelationTest.java",
+        "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\new\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\ForwardDeclareTest.javaForwardDeclareTest.java"
+    ],
+    "edges": []
 }

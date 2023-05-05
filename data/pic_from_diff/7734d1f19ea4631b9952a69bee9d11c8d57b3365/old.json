@@ -1,14 +1,7 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\7734d1f19ea4631b9952a69bee9d11c8d57b3365\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\7734d1f19ea4631b9952a69bee9d11c8d57b3365\\old\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.java"
-    }
-  ],
-  "links": []
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\7734d1f19ea4631b9952a69bee9d11c8d57b3365\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java",
+        "D:\\desktop\\git-data\\depends\\7734d1f19ea4631b9952a69bee9d11c8d57b3365\\old\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.java"
+    ],
+    "edges": []
 }

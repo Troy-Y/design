@@ -1,24 +1,19 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\d6a63dd737fca5ed5dc9b981ae1b48572726cf76\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\d6a63dd737fca5ed5dc9b981ae1b48572726cf76\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\d6a63dd737fca5ed5dc9b981ae1b48572726cf76\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\d6a63dd737fca5ed5dc9b981ae1b48572726cf76\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\d6a63dd737fca5ed5dc9b981ae1b48572726cf76\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\d6a63dd737fca5ed5dc9b981ae1b48572726cf76\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
+        "D:\\desktop\\git-data\\depends\\d6a63dd737fca5ed5dc9b981ae1b48572726cf76\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+        "D:\\desktop\\git-data\\depends\\d6a63dd737fca5ed5dc9b981ae1b48572726cf76\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\d6a63dd737fca5ed5dc9b981ae1b48572726cf76\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\d6a63dd737fca5ed5dc9b981ae1b48572726cf76\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Call: 1.0, Import: 1.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

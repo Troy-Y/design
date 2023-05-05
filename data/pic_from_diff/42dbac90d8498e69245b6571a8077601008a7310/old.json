@@ -1,24 +1,17 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\42dbac90d8498e69245b6571a8077601008a7310\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\42dbac90d8498e69245b6571a8077601008a7310\\old\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\42dbac90d8498e69245b6571a8077601008a7310\\old\\src\\test\\java\\depends\\format\\json\\JsonFormatDependencyDumperTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Use",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\42dbac90d8498e69245b6571a8077601008a7310\\old\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.java",
-      "target": "D:\\desktop\\git-data\\depends\\42dbac90d8498e69245b6571a8077601008a7310\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\42dbac90d8498e69245b6571a8077601008a7310\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java",
+        "D:\\desktop\\git-data\\depends\\42dbac90d8498e69245b6571a8077601008a7310\\old\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.java",
+        "D:\\desktop\\git-data\\depends\\42dbac90d8498e69245b6571a8077601008a7310\\old\\src\\test\\java\\depends\\format\\json\\JsonFormatDependencyDumperTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\42dbac90d8498e69245b6571a8077601008a7310\\old\\src\\main\\java\\depends\\generator\\FunctionDependencyGenerator.java",
+            "target": "D:\\desktop\\git-data\\depends\\42dbac90d8498e69245b6571a8077601008a7310\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java",
+            "label": "Call: 1.0, Extend: 1.0, Use: 2.0, ",
+            "Call": 1.0,
+            "Extend": 1.0,
+            "Use": 2.0
+        }
+    ]
 }

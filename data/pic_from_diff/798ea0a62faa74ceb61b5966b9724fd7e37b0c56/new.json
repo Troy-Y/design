@@ -1,24 +1,16 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\798ea0a62faa74ceb61b5966b9724fd7e37b0c56\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.javaASTStringUtilExt.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\798ea0a62faa74ceb61b5966b9724fd7e37b0c56\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.javaCppVisitor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\798ea0a62faa74ceb61b5966b9724fd7e37b0c56\\new\\src\\test\\java\\depends\\extractor\\cpp\\GenericTypeTest.javaGenericTypeTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Use",
-      "weight": 22.0,
-      "source": "D:\\desktop\\git-data\\depends\\798ea0a62faa74ceb61b5966b9724fd7e37b0c56\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.javaCppVisitor.java",
-      "target": "D:\\desktop\\git-data\\depends\\798ea0a62faa74ceb61b5966b9724fd7e37b0c56\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.javaASTStringUtilExt.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\798ea0a62faa74ceb61b5966b9724fd7e37b0c56\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.javaASTStringUtilExt.java",
+        "D:\\desktop\\git-data\\depends\\798ea0a62faa74ceb61b5966b9724fd7e37b0c56\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.javaCppVisitor.java",
+        "D:\\desktop\\git-data\\depends\\798ea0a62faa74ceb61b5966b9724fd7e37b0c56\\new\\src\\test\\java\\depends\\extractor\\cpp\\GenericTypeTest.javaGenericTypeTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\798ea0a62faa74ceb61b5966b9724fd7e37b0c56\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.javaCppVisitor.java",
+            "target": "D:\\desktop\\git-data\\depends\\798ea0a62faa74ceb61b5966b9724fd7e37b0c56\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.javaASTStringUtilExt.java",
+            "label": "Call: 20.0, Use: 22.0, ",
+            "Call": 20.0,
+            "Use": 22.0
+        }
+    ]
 }

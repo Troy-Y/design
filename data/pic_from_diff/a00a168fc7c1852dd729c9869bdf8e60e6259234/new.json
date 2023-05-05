@@ -1,24 +1,19 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\new\\src\\main\\java\\depends\\entity\\AliasEntity.javaAliasEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\new\\src\\main\\java\\depends\\entity\\AliasEntity.javaAliasEntity.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\new\\src\\main\\java\\depends\\entity\\AliasEntity.javaAliasEntity.java",
+        "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+        "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\new\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.javaPythonImportTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\new\\src\\main\\java\\depends\\entity\\AliasEntity.javaAliasEntity.java",
+            "label": "Cast: 2.0, Call: 2.0, Import: 1.0, Use: 1.0, Contain: 1.0, ",
+            "Cast": 2.0,
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

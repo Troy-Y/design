@@ -1,17 +1,8 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\71c2604390fa83b01f05f532a4bd517954cf9291\\old\\src\\main\\java\\depends\\Main.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\71c2604390fa83b01f05f532a4bd517954cf9291\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppExpressionTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\71c2604390fa83b01f05f532a4bd517954cf9291\\old\\src\\test\\java\\depends\\extractor\\cpp\\DuplicateDeclarationTest.java"
-    }
-  ],
-  "links": []
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\71c2604390fa83b01f05f532a4bd517954cf9291\\old\\src\\main\\java\\depends\\Main.java",
+        "D:\\desktop\\git-data\\depends\\71c2604390fa83b01f05f532a4bd517954cf9291\\old\\src\\test\\java\\depends\\extractor\\cpp\\CppExpressionTest.java",
+        "D:\\desktop\\git-data\\depends\\71c2604390fa83b01f05f532a4bd517954cf9291\\old\\src\\test\\java\\depends\\extractor\\cpp\\DuplicateDeclarationTest.java"
+    ],
+    "edges": []
 }

@@ -1,42 +1,39 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entity\\GenericTypeArgument.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\test\\java\\depends\\extractor\\java\\JavaGenericTypeTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entity\\GenericTypeArgument.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 4.0,
-      "source": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\relations\\Inferer.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.java",
-      "target": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entity\\GenericTypeArgument.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java",
+        "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entity\\GenericTypeArgument.java",
+        "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.java",
+        "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+        "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\test\\java\\depends\\extractor\\java\\JavaGenericTypeTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entity\\GenericTypeArgument.java",
+            "label": "Call: 2.0, Use: 1.0, Parameter: 2.0, Contain: 2.0, ",
+            "Call": 2.0,
+            "Use": 1.0,
+            "Parameter": 2.0,
+            "Contain": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\relations\\Inferer.java",
+            "label": "Call: 1.0, Import: 1.0, Use: 2.0, Parameter: 4.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Use": 2.0,
+            "Parameter": 4.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\extractor\\java\\context\\ClassTypeContextHelper.java",
+            "target": "D:\\desktop\\git-data\\depends\\e4aee9821aa7bdbf986ca83374d8825100bd1e05\\old\\src\\main\\java\\depends\\entity\\GenericTypeArgument.java",
+            "label": "Call: 1.0, Import: 1.0, Create: 1.0, Use: 1.0, Parameter: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Create": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0
+        }
+    ]
 }

@@ -1,24 +1,17 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\old\\src\\main\\java\\depends\\entity\\Expression.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\old\\src\\main\\java\\depends\\entity\\MultiDeclareEntities.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\old\\src\\main\\java\\depends\\entity\\Expression.java",
-      "target": "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\old\\src\\main\\java\\depends\\entity\\MultiDeclareEntities.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\old\\src\\main\\java\\depends\\entity\\Expression.java",
+        "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\old\\src\\main\\java\\depends\\entity\\MultiDeclareEntities.java",
+        "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\old\\src\\main\\java\\depends\\entity\\Expression.java",
+            "target": "D:\\desktop\\git-data\\depends\\d003ee4afa4123608df5fcb19954254a89ec4920\\old\\src\\main\\java\\depends\\entity\\MultiDeclareEntities.java",
+            "label": "Call: 4.0, Create: 2.0, Contain: 2.0, ",
+            "Call": 4.0,
+            "Create": 2.0,
+            "Contain": 2.0
+        }
+    ]
 }

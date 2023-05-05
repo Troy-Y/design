@@ -1,63 +1,59 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relations\\Relation.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Use",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java",
-      "target": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java",
-      "target": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java",
-      "target": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relations\\Relation.java"
-    },
-    {
-      "label": "Use",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java",
-      "target": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java"
-    },
-    {
-      "label": "Use",
-      "weight": 48.0,
-      "source": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java"
-    },
-    {
-      "label": "Create",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relations\\Relation.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java",
+        "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java",
+        "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java",
+        "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relations\\Relation.java",
+        "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+        "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\test\\java\\depends\\extractor\\python\\PythonParameterTypeDedudceTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java",
+            "target": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java",
+            "label": "Import: 1.0, Use: 1.0, ",
+            "Import": 1.0,
+            "Use": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java",
+            "target": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java",
+            "label": "Call: 3.0, Import: 1.0, Return: 2.0, Create: 1.0, Contain: 2.0, ",
+            "Call": 3.0,
+            "Import": 1.0,
+            "Return": 2.0,
+            "Create": 1.0,
+            "Contain": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\generator\\DependencyGenerator.java",
+            "target": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relations\\Relation.java",
+            "label": "Call: 3.0, Import: 1.0, Contain: 1.0, ",
+            "Call": 3.0,
+            "Import": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\matrix\\core\\DependencyMatrix.java",
+            "target": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java",
+            "label": "Import: 1.0, Use: 1.0, ",
+            "Import": 1.0,
+            "Use": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\deptypes\\DependencyType.java",
+            "label": "Import: 1.0, Use: 48.0, ",
+            "Import": 1.0,
+            "Use": 48.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\55854a2a5c80130035a17e3c864ae2c058aebfff\\old\\src\\main\\java\\depends\\relations\\Relation.java",
+            "label": "Call: 2.0, Return: 2.0, Create: 2.0, ",
+            "Call": 2.0,
+            "Return": 2.0,
+            "Create": 2.0
+        }
+    ]
 }

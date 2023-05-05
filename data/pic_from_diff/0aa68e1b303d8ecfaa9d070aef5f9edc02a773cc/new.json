@@ -1,138 +1,176 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\test\\java\\depends\\extractor\\cpp\\TypeDefTest.javaTypeDefTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 4.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Use",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 8.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java"
-    },
-    {
-      "label": "Use",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 16.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
-    },
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 9.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+        "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
+        "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+        "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+        "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+        "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+        "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\test\\java\\depends\\extractor\\cpp\\TypeDefTest.javaTypeDefTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
+            "label": "Call: 1.0, Parameter: 1.0, Contain: 2.0, ",
+            "Call": 1.0,
+            "Parameter": 1.0,
+            "Contain": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "label": "Call: 3.0, Return: 3.0, Use: 1.0, Parameter: 2.0, Contain: 4.0, ",
+            "Call": 3.0,
+            "Return": 3.0,
+            "Use": 1.0,
+            "Parameter": 2.0,
+            "Contain": 4.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Call: 4.0, Import: 1.0, Parameter: 3.0, ",
+            "Call": 4.0,
+            "Import": 1.0,
+            "Parameter": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Import: 1.0, Parameter: 2.0, ",
+            "Import": 1.0,
+            "Parameter": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+            "label": "Call: 2.0, Extend: 1.0, Use: 1.0, ",
+            "Call": 2.0,
+            "Extend": 1.0,
+            "Use": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
+            "label": "Call: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Call: 2.0, Import: 1.0, Use: 2.0, Parameter: 2.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 2.0,
+            "Parameter": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+            "label": "Cast: 7.0, Call: 6.0, Import: 1.0, Return: 3.0, Parameter: 3.0, Contain: 1.0, ",
+            "Cast": 7.0,
+            "Call": 6.0,
+            "Import": 1.0,
+            "Return": 3.0,
+            "Parameter": 3.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
+            "label": "Import: 1.0, Return: 2.0, Use: 1.0, Parameter: 2.0, Contain: 8.0, ",
+            "Import": 1.0,
+            "Return": 2.0,
+            "Use": 1.0,
+            "Parameter": 2.0,
+            "Contain": 8.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "label": "Cast: 2.0, Call: 3.0, Import: 1.0, Return: 3.0, Use: 2.0, Create: 3.0, Contain: 3.0, ",
+            "Cast": 2.0,
+            "Call": 3.0,
+            "Import": 1.0,
+            "Return": 3.0,
+            "Use": 2.0,
+            "Create": 3.0,
+            "Contain": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\extractor\\HandlerContext.javaHandlerContext.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "label": "Call: 2.0, Import: 1.0, Use: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+            "label": "Cast: 2.0, Call: 1.0, Import: 1.0, Use: 2.0, ",
+            "Cast": 2.0,
+            "Call": 1.0,
+            "Import": 1.0,
+            "Use": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
+            "label": "Call: 18.0, Import: 1.0, Return: 9.0, Use: 9.0, Parameter: 9.0, Contain: 16.0, ",
+            "Call": 18.0,
+            "Import": 1.0,
+            "Return": 9.0,
+            "Use": 9.0,
+            "Parameter": 9.0,
+            "Contain": 16.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "label": "Import: 1.0, Parameter: 1.0, ",
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\Inferer.javaInferer.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+            "label": "Call: 2.0, Create: 1.0, ",
+            "Call": 2.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\ContainerEntity.javaContainerEntity.java",
+            "label": "Cast: 2.0, Call: 3.0, Import: 1.0, Parameter: 1.0, Contain: 1.0, ",
+            "Cast": 2.0,
+            "Call": 3.0,
+            "Import": 1.0,
+            "Parameter": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
+            "label": "Call: 1.0, Import: 1.0, Use: 3.0, Parameter: 3.0, Contain: 9.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Use": 3.0,
+            "Parameter": 3.0,
+            "Contain": 9.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\\new\\src\\main\\java\\depends\\entity\\VarEntity.javaVarEntity.java",
+            "label": "Call: 3.0, Import: 1.0, Contain: 2.0, ",
+            "Call": 3.0,
+            "Import": 1.0,
+            "Contain": 2.0
+        }
+    ]
 }

@@ -1,39 +1,28 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ExpressionUsage.javaExpressionUsage.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\matrix\\DependencyMatrix.javaDependencyMatrix.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\matrix\\DependencyValue.javaDependencyValue.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.javaXDataBuilder.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Parameter",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.javaXDataBuilder.java",
-      "target": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\matrix\\DependencyMatrix.javaDependencyMatrix.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.javaXDataBuilder.java",
-      "target": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\matrix\\DependencyValue.javaDependencyValue.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ExpressionUsage.javaExpressionUsage.java",
+        "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\PreprocessorHandler.javaPreprocessorHandler.java",
+        "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\matrix\\DependencyMatrix.javaDependencyMatrix.java",
+        "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\matrix\\DependencyValue.javaDependencyValue.java",
+        "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.javaXDataBuilder.java",
+        "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.javaXDataBuilder.java",
+            "target": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\matrix\\DependencyMatrix.javaDependencyMatrix.java",
+            "label": "Call: 4.0, Import: 1.0, Parameter: 2.0, ",
+            "Call": 4.0,
+            "Import": 1.0,
+            "Parameter": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\xml\\XDataBuilder.javaXDataBuilder.java",
+            "target": "D:\\desktop\\git-data\\depends\\00839bc62c41d134d4b8940df6cfdf9735b39d24\\new\\src\\main\\java\\depends\\format\\matrix\\DependencyValue.javaDependencyValue.java",
+            "label": "Call: 2.0, Import: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

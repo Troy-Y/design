@@ -28,4 +28,3 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
 
         num += 1
 print(num)
-

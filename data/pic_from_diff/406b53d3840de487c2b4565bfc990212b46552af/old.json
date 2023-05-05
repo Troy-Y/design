@@ -1,24 +1,19 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\old\\src\\main\\java\\depends\\extractor\\pom\\PomParent.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\old\\src\\test\\java\\depends\\extractor\\pom\\DependencyWithPropertiesOfParentTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\old\\src\\main\\java\\depends\\extractor\\pom\\PomParent.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java",
+        "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\old\\src\\main\\java\\depends\\extractor\\pom\\PomParent.java",
+        "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\old\\src\\test\\java\\depends\\extractor\\pom\\DependencyWithPropertiesOfParentTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\old\\src\\main\\java\\depends\\extractor\\pom\\PomListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\406b53d3840de487c2b4565bfc990212b46552af\\old\\src\\main\\java\\depends\\extractor\\pom\\PomParent.java",
+            "label": "Cast: 2.0, Call: 1.0, Use: 7.0, Create: 1.0, Contain: 2.0, ",
+            "Cast": 2.0,
+            "Call": 1.0,
+            "Use": 7.0,
+            "Create": 1.0,
+            "Contain": 2.0
+        }
+    ]
 }

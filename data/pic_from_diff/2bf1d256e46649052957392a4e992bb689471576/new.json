@@ -1,30 +1,26 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.javaPomArtifactEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.javaEntityExtractTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.javaPomArtifactEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.javaEntityExtractTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.javaPomArtifactEntity.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.javaPomArtifactEntity.java",
+        "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java",
+        "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.javaEntityExtractTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\main\\java\\depends\\extractor\\pom\\PomListener.javaPomListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.javaPomArtifactEntity.java",
+            "label": "Call: 2.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\test\\java\\depends\\extractor\\pom\\EntityExtractTest.javaEntityExtractTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\2bf1d256e46649052957392a4e992bb689471576\\new\\src\\main\\java\\depends\\extractor\\pom\\PomArtifactEntity.javaPomArtifactEntity.java",
+            "label": "Cast: 1.0, Call: 2.0, Contain: 1.0, ",
+            "Cast": 1.0,
+            "Call": 2.0,
+            "Contain": 1.0
+        }
+    ]
 }

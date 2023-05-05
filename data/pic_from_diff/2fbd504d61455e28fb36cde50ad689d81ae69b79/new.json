@@ -1,66 +1,66 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\Main.javaMain.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.javaInMemoryEntityRepo.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\Main.javaMain.java",
-      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\Main.javaMain.java",
-      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\Main.javaMain.java",
-      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java"
-    },
-    {
-      "label": "Implement",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.javaInMemoryEntityRepo.java",
-      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
-    },
-    {
-      "label": "Create",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java",
-      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.javaInMemoryEntityRepo.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java",
-      "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+        "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java",
+        "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.javaInMemoryEntityRepo.java",
+        "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java",
+        "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+            "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java",
+            "label": "Import: 1.0, Contain: 1.0, ",
+            "Import": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+            "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java",
+            "label": "Call: 3.0, Import: 1.0, Contain: 1.0, ",
+            "Call": 3.0,
+            "Import": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\Main.javaMain.java",
+            "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java",
+            "label": "Call: 4.0, Import: 1.0, Contain: 1.0, ",
+            "Call": 4.0,
+            "Import": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.javaInMemoryEntityRepo.java",
+            "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java",
+            "label": "Implement: 1.0, ",
+            "Implement": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java",
+            "label": "Call: 1.0, Import: 1.0, Return: 2.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Return": 2.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\extractor\\AbstractLangProcessor.javaAbstractLangProcessor.java",
+            "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\InMemoryEntityRepo.javaInMemoryEntityRepo.java",
+            "label": "Call: 1.0, Import: 1.0, Use: 1.0, Create: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\generator\\DependencyGenerator.javaDependencyGenerator.java",
+            "target": "D:\\desktop\\git-data\\depends\\2fbd504d61455e28fb36cde50ad689d81ae69b79\\new\\src\\main\\java\\depends\\entity\\repo\\EntityRepo.javaEntityRepo.java",
+            "label": "Call: 1.0, Import: 1.0, Parameter: 2.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Parameter": 2.0
+        }
+    ]
 }

@@ -1,36 +1,28 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java",
+        "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+        "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java",
+        "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+        "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\test\\java\\depends\\extractor\\python\\PythonDecoratorTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\ExpressionUsage.java",
+            "label": "Call: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\b74252b07c979d6e0cb2885c997db6c5e3defe65\\old\\src\\main\\java\\depends\\extractor\\python\\PythonParserHelper.java",
+            "label": "Call: 3.0, Use: 1.0, Contain: 1.0, ",
+            "Call": 3.0,
+            "Use": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

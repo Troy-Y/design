@@ -1,21 +1,15 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ff26192c2be15023d7081348a59f01833bf64f06\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\ff26192c2be15023d7081348a59f01833bf64f06\\old\\src\\test\\java\\depends\\extractor\\pom\\DependencyWithPropertiesOfParentTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\ff26192c2be15023d7081348a59f01833bf64f06\\old\\src\\test\\java\\depends\\extractor\\pom\\DependencyWithPropertiesOfParentTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\ff26192c2be15023d7081348a59f01833bf64f06\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\ff26192c2be15023d7081348a59f01833bf64f06\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java",
+        "D:\\desktop\\git-data\\depends\\ff26192c2be15023d7081348a59f01833bf64f06\\old\\src\\test\\java\\depends\\extractor\\pom\\DependencyWithPropertiesOfParentTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\ff26192c2be15023d7081348a59f01833bf64f06\\old\\src\\test\\java\\depends\\extractor\\pom\\DependencyWithPropertiesOfParentTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\ff26192c2be15023d7081348a59f01833bf64f06\\old\\src\\main\\java\\depends\\extractor\\pom\\PomFileParser.java",
+            "label": "Call: 2.0, Contain: 2.0, ",
+            "Call": 2.0,
+            "Contain": 2.0
+        }
+    ]
 }

@@ -1,120 +1,123 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\test\\java\\depends\\extractor\\cpp\\GenericTypeTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
-      "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 2.0,
-      "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java",
-      "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
-    },
-    {
-      "label": "Use",
-      "weight": 22.0,
-      "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java",
-      "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.java"
-    },
-    {
-      "label": "Use",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
-    },
-    {
-      "label": "Call",
-      "weight": 16.0,
-      "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java"
-    },
-    {
-      "label": "Extend",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java",
-      "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
-    },
-    {
-      "label": "Use",
-      "weight": 3.0,
-      "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java",
-      "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
-    },
-    {
-      "label": "Call",
-      "weight": 31.0,
-      "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
-      "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
-      "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java"
-    },
-    {
-      "label": "Parameter",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\test\\java\\depends\\extractor\\cpp\\GenericTypeTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java",
+        "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java",
+        "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+        "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.java",
+        "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java",
+        "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+        "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java",
+        "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java",
+        "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
+        "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+        "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\test\\java\\depends\\extractor\\cpp\\GenericTypeTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+            "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java",
+            "label": "Cast: 3.0, Call: 5.0, Import: 1.0, Return: 3.0, Create: 2.0, Contain: 2.0, ",
+            "Cast": 3.0,
+            "Call": 5.0,
+            "Import": 1.0,
+            "Return": 3.0,
+            "Create": 2.0,
+            "Contain": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java",
+            "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java",
+            "label": "Import: 1.0, Contain: 2.0, ",
+            "Import": 1.0,
+            "Contain": 2.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\CppVisitor.java",
+            "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ASTStringUtilExt.java",
+            "label": "Call: 20.0, Use: 22.0, ",
+            "Call": 20.0,
+            "Use": 22.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\DecoratedEntity.java",
+            "label": "Cast: 2.0, Call: 1.0, Import: 1.0, Use: 1.0, ",
+            "Cast": 2.0,
+            "Call": 1.0,
+            "Import": 1.0,
+            "Use": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java",
+            "label": "Import: 1.0, Contain: 1.0, ",
+            "Import": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+            "label": "Call: 16.0, ",
+            "Call": 16.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\Python3CodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java",
+            "label": "Call: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\python\\PythonHandlerContext.java",
+            "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+            "label": "Call: 1.0, Import: 1.0, Extend: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Extend": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java",
+            "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+            "label": "Call: 9.0, Import: 1.0, Extend: 1.0, Use: 3.0, ",
+            "Call": 9.0,
+            "Import": 1.0,
+            "Extend": 1.0,
+            "Use": 3.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
+            "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\HandlerContext.java",
+            "label": "Call: 31.0, ",
+            "Call": 31.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyVisitor.java",
+            "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\extractor\\ruby\\RubyHandlerContext.java",
+            "label": "Call: 5.0, Import: 1.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 5.0,
+            "Import": 1.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java",
+            "label": "Cast: 2.0, Call: 3.0, Import: 1.0, Parameter: 1.0, ",
+            "Cast": 2.0,
+            "Call": 3.0,
+            "Import": 1.0,
+            "Parameter": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\test\\java\\depends\\extractor\\cpp\\GenericTypeTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\80f7b6e10f97eabe1f34240c31b5434168d284b0\\old\\src\\main\\java\\depends\\entity\\FunctionEntity.java",
+            "label": "Cast: 1.0, Import: 1.0, Contain: 1.0, ",
+            "Cast": 1.0,
+            "Import": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

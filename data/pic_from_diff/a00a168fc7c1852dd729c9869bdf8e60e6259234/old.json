@@ -1,17 +1,8 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\old\\src\\main\\java\\depends\\entity\\AliasEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
-    }
-  ],
-  "links": []
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\old\\src\\main\\java\\depends\\entity\\AliasEntity.java",
+        "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\old\\src\\main\\java\\depends\\relations\\RelationCounter.java",
+        "D:\\desktop\\git-data\\depends\\a00a168fc7c1852dd729c9869bdf8e60e6259234\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
+    ],
+    "edges": []
 }

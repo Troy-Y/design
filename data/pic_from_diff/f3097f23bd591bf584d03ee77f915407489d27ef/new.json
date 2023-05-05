@@ -1,57 +1,54 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.javaJRubyFileParser.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyClassMethodcallTest.javaRubyClassMethodcallTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
-      "target": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.javaJRubyFileParser.java",
-      "target": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 4.0,
-      "source": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
-      "target": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java"
-    },
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java",
-      "target": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
+        "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+        "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.javaJRubyFileParser.java",
+        "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+        "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java",
+        "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\test\\java\\depends\\extractor\\ruby\\RubyClassMethodcallTest.javaRubyClassMethodcallTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+            "target": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
+            "label": "Return: 1.0, Use: 2.0, Parameter: 2.0, Contain: 1.0, ",
+            "Return": 1.0,
+            "Use": 2.0,
+            "Parameter": 2.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\extractor\\ruby\\jruby\\JRubyFileParser.javaJRubyFileParser.java",
+            "target": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
+            "label": "Call: 1.0, Import: 1.0, Contain: 1.0, ",
+            "Call": 1.0,
+            "Import": 1.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
+            "label": "Import: 1.0, Use: 3.0, Parameter: 3.0, Contain: 4.0, ",
+            "Import": 1.0,
+            "Use": 3.0,
+            "Parameter": 3.0,
+            "Contain": 4.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\relations\\RelationCounter.javaRelationCounter.java",
+            "target": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Expression.javaExpression.java",
+            "label": "Call: 2.0, Import: 1.0, Use: 7.0, Contain: 1.0, ",
+            "Call": 2.0,
+            "Import": 1.0,
+            "Use": 7.0,
+            "Contain": 1.0
+        },
+        {
+            "source": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\test\\java\\depends\\extractor\\java\\JavaVarResolveTest.javaJavaVarResolveTest.java",
+            "target": "D:\\desktop\\git-data\\depends\\f3097f23bd591bf584d03ee77f915407489d27ef\\new\\src\\main\\java\\depends\\entity\\Entity.javaEntity.java",
+            "label": "Import: 1.0, Contain: 1.0, ",
+            "Import": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }

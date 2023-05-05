@@ -1,26 +1,11 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ANSICParserExtensionConfigurationExtension.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\GPPParserExtensionConfigurationExtension.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\test\\java\\depends\\extractor\\cpp\\ContainRelationTest.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\ForwardDeclareTest.java"
-    }
-  ],
-  "links": []
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\main\\java\\depends\\extractor\\AbstractLangWorker.java",
+        "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\ANSICParserExtensionConfigurationExtension.java",
+        "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\main\\java\\depends\\extractor\\cpp\\cdt\\GPPParserExtensionConfigurationExtension.java",
+        "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\test\\java\\depends\\entity\\EntityRepoExpendsImportsOfPackageTest.java",
+        "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\test\\java\\depends\\extractor\\cpp\\ContainRelationTest.java",
+        "D:\\desktop\\git-data\\depends\\e4b618919987fce314df59a31e553e538acf61f0\\old\\src\\test\\java\\depends\\extractor\\cpp\\cdt\\ForwardDeclareTest.java"
+    ],
+    "edges": []
 }

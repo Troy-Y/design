@@ -1,11 +1,6 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\0b82d62bc4ae4654adacde93509845d43bf5ae17\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java"
-    }
-  ],
-  "links": []
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\0b82d62bc4ae4654adacde93509845d43bf5ae17\\new\\src\\main\\java\\depends\\entity\\FileEntity.javaFileEntity.java"
+    ],
+    "edges": []
 }

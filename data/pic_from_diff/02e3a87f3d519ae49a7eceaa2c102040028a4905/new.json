@@ -1,11 +1,6 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\02e3a87f3d519ae49a7eceaa2c102040028a4905\\new\\src\\test\\java\\depends\\extractor\\python\\PythonGlobalVarTest.javaPythonGlobalVarTest.java"
-    }
-  ],
-  "links": []
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\02e3a87f3d519ae49a7eceaa2c102040028a4905\\new\\src\\test\\java\\depends\\extractor\\python\\PythonGlobalVarTest.javaPythonGlobalVarTest.java"
+    ],
+    "edges": []
 }

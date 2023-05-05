@@ -1,24 +1,18 @@
 {
-  "directed": true,
-  "multigraph": false,
-  "graph": {},
-  "nodes": [
-    {
-      "id": "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\old\\src\\main\\java\\depends\\extractor\\python\\union\\ExpressionUsage.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java"
-    },
-    {
-      "id": "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java"
-    }
-  ],
-  "links": [
-    {
-      "label": "Contain",
-      "weight": 1.0,
-      "source": "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
-      "target": "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\old\\src\\main\\java\\depends\\extractor\\python\\union\\ExpressionUsage.java"
-    }
-  ]
+    "nodes": [
+        "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\old\\src\\main\\java\\depends\\extractor\\python\\union\\ExpressionUsage.java",
+        "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
+        "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\old\\src\\test\\java\\depends\\extractor\\python\\PythonFuncCallTest.java"
+    ],
+    "edges": [
+        {
+            "source": "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
+            "target": "D:\\desktop\\git-data\\depends\\9e012e4d0c41e28be14a2c0be87993b28a1f68fa\\old\\src\\main\\java\\depends\\extractor\\python\\union\\ExpressionUsage.java",
+            "label": "Call: 14.0, Use: 1.0, Create: 1.0, Contain: 1.0, ",
+            "Call": 14.0,
+            "Use": 1.0,
+            "Create": 1.0,
+            "Contain": 1.0
+        }
+    ]
 }
