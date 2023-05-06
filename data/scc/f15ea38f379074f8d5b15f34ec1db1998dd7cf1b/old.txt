@@ -1,0 +1,5 @@
+1
+D:\desktop\git-data\depends\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\old\src\main\java\depends\format\json\JDataBuilder.java
+D:\desktop\git-data\depends\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\old\src\main\java\depends\extractor\AbstractLangWorker.java
+D:\desktop\git-data\depends\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\old\src\main\java\depends\util\Configure.java
+D:\desktop\git-data\depends\f15ea38f379074f8d5b15f34ec1db1998dd7cf1b\old\src\main\java\depends\format\xml\XDataBuilder.java

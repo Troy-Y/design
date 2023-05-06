@@ -1,7 +1,7 @@
 import json
 import os
 
-path_pic = '../data/pic_from_diff'
+pic_path = '../data/pic_from_diff'
 
 def pic(path):
     # 读取原始json文件
@@ -41,7 +41,7 @@ def pic(path):
     # 将节点和边保存到新的 JSON 文件中
     output_data = {'nodes': node_list, 'edges': edge_list}
 
-    f_pic = path_pic + '/' + os.path.basename(os.path.dirname(path))
+    f_pic = pic_path + '/' + os.path.basename(os.path.dirname(path))
     if not os.path.exists(f_pic):
         os.makedirs(f_pic)
     f_pic = f_pic + '/' + os.path.basename(path)
@@ -55,11 +55,11 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:
         old = dirpath + '/old.json'
         new = dirpath + '/new.json'
-        # print(old)
-        # print(new)
+        print(old)
+        print(new)
         # print(os.path.basename(dirpath))
         # print(os.path.basename(old))
         cmt = os.path.basename(dirpath)
-        pic(old)
-        pic(new)
+        # pic(old)
+        # pic(new)
         break

@@ -1,0 +1,10 @@
+1
+D:\desktop\git-data\depends\5ea2a689666792a97f2201d598fa03068ed97f06\old\src\main\java\depends\entity\types\VarEntity.java
+D:\desktop\git-data\depends\5ea2a689666792a97f2201d598fa03068ed97f06\old\src\main\java\depends\entity\ContainerEntity.java
+D:\desktop\git-data\depends\5ea2a689666792a97f2201d598fa03068ed97f06\old\src\main\java\depends\entity\types\FileEntity.java
+D:\desktop\git-data\depends\5ea2a689666792a97f2201d598fa03068ed97f06\old\src\main\java\depends\entity\types\FunctionEntity.java
+D:\desktop\git-data\depends\5ea2a689666792a97f2201d598fa03068ed97f06\old\src\main\java\depends\extractor\HandlerContext.java
+D:\desktop\git-data\depends\5ea2a689666792a97f2201d598fa03068ed97f06\old\src\main\java\depends\entity\types\PackageEntity.java
+D:\desktop\git-data\depends\5ea2a689666792a97f2201d598fa03068ed97f06\old\src\main\java\depends\entity\Entity.java
+D:\desktop\git-data\depends\5ea2a689666792a97f2201d598fa03068ed97f06\old\src\main\java\depends\entity\types\TypeEntity.java
+D:\desktop\git-data\depends\5ea2a689666792a97f2201d598fa03068ed97f06\old\src\main\java\depends\entity\repo\EntityRepo.java

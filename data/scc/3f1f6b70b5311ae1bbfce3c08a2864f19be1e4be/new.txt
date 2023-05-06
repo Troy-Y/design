@@ -1,0 +1,4 @@
+1
+D:\desktop\git-data\depends\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\new\src\main\java\depends\extractor\pom\PomListener.javaPomListener.java
+D:\desktop\git-data\depends\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\new\src\main\java\depends\extractor\pom\PomFileParser.javaPomFileParser.java
+D:\desktop\git-data\depends\3f1f6b70b5311ae1bbfce3c08a2864f19be1e4be\new\src\main\java\depends\extractor\pom\PomProcessor.javaPomProcessor.java

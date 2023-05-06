@@ -1,0 +1,4 @@
+1
+D:\desktop\git-data\depends\5ddfc9e8ec6791a95895138f084e042cd116ff8b\old\src\main\java\depends\extractor\AbstractLangProcessor.java
+D:\desktop\git-data\depends\5ddfc9e8ec6791a95895138f084e042cd116ff8b\old\src\main\java\depends\relations\ImportLookupStrategy.java
+D:\desktop\git-data\depends\5ddfc9e8ec6791a95895138f084e042cd116ff8b\old\src\main\java\depends\relations\Inferer.java

@@ -1,0 +1,14 @@
+1
+D:\desktop\git-data\depends\8c1fca12eb0f1cb7ed6ba4bf6b7ad6c7c7f94053\new\src\main\java\depends\relations\FunctionMatcher.javaFunctionMatcher.java
+D:\desktop\git-data\depends\8c1fca12eb0f1cb7ed6ba4bf6b7ad6c7c7f94053\new\src\main\java\depends\relations\Inferer.javaInferer.java
+D:\desktop\git-data\depends\8c1fca12eb0f1cb7ed6ba4bf6b7ad6c7c7f94053\new\src\main\java\depends\entity\Expression.javaExpression.java
+D:\desktop\git-data\depends\8c1fca12eb0f1cb7ed6ba4bf6b7ad6c7c7f94053\new\src\main\java\depends\entity\VarEntity.javaVarEntity.java
+D:\desktop\git-data\depends\8c1fca12eb0f1cb7ed6ba4bf6b7ad6c7c7f94053\new\src\main\java\depends\entity\PackageEntity.javaPackageEntity.java
+D:\desktop\git-data\depends\8c1fca12eb0f1cb7ed6ba4bf6b7ad6c7c7f94053\new\src\main\java\depends\entity\TypeEntity.javaTypeEntity.java
+D:\desktop\git-data\depends\8c1fca12eb0f1cb7ed6ba4bf6b7ad6c7c7f94053\new\src\main\java\depends\entity\Entity.javaEntity.java
+D:\desktop\git-data\depends\8c1fca12eb0f1cb7ed6ba4bf6b7ad6c7c7f94053\new\src\main\java\depends\entity\CandidateTypes.javaCandidateTypes.java
+D:\desktop\git-data\depends\8c1fca12eb0f1cb7ed6ba4bf6b7ad6c7c7f94053\new\src\main\java\depends\entity\FileEntity.javaFileEntity.java
+D:\desktop\git-data\depends\8c1fca12eb0f1cb7ed6ba4bf6b7ad6c7c7f94053\new\src\main\java\depends\entity\repo\EntityRepo.javaEntityRepo.java
+D:\desktop\git-data\depends\8c1fca12eb0f1cb7ed6ba4bf6b7ad6c7c7f94053\new\src\main\java\depends\entity\DecoratedEntity.javaDecoratedEntity.java
+D:\desktop\git-data\depends\8c1fca12eb0f1cb7ed6ba4bf6b7ad6c7c7f94053\new\src\main\java\depends\entity\FunctionEntity.javaFunctionEntity.java
+D:\desktop\git-data\depends\8c1fca12eb0f1cb7ed6ba4bf6b7ad6c7c7f94053\new\src\main\java\depends\entity\ContainerEntity.javaContainerEntity.java

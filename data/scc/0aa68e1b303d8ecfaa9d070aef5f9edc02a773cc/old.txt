@@ -1,0 +1,6 @@
+1
+D:\desktop\git-data\depends\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\old\src\main\java\depends\entity\Entity.java
+D:\desktop\git-data\depends\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\old\src\main\java\depends\relations\Inferer.java
+D:\desktop\git-data\depends\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\old\src\main\java\depends\entity\VarEntity.java
+D:\desktop\git-data\depends\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\old\src\main\java\depends\entity\ContainerEntity.java
+D:\desktop\git-data\depends\0aa68e1b303d8ecfaa9d070aef5f9edc02a773cc\old\src\main\java\depends\relations\RelationCounter.java
