@@ -17,6 +17,8 @@ def json_sort(path):
 
 root_dir = '../data/depends_output_json'
 num = 0
+
+# 对所有json文件按cells的src和dest进行排序
 for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:
         old = dirpath + '\old.json'

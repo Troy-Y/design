@@ -1,5 +1,5 @@
 1
-D:\desktop\git-data\depends\f96a8bfd551c8586e328ea00855389b525821749\new\src\main\java\depends\extractor\AbstractLangProcessor.javaAbstractLangProcessor.java
-D:\desktop\git-data\depends\f96a8bfd551c8586e328ea00855389b525821749\new\src\main\java\depends\relations\Inferer.javaInferer.java
-D:\desktop\git-data\depends\f96a8bfd551c8586e328ea00855389b525821749\new\src\main\java\depends\relations\RelationCounter.javaRelationCounter.java
-D:\desktop\git-data\depends\f96a8bfd551c8586e328ea00855389b525821749\new\src\main\java\depends\entity\Entity.javaEntity.java
+D:\desktop\git-data\depends\f96a8bfd551c8586e328ea00855389b525821749\new\src\main\java\depends\relations\RelationCounter.java
+D:\desktop\git-data\depends\f96a8bfd551c8586e328ea00855389b525821749\new\src\main\java\depends\relations\Inferer.java
+D:\desktop\git-data\depends\f96a8bfd551c8586e328ea00855389b525821749\new\src\main\java\depends\extractor\AbstractLangProcessor.java
+D:\desktop\git-data\depends\f96a8bfd551c8586e328ea00855389b525821749\new\src\main\java\depends\entity\Entity.java

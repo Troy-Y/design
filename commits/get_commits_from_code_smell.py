@@ -40,7 +40,12 @@ commits_files_smells = open("../data/commits_files_smells.txt","w")
 fnames = []
 
 # print("该项目中带代码气味的commits：")
+
+
+# 找出commits中有哪些designite输出带有代码异味的文件
 for i in range(len(cmts_list)):
+    print(i+1, end='.')
+    print(cmts_list[i].hash + ' is analyzed...')
     try:
         print(cmts_list[i].hash, file=commits_files_smells)
         for file in cmts_list[i].modified_files:

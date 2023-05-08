@@ -1,3 +1,3 @@
 1
-D:\desktop\git-data\depends\f1dcc068bf118e3da747c9fa81dab838b0f95803\new\src\main\java\depends\entity\MultiDeclareEntities.javaMultiDeclareEntities.java
-D:\desktop\git-data\depends\f1dcc068bf118e3da747c9fa81dab838b0f95803\new\src\main\java\depends\relations\Inferer.javaInferer.java
+D:\desktop\git-data\depends\f1dcc068bf118e3da747c9fa81dab838b0f95803\new\src\main\java\depends\entity\MultiDeclareEntities.java
+D:\desktop\git-data\depends\f1dcc068bf118e3da747c9fa81dab838b0f95803\new\src\main\java\depends\relations\Inferer.java

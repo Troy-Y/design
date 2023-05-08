@@ -16,7 +16,7 @@ os.chdir(path)
 i = 1
 for commit in cmts_list:
     print(i, end='.')
-    print(commit.hash, end=' is analysing...\n')
+    print(commit.hash, end=' is analyzed...\n')
     i += 1
 
     # 启动CMD进程

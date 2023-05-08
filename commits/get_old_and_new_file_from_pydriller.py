@@ -1,6 +1,5 @@
 import os
 from pydriller import Repository
-import subprocess
 
 url = r'D:\desktop\myrepo\depends'
 cmts_list = []
@@ -22,8 +21,8 @@ path = r'D:\desktop\git-data\depends'
 if not os.path.exists(path):
     os.mkdir(path)
 
+# 输出每个commits前后被改变的文件
 for commit in cmts_list:
-    # 输出每个commits前后被改变的文件
     try:
         commit_path = path + '\\' + commit.hash
         if not os.path.exists(commit_path):

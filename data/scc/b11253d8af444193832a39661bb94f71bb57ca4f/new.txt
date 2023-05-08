@@ -1,3 +1,3 @@
 1
-D:\desktop\git-data\depends\b11253d8af444193832a39661bb94f71bb57ca4f\new\src\main\java\depends\extractor\pom\PomCoords.javaPomCoords.java
-D:\desktop\git-data\depends\b11253d8af444193832a39661bb94f71bb57ca4f\new\src\main\java\depends\extractor\pom\PomParent.javaPomParent.java
+D:\desktop\git-data\depends\b11253d8af444193832a39661bb94f71bb57ca4f\new\src\main\java\depends\extractor\pom\PomParent.java
+D:\desktop\git-data\depends\b11253d8af444193832a39661bb94f71bb57ca4f\new\src\main\java\depends\extractor\pom\PomCoords.java
