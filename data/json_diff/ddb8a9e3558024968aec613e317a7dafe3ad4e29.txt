@@ -1,4 +1,0 @@
-0.DotPathFilenameWritter.java
-1.DotPathFilenameWritterTest.java
-  old: {'src': 1, 'dest': 0, 'values': {'Call': 4.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 1, 'dest': 0, 'values': {'Call': 6.0, 'Create': 1.0, 'Contain': 1.0}}

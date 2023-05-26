@@ -1,6 +1,0 @@
-0.Main.java
-1.AbstractLangWorker.java
-2.JDataBuilder.java
-3.Configure.java
-  old: {'src': 1, 'dest': 3, 'values': {'Call': 11.0, 'Import': 1.0, 'Use': 1.0, 'Contain': 1.0}}
-  new: {'src': 1, 'dest': 3, 'values': {'Call': 10.0, 'Import': 1.0, 'Use': 1.0, 'Contain': 1.0}}

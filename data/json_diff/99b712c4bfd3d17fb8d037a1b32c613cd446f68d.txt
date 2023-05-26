@@ -1,7 +1,0 @@
-0.HandlerContext.java
-1.JavaAdapterListener.java
-2.JavaHandler.java
-3.FormalParameterListContextHelper.java
-4.JavaVarResolveTest.java
-  old: {'src': 1, 'dest': 2, 'values': {'Call': 26.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 1, 'dest': 2, 'values': {'Call': 27.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}

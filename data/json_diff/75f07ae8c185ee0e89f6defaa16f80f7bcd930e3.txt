@@ -1,2 +1,0 @@
-0.JRubyFileParser.java
-1.DetailTextFormatDependencyDumper.java

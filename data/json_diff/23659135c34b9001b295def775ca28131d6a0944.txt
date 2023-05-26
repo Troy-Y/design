@@ -1,6 +1,0 @@
-0.DependencyType.java
-1.CppProcessor.java
-2.RelationCounter.java
-3.RelationToImplementationTest.java
-  old: {'src': 2, 'dest': 0, 'values': {'Import': 1.0, 'Use': 42.0}}
-  new: {'src': 2, 'dest': 0, 'values': {'Import': 1.0, 'Use': 44.0}}

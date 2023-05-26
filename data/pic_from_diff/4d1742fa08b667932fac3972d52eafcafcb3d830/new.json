@@ -1,9 +1,0 @@
-{
-    "nodes": [
-        "D:\\desktop\\git-data\\depends\\4d1742fa08b667932fac3972d52eafcafcb3d830\\new\\src\\test\\java\\depends\\extractor\\cpp\\CppParameterParserTest.javaCppParameterParserTest.java",
-        "D:\\desktop\\git-data\\depends\\4d1742fa08b667932fac3972d52eafcafcb3d830\\new\\src\\test\\java\\depends\\extractor\\cpp\\DuplicateDeclarationTest.javaDuplicateDeclarationTest.java",
-        "D:\\desktop\\git-data\\depends\\4d1742fa08b667932fac3972d52eafcafcb3d830\\new\\src\\test\\java\\depends\\extractor\\cpp\\MacroRelationTest.javaMacroRelationTest.java",
-        "D:\\desktop\\git-data\\depends\\4d1742fa08b667932fac3972d52eafcafcb3d830\\new\\src\\test\\java\\depends\\extractor\\cpp\\UsingTest.javaUsingTest.java"
-    ],
-    "edges": []
-}

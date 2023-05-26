@@ -1,9 +1,0 @@
-0.ASTStringUtilExt.java
-1.CppVisitor.java
-2.RelationCounter.java
-3.CppExpressionTest.java
-4.GenericTypeTest.java
-5.JavaGenericTypeTest.java
-6.JavaVarResolveTest.java
-  old: {'src': 1, 'dest': 0, 'values': {'Call': 4.0, 'Use': 5.0}}
-  new: {'src': 1, 'dest': 0, 'values': {'Call': 5.0, 'Use': 6.0}}

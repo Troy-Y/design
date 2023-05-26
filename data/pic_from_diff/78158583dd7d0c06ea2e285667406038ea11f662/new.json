@@ -1,7 +1,0 @@
-{
-    "nodes": [
-        "D:\\desktop\\git-data\\depends\\78158583dd7d0c06ea2e285667406038ea11f662\\new\\src\\main\\java\\depends\\generator\\FileDependencyGenerator.javaFileDependencyGenerator.java",
-        "D:\\desktop\\git-data\\depends\\78158583dd7d0c06ea2e285667406038ea11f662\\new\\src\\test\\java\\depends\\extractor\\golang\\GoFunctionsTest.javaGoFunctionsTest.java"
-    ],
-    "edges": []
-}

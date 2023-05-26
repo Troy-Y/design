@@ -1,5 +1,0 @@
-0.DependencyType.java
-1.CppProcessor.java
-2.GoProcessor.java
-3.BasePythonProcessor.java
-4.RelationCounter.java

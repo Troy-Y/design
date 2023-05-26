@@ -1,9 +1,0 @@
-0.EntityRepo.java
-1.HandlerContext.java
-2.RubyHandlerContext.java
-3.JRubyVisitor.java
-4.RubyVarTest.java
-  old: {'src': 1, 'dest': 0, 'values': {'Call': 4.0, 'Import': 1.0, 'Use': 2.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  new: {'src': 1, 'dest': 0, 'values': {'Call': 6.0, 'Import': 1.0, 'Use': 6.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  old: {'src': 3, 'dest': 1, 'values': {'Call': 21.0}}
-  new: {'src': 3, 'dest': 1, 'values': {'Call': 24.0}}

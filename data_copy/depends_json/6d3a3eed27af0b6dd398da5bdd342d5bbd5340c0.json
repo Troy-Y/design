@@ -1,0 +1,6 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "\\output-file-sdsm",
+  "variables" : [ "D:\\PythonProject\\design_cassandra\\data_copy\\java_files\\6d3a3eed27af0b6dd398da5bdd342d5bbd5340c0\\src\\java\\org\\apache\\cassandra\\exceptions\\ExceptionCode.java", "D:\\PythonProject\\design_cassandra\\data_copy\\java_files\\6d3a3eed27af0b6dd398da5bdd342d5bbd5340c0\\src\\java\\org\\apache\\cassandra\\exceptions\\TransportException.java", "D:\\PythonProject\\design_cassandra\\data_copy\\java_files\\6d3a3eed27af0b6dd398da5bdd342d5bbd5340c0\\src\\java\\org\\apache\\cassandra\\transport\\ProtocolException.java", "D:\\PythonProject\\design_cassandra\\data_copy\\java_files\\6d3a3eed27af0b6dd398da5bdd342d5bbd5340c0\\src\\java\\org\\apache\\cassandra\\transport\\ProtocolVersion.java" ],
+  "cells" : [ ]
+}

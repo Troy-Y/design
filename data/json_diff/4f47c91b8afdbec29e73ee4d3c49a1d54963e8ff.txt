@@ -1,2 +1,0 @@
-0.CppVisitor.java
-1.GenericTypeTest.java

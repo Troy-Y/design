@@ -1,3 +1,0 @@
-1
-D:\desktop\git-data\depends\a6135bdea297ea6389c844961e606caeaa45bb18\new\src\main\java\depends\entity\Entity.java
-D:\desktop\git-data\depends\a6135bdea297ea6389c844961e606caeaa45bb18\new\src\main\java\depends\entity\types\FunctionEntity.java

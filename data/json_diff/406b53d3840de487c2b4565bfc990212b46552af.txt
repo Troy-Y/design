@@ -1,3 +1,0 @@
-0.PomListener.java
-1.PomParent.java
-2.DependencyWithPropertiesOfParentTest.java

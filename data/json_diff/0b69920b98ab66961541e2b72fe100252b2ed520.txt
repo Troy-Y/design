@@ -1,6 +1,0 @@
-0.DependsCommand.java
-1.Main.java
-2.AbstractLangProcessor.java
-3.UnsolvedSymbolDumper.java
-  old: {'src': 1, 'dest': 0, 'values': {'Call': 37.0, 'Create': 3.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  new: {'src': 1, 'dest': 0, 'values': {'Call': 38.0, 'Create': 3.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}

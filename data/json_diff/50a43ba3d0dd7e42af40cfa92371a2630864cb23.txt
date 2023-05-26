@@ -1,4 +1,0 @@
-0.ExpressionUsage.java
-1.JRubyVisitor.java
-2.RubyParserHelper.java
-3.JavaVarResolveTest.java

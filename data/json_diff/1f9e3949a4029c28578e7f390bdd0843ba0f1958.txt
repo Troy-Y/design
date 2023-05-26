@@ -1,8 +1,0 @@
-0.Entity.java
-1.GenericService.java
-2.Neo4jSessionFactory.java
-3.TestNeo4j.java
-  old: {'src': 1, 'dest': 2, 'values': {'Call': 1.0, 'Use': 1.0}}
-  new: {'src': 1, 'dest': 0, 'values': {'Import': 1.0, 'Use': 1.0}}
-  old: {'src': 3, 'dest': 2, 'values': {'Call': 1.0, 'Use': 1.0}}
-  new: {'src': 1, 'dest': 2, 'values': {'Call': 1.0, 'Use': 1.0}}

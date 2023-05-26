@@ -1,0 +1,52 @@
+{
+  "schemaVersion" : "1.0",
+  "name" : "\\output-file-sdsm",
+  "variables" : [ "D:\\PythonProject\\design_cassandra\\data_copy\\java_files\\29ed31542bc7503c7c5695ce8012a555b4b3fb6f\\src\\java\\org\\apache\\cassandra\\exceptions\\ExceptionCode.java", "D:\\PythonProject\\design_cassandra\\data_copy\\java_files\\29ed31542bc7503c7c5695ce8012a555b4b3fb6f\\src\\java\\org\\apache\\cassandra\\exceptions\\TransportException.java", "D:\\PythonProject\\design_cassandra\\data_copy\\java_files\\29ed31542bc7503c7c5695ce8012a555b4b3fb6f\\src\\java\\org\\apache\\cassandra\\transport\\ProtocolException.java", "D:\\PythonProject\\design_cassandra\\data_copy\\java_files\\29ed31542bc7503c7c5695ce8012a555b4b3fb6f\\src\\java\\org\\apache\\cassandra\\transport\\ProtocolVersion.java" ],
+  "cells" : [ {
+    "src" : 2,
+    "dest" : 1,
+    "values" : {
+      "Import" : 1.0,
+      "Implement" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 0,
+    "values" : {
+      "Import" : 1.0,
+      "Return" : 1.0,
+      "Use" : 2.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 3,
+    "values" : {
+      "Return" : 1.0,
+      "Use" : 1.0,
+      "Parameter" : 1.0,
+      "Contain" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 0,
+    "values" : {
+      "Return" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 2,
+    "values" : {
+      "Call" : 5.0,
+      "Create" : 4.0,
+      "Use" : 1.0
+    }
+  }, {
+    "src" : 0,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0,
+      "Import" : 1.0,
+      "Create" : 1.0
+    }
+  } ]
+}

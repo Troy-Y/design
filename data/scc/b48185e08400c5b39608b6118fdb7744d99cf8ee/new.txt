@@ -1,3 +1,0 @@
-1
-D:\desktop\git-data\depends\b48185e08400c5b39608b6118fdb7744d99cf8ee\new\src\main\java\depends\relations\Inferer.java
-D:\desktop\git-data\depends\b48185e08400c5b39608b6118fdb7744d99cf8ee\new\src\main\java\depends\extractor\AbstractLangProcessor.java

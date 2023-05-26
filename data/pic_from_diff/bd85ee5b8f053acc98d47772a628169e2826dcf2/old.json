@@ -1,8 +1,0 @@
-{
-    "nodes": [
-        "D:\\desktop\\git-data\\depends\\bd85ee5b8f053acc98d47772a628169e2826dcf2\\old\\src\\main\\java\\depends\\extractor\\python\\PythonImportLookupStrategy.java",
-        "D:\\desktop\\git-data\\depends\\bd85ee5b8f053acc98d47772a628169e2826dcf2\\old\\src\\main\\java\\depends\\extractor\\python\\union\\PythonCodeListener.java",
-        "D:\\desktop\\git-data\\depends\\bd85ee5b8f053acc98d47772a628169e2826dcf2\\old\\src\\test\\java\\depends\\extractor\\python\\PythonImportTest.java"
-    ],
-    "edges": []
-}

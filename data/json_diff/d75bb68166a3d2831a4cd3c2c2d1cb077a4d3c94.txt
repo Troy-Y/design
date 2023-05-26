@@ -1,8 +1,0 @@
-0.DependsCommand.java
-1.ContainerEntity.java
-2.ANSICParserExtensionConfigurationExtension.java
-3.CdtCppEntitiesListener.java
-4.ExpressionUsage.java
-5.GPPParserExtensionConfigurationExtension.java
-  old: {'src': 3, 'dest': 4, 'values': {'Call': 2.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 3, 'dest': 4, 'values': {'Call': 3.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}

@@ -1,9 +1,0 @@
-0.EntityRepo.java
-1.CdtCppEntitiesListener.java
-2.EntityResolveBindingsTest.java
-3.ContainRelationTest.java
-4.DuplicateDeclarationTest.java
-5.CppExpressionTest.java
-6.ForwardDeclareTest.java
-  old: {'src': 2, 'dest': 0, 'values': {'Call': 5.0, 'Import': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 2, 'dest': 0, 'values': {'Call': 6.0, 'Import': 1.0, 'Create': 1.0, 'Contain': 1.0}}

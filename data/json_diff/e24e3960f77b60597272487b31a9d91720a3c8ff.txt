@@ -1,4 +1,0 @@
-0.FileEntity.java
-1.JRubyVisitor.java
-2.FileDependencyGenerator.java
-3.FolderCollector.java

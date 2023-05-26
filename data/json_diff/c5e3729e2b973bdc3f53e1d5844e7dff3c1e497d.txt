@@ -1,6 +1,0 @@
-0.JavaAdapterListener.java
-1.JavaHandler.java
-2.JavaVarResolveTest.java
-3.FieldAccessInferExample.java
-  old: {'src': 0, 'dest': 1, 'values': {'Call': 27.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 0, 'dest': 1, 'values': {'Call': 30.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}

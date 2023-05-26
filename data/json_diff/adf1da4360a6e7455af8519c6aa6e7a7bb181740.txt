@@ -1,2 +1,0 @@
-0.GoBuiltInType.java
-1.GoListener.java

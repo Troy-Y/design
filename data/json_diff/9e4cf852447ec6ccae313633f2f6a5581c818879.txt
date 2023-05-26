@@ -1,7 +1,0 @@
-0.ContainerEntity.java
-1.GenericName.java
-2.MultiDeclareEntities.java
-3.InMemoryEntityRepo.java
-4.Inferer.java
-  old: {'src': 4, 'dest': 2, 'values': {'Cast': 2.0, 'Call': 1.0, 'Import': 1.0, 'Use': 1.0}}
-  new: {'src': 4, 'dest': 2, 'values': {'Cast': 2.0, 'Call': 2.0, 'Import': 1.0, 'Contain': 1.0}}

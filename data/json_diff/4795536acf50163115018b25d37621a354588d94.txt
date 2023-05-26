@@ -1,7 +1,0 @@
-0.Expression.java
-1.Inferer.java
-2.RelationCounter.java
-3.AliasTest.java
-4.JavaVarResolveTest.java
-  old: {'src': 2, 'dest': 0, 'values': {'Call': 2.0, 'Import': 1.0, 'Use': 5.0, 'Contain': 1.0}}
-  new: {'src': 2, 'dest': 0, 'values': {'Call': 1.0, 'Import': 1.0, 'Use': 5.0, 'Parameter': 1.0, 'Contain': 1.0}}

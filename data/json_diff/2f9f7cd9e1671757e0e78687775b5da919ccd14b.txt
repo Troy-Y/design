@@ -1,7 +1,0 @@
-0.HandlerContext.java
-1.IncludeRelationTest.java
-2.UsingTest.java
-3.extendsTest.java
-4.JavaGenericTypeTest.java
-5.JavaVarResolveTest.java
-6.RubyInheritTest.java

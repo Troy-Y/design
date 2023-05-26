@@ -1,4 +1,0 @@
-1
-D:\desktop\git-data\depends\87a6d02899f1384696c1d002491b1590209d4f1d\new\src\main\java\depends\extractor\ruby\RubyHandlerContext.java
-D:\desktop\git-data\depends\87a6d02899f1384696c1d002491b1590209d4f1d\new\src\main\java\depends\extractor\ruby\RubyListener.java
-D:\desktop\git-data\depends\87a6d02899f1384696c1d002491b1590209d4f1d\new\src\main\java\depends\extractor\ruby\RubyFileParser.java

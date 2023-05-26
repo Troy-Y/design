@@ -1,6 +1,0 @@
-0.RubyHandlerContext.java
-1.RubyProcessor.java
-2.JRubyFileParser.java
-3.JRubyVisitor.java
-4.JavaCylicInheritTest.java
-5.RubyParserTest.java

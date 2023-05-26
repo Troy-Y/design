@@ -1,5 +1,0 @@
-0.ASTStringUtilExt.java
-1.CppVisitor.java
-2.GenericTypeTest.java
-  old: {'src': 1, 'dest': 0, 'values': {'Call': 6.0, 'Use': 8.0}}
-  new: {'src': 1, 'dest': 0, 'values': {'Call': 18.0, 'Use': 21.0}}

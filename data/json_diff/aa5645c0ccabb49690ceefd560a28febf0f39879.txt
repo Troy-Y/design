@@ -1,6 +1,0 @@
-0.BuiltInType.java
-1.PythonBuiltInType.java
-2.Inferer.java
-3.PythonParameterTypeDedudceTest.java
-  old: {'src': 2, 'dest': 0, 'values': {'Call': 4.0, 'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}
-  new: {'src': 2, 'dest': 0, 'values': {'Call': 5.0, 'Import': 1.0, 'Use': 1.0, 'Parameter': 1.0, 'Contain': 1.0}}

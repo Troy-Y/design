@@ -1,2 +1,0 @@
-0.PomFileParser.java
-1.DependencyWithPropertiesOfParentTest.java

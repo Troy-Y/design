@@ -1,5 +1,0 @@
-0.PomArtifactEntity.java
-1.PomListener.java
-2.EntityExtractTest.java
-  old: {'src': 1, 'dest': 0, 'values': {'Call': 1.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 1, 'dest': 0, 'values': {'Call': 2.0, 'Use': 1.0, 'Create': 1.0, 'Contain': 1.0}}

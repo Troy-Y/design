@@ -1,6 +1,0 @@
-0.CppWorker.java
-1.CdtCppEntitiesListener.java
-2.CdtCppFileParser.java
-3.Tuple.java
-  old: {'src': 2, 'dest': 1, 'values': {'Call': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 1, 'dest': 3, 'values': {'Call': 2.0, 'Import': 1.0, 'Create': 2.0, 'Use': 4.0, 'Contain': 2.0}}

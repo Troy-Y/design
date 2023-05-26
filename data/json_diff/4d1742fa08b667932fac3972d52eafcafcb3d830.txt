@@ -1,4 +1,0 @@
-0.CppParameterParserTest.java
-1.DuplicateDeclarationTest.java
-2.MacroRelationTest.java
-3.UsingTest.java

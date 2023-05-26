@@ -1,4 +1,0 @@
-0.PythonGlobalVarTest.java
-1.PythonObjectCreationTest.java
-2.PythonObjectThrowReturn.java
-3.PythonParserTest.java

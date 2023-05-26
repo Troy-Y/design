@@ -1,3 +1,0 @@
-1
-D:\desktop\git-data\depends\0a1aba7f2ba19937fb75cd8aa93295091a277d3c\new\src\main\java\depends\relations\Inferer.java
-D:\desktop\git-data\depends\0a1aba7f2ba19937fb75cd8aa93295091a277d3c\new\src\main\java\depends\relations\ImportLookupStrategy.java

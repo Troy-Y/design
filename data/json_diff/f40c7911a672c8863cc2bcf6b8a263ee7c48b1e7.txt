@@ -1,4 +1,0 @@
-0.EntityExtractTest.java
-1.MavenParserTest.java
-  old: {'src': 0, 'dest': 1, 'values': {'Call': 3.0, 'Extend': 1.0, 'Use': 4.0}}
-  new: {'src': 0, 'dest': 1, 'values': {'Call': 3.0, 'Extend': 1.0, 'Use': 5.0}}

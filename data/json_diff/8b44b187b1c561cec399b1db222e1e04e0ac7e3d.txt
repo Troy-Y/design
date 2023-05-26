@@ -1,5 +1,0 @@
-0.Python3CodeListener.java
-1.PythonFileParser.java
-2.PythonImportLookupStrategy.java
-  old: {'src': 1, 'dest': 0, 'values': {'Call': 1.0, 'Create': 1.0, 'Contain': 1.0}}
-  new: {'src': 0, 'dest': 1, 'values': {'Call': 2.0, 'Create': 1.0, 'Contain': 1.0}}

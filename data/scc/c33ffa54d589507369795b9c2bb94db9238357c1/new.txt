@@ -1,6 +1,0 @@
-1
-D:\desktop\git-data\depends\c33ffa54d589507369795b9c2bb94db9238357c1\new\src\main\java\depends\entity\FileEntity.java
-D:\desktop\git-data\depends\c33ffa54d589507369795b9c2bb94db9238357c1\new\src\main\java\depends\entity\VarEntity.java
-D:\desktop\git-data\depends\c33ffa54d589507369795b9c2bb94db9238357c1\new\src\main\java\depends\entity\ContainerEntity.java
-D:\desktop\git-data\depends\c33ffa54d589507369795b9c2bb94db9238357c1\new\src\main\java\depends\entity\TypeEntity.java
-D:\desktop\git-data\depends\c33ffa54d589507369795b9c2bb94db9238357c1\new\src\main\java\depends\relations\Inferer.java

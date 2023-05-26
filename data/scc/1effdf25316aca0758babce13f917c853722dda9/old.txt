@@ -1,3 +1,0 @@
-1
-D:\desktop\git-data\depends\1effdf25316aca0758babce13f917c853722dda9\old\src\main\java\depends\entity\VarEntity.java
-D:\desktop\git-data\depends\1effdf25316aca0758babce13f917c853722dda9\old\src\main\java\depends\entity\ContainerEntity.java
